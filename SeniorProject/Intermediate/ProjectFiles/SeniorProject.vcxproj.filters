@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SeniorProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2BAAE610-2BB1-4125-B22B-5606AB7394F6}</UniqueIdentifier>
+      <UniqueIdentifier>{88C27500-79A6-42B0-BA97-98CBD2AADE51}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SeniorProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{40EC0DDE-3F20-4A17-B758-207FB256E94A}</UniqueIdentifier>
+      <UniqueIdentifier>{477784BE-EFBD-4BEE-BFFA-99DF8778DEFB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SeniorProject">
-      <UniqueIdentifier>{A0108C6B-36A8-4D62-A1CB-E872DD498192}</UniqueIdentifier>
+      <UniqueIdentifier>{0D73CEBB-EB0A-4FEC-8616-F0B15EA3143B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SeniorProject\MyCharacter.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SeniorProject\MyCharacter.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\SeniorProject\SeniorProject.Build.cs">
       <Filter>Source\SeniorProject</Filter>
     </None>
