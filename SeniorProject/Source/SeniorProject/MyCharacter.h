@@ -18,12 +18,23 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	//USpringArmComponent* OurCameraSpringArm;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	FVector2D MovementInput;
+	FVector2D CameraInput;
+	float ZoomFactor;
+	bool bZoomingIn;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	void MoveForward(float AxisValue);
+	void MoveRight(float AxisValue);
+	void PitchCamera(float AxisValue);
+	void YawCamera(float AxisValue);
+	void ZoomIn();
+	void ZoomOut();
+
 
 };
