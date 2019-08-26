@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SeniorProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2BAAE610-2BB1-4125-B22B-5606AB7394F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SeniorProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SeniorProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{40EC0DDE-3F20-4A17-B758-207FB256E94A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SeniorProject">
+      <UniqueIdentifier>{A0108C6B-36A8-4D62-A1CB-E872DD498192}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SeniorProject\SeniorProject.Build.cs">
+      <Filter>Source\SeniorProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SeniorProject\SeniorProject.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SeniorProject\SeniorProject.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SeniorProject\SeniorProjectGameModeBase.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SeniorProject\SeniorProjectGameModeBase.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
