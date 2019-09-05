@@ -9798,3 +9798,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.05-23.15.24:361][699]LogHttp: Warning: 0000020844A0E700: libcurl info message cache 6 (necessary data rewind wasn't possible)
 [2019.09.05-23.15.24:361][699]LogHttp: Warning: 0000020844A0E700: libcurl info message cache 7 (Closing connection 12)
 [2019.09.05-23.15.24:665][700]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4443E08-497D-1EA6-FEA0-1688B939DEFD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=c556d04641ecb1056f34ce8eff86b63d%7C2e8b1b4f078b4bcfacfd31f9b30f3716%7C739a22ef-b861-424e-8f5f-67a441350325&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-23.20.26:866][652]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.05-23.25.16:104][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.09.05-23.25.16:104][742]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestArea' took 0.039
+[2019.09.05-23.29.30:266][501]LogDirectoryWatcher: A directory notification failed for 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2019.09.05-23.29.30:269][501]LogDirectoryWatcher: A directory notification failed for 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Developers/Greg/Collections/' because it could not be accessed. Aborting watch request...
+[2019.09.05-23.29.30:271][501]LogDirectoryWatcher: A directory notification failed for 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/Collections/' because it could not be accessed. Aborting watch request...
