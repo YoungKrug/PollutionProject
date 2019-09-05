@@ -70,13 +70,18 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 void AMyCharacter::MoveForward(float AxisValue)
 {
 	MovementInput.X = FMath::Clamp<float>(AxisValue, -1.0f, 1.0f);
-	UE_LOG(LogTemp, Warning, TEXT("MovedFoward"));
+	FString val = FString::SanitizeFloat(MovementInput.X);
+	//val = "MovedForward";
+	UE_LOG(LogTemp, Warning, TEXT("MovedFoward: %s"), val);
 }
 
 void AMyCharacter::MoveRight(float AxisValue)
 {
 	MovementInput.Y = FMath::Clamp<float>(AxisValue, -1.0f, 1.0f);
-	UE_LOG(LogTemp, Warning, TEXT("MovedRight"));
+	FVector vec = GetActorLocation();
+	vec.Y += MovementInput.Y;
+	SetActorLocation(vec);
+	UE_LOG(LogTemp, Warning, TEXT("MovedRight,  %s"), MovementInput.Y);
 }
 
 void AMyCharacter::PitchCamera(float AxisValue)
