@@ -9867,3 +9867,18 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.06-00.16.08:885][579]SourceControl: Commited [master a5da676] Changed the position of a cube.
 [2019.09.06-00.28.30:777][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.09.06-00.30.22:208][545]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.42.06:007][729]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2019.09.06-00.42.11:546][899]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.42.11:983][899]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.42.12:037][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestArea" FILE="C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.06-00.42.12:193][899]LogUObjectHash: Compacting FUObjectHashTables data took  12.10ms
+[2019.09.06-00.42.12:841][899]LogSavePackage: Moving 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/TestArea5071C0D54641386CB3984B9CB72F9D4B.tmp' to 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea.umap'
+[2019.09.06-00.42.13:429][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestArea_BuiltData" FILE="C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea_BuiltData.uasset" SILENT=true
+[2019.09.06-00.42.13:532][899]LogSavePackage: Moving 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/TestArea_BuiltData2726AC934ECA47D628DE9A82FCAA8F90.tmp' to 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea_BuiltData.uasset'
+[2019.09.06-00.42.18:496][ 44]SourceControl: fatal: D:/TheBestGame/UE_4.22/Engine/Content: 'D:/TheBestGame/UE_4.22/Engine/Content' is outside repository
+[2019.09.06-00.42.28:297][ 44]LogSlate: Window 'Submit Files' being destroyed
+[2019.09.06-00.42.29:821][ 44]LogSourceControl: commit successful: SeniorProject/Saved/Logs/SeniorProject.log: needs merge
+[2019.09.06-00.42.30:245][ 44]SourceControl: SeniorProject/Saved/Logs/SeniorProject.log: needs merge
+[2019.09.06-00.42.30:245][ 44]SourceControl: [master 4b83d61] Made Changes to environment area
+[2019.09.06-00.42.30:246][ 44]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2019.09.06-00.42.30:299][ 44]SourceControl: Commited SeniorProject/Saved/Logs/SeniorProject.log: needs merge.
