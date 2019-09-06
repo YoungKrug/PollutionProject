@@ -1,9 +1,9 @@
-C:\SeniorProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\SeniorProject\SeniorProject\Source\SeniorProject/SeniorProjectGameModeBase.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\SeniorProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\SeniorProjectGameModeBase.generated.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject/SeniorProjectGameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+c:\users\hlee2\desktop\thesis\project\pollutionproject\seniorproject\intermediate\build\win64\ue4editor\inc\seniorproject\SeniorProjectGameModeBase.generated.h
