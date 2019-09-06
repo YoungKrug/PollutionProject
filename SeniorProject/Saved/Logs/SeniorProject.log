@@ -9882,3 +9882,57 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.06-00.42.30:245][ 44]SourceControl: [master 4b83d61] Made Changes to environment area
 [2019.09.06-00.42.30:246][ 44]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2019.09.06-00.42.30:299][ 44]SourceControl: Commited SeniorProject/Saved/Logs/SeniorProject.log: needs merge.
+[2019.09.06-00.46.09:402][312]LogSlate: Window 'Source Control Login' being destroyed
+[2019.09.06-00.48.02:901][398]LogHttp: Warning: 000002084BC356C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.09.06-00.48.02:929][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2085073bf70 [can pipeline])
+[2019.09.06-00.48.02:929][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 1 (Re-using existing connection! (#55) with host datarouter.ol.epicgames.com)
+[2019.09.06-00.48.02:930][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.208.48.150) port 443 (#55))
+[2019.09.06-00.48.02:930][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.06-00.48.02:930][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.09.06-00.48.02:930][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.06-00.48.02:930][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.06-00.48.02:931][398]LogHttp: Warning: 000002084BC356C0: libcurl info message cache 7 (Closing connection 55)
+[2019.09.06-00.48.02:931][398]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4443E08-497D-1EA6-FEA0-1688B939DEFD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=c556d04641ecb1056f34ce8eff86b63d%7C2e8b1b4f078b4bcfacfd31f9b30f3716%7C739a22ef-b861-424e-8f5f-67a441350325&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.06-00.48.11:137][730]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (8.677 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.48.14:783][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.09.06-00.52.07:897][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.09.06-00.52.07:907][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestArea" FILE="C:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/TestArea_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.09.06-00.52.08:347][544]LogSavePackage: Moving 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/TestArea_Auto2805A8AC74E322B41F6D2DB8EFEEA63F2.tmp' to 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/TestArea_Auto2.umap'
+[2019.09.06-00.52.08:367][544]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestArea' took 0.547
+[2019.09.06-00.52.08:368][544]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.547
+[2019.09.06-00.57.26:221][495]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.57.50:204][322]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2019.09.06-00.59.50:812][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.59.52:834][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestArea" FILE="C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.06-00.59.52:911][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.09.06-00.59.53:031][556]LogSavePackage: Moving 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/TestAreaE53975024F14745B5D54F5BF297A7A3B.tmp' to 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea.umap'
+[2019.09.06-00.59.53:060][556]LogFileHelpers: Saving map 'TestArea' took 0.227
+[2019.09.06-01.00.00:443][421]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-01.00.01:500][501]SourceControl: fatal: D:/TheBestGame/UE_4.22/Engine/Content: 'D:/TheBestGame/UE_4.22/Engine/Content' is outside repository
+[2019.09.06-01.00.02:535][501]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-01.00.05:912][501]LogSlate: Window 'Submit Files' being destroyed
+[2019.09.06-01.00.08:622][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.06-01.00.10:662][994]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/TestArea.TestArea
+[2019.09.06-01.00.10:687][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.09.06-01.00.10:721][994]Cmd: MAP LOAD FILE="C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.06-01.00.10:729][994]LightingResults: New page: Lighting Build
+[2019.09.06-01.00.10:801][994]LoadErrors: New page: Loading map: TestArea.umap
+[2019.09.06-01.00.10:947][994]MapCheck: New page: Map Check
+[2019.09.06-01.00.10:947][994]LightingResults: New page: Lighting Build
+[2019.09.06-01.00.11:195][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.09.06-01.00.11:504][994]LogAIModule: Creating AISystem for world TestArea
+[2019.09.06-01.00.12:002][994]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.06-01.00.12:125][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.09.06-01.00.12:150][994]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.06-01.00.12:150][994]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.149ms to complete.
+[2019.09.06-01.00.12:153][994]LogFileHelpers: Loading map 'TestArea' took 1.466
+[2019.09.06-01.00.14:256][215]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2019.09.06-01.00.14:754][264]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-01.00.18:964][749]SourceControl: fatal: D:/TheBestGame/UE_4.22/Engine/Content: 'D:/TheBestGame/UE_4.22/Engine/Content' is outside repository
+[2019.09.06-01.00.19:081][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-01.00.23:603][749]LogSlate: Window 'Submit Files' being destroyed
+[2019.09.06-01.00.28:778][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.06-01.01.13:516][677]Cmd: TRANSACTION UNDO
+[2019.09.06-01.01.13:516][677]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.06-01.01.15:672][920]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2019.09.06-01.01.29:207][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
