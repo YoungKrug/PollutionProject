@@ -9827,3 +9827,43 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.05-23.59.05:274][755]LogFileHelpers: Saving map 'TestArea' took 0.743
 [2019.09.05-23.59.05:279][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestArea_BuiltData" FILE="C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea_BuiltData.uasset" SILENT=true
 [2019.09.05-23.59.05:384][755]LogSavePackage: Moving 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/TestArea_BuiltData6943FE0649A510BBCDB2B396C16425B8.tmp' to 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea_BuiltData.uasset'
+[2019.09.06-00.11.26:134][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:134][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:135][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:135][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:135][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:136][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:136][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:136][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.26:136][490]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.11.45:688][542]LogHttp: Warning: 00000208409DD080: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.09.06-00.11.45:689][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2085073bf70 [can pipeline])
+[2019.09.06-00.11.45:689][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 1 (Re-using existing connection! (#37) with host datarouter.ol.epicgames.com)
+[2019.09.06-00.11.45:689][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.23.186.239) port 443 (#37))
+[2019.09.06-00.11.45:689][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.06-00.11.45:689][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.09.06-00.11.45:690][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.06-00.11.45:690][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.06-00.11.45:690][542]LogHttp: Warning: 00000208409DD080: libcurl info message cache 7 (Closing connection 37)
+[2019.09.06-00.11.45:690][542]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4443E08-497D-1EA6-FEA0-1688B939DEFD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=c556d04641ecb1056f34ce8eff86b63d%7C2e8b1b4f078b4bcfacfd31f9b30f3716%7C739a22ef-b861-424e-8f5f-67a441350325&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.06-00.12.15:349][629]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.215 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.06-00.15.41:600][107]LogEditorViewport: Clicking on Actor (context menu): Character (Character)
+[2019.09.06-00.15.42:426][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.15.42:986][113]LogEditorViewport: Clicking on Actor (context menu): Character (Character)
+[2019.09.06-00.15.43:076][113]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.15.45:190][173]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2019.09.06-00.15.48:608][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.15.49:215][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.06-00.15.49:324][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestArea" FILE="C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.06-00.15.49:511][284]LogUObjectHash: Compacting FUObjectHashTables data took  20.20ms
+[2019.09.06-00.15.50:263][284]LogSavePackage: Moving 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/TestAreaAC30A9B3487BFE713F236E9274045711.tmp' to 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea.umap'
+[2019.09.06-00.15.50:954][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestArea_BuiltData" FILE="C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea_BuiltData.uasset" SILENT=true
+[2019.09.06-00.15.51:061][284]LogSavePackage: Moving 'C:/SeniorProject/PollutionProject/SeniorProject/Saved/TestArea_BuiltData32EB6D564779157290DDF5AA531E6E4E.tmp' to 'C:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/TestArea_BuiltData.uasset'
+[2019.09.06-00.15.58:218][579]SourceControl: fatal: D:/TheBestGame/UE_4.22/Engine/Content: 'D:/TheBestGame/UE_4.22/Engine/Content' is outside repository
+[2019.09.06-00.16.08:227][579]LogSlate: Window 'Submit Files' being destroyed
+[2019.09.06-00.16.08:760][579]LogSourceControl: commit successful: [master a5da676] Changed the position of a cube
+[2019.09.06-00.16.08:865][579]SourceControl: [master a5da676] Changed the position of a cube
+[2019.09.06-00.16.08:865][579]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2019.09.06-00.16.08:885][579]SourceControl: Commited [master a5da676] Changed the position of a cube.
+[2019.09.06-00.28.30:777][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.06-00.30.22:208][545]LogSlate: FSceneViewport::OnFocusLost() reason 2
