@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SeniorProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2BAAE610-2BB1-4125-B22B-5606AB7394F6}</UniqueIdentifier>
+      <UniqueIdentifier>{8169DD61-99D3-45B2-B569-0CB33837AEF2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SeniorProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{40EC0DDE-3F20-4A17-B758-207FB256E94A}</UniqueIdentifier>
+      <UniqueIdentifier>{3A5FE2D3-E9DE-489F-8115-981FCE090E40}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SeniorProject">
-      <UniqueIdentifier>{A0108C6B-36A8-4D62-A1CB-E872DD498192}</UniqueIdentifier>
+      <UniqueIdentifier>{10DE84B1-773D-4819-AA47-70249B76D959}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SeniorProject\Movement.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SeniorProject\Movement.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\SeniorProject\SeniorProject.Build.cs">
       <Filter>Source\SeniorProject</Filter>
     </None>
