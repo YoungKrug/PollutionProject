@@ -71,17 +71,22 @@ void AMyCharacter::MoveForward(float AxisValue)
 {
 	MovementInput.X = FMath::Clamp<float>(AxisValue, -1.0f, 1.0f);
 	FString val = FString::SanitizeFloat(MovementInput.X);
+	FVector vec = GetActorLocation();
+	vec.X += (MovementInput.X * speed);
+	this->SetActorLocation(vec);	
+	//AddMovementInput(vec);
 	//val = "MovedForward";
-	UE_LOG(LogTemp, Warning, TEXT("MovedFoward: %s"), val);
+	
 }
 
 void AMyCharacter::MoveRight(float AxisValue)
 {
 	MovementInput.Y = FMath::Clamp<float>(AxisValue, -1.0f, 1.0f);
+	FString val = FString::SanitizeFloat(MovementInput.Y);
 	FVector vec = GetActorLocation();
-	vec.Y += MovementInput.Y;
+	vec.Y += (MovementInput.Y * speed);
 	SetActorLocation(vec);
-	UE_LOG(LogTemp, Warning, TEXT("MovedRight,  %s"), MovementInput.Y);
+	//UE_LOG(LogTemp, Warning, TEXT("MovedRight:  %s"), *val);
 }
 
 void AMyCharacter::PitchCamera(float AxisValue)
@@ -97,10 +102,12 @@ void AMyCharacter::YawCamera(float AxisValue)
 void AMyCharacter::ZoomIn()
 {
 	bZoomingIn = true;
+	UE_LOG(LogTemp, Warning, TEXT("true"));
 }
 
 void AMyCharacter::ZoomOut()
 {
 	bZoomingIn = false;
+	UE_LOG(LogTemp, Warning, TEXT("false"));
 }
 
