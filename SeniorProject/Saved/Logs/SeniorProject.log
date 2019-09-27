@@ -895,3 +895,1281 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.26-23.37.52:434][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
 [2019.09.26-23.37.52:939][157]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GreyBoxLVLC3132E8D44A77B8FB1C3F2A7C6C446DC.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL.umap'
 [2019.09.26-23.37.52:994][157]LogFileHelpers: Saving map 'GreyBoxLVL' took 0.608
+[2019.09.26-23.43.09:852][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.43.11:979][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.43.39:383][360]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.43.39:427][360]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.43.39:441][360]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.09.26-23.43.40:948][425]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.43.41:936][464]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.43.42:629][491]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.43.44:394][561]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.43.47:288][677]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.43.47:288][677]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.43.47:288][677]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.43.47:288][677]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.43.47:288][677]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.43.47:288][677]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.43.49:314][796]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.43.49:366][796]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.43.49:366][796]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.09.26-23.43.49:405][796]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.26-23.43.50:325][833]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.43.51:393][880]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.43.52:244][921]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.43.54:126][997]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.43.57:064][115]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.43.57:064][115]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.43.57:064][115]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.43.57:064][115]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.43.57:064][115]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.43.57:064][115]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.43.58:498][197]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.43.58:549][197]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.43.58:549][197]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.09.26-23.43.59:432][234]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.44.00:365][277]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.44.01:239][315]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.44.02:861][375]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.02:974][375]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.09.26-23.44.03:738][398]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.03:902][398]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.09.26-23.44.03:960][398]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.26-23.44.04:307][408]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.44.05:274][450]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.44.06:258][487]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.44.07:015][517]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.44.08:065][557]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.08:164][557]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2019.09.26-23.44.08:919][583]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.09:011][583]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2019.09.26-23.44.09:065][583]LogSlate: Window 'Color Picker' being destroyed
+[2019.09.26-23.44.09:587][604]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.44.10:456][640]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.44.11:327][677]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.44.12:141][712]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.44.14:116][794]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.44.16:721][900]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.44.16:721][900]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.44.16:721][900]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.44.16:721][900]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.44.16:721][900]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.44.16:721][900]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.44.24:634][296]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.24:683][296]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.24:738][297]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.44.25:586][336]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.44.26:426][374]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.44.27:165][406]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.44.29:088][490]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.44.31:905][617]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.44.31:905][617]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.44.31:905][617]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.44.31:905][617]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.44.31:905][617]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.44.31:905][617]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.44.35:768][848]LogMaterialEditor: Saving and Compiling material M_Water_Opaque
+[2019.09.26-23.44.36:410][848]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.36:539][848]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.44.36:564][848]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.36:615][848]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.44.36:745][848]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.09.26-23.44.36:768][848]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.09.26-23.44.42:440][848]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.09.26-23.44.42:440][848]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.09.26-23.44.42:440][848]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.09.26-23.44.42:440][848]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.09.26-23.44.42:440][848]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.09.26-23.44.42:444][848]TextureStreamingBuild: Display: Compiling optional shaders took 5.698 seconds.
+[2019.09.26-23.44.42:518][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.09.26-23.44.49:630][848]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/M_Water_Opaque6BC08FF14C1F8E78654B3AAAB97092A7.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/WaterMaterials/Materials/M_Water_Opaque.uasset'
+[2019.09.26-23.45.18:432][567]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.26-23.45.18:454][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.45.18:455][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.26-23.45.18:455][567]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 3:45:18 PM)
+[2019.09.26-23.45.18:461][567]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.26-23.45.18:513][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051810s)
+[2019.09.26-23.45.18:514][567]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.26-23.45.18:514][567]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2019.09.26-23.45.18:514][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.053019s)
+[2019.09.26-23.45.18:555][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.09.26-23.45.18:573][567]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-23.45.18:590][567]LogInit: FAudioDevice initialized.
+[2019.09.26-23.45.18:621][567]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.26-23.45.18:625][567]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-19.45.18
+[2019.09.26-23.45.18:626][567]LogWorld: Bringing up level for play took: 0.003904
+[2019.09.26-23.45.18:642][567]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL 0.53
+[2019.09.26-23.45.18:642][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.45.28:507][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.45.28:507][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.45.28:538][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.26-23.45.28:538][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.45.28:587][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.45.28:592][156]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.09.26-23.45.28:651][157]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.09.26-23.45.37:786][558]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.45.40:960][722]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.45.41:012][722]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.45.41:078][723]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.45.42:644][782]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.45.43:435][810]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.45.44:178][837]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.45.46:120][903]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.45.48:869][  4]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.45.48:869][  4]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.45.48:869][  4]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.45.48:869][  4]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.45.48:869][  4]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.45.48:869][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.45.50:659][102]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.45.50:723][103]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.45.50:836][108]LogMaterialEditor: Saving and Compiling material M_Water_Opaque
+[2019.09.26-23.45.52:260][108]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.45.52:260][108]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.45.52:368][108]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.45.52:693][108]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.45.52:743][108]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.45.52:826][108]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.45.52:969][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.09.26-23.45.52:995][108]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.09.26-23.45.58:891][108]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.09.26-23.45.58:891][108]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.09.26-23.45.58:892][108]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.09.26-23.45.58:892][108]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.09.26-23.45.58:892][108]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.09.26-23.45.58:896][108]TextureStreamingBuild: Display: Compiling optional shaders took 5.926 seconds.
+[2019.09.26-23.45.58:965][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.09.26-23.46.05:939][108]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/M_Water_Opaque4D010F3E4B82FFBA878F7C8907DC509D.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/WaterMaterials/Materials/M_Water_Opaque.uasset'
+[2019.09.26-23.46.05:968][108]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.46.05:968][108]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.46.05:968][108]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.46.05:968][108]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.46.05:968][108]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.46.05:968][108]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.47.07:701][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.47.07:784][784]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.26-23.47.07:809][784]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.47.07:809][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.26-23.47.07:810][784]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 3:47:07 PM)
+[2019.09.26-23.47.07:816][784]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.26-23.47.07:871][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055773s)
+[2019.09.26-23.47.07:872][784]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.26-23.47.07:872][784]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2019.09.26-23.47.07:872][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.056921s)
+[2019.09.26-23.47.07:916][784]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.09.26-23.47.07:941][784]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-23.47.07:958][784]LogInit: FAudioDevice initialized.
+[2019.09.26-23.47.07:989][784]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.26-23.47.07:994][784]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-19.47.07
+[2019.09.26-23.47.07:994][784]LogWorld: Bringing up level for play took: 0.003799
+[2019.09.26-23.47.08:008][784]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL -0.103
+[2019.09.26-23.47.08:009][784]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.47.37:556][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.47.37:556][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.47.37:589][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.26-23.47.37:590][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.47.37:641][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.47.37:646][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.09.26-23.47.37:708][553]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.09.26-23.47.41:916][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.47.43:188][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.47.49:861][182]LogTexture: Display: Building textures: T_Waterfall_Foam (AutoDXT, 1024X1024)
+[2019.09.26-23.47.49:862][182]LogMaterial: Display: Missing cached shader map for material M_Waterfall_Foam, compiling. 
+[2019.09.26-23.48.09:413][267]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.48.11:918][325]LogTexture: Display: Building textures: T_FrameClamp (AutoDXT, 1024X1024)
+[2019.09.26-23.48.11:918][325]LogTexture: Display: Building textures: T_WaterSplash2 (AutoDXT, 2048X2048)
+[2019.09.26-23.48.11:918][325]LogTexture: Display: Building textures: T_WaterSplash2_N (BC5, 2048X2048)
+[2019.09.26-23.48.11:918][325]LogMaterial: Display: Missing cached shader map for material M_WaterSplash, compiling. 
+[2019.09.26-23.48.37:264][456]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.48.42:543][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.48.49:274][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.48.49:431][121]LogActorFactory: Actor Factory created Cube
+[2019.09.26-23.48.51:688][253]LogActorFactory: Actor Factory created Cube
+[2019.09.26-23.48.52:802][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.48.53:012][326]LogActorFactory: Actor Factory created Sphere
+[2019.09.26-23.48.53:731][366]LogActorFactory: Actor Factory created Sphere
+[2019.09.26-23.48.57:779][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.49.25:185][967]LogMaterial: Display: Missing cached shader map for material M_Ocean_Radial_Cheaper, compiling. 
+[2019.09.26-23.49.34:580][442]Cmd: DELETE
+[2019.09.26-23.49.34:580][442]Cmd: ACTOR DELETE
+[2019.09.26-23.49.34:589][442]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.26-23.49.34:669][442]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2019.09.26-23.49.34:670][442]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2019.09.26-23.49.36:038][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.09.26-23.49.49:722][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.50.07:169][241]LogTexture: Display: Building textures: T_Waterfall_Foam_Directional (AutoDXT, 1024X1024)
+[2019.09.26-23.50.07:170][241]LogStaticMesh: Building static mesh SM_Waterfall_Arc...
+[2019.09.26-23.50.07:207][241]LogStaticMesh: Built static mesh [0.04s] /Game/WaterMaterials/Meshes/SM_Waterfall_Arc.SM_Waterfall_Arc
+[2019.09.26-23.50.07:233][241]LogMaterial: Display: Missing cached shader map for material M_Waterfall, compiling. 
+[2019.09.26-23.50.14:564][521]LogStaticMesh: Building static mesh SM_Waterfall_Base...
+[2019.09.26-23.50.14:603][521]LogStaticMesh: Built static mesh [0.04s] /Game/WaterMaterials/Meshes/SM_Waterfall_Base.SM_Waterfall_Base
+[2019.09.26-23.50.19:557][691]LogStaticMesh: Building static mesh SM_Water_Plane...
+[2019.09.26-23.50.19:628][691]LogStaticMesh: Built static mesh [0.07s] /Game/WaterMaterials/Meshes/SM_Water_Plane.SM_Water_Plane
+[2019.09.26-23.50.41:139][614]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.51.17:509][391]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.51.21:908][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.51.24:607][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.51.33:213][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.51.37:347][431]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.51.44:006][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.51.44:106][800]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.26-23.51.44:129][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.51.44:129][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.26-23.51.44:129][800]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 3:51:44 PM)
+[2019.09.26-23.51.44:135][800]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.26-23.51.44:191][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055452s)
+[2019.09.26-23.51.44:192][800]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.26-23.51.44:192][800]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2019.09.26-23.51.44:192][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.056533s)
+[2019.09.26-23.51.44:235][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2019.09.26-23.51.44:252][800]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-23.51.44:270][800]LogInit: FAudioDevice initialized.
+[2019.09.26-23.51.44:306][800]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.26-23.51.44:310][800]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-19.51.44
+[2019.09.26-23.51.44:311][800]LogWorld: Bringing up level for play took: 0.004548
+[2019.09.26-23.51.44:327][800]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL 0.216
+[2019.09.26-23.51.44:327][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.52.06:443][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.52.06:443][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.52.06:477][125]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.26-23.52.06:477][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.52.06:521][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.52.06:526][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.09.26-23.52.06:570][126]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.09.26-23.52.09:904][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.52.12:458][463]Cmd: DELETE
+[2019.09.26-23.52.12:458][463]Cmd: ACTOR DELETE
+[2019.09.26-23.52.12:461][463]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.26-23.52.12:505][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.09.26-23.52.12:505][463]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2019.09.26-23.52.13:696][534]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.26-23.52.14:738][587]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.26-23.52.15:821][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.52.41:280][ 14]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.26-23.52.45:445][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.53.00:580][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.53.15:816][ 50]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.09.26-23.53.34:829][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.53.35:031][193]LogActorFactory: Actor Factory created Cube
+[2019.09.26-23.53.35:944][246]LogActorFactory: Actor Factory created Cube
+[2019.09.26-23.53.37:182][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.53.59:042][572]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.54.33:539][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.54.40:842][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.54.56:584][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.54.59:651][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.09.26-23.55.02:383][274]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.26-23.55.04:190][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.55.41:954][631]Cmd: TRANSACTION UNDO
+[2019.09.26-23.55.41:954][631]LogEditorTransaction: Undo Rotate Actors
+[2019.09.26-23.55.41:977][631]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.55.42:010][631]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.55.43:143][694]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.55.43:496][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.09.26-23.55.43:785][723]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.55.44:495][765]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.55.44:750][780]Cmd: DELETE
+[2019.09.26-23.55.44:750][780]Cmd: ACTOR DELETE
+[2019.09.26-23.55.44:758][780]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.26-23.55.44:841][780]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2019.09.26-23.55.44:841][780]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2019.09.26-23.55.45:436][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.55.46:233][850]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.55.48:653][985]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.55.48:653][985]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.55.48:653][985]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.55.48:653][985]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.55.48:653][985]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.55.48:653][985]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.55.57:753][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.55.57:853][530]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.26-23.55.57:872][530]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.55.57:872][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.26-23.55.57:872][530]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 3:55:57 PM)
+[2019.09.26-23.55.57:877][530]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.26-23.55.57:920][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044071s)
+[2019.09.26-23.55.57:921][530]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.26-23.55.57:921][530]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2019.09.26-23.55.57:921][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.045008s)
+[2019.09.26-23.55.57:956][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.09.26-23.55.57:971][530]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.26-23.55.57:984][530]LogInit: FAudioDevice initialized.
+[2019.09.26-23.55.58:015][530]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.26-23.55.58:019][530]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-19.55.58
+[2019.09.26-23.55.58:020][530]LogWorld: Bringing up level for play took: 0.004109
+[2019.09.26-23.55.58:034][530]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL -0.076
+[2019.09.26-23.55.58:034][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.56.02:147][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.56.02:147][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.56.02:176][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.26-23.56.02:176][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.26-23.56.02:209][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.26-23.56.02:213][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.09.26-23.56.02:252][776]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.09.26-23.56.04:778][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.56.06:141][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.56.11:240][277]LogStaticMesh: Building static mesh SM_Shore...
+[2019.09.26-23.56.11:302][277]LogStaticMesh: Built static mesh [0.06s] /Game/WaterMaterials/Meshes/SM_Shore.SM_Shore
+[2019.09.26-23.56.52:516][566]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.26-23.57.47:845][798]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.26-23.57.49:014][865]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.26-23.57.50:252][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.58.12:318][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.58.14:096][352]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape)
+[2019.09.26-23.58.16:195][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.58.24:944][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.58.36:301][663]Cmd: TRANSACTION UNDO
+[2019.09.26-23.58.36:301][663]LogEditorTransaction: Undo Move Actors
+[2019.09.26-23.58.36:309][663]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.58.36:335][663]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.58.37:592][733]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.58.38:463][784]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.58.39:435][841]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.58.41:484][960]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.58.44:038][111]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.58.44:038][111]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.58.44:038][111]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.58.44:038][111]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.58.44:038][111]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.58.44:038][111]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.58.58:749][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.26-23.59.08:505][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.26-23.59.09:470][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.09.26-23.59.28:715][771]Cmd: TRANSACTION UNDO
+[2019.09.26-23.59.28:715][771]LogEditorTransaction: Undo Move Actors
+[2019.09.26-23.59.28:734][771]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.59.28:763][771]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.59.29:307][800]Cmd: TRANSACTION UNDO
+[2019.09.26-23.59.29:307][800]LogEditorTransaction: Undo Move Actors
+[2019.09.26-23.59.29:342][800]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.26-23.59.29:737][818]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.26-23.59.30:595][866]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.26-23.59.31:475][918]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.26-23.59.32:196][961]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.26-23.59.32:505][979]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.26-23.59.33:865][ 48]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.26-23.59.36:431][192]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.26-23.59.36:431][192]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.26-23.59.36:431][192]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.26-23.59.36:431][192]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.26-23.59.36:431][192]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.26-23.59.36:431][192]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.26-23.59.37:242][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.09.26-23.59.38:288][299]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.09.26-23.59.46:192][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.09.26-23.59.56:777][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.00.07:307][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.09.27-00.00.11:697][273]Cmd: TRANSACTION UNDO
+[2019.09.27-00.00.11:697][273]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.00.11:715][273]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.00.11:744][273]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.00.12:841][335]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.00.13:542][369]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.00.14:260][412]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.00.15:895][502]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.00.18:405][649]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.00.18:405][649]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.00.18:405][649]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.00.18:405][649]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.00.18:405][649]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.00.18:405][649]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.00.18:952][681]Cmd: DELETE
+[2019.09.27-00.00.18:952][681]Cmd: ACTOR DELETE
+[2019.09.27-00.00.18:954][681]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.00.18:990][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.09.27-00.00.18:990][681]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.09.27-00.00.20:424][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.09.27-00.00.21:787][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.00.31:714][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.09.27-00.00.35:045][631]Cmd: DELETE
+[2019.09.27-00.00.35:045][631]Cmd: ACTOR DELETE
+[2019.09.27-00.00.35:047][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.00.35:079][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.09.27-00.00.35:079][631]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.09.27-00.00.36:263][702]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.00.37:743][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.00.46:369][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.09.27-00.00.54:464][779]Cmd: DELETE
+[2019.09.27-00.00.54:464][779]Cmd: ACTOR DELETE
+[2019.09.27-00.00.54:466][779]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.00.54:498][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.09.27-00.00.54:499][779]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.09.27-00.00.55:530][841]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.00.57:289][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.00.58:092][992]Cmd: DELETE
+[2019.09.27-00.00.58:092][992]Cmd: ACTOR DELETE
+[2019.09.27-00.00.58:095][992]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.00.58:122][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.09.27-00.00.58:123][992]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.09.27-00.00.59:942][101]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.01.01:083][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.01.38:032][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.02.08:971][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.02.09:070][192]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.27-00.02.09:086][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.02.09:086][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.27-00.02.09:086][192]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 4:02:09 PM)
+[2019.09.27-00.02.09:091][192]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.27-00.02.09:127][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036195s)
+[2019.09.27-00.02.09:128][192]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.27-00.02.09:128][192]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2019.09.27-00.02.09:128][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.037161s)
+[2019.09.27-00.02.09:161][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.09.27-00.02.09:173][192]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.27-00.02.09:184][192]LogInit: FAudioDevice initialized.
+[2019.09.27-00.02.09:212][192]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.27-00.02.09:216][192]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-20.02.09
+[2019.09.27-00.02.09:216][192]LogWorld: Bringing up level for play took: 0.003116
+[2019.09.27-00.02.09:231][192]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL 1.119
+[2019.09.27-00.02.09:231][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.02.25:630][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.02.25:630][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.02.25:658][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.27-00.02.25:658][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.02.25:690][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.02.25:693][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.09.27-00.02.25:773][177]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.09.27-00.02.34:897][719]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.02.35:852][773]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.09.27-00.02.37:983][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.02.41:252][ 90]Cmd: TRANSACTION UNDO
+[2019.09.27-00.02.41:252][ 90]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.02.41:262][ 90]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.02.41:304][ 91]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.02.42:284][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.02.42:451][152]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.02.43:079][174]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.02.43:529][199]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.09.27-00.02.43:796][215]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.02.45:640][314]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.02.48:273][470]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.02.48:273][470]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.02.48:274][470]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.02.48:274][470]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.02.48:274][470]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.02.48:274][470]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.03.23:773][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.03.23:873][579]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.27-00.03.23:889][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.03.23:889][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.27-00.03.23:889][579]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 4:03:23 PM)
+[2019.09.27-00.03.23:893][579]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.27-00.03.23:927][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034572s)
+[2019.09.27-00.03.23:928][579]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.27-00.03.23:928][579]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2019.09.27-00.03.23:928][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.035487s)
+[2019.09.27-00.03.23:962][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.09.27-00.03.23:974][579]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.27-00.03.23:984][579]LogInit: FAudioDevice initialized.
+[2019.09.27-00.03.24:013][579]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.27-00.03.24:016][579]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-20.03.24
+[2019.09.27-00.03.24:017][579]LogWorld: Bringing up level for play took: 0.002964
+[2019.09.27-00.03.24:031][579]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL -0.08
+[2019.09.27-00.03.24:031][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.05.01:903][444]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.05.01:907][444]LogRenderer: Reallocating scene render targets to support 2208x1768 Format 10 NumSamples 1 (Frame:5866).
+[2019.09.27-00.05.03:076][444]LogClient: High resolution screenshot saved as C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Screenshots/Windows/HighresScreenshot00006.png
+[2019.09.27-00.05.03:623][447]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.09.27-00.05.18:551][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.05.18:552][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.05.18:587][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.27-00.05.18:587][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.05.18:619][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.05.18:626][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.09.27-00.05.18:668][339]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.09.27-00.05.21:112][474]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.05.27:587][850]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.09.27-00.05.35:351][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.05.46:941][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.09.27-00.05.52:324][310]Cmd: DELETE
+[2019.09.27-00.05.52:324][310]Cmd: ACTOR DELETE
+[2019.09.27-00.05.52:327][310]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.05.52:356][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.09.27-00.05.52:357][310]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.09.27-00.05.53:476][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.09.27-00.05.54:227][419]Cmd: DELETE
+[2019.09.27-00.05.54:227][419]Cmd: ACTOR DELETE
+[2019.09.27-00.05.54:229][419]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.05.54:256][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.09.27-00.05.54:257][419]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.09.27-00.05.55:791][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.27-00.05.58:672][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.06.36:314][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.06.48:251][591]Cmd: TRANSACTION UNDO
+[2019.09.27-00.06.48:251][591]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.06.48:268][591]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.06.48:295][591]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.06.49:586][661]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.06.50:302][702]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.06.51:141][752]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.06.51:584][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.09.27-00.06.52:742][830]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.06.53:105][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.06.55:325][945]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.06.55:325][945]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.06.55:325][945]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.06.55:325][945]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.06.55:325][945]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.06.55:325][945]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.07.34:154][247]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.34:154][247]LogEditorTransaction: Undo Rotate Actors
+[2019.09.27-00.07.34:163][247]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.34:198][247]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.35:303][304]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.07.36:073][346]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.07.36:779][383]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.07.37:596][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.07.37:671][430]Cmd: MODE ROTGRID=0
+[2019.09.27-00.07.38:463][467]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.07.40:907][605]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.07.40:907][605]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.07.40:907][605]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.07.40:907][605]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.07.40:907][605]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.07.40:907][605]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.07.46:698][949]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.46:698][949]LogEditorTransaction: Undo Rotate Actors
+[2019.09.27-00.07.46:709][949]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.46:745][950]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.47:425][982]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.07.48:082][ 20]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.07.48:308][ 33]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.48:308][ 33]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.07.48:339][ 33]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.48:507][ 36]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.48:886][ 58]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.48:886][ 58]LogEditorTransaction: Undo Rotate Actors
+[2019.09.27-00.07.48:916][ 58]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.49:365][ 77]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.50:114][120]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.07.50:927][167]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.07.51:686][211]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.07.52:183][239]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.52:183][239]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.07.52:217][239]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.52:927][264]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.54:012][326]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.07.54:718][367]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.07.54:738][368]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.54:738][368]LogEditorTransaction: Undo Set Scale
+[2019.09.27-00.07.54:765][368]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.55:012][376]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.55:461][402]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.55:462][402]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.07.55:527][402]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.55:778][404]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.56:620][452]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.07.57:286][490]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.07.57:580][507]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.57:580][507]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.07.57:638][507]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.57:785][509]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.58:269][536]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.58:269][536]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.07.58:323][536]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.58:636][547]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.58:993][568]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.58:993][568]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.07.59:056][568]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.07.59:403][581]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.07.59:696][598]Cmd: TRANSACTION UNDO
+[2019.09.27-00.07.59:696][598]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.07.59:760][598]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.00:139][612]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.00:309][622]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.00:309][622]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.08.00:333][622]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.00:908][647]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.00:970][650]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.00:970][650]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.08.00:998][650]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.01:196][657]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.01:652][683]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.01:652][683]LogEditorTransaction: Undo Rotate Actors
+[2019.09.27-00.08.01:689][683]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.01:990][693]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.02:819][741]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.08.03:524][782]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.08.04:096][815]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.04:096][815]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.08.04:124][815]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.04:311][819]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.04:751][844]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.04:751][844]LogEditorTransaction: Undo Set Scale
+[2019.09.27-00.08.04:779][844]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.05:144][858]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.05:951][905]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.08.06:384][930]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.06:384][930]LogEditorTransaction: Undo Set Scale
+[2019.09.27-00.08.06:415][930]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.06:585][936]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.07:469][985]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.08.08:171][ 18]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.08.08:901][ 58]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.08.10:470][136]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.08.11:310][174]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.08.12:944][253]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.08.12:944][253]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.08.12:944][253]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.08.12:944][253]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.08.12:944][253]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.08.12:944][253]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.08.13:260][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.08.28:379][173]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.28:379][173]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.08.28:388][173]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.28:430][174]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.29:036][203]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.08.29:760][246]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.08.30:448][287]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.08.30:470][288]Cmd: TRANSACTION UNDO
+[2019.09.27-00.08.30:470][288]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.08.30:499][288]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.08.30:701][295]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.08.32:003][370]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.08.32:733][413]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.08.33:479][457]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.08.34:802][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.08.35:164][551]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.08.37:562][691]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.08.37:562][691]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.08.37:562][691]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.08.37:562][691]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.08.37:562][691]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.08.37:562][691]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.08.53:367][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.09.19:273][154]Cmd: TRANSACTION UNDO
+[2019.09.27-00.09.19:273][154]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.09.19:285][154]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.09.19:325][155]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.09.19:838][179]Cmd: TRANSACTION UNDO
+[2019.09.27-00.09.19:838][179]LogEditorTransaction: Undo Rotate Actors
+[2019.09.27-00.09.19:865][179]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.09.20:313][197]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.09.21:185][245]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.09.22:009][290]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.09.22:885][339]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.09.24:603][428]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.09.27:090][570]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.09.27:090][570]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.09.27:090][570]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.09.27:090][570]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.09.27:090][570]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.09.27:090][570]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.09.32:102][867]Cmd: TRANSACTION UNDO
+[2019.09.27-00.09.32:102][867]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.09.32:111][867]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.09.32:136][867]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.09.32:439][881]Cmd: TRANSACTION UNDO
+[2019.09.27-00.09.32:440][881]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.09.32:465][881]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.09.32:764][891]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.09.33:018][906]Cmd: TRANSACTION UNDO
+[2019.09.27-00.09.33:019][906]LogEditorTransaction: Undo Rotate Actors
+[2019.09.27-00.09.33:046][906]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.09.33:458][922]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.09.34:254][968]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.09.34:975][  9]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.09.35:733][ 53]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.09.37:385][142]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.09.38:637][210]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.09.39:768][267]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.09.39:768][267]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.09.39:768][267]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.09.39:768][267]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.09.39:768][267]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.09.39:768][267]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.09.41:795][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.09.42:075][392]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.09.27-00.10.20:335][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.10.26:663][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.10.32:253][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.10.38:467][732]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.11.17:005][ 25]Cmd: TRANSACTION UNDO
+[2019.09.27-00.11.17:005][ 25]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2019.09.27-00.11.17:065][ 25]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2019.09.27-00.11.17:088][ 25]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.11.17:116][ 25]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.11.18:232][ 75]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.11.18:912][106]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.11.19:629][147]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.11.21:372][248]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.11.23:810][393]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.11.23:810][393]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.11.23:811][393]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.11.23:811][393]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.11.23:811][393]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.11.23:811][393]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.11.27:904][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.11.31:616][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Test_gb_05)
+[2019.09.27-00.11.35:564][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.11.43:290][374]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/gb_Modles/GB_BigRock.FBX)
+[2019.09.27-00.11.43:302][374]LogFbx: Loading FBX Scene from ../../../../../../Users/hlee2/Desktop/Thesis/Max/gb_Modles/GB_BigRock.FBX
+[2019.09.27-00.11.43:307][374]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.27-00.11.45:610][374]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.09.27-00.11.45:631][374]LogFbx: Display: Triangulating static mesh GB_BigRock
+[2019.09.27-00.11.45:638][374]LogStaticMesh: Building static mesh GB_BigRock...
+[2019.09.27-00.11.45:641][374]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/GB_Moldes/GB_BigRock.GB_BigRock
+[2019.09.27-00.11.45:651][374]LogStaticMesh: Warning: GB_BigRock has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.09.27-00.11.45:659][374]FBXImport: Warning: GB_BigRock has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.09.27-00.11.47:389][474]LogSlate: Window 'Message Log' being destroyed
+[2019.09.27-00.11.47:393][474]LogSlate: Window 'Message Log' being destroyed
+[2019.09.27-00.11.50:011][630]LogActorFactory: Actor Factory created GB_BigRock
+[2019.09.27-00.11.51:573][722]LogActorFactory: Actor Factory created GB_BigRock
+[2019.09.27-00.11.52:787][792]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.09.27-00.11.54:728][901]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.09.27-00.12.26:634][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.12.26:716][794]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.27-00.12.26:733][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.12.26:733][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.27-00.12.26:733][794]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 4:12:26 PM)
+[2019.09.27-00.12.26:737][794]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.27-00.12.26:775][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037327s)
+[2019.09.27-00.12.26:776][794]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.27-00.12.26:776][794]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2019.09.27-00.12.26:776][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.038172s)
+[2019.09.27-00.12.26:809][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.09.27-00.12.26:822][794]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.27-00.12.26:834][794]LogInit: FAudioDevice initialized.
+[2019.09.27-00.12.26:862][794]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.27-00.12.26:866][794]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-20.12.26
+[2019.09.27-00.12.26:866][794]LogWorld: Bringing up level for play took: 0.002916
+[2019.09.27-00.12.26:880][794]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL 0.769
+[2019.09.27-00.12.26:880][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.12.56:891][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.12.57:599][591]LogClient: High resolution screenshot saved as C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Screenshots/Windows/HighresScreenshot00007.png
+[2019.09.27-00.12.58:367][594]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.09.27-00.13.04:283][935]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.13.04:283][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.13.04:316][935]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.27-00.13.04:316][935]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.13.04:350][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.13.04:357][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.09.27-00.13.04:403][936]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.09.27-00.13.37:469][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.09.27-00.13.39:345][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.13.41:729][893]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.13.43:923][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.14.02:549][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.14.02:632][127]Cmd: MODE GRID=0
+[2019.09.27-00.14.09:970][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.09.27-00.14.11:486][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.14.15:877][902]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.09.27-00.14.16:625][944]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.09.27-00.14.18:210][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.14.29:789][698]Cmd: TRANSACTION UNDO
+[2019.09.27-00.14.29:789][698]LogEditorTransaction: Undo Set Location
+[2019.09.27-00.14.29:806][698]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.14.29:842][699]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.14.30:924][755]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.14.31:625][790]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.14.32:395][834]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.14.33:841][905]Cmd: TRANSACTION UNDO
+[2019.09.27-00.14.33:841][905]LogEditorTransaction: Undo Move Actors
+[2019.09.27-00.14.33:869][905]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.14.34:090][908]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.14.34:432][922]Cmd: TRANSACTION UNDO
+[2019.09.27-00.14.34:432][922]LogEditorTransaction: Undo Set Location
+[2019.09.27-00.14.34:462][922]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.14.34:820][936]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.14.35:732][986]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.14.36:141][  9]Cmd: TRANSACTION UNDO
+[2019.09.27-00.14.36:142][  9]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.14.36:175][  9]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.14.36:338][ 10]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.14.36:537][ 21]Cmd: TRANSACTION UNDO
+[2019.09.27-00.14.36:537][ 21]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.14.36:549][ 21]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.14.36:744][ 28]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.14.37:267][ 55]Cmd: TRANSACTION UNDO
+[2019.09.27-00.14.37:268][ 55]LogEditorTransaction: Undo Clicking on Actors
+[2019.09.27-00.14.37:341][ 55]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.14.37:692][ 65]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.14.38:525][113]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.14.39:203][152]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.14.39:891][192]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.14.41:485][278]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.14.44:392][383]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.14.44:392][383]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.14.44:392][383]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.14.44:392][383]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.14.44:392][383]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.14.44:392][383]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.15.08:227][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.09.27-00.15.08:335][454]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2019.09.27-00.15.08:526][454]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GreyBoxLVL_Auto1DE78C7C24DC0F9F71E522A981D0442C5.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/GreyBoxLVL_Auto1.umap'
+[2019.09.27-00.15.08:532][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL' took 0.330
+[2019.09.27-00.15.08:532][454]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.330
+[2019.09.27-00.15.08:534][454]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/GB_Moldes/GB_BigRock] ([1] browsable assets)...
+[2019.09.27-00.15.08:585][454]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/GB_Moldes/GB_BigRock.GB_BigRock]
+[2019.09.27-00.15.08:585][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/GB_Moldes/GB_BigRock]
+[2019.09.27-00.15.08:601][454]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GB_BigRock_Auto1523488D246039DA3DF3C57ADBBC872B2.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/GB_Moldes/GB_BigRock_Auto1.uasset'
+[2019.09.27-00.15.08:602][454]LogFileHelpers: Auto-saving content packages took 0.069
+[2019.09.27-00.15.51:045][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.15.52:792][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.09.27-00.15.52:798][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.15.52:931][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.15.52:959][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.09.27-00.15.53:231][847]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GreyBoxLVLE2F62BF84B53AEB3F94E778C5D6C08CC.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL.umap'
+[2019.09.27-00.15.53:264][847]LogFileHelpers: Saving map 'GreyBoxLVL' took 0.329
+[2019.09.27-00.15.53:275][847]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GB_BigRockB82688584BCBC4F87F0F16A06EB55789.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/GB_Moldes/GB_BigRock.uasset'
+[2019.09.27-00.16.16:624][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.16.19:002][369]LogActorFactory: Actor Factory created Cube
+[2019.09.27-00.16.19:844][418]LogActorFactory: Actor Factory created Cube
+[2019.09.27-00.16.20:875][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.16.33:285][177]LogTexture: Display: Building textures: T_Riverbank (AutoDXT, 1024X1024)
+[2019.09.27-00.16.33:285][177]LogTexture: Display: Building textures: T_Riverbank_N (BC5, 1024X1024)
+[2019.09.27-00.16.33:285][177]LogMaterial: Display: Missing cached shader map for material M_Riverbank, compiling. 
+[2019.09.27-00.16.33:371][177]LogStaticMesh: Building static mesh SM_Riverbank...
+[2019.09.27-00.16.33:462][177]LogStaticMesh: Built static mesh [0.09s] /Game/WaterMaterials/Meshes/SM_Riverbank.SM_Riverbank
+[2019.09.27-00.16.48:748][ 10]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.16.50:390][102]Cmd: TRANSACTION UNDO
+[2019.09.27-00.16.50:390][102]LogEditorTransaction: Undo Rotate Actors
+[2019.09.27-00.16.50:513][102]LogMaterial: Display: Missing cached shader map for material M_Water_Opaque, compiling. 
+[2019.09.27-00.16.50:548][102]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.16.51:260][137]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.16.52:057][183]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.16.52:772][223]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.16.54:422][300]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.16.56:969][438]MaterialEditorStats: Base pass shader: 174 instructions
+[2019.09.27-00.16.56:969][438]MaterialEditorStats: Base pass shader with Surface Lightmap: 202 instructions
+[2019.09.27-00.16.56:969][438]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2019.09.27-00.16.56:969][438]MaterialEditorStats: Base pass vertex shader: 66 instructions
+[2019.09.27-00.16.56:969][438]MaterialEditorStats: Texture samplers: 8/16
+[2019.09.27-00.16.56:969][438]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2019.09.27-00.16.57:873][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.16.58:004][498]LogActorFactory: Actor Factory created Cube
+[2019.09.27-00.16.58:787][543]LogActorFactory: Actor Factory created Cube
+[2019.09.27-00.16.59:963][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.17.15:638][428]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.17.36:687][512]LogTexture: Display: Building textures: T_River_Waves02 (RGBA16F, 961X63)
+[2019.09.27-00.17.36:687][512]LogTexture: Display: Building textures: T_River_Waves01_Normals (BGRA8, 961X63)
+[2019.09.27-00.17.36:687][512]LogTexture: Display: Building textures: T_River_Waves01 (RGBA16F, 961X63)
+[2019.09.27-00.17.36:687][512]LogTexture: Display: Building textures: T_River_Waves02_Normals (BGRA8, 961X63)
+[2019.09.27-00.17.36:687][512]LogMaterial: Display: Missing cached shader map for material M_River, compiling. 
+[2019.09.27-00.17.36:724][512]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.09.27-00.17.36:724][512]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.09.27-00.17.36:724][512]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.09.27-00.17.36:724][512]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.09.27-00.17.36:724][512]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.27-00.17.36:724][512]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.27-00.18.22:782][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.09.27-00.18.30:126][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.09.27-00.18.30:895][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.09.27-00.18.40:210][262]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.18.53:744][908]LogTexture: Display: Building textures: T_Stone (AutoDXT, 512X512)
+[2019.09.27-00.18.53:744][908]LogTexture: Display: Building textures: T_Stone_N (BC5, 512X512)
+[2019.09.27-00.18.53:744][908]LogMaterial: Display: Missing cached shader map for material M_River_Rock, compiling. 
+[2019.09.27-00.19.02:709][410]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.19.22:046][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.09.27-00.19.32:027][ 14]Cmd: DELETE
+[2019.09.27-00.19.32:028][ 14]Cmd: ACTOR DELETE
+[2019.09.27-00.19.32:030][ 14]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.19.32:062][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.09.27-00.19.32:062][ 14]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.09.27-00.19.33:123][ 77]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.19.34:211][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.19.36:265][262]Cmd: DELETE
+[2019.09.27-00.19.36:265][262]Cmd: ACTOR DELETE
+[2019.09.27-00.19.36:269][262]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.09.27-00.19.36:297][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.09.27-00.19.36:298][262]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.09.27-00.19.41:235][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.09.27-00.19.41:364][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.09.27-00.19.42:008][551]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GreyBoxLVL7086B29C43804CBA457CE2BFDFFFC03D.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL.umap'
+[2019.09.27-00.19.42:061][551]LogFileHelpers: Saving map 'GreyBoxLVL' took 0.727
+[2019.09.27-00.19.59:228][568]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.20.02:316][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.20.22:504][920]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.09.27-00.20.31:910][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.20.51:775][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.21.02:478][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.21.03:421][356]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.09.27-00.21.03:427][356]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.21.03:517][356]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.21.03:556][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.09.27-00.21.03:692][356]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2019.09.27-00.21.03:937][356]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GreyBoxLVLEE26AB0C41AA110605E3ECA2912CBBFC.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL.umap'
+[2019.09.27-00.21.03:975][356]LogFileHelpers: Saving map 'GreyBoxLVL' took 0.454
+[2019.09.27-00.21.05:037][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.21.05:120][423]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.27-00.21.05:139][423]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.21.05:139][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.27-00.21.05:139][423]PIE: New page: PIE session: GreyBoxLVL (Sep 26, 2019, 4:21:05 PM)
+[2019.09.27-00.21.05:144][423]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL
+[2019.09.27-00.21.05:192][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047357s)
+[2019.09.27-00.21.05:192][423]LogAIModule: Creating AISystem for world GreyBoxLVL
+[2019.09.27-00.21.05:192][423]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2019.09.27-00.21.05:193][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL.GreyBoxLVL to /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL (0.048340s)
+[2019.09.27-00.21.05:232][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.09.27-00.21.05:255][423]LogInit: XAudio2 using 'Headphones (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.27-00.21.05:268][423]LogInit: FAudioDevice initialized.
+[2019.09.27-00.21.05:301][423]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.09.27-00.21.05:305][423]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL.GreyBoxLVL up for play (max tick rate 60) at 2019.09.26-20.21.05
+[2019.09.27-00.21.05:306][423]LogWorld: Bringing up level for play took: 0.003466
+[2019.09.27-00.21.05:319][423]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL -0.792
+[2019.09.27-00.21.05:319][423]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.21.37:704][362]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.21.38:395][362]LogClient: High resolution screenshot saved as C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Screenshots/Windows/HighresScreenshot00008.png
+[2019.09.27-00.21.40:596][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.21.40:596][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.21.40:629][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.27-00.21.40:629][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL' with GeneratedClass '/Game/Levels/GreyBoxLVL.GreyBoxLVL_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL.GreyBoxLVL:PersistentLevel.GreyBoxLVL'
+[2019.09.27-00.21.40:661][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.27-00.21.40:668][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.09.27-00.21.40:712][493]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.09.27-00.21.41:849][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.21.42:982][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.09.27-00.21.48:245][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.21.53:439][940]LogSlate: Window 'Message' being destroyed
+[2019.09.27-00.21.54:421][995]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.27-00.21.55:761][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.09.27-00.22.00:967][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.27-00.22.09:802][396]LogSlate: Window 'Message' being destroyed
+[2019.09.27-00.22.09:831][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.09.27-00.22.09:912][396]LogSlate: Window 'M_Water_Opaque' being destroyed
+[2019.09.27-00.22.10:133][396]LogSlate: Window 'SeniorProject - Unreal Editor' being destroyed
+[2019.09.27-00.22.10:134][396]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.27-00.22.10:403][397]Cmd: QUIT_EDITOR
+[2019.09.27-00.22.10:672][397]LogExit: Preparing to exit.
+[2019.09.27-00.22.11:102][397]LogExit: Editor shut down
+[2019.09.27-00.22.11:103][397]LogExit: Transaction tracking system shut down
+[2019.09.27-00.22.11:342][397]LogExit: Object subsystem successfully closed.
+[2019.09.27-00.22.11:374][397]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.09.27-00.22.11:377][397]LogD3D11RHI: Shutdown
+[2019.09.27-00.22.11:377][397]LogD3D11RHI: CleanupD3DDevice
+[2019.09.27-00.22.11:378][397]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.27-00.22.11:378][397]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.27-00.22.11:378][397]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.27-00.22.11:378][397]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.27-00.22.11:378][397]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.09.27-00.22.11:378][397]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.09.27-00.22.11:538][397]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.27-00.22.11:564][397]LogModuleManager: Shutting down and abandoning module MeshBuilder (652)
+[2019.09.27-00.22.11:564][397]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (650)
+[2019.09.27-00.22.11:564][397]LogModuleManager: Shutting down and abandoning module Voice (648)
+[2019.09.27-00.22.11:564][397]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2019.09.27-00.22.11:564][397]LogModuleManager: Shutting down and abandoning module AddContentDialog (644)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module WidgetCarousel (643)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module EditorWidgets (640)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module CollectionManager (638)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module SceneOutliner (636)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (634)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.09.27-00.22.11:566][397]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.09.27-00.22.11:567][397]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.09.27-00.22.11:568][397]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.09.27-00.22.11:568][397]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.09.27-00.22.11:568][397]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.09.27-00.22.11:568][397]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.09.27-00.22.11:568][397]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.09.27-00.22.11:568][397]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.09.27-00.22.11:568][397]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.09.27-00.22.12:348][397]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.09.27-00.22.12:349][397]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.09.27-00.22.12:403][397]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.09.27-00.22.12:404][397]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.09.27-00.22.12:408][397]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.09.27-00.22.12:551][397]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module SeniorProject (296)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.09.27-00.22.12:552][397]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.09.27-00.22.12:653][397]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.09.27-00.22.12:754][397]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.09.27-00.22.12:754][397]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.09.27-00.22.12:755][397]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.09.27-00.22.12:755][397]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.09.27-00.22.12:756][397]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.09.27-00.22.12:756][397]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.09.27-00.22.12:756][397]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.09.27-00.22.12:758][397]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.09.27-00.22.12:759][397]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.09.27-00.22.12:759][397]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.09.27-00.22.12:759][397]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.09.27-00.22.12:760][397]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.09.27-00.22.12:761][397]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.09.27-00.22.12:770][397]LogDerivedDataCache: Shutdown
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.09.27-00.22.12:770][397]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.09.27-00.22.12:779][397]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.09.27-00.22.12:779][397]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.09.27-00.22.12:779][397]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.09.27-00.22.12:779][397]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.09.27-00.22.12:779][397]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.09.27-00.22.12:782][397]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.09.27-00.22.12:782][397]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.09.27-00.22.12:785][397]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.09.27-00.22.12:785][397]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.09.27-00.22.12:810][397]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.09.27-00.22.12:811][397]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.09.27-00.22.12:811][397]LogHMD: Freeing OpenVRDLLHandle.
+[2019.09.27-00.22.12:812][397]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.09.27-00.22.12:812][397]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.09.27-00.22.12:812][397]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.09.27-00.22.12:812][397]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.09.27-00.22.12:812][397]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.09.27-00.22.12:813][397]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.09.27-00.22.12:813][397]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.09.27-00.22.12:830][397]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.09.27-00.22.12:830][397]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.27-00.22.12:830][397]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9D894DD2-4DC4-9E07-FBDF-269A737974D7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=ec8e59c549b803b4642753b169f8e655%7C591227e0142741e4bc5b5dc3d4ee2ca0%7C7d453339-fd4e-46a8-8189-9c262a4d3a2c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.27-00.22.12:852][397]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.09.27-00.22.12:854][397]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.09.27-00.22.12:856][397]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.09.27-00.22.12:862][397]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.09.27-00.22.12:862][397]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.09.27-00.22.12:863][397]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.09.27-00.22.12:863][397]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.09.27-00.22.12:863][397]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.09.27-00.22.12:863][397]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.09.27-00.22.12:863][397]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.09.27-00.22.12:863][397]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.09.27-00.22.12:863][397]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.09.27-00.22.12:864][397]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.09.27-00.22.12:864][397]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.09.27-00.22.12:864][397]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.09.27-00.22.12:864][397]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.09.27-00.22.12:865][397]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.09.27-00.22.12:877][397]LogExit: Exiting.
+[2019.09.27-00.22.12:902][397]Log file closed, 09/26/19 20:22:12
