@@ -2,7 +2,7 @@
 
 
 #include "Movement.h"
-
+#include "Engine/LocalPlayer.h"
 // Sets default values for this component's properties
 UMovement::UMovement()
 {
@@ -18,7 +18,6 @@ UMovement::UMovement()
 void UMovement::BeginPlay()
 {
 	Super::BeginPlay();
-
 	// ...
 	
 }
