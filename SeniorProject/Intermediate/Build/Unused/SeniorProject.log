@@ -1,15 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
-  Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
   Parsing headers for SeniorProjectEditor
     Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 5.814904 seconds
+  Reflection code generated for SeniorProjectEditor in 6.0473664 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.23.28105) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] MyLocalPlayer.cpp
-    [2/4] UE4Editor-SeniorProject-0033.lib
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0033.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0033.exp
-    [3/4] UE4Editor-SeniorProject-0033.dll
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0033.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0033.suppressed.exp
-    [4/4] SeniorProjectEditor.target
-  Total time in Parallel executor: 2.17 seconds
-  Total execution time: 9.93 seconds
+  Building 5 actions with 8 processes...
+    [1/5] MyLocalPlayer.gen.cpp
+    [2/5] MyLocalPlayer.cpp
+    [3/5] UE4Editor-SeniorProject-0038.lib
+       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0038.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0038.exp
+    [4/5] UE4Editor-SeniorProject-0038.dll
+       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0038.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0038.suppressed.exp
+    [5/5] SeniorProjectEditor.target
+  Total time in Parallel executor: 2.72 seconds
+  Total execution time: 9.69 seconds

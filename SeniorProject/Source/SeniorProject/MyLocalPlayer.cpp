@@ -19,8 +19,9 @@ FSceneView * UMyLocalPlayer::CalcSceneView(FSceneViewFamily * ViewFamily, FVecto
 
 		float FOV = FMath::DegreesToRadians(60.0f);
 		FMatrix ProjectionMatrix = FReversedZPerspectiveMatrix(FOV, 16.0f, 9.0f, GNearClippingPlane);	
-		//ProjectionMatrix.ApplyScale(-1);
-		ProjectionMatrix.Mirror(EAxis::X, EAxis::X); // MIRRORS THE AXIS ON A DECLEARED AXIS
+		ProjectionMatrix.ApplyScale(-1);
+		ProjectionMatrix.Mirror(EAxis::X, EAxis::None); // MIRRORS THE AXIS ON A DECLEARED AXIS
+		//ProjectionMatrix.GetColumn(3) * -1;
 		View->UpdateProjectionMatrix(ProjectionMatrix);
 		FMinimalViewInfo* viewInfo = new FMinimalViewInfo();
 		APlayerCameraManager* camera = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);

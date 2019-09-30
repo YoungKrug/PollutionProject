@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SENIORPROJECT_MyLocalPlayer_generated_h
 
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_RPC_WRAPPERS
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_INCLASS_NO_PURE_DECLS \
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_RPC_WRAPPERS
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyLocalPlayer(); \
 	friend struct Z_Construct_UClass_UMyLocalPlayer_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UMyLocalPlayer)
 
 
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_INCLASS \
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyLocalPlayer(); \
 	friend struct Z_Construct_UClass_UMyLocalPlayer_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UMyLocalPlayer)
 
 
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_STANDARD_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyLocalPlayer(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyLocalPlayer) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_ENHANCED_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyLocalPlayer(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyLocalPlayer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyLocalPlayer)
 
 
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_PRIVATE_PROPERTY_OFFSET
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_12_PROLOG
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_GENERATED_BODY_LEGACY \
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_PRIVATE_PROPERTY_OFFSET
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_11_PROLOG
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_RPC_WRAPPERS \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_INCLASS \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_STANDARD_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_RPC_WRAPPERS \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_INCLASS \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_GENERATED_BODY \
+#define SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_INCLASS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_15_ENHANCED_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_INCLASS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_MyLocalPlayer_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
