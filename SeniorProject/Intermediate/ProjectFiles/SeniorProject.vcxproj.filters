@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SeniorProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{20CB4114-14B0-42C4-96CC-FF41469F8C82}</UniqueIdentifier>
+      <UniqueIdentifier>{A2F2EA9D-C429-49A6-A28B-254DCBB64732}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SeniorProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,12 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3E024487-FFC4-416E-91AE-58718BD3D0D5}</UniqueIdentifier>
+      <UniqueIdentifier>{0F8DD00D-27E7-4EB4-8E08-A5DCF835354B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -27,12 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SeniorProject">
-      <UniqueIdentifier>{3E7F7769-BE08-4A19-AF3E-DB4BC4E74AF1}</UniqueIdentifier>
+      <UniqueIdentifier>{7B34640C-C02B-45B3-BC2E-67715C1B1FFB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SeniorProject\Movement.cpp">
       <Filter>Source\SeniorProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SeniorProject\Movement.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SeniorProject\MyLocalPlayer.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SeniorProject\MyLocalPlayer.h">
       <Filter>Source\SeniorProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\SeniorProject\SeniorProject.Build.cs">
@@ -50,15 +59,5 @@
     <ClInclude Include="..\..\Source\SeniorProject\SeniorProjectGameModeBase.h">
       <Filter>Source\SeniorProject</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\SeniorProject\MyLocalPlayer.h">
-      <Filter>Source\SeniorProject</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\SeniorProject\MyLocalPlayer.cpp">
-      <Filter>Source\SeniorProject</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

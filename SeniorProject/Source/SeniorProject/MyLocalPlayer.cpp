@@ -20,7 +20,7 @@ FSceneView * UMyLocalPlayer::CalcSceneView(FSceneViewFamily * ViewFamily, FVecto
 		float FOV = FMath::DegreesToRadians(60.0f);
 		FMatrix ProjectionMatrix = FReversedZPerspectiveMatrix(FOV, 16.0f, 9.0f, GNearClippingPlane);	
 		ProjectionMatrix.ApplyScale(-1);
-		ProjectionMatrix.Mirror(EAxis::X, EAxis::None); // MIRRORS THE AXIS ON A DECLEARED AXIS
+		//ProjectionMatrix.Mirror(EAxis::None, EAxis::Y); // MIRRORS THE AXIS ON A DECLEARED AXIS
 		//ProjectionMatrix.GetColumn(3) * -1;
 		View->UpdateProjectionMatrix(ProjectionMatrix);
 		FMinimalViewInfo* viewInfo = new FMinimalViewInfo();

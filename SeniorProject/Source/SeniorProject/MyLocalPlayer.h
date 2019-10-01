@@ -19,7 +19,4 @@ public:
 			FViewport* Viewport,
 			class FViewElementDrawer* ViewDrawer = NULL,
 			EStereoscopicPass StereoPass = eSSP_FULL) override;
-	
-
-	
 };
