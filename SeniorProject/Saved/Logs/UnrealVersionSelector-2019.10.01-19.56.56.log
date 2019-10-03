@@ -1,0 +1,50 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+HTML5PlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.HTML5PlatformSDK using manually installed SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+VCProjectFileGenerator.SetupSupportedPlatformsAndConfigurations: WARNING: Visual Studio C++ 2019 installation not found - ignoring preferred project file format.
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise (Product=Microsoft.VisualStudio.Product.Enterprise, Version=15.9.28307.518, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023 (Version=14.16.27023)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+RulesCompiler.CreateEnterpriseRulesAssembly: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+UnrealBuildTool.Main: ERROR: Visual Studio 2019 must be installed in order to build this target.
+UnrealBuildTool.Main: BuildException: Visual Studio 2019 must be installed in order to build this target.
+UnrealBuildTool.Main:    at UnrealBuildTool.VCEnvironment.Create(WindowsCompiler Compiler, CppPlatform Platform, String CompilerVersion, String WindowsSdkVersion) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:line 511
+UnrealBuildTool.Main:    at UnrealBuildTool.WindowsPlatform.ValidateTarget(TargetRules Target) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\UEBuildWindows.cs:line 597
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesAssembly.CreateTargetRulesInstance(String TypeName, TargetInfo TargetInfo, CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 520
+UnrealBuildTool.Main:    at UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, String Architecture, FileReference ProjectFile, CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 580
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2109
+UnrealBuildTool.Main:    at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 674
+UnrealBuildTool.Main:    at UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 172
+UnrealBuildTool.Main:    at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 443
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.047) <unknown>
+Timeline.Print: [ 0.047](+0.169) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.216](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.216](+0.141) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.217          [ 0.001](+0.051) Initializing InstalledPlatformInfo
+Timeline.Print:   0.268          [ 0.052](+0.000) Querying types
+Timeline.Print:   0.272          [ 0.055](+0.003) MacPlatformFactory
+Timeline.Print:   0.275          [ 0.059](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.276          [ 0.059](+0.024) AndroidPlatformFactory
+Timeline.Print:   0.300          [ 0.084](+0.032) IOSPlatformFactory
+Timeline.Print:   0.332          [ 0.116](+0.013) HTML5PlatformFactory
+Timeline.Print:   0.346          [ 0.130](+0.005) LinuxPlatformFactory
+Timeline.Print:   0.352          [ 0.135](+0.000) LuminPlatformFactory
+Timeline.Print:   0.352          [ 0.136](+0.005) WindowsPlatformFactory
+Timeline.Print: [ 0.357](+0.697) <unknown>
+Timeline.Print: [ 1.055](+0.002) Finding engine modules
+Timeline.Print: [ 1.057](+0.003) Finding plugin modules
+Timeline.Print: [ 1.060](+0.059) <unknown>
+Timeline.Print: [ 1.119](+0.000) Finding program modules
+Timeline.Print: [ 1.120](+0.000) Finding program targets
+Timeline.Print: [ 1.120](+0.285) <unknown>
+Timeline.Print: [ 1.405](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 1.412]
