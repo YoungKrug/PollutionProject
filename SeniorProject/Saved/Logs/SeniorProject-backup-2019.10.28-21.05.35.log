@@ -1,0 +1,857 @@
+﻿Log file open, 10/28/19 10:58:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SeniorProject
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.276537
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithDataPrepEditor
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.28-14.58.34:371][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.28-14.58.34:371][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.28-14.58.34:371][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.10.28-14.58.34:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.28-14.58.34:372][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.10.28-14.58.34:372][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.10.28-14.58.34:393][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.28-14.58.34:393][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.28-14.58.34:394][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.28-14.58.34:394][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.28-14.58.34:394][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.28-14.58.34:415][  0]LogHAL: Display: Platform has ~ 16 GB [17116258304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.28-14.58.34:415][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.10.28-14.58.34:415][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.28-14.58.34:415][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:415][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.28-14.58.34:415][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.28-14.58.34:416][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.28-14.58.34:417][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.28-14.58.34:417][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.10.28-14.58.34:417][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.28-14.58.34:417][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.28-14.58.34:417][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.28-14.58.34:417][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.28-14.58.34:417][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.28-14.58.34:417][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.10.28-14.58.34:417][  0]LogInit: Computer: GREGSPC
+[2019.10.28-14.58.34:417][  0]LogInit: User: Gregory
+[2019.10.28-14.58.34:417][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.28-14.58.34:417][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.28-14.58.34:417][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.28-14.58.34:417][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.28-14.58.34:417][  0]LogMemory: Process Physical Memory: 102.82 MB used, 102.83 MB peak
+[2019.10.28-14.58.34:417][  0]LogMemory: Process Virtual Memory: 96.95 MB used, 96.95 MB peak
+[2019.10.28-14.58.34:417][  0]LogMemory: Physical Memory: 6337.66 MB used,  9985.68 MB free, 16323.34 MB total
+[2019.10.28-14.58.34:417][  0]LogMemory: Virtual Memory: 4666.65 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.10.28-14.58.34:438][  0]LogInit: Using OS detected language (en-US).
+[2019.10.28-14.58.34:438][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.28-14.58.34:439][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.28-14.58.34:612][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.28-14.58.34:670][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.28-14.58.34:670][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.28-14.58.34:873][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.10.28-14.58.34:873][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.28-14.58.34:933][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.10.28-14.58.34:933][  0]LogD3D11RHI:       8010/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2019.10.28-14.58.34:935][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.28-14.58.34:935][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.28-14.58.34:935][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.28-14.58.34:943][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.28-14.58.34:943][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.28-14.58.34:943][  0]LogWindows: EnumDisplayDevices:
+[2019.10.28-14.58.34:943][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.10.28-14.58.34:943][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.10.28-14.58.34:944][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.10.28-14.58.34:944][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.10.28-14.58.34:944][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.10.28-14.58.34:944][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.10.28-14.58.34:944][  0]LogD3D11RHI:   Driver Version: 431.36 (internal:26.21.14.3136, unified:431.36)
+[2019.10.28-14.58.34:944][  0]LogD3D11RHI:      Driver Date: 7-3-2019
+[2019.10.28-14.58.34:944][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.10.28-14.58.34:983][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.28-14.58.34:990][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.28-14.58.34:990][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.28-14.58.34:990][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.28-14.58.35:004][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.28-14.58.35:537][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.28-14.58.35:550][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.28-14.58.35:562][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.28-14.58.35:574][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.28-14.58.35:587][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.28-14.58.35:599][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.28-14.58.35:611][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.28-14.58.35:623][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.28-14.58.35:629][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.28-14.58.35:702][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.28-14.58.35:703][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.28-14.58.35:748][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.28-14.58.35:749][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.28-14.58.35:770][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.28-14.58.35:770][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.28-14.58.35:781][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.28-14.58.35:792][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.28-14.58.35:805][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.28-14.58.35:816][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.28-14.58.35:855][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.28-14.58.35:855][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.28-14.58.35:855][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.28-14.58.35:863][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.28-14.58.35:912][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (E:/SeniorProject/PollutionProject/SeniorProject/Intermediate/Shaders/WorkingDirectory/12160/).
+[2019.10.28-14.58.35:912][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gregory/AppData/Local/Temp/UnrealShaderWorkingDir/FF1BBA2C4AD37BD6C5AB0CA7EF1BC717/'.
+[2019.10.28-14.58.35:914][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.28-14.58.35:914][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.28-14.58.35:914][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.28-14.58.36:404][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.28-14.58.36:463][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.28-14.58.36:463][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.10.28-14.58.36:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/SeniorProject/PollutionProject/SeniorProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.28-14.58.36:464][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.28-14.58.36:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/SeniorProject/PollutionProject/SeniorProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.28-14.58.36:464][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.28-14.58.36:475][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.28-14.58.36:478][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.10.28-14.58.36:490][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gregory/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.28-14.58.36:490][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.28-14.58.36:490][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.28-14.58.36:510][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.28-14.58.36:511][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.28-14.58.36:511][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.28-14.58.36:587][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2019.10.28-14.58.36:890][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.28-14.58.37:017][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.28-14.58.37:017][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.28-14.58.37:017][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.28-14.58.37:017][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.28-14.58.37:017][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.28-14.58.37:029][  0]LogNetVersion: SeniorProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 993350713)
+[2019.10.28-14.58.37:588][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.073048 seconds
+[2019.10.28-14.58.37:595][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.10.28-14.58.37:595][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.10.28-14.58.37:595][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.28-14.58.38:378][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.28-14.58.38:392][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.28-14.58.38:568][  0]SourceControl: Source control is disabled
+[2019.10.28-14.58.45:667][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.28-14.58.45:948][  0]LogOcInput: OculusInput pre-init called
+[2019.10.28-14.59.04:245][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.10.28-14.59.04:245][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.10.28-14.59.04:246][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.10.28-14.59.04:246][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.10.28-14.59.04:507][  0]LogEngine: Initializing Engine...
+[2019.10.28-14.59.04:533][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.10.28-14.59.04:534][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.28-14.59.04:744][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.28-14.59.04:760][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.28-14.59.04:975][  0]LogInit: XAudio2 using 'HDMI (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.28-14.59.05:011][  0]LogInit: FAudioDevice initialized.
+[2019.10.28-14.59.05:011][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.28-14.59.05:813][  0]LogDerivedDataCache: Saved boot cache 0.80s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.28-14.59.05:825][  0]LogInit: Texture streaming: Enabled
+[2019.10.28-14.59.05:847][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.28-14.59.05:902][  0]LogInit: Transaction tracking system initialized
+[2019.10.28-14.59.05:928][  0]BlueprintLog: New page: Editor Load
+[2019.10.28-14.59.06:046][  0]LocalizationService: Localization service is disabled
+[2019.10.28-14.59.06:384][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/' took 0.02s
+[2019.10.28-14.59.06:384][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.28-14.59.06:384][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.28-14.59.13:237][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-14.59.13:237][  0]LightingResults: New page: Lighting Build
+[2019.10.28-14.59.13:239][  0]MapCheck: New page: Map Check
+[2019.10.28-14.59.13:239][  0]LightingResults: New page: Lighting Build
+[2019.10.28-14.59.13:340][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.10.28-14.59.13:929][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.10.28-14.59.14:019][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-14.59.14:043][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.10.28-14.59.14:043][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-14.59.14:043][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.086ms to complete.
+[2019.10.28-14.59.14:043][  0]LogFileHelpers: Loading map 'Template_Default' took 0.807
+[2019.10.28-14.59.16:646][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-14.59.16:709][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-14.59.16:717][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-14.59.16:726][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-14.59.17:140][  0]LogCollectionManager: Loaded 0 collections in 0.001442 seconds
+[2019.10.28-14.59.18:726][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Collections/' took 0.01s
+[2019.10.28-14.59.18:726][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/Developers/Gregory/Collections/' took 0.00s
+[2019.10.28-14.59.18:726][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/Collections/' took 0.00s
+[2019.10.28-14.59.18:726][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.10.28-14.59.18:964][  0]LogContentBrowser: Native class hierarchy populated in 0.1029 seconds. Added 2867 classes and 728 folders.
+[2019.10.28-14.59.19:298][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.28-14.59.19:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.19:883][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:058][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:207][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:270][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:390][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:749][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.20:940][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:232][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:323][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:418][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:528][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:655][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:721][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:813][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.21:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.22:053][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.22:149][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.22:187][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.22:320][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.28-14.59.27:950][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.28-14.59.28:479][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.10.28-14.59.34:073][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.28-14.59.34:107][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.28-14.59.34:307][  0]LogSlate: Took 0.152673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.28-14.59.35:197][  0]LogRenderer: Reallocating scene render targets to support 1132x420 Format 10 NumSamples 1 (Frame:1).
+[2019.10.28-14.59.36:164][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.28-14.59.36:164][  0]LogLoad: (Engine Initialization) Total time: 65.14 seconds
+[2019.10.28-14.59.36:164][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.28-14.59.36:243][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.28-14.59.36:561][  0]LogSlate: Took 0.175305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.28-15.00.06:857][717]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.10.28-15.00.17:979][660]LogAssetRegistry: Asset discovery search completed in 101.4144 seconds
+[2019.10.28-15.00.17:981][660]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2019.10.28-15.00.26:581][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.00.26:704][688]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.28-15.00.26:836][688]LogLinker: Warning: Can't find file '/Game/Levels/GreyBoxLVL2_BuiltData'
+[2019.10.28-15.00.26:836][688]LogLinker: Warning: Can't find file for asset '/Game/Levels/GreyBoxLVL2_BuiltData' while loading NULL.
+[2019.10.28-15.00.26:938][688]LogLinker: Warning: Can't find file '/Game/Levels/GreyBoxLVL2_BuiltData'
+[2019.10.28-15.00.26:938][688]LogLinker: Warning: Can't find file for asset '/Game/Levels/GreyBoxLVL2_BuiltData' while loading NULL.
+[2019.10.28-15.00.27:094][688]LogLinker: Warning: Can't find file '/Game/Levels/GreyBoxLVL2_BuiltData'
+[2019.10.28-15.00.27:094][688]LogLinker: Warning: Can't find file for asset '/Game/Levels/GreyBoxLVL2_BuiltData' while loading NULL.
+[2019.10.28-15.00.27:094][688]LogLinker: Warning: Can't find file '/Game/Levels/GreyBoxLVL2_BuiltData'
+[2019.10.28-15.00.27:094][688]LogLinker: Warning: Can't find file for asset '/Game/Levels/GreyBoxLVL2_BuiltData' while loading NULL.
+[2019.10.28-15.00.27:290][688]LogLinker: Warning: Can't find file '/Game/Levels/GreyBoxLVL2_BuiltData'
+[2019.10.28-15.00.27:290][688]LoadErrors: Failed to load /Game/Levels/GreyBoxLVL2_BuiltData.GreyBoxLVL2_BuiltData Referenced by PersistentLevel
+[2019.10.28-15.00.27:290][688]LogLinker: Warning: Can't find file for asset '/Game/Levels/GreyBoxLVL2_BuiltData' while loading NULL.
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 512X512)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 512X512)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 512X512)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 128X128)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 512X512)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: T_Waterfall_Foam_Directional (AutoDXT, 1024X1024)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: T_Waterfall_Foam (AutoDXT, 1024X1024)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: T_Water_EdgeNormals (BC5, 1024X1024)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: T_River_Waves02_Normals (BGRA8, 961X63)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: T_River_Waves02 (RGBA16F, 961X63)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: T_River_Waves01_Normals (BGRA8, 961X63)
+[2019.10.28-15.00.30:127][688]LogTexture: Display: Building textures: T_River_Waves01 (RGBA16F, 961X63)
+[2019.10.28-15.00.30:127][688]LogStaticMesh: Building static mesh TrashPile...
+[2019.10.28-15.00.30:246][688]LogStaticMesh: Built static mesh [0.12s] /Game/Assets/LowPolyAssets/TrashPile.TrashPile
+[2019.10.28-15.00.30:665][688]LogStaticMesh: Building static mesh Trashcan...
+[2019.10.28-15.00.30:669][688]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyAssets/Trashcan.Trashcan
+[2019.10.28-15.00.30:714][688]LogStaticMesh: Building static mesh TelephonePost_Open...
+[2019.10.28-15.00.30:718][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/LowPolyAssets/TelephonePost_Open.TelephonePost_Open
+[2019.10.28-15.00.30:795][688]LogStaticMesh: Building static mesh StopLight...
+[2019.10.28-15.00.30:827][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/LowPolyAssets/StopLight.StopLight
+[2019.10.28-15.00.30:948][688]LogStaticMesh: Building static mesh Stool...
+[2019.10.28-15.00.30:954][688]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyAssets/Stool.Stool
+[2019.10.28-15.00.31:085][688]LogStaticMesh: Building static mesh StairOpen...
+[2019.10.28-15.00.31:086][688]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/LowPolyAssets/StairOpen.StairOpen
+[2019.10.28-15.00.31:215][688]LogStaticMesh: Building static mesh StairClosed...
+[2019.10.28-15.00.31:221][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/LowPolyAssets/StairClosed.StairClosed
+[2019.10.28-15.00.31:360][688]LogStaticMesh: Building static mesh Speaker...
+[2019.10.28-15.00.31:371][688]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/LowPolyAssets/Speaker.Speaker
+[2019.10.28-15.00.31:553][688]LogStaticMesh: Building static mesh GB_Mountain...
+[2019.10.28-15.00.31:618][688]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/GB_Moldes/GB_Mountain.GB_Mountain
+[2019.10.28-15.00.31:699][688]LogStaticMesh: Building static mesh GB_manyRocks...
+[2019.10.28-15.00.31:750][688]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/GB_Moldes/GB_manyRocks.GB_manyRocks
+[2019.10.28-15.00.31:894][688]LogMeshUtilities: Finished distance field build in 1.3s - 22x21x15 distance field, 1626 triangles, Range [-0.3, 1.0], TrashPile
+[2019.10.28-15.00.31:894][688]LogStaticMesh: Building static mesh GB_Lighthouse...
+[2019.10.28-15.00.32:261][688]LogStaticMesh: Built static mesh [0.40s] /Game/Assets/GB_Moldes/GB_Lighthouse.GB_Lighthouse
+[2019.10.28-15.00.32:379][688]LogStaticMesh: Building static mesh GB_FerrisWheel...
+[2019.10.28-15.00.32:402][688]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/GB_Moldes/GB_FerrisWheel.GB_FerrisWheel
+[2019.10.28-15.00.32:491][688]LogStaticMesh: Building static mesh GB_CurvedBuilding...
+[2019.10.28-15.00.32:497][688]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/GB_Moldes/GB_CurvedBuilding.GB_CurvedBuilding
+[2019.10.28-15.00.32:534][688]LogStaticMesh: Building static mesh GB_ParkingLot...
+[2019.10.28-15.00.32:548][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/GB_Moldes/GB_ParkingLot.GB_ParkingLot
+[2019.10.28-15.00.32:635][688]LogStaticMesh: Building static mesh BoardWalkFront_002...
+[2019.10.28-15.00.32:695][688]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/LowPolyAssets/BoardWalkFront_002.BoardWalkFront_002
+[2019.10.28-15.00.32:718][688]LogStaticMesh: Building static mesh BoardWalkFront_001...
+[2019.10.28-15.00.32:749][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/LowPolyAssets/BoardWalkFront_001.BoardWalkFront_001
+[2019.10.28-15.00.32:880][688]LogStaticMesh: Building static mesh BoardWalk...
+[2019.10.28-15.00.32:882][688]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyAssets/BoardWalk.BoardWalk
+[2019.10.28-15.00.32:895][688]LogStaticMesh: Building static mesh BigTrashcan...
+[2019.10.28-15.00.32:923][688]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/LowPolyAssets/BigTrashcan.BigTrashcan
+[2019.10.28-15.00.33:014][688]LogStaticMesh: Building static mesh Bench...
+[2019.10.28-15.00.33:035][688]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/LowPolyAssets/Bench.Bench
+[2019.10.28-15.00.33:157][688]LogStaticMesh: Building static mesh Spruce...
+[2019.10.28-15.00.33:185][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/GB_Moldes/Spruce.Spruce
+[2019.10.28-15.00.33:266][688]LogStaticMesh: Building static mesh Dumpster...
+[2019.10.28-15.00.33:273][688]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyAssets/Dumpster.Dumpster
+[2019.10.28-15.00.33:343][688]LogStaticMesh: Building static mesh Dock...
+[2019.10.28-15.00.33:394][688]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/LowPolyAssets/Dock.Dock
+[2019.10.28-15.00.33:456][688]LogStaticMesh: Building static mesh Chair...
+[2019.10.28-15.00.33:480][688]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/LowPolyAssets/Chair.Chair
+[2019.10.28-15.00.33:578][688]LogStaticMesh: Building static mesh BoardWalkFront_004...
+[2019.10.28-15.00.33:606][688]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/LowPolyAssets/BoardWalkFront_004.BoardWalkFront_004
+[2019.10.28-15.00.33:686][688]LogStaticMesh: Building static mesh BoardWalkFront_003...
+[2019.10.28-15.00.33:720][688]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/LowPolyAssets/BoardWalkFront_003.BoardWalkFront_003
+[2019.10.28-15.00.33:811][688]LogStaticMesh: Building static mesh RatiningWall_closed...
+[2019.10.28-15.00.33:814][688]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/LowPolyAssets/RatiningWall_closed.RatiningWall_closed
+[2019.10.28-15.00.33:896][688]LogStaticMesh: Building static mesh PicnicTable...
+[2019.10.28-15.00.33:912][688]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/LowPolyAssets/PicnicTable.PicnicTable
+[2019.10.28-15.00.33:968][688]LogStaticMesh: Building static mesh LittleTable...
+[2019.10.28-15.00.33:975][688]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyAssets/LittleTable.LittleTable
+[2019.10.28-15.00.34:095][688]LogStaticMesh: Building static mesh Lamp_002...
+[2019.10.28-15.00.34:120][688]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/LowPolyAssets/Lamp_002.Lamp_002
+[2019.10.28-15.00.34:189][688]LogStaticMesh: Building static mesh Lamp_001...
+[2019.10.28-15.00.34:199][688]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/LowPolyAssets/Lamp_001.Lamp_001
+[2019.10.28-15.00.34:251][688]LogStaticMesh: Building static mesh Fence...
+[2019.10.28-15.00.34:254][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/LowPolyAssets/Fence.Fence
+[2019.10.28-15.00.34:336][688]LogStaticMesh: Building static mesh SideWalkRoundCorner...
+[2019.10.28-15.00.34:339][688]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyAssets/SideWalkRoundCorner.SideWalkRoundCorner
+[2019.10.28-15.00.34:339][688]LogStaticMesh: Building static mesh SideWalkLong...
+[2019.10.28-15.00.34:342][688]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyAssets/SideWalkLong.SideWalkLong
+[2019.10.28-15.00.34:409][688]LogStaticMesh: Building static mesh Road...
+[2019.10.28-15.00.34:412][688]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/LowPolyAssets/Road.Road
+[2019.10.28-15.00.34:413][688]LogStaticMesh: Building static mesh RatiningWall_TwoEndOpen...
+[2019.10.28-15.00.34:416][688]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyAssets/RatiningWall_TwoEndOpen.RatiningWall_TwoEndOpen
+[2019.10.28-15.00.35:655][688]LogStaticMesh: Building static mesh GB_Building...
+[2019.10.28-15.00.35:658][688]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/GB_Moldes/GB_Building.GB_Building
+[2019.10.28-15.00.35:735][688]LogStaticMesh: Building static mesh GB_church...
+[2019.10.28-15.00.35:746][688]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/GB_Moldes/GB_church.GB_church
+[2019.10.28-15.00.35:821][688]LogMaterial: Display: Missing cached shader map for material M_Waterfall, compiling. 
+[2019.10.28-15.00.36:212][688]LogMaterial: Display: Missing cached shader map for material M_River, compiling. 
+[2019.10.28-15.00.37:016][688]LogMaterial: Display: Missing cached shader map for material CubeMaterial, compiling. 
+[2019.10.28-15.00.37:193][688]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2019.10.28-15.00.37:285][688]LogAIModule: Creating AISystem for world GreyBoxLVL2
+[2019.10.28-15.00.37:368][688]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/GreyBoxLVL2.GreyBoxLVL2
+[2019.10.28-15.00.37:497][688]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.10.28-15.00.37:498][688]Cmd: MAP LOAD FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-15.00.37:498][688]LightingResults: New page: Lighting Build
+[2019.10.28-15.00.37:499][688]LoadErrors: New page: Loading map: GreyBoxLVL2.umap
+[2019.10.28-15.00.37:537][688]MapCheck: New page: Map Check
+[2019.10.28-15.00.37:537][688]LightingResults: New page: Lighting Build
+[2019.10.28-15.00.37:656][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.10.28-15.00.42:669][688]LogMeshUtilities: Finished distance field build in 6.7s - 64x64x64 distance field, 3080 triangles, Range [-0.1, 0.8], GB_Mountain
+[2019.10.28-15.00.42:703][688]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-15.00.44:531][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.10.28-15.00.44:582][688]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-15.00.44:582][688]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.152ms to complete.
+[2019.10.28-15.00.44:582][688]LogFileHelpers: Loading map 'GreyBoxLVL2' took 7.085
+[2019.10.28-15.00.44:958][692]LogMeshUtilities: Finished distance field build in 6.5s - 64x64x64 distance field, 180 triangles, Range [-0.3, 0.8], GB_church
+[2019.10.28-15.00.55:519][113]LogMeshUtilities: Finished distance field build in 10.5s - 64x64x64 distance field, 12 triangles, Range [-0.4, 0.5], GB_Building
+[2019.10.28-15.00.59:012][206]LogMeshUtilities: Finished distance field build in 3.6s - 29x64x51 distance field, 6 triangles, Range [-0.1, 0.5], RatiningWall_TwoEndOpen
+[2019.10.28-15.01.07:486][400]LogMeshUtilities: Finished distance field build in 8.5s - 64x64x64 distance field, 6 triangles, Range [-0.0, 1.0], Road
+[2019.10.28-15.01.12:273][539]LogMeshUtilities: Finished distance field build in 4.8s - 54x64x36 distance field, 6 triangles, Range [-0.0, 1.0], SideWalkLong
+[2019.10.28-15.01.14:074][577]LogMeshUtilities: Finished distance field build in 1.8s - 64x64x13 distance field, 42 triangles, Range [-0.1, 1.0], SideWalkRoundCorner
+[2019.10.28-15.01.14:132][580]LogMeshUtilities: Finished distance field build in 0.1s - 14x8x16 distance field, 124 triangles, Range [-0.2, 1.0], Fence
+[2019.10.28-15.01.14:373][584]LogMeshUtilities: Finished distance field build in 0.2s - 11x11x48 distance field, 648 triangles, Range [-0.1, 0.5], Lamp_001
+[2019.10.28-15.01.14:987][597]LogMeshUtilities: Finished distance field build in 0.6s - 20x12x55 distance field, 1604 triangles, Range [-0.1, 0.7], Lamp_002
+[2019.10.28-15.01.15:041][598]LogMeshUtilities: Finished distance field build in 0.1s - 12x12x15 distance field, 592 triangles, Range [-0.2, 0.9], LittleTable
+[2019.10.28-15.01.16:019][626]LogMeshUtilities: Finished distance field build in 0.9s - 33x37x16 distance field, 172 triangles, Range [-0.0, 0.6], PicnicTable
+[2019.10.28-15.01.20:141][701]LogMeshUtilities: Finished distance field build in 4.1s - 29x64x51 distance field, 10 triangles, Range [-0.1, 0.4], RatiningWall_closed
+[2019.10.28-15.01.30:647][938]LogMeshUtilities: Finished distance field build in 10.5s - 64x64x64 distance field, 1096 triangles, Range [-0.3, 0.7], BoardWalkFront_003
+[2019.10.28-15.01.36:304][ 47]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (51.629 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.28-15.01.41:392][131]LogMeshUtilities: Finished distance field build in 10.7s - 64x64x64 distance field, 776 triangles, Range [-0.3, 0.8], BoardWalkFront_004
+[2019.10.28-15.01.41:494][136]LogMeshUtilities: Finished distance field build in 0.1s - 10x8x18 distance field, 336 triangles, Range [-0.0, 0.9], Chair
+[2019.10.28-15.01.49:389][283]LogMeshUtilities: Finished distance field build in 7.9s - 60x64x64 distance field, 608 triangles, Range [-0.0, 1.0], Dock
+[2019.10.28-15.01.50:881][317]LogMeshUtilities: Finished distance field build in 1.5s - 41x26x28 distance field, 166 triangles, Range [-0.4, 0.6], Dumpster
+[2019.10.28-15.01.50:906][318]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 494 triangles, Range [-0.0, 0.7], Spruce
+[2019.10.28-15.01.51:361][337]LogMeshUtilities: Finished distance field build in 0.5s - 34x13x16 distance field, 396 triangles, Range [-0.0, 0.6], Bench
+[2019.10.28-15.01.54:579][434]LogMeshUtilities: Finished distance field build in 3.2s - 64x37x31 distance field, 1188 triangles, Range [-0.0, 0.4], BigTrashcan
+[2019.10.28-15.02.03:884][556]LogMeshUtilities: Finished distance field build in 9.3s - 64x64x64 distance field, 6 triangles, Range [-0.0, 1.0], BoardWalk
+[2019.10.28-15.02.15:043][875]LogMeshUtilities: Finished distance field build in 11.2s - 64x64x64 distance field, 934 triangles, Range [-0.3, 0.7], BoardWalkFront_001
+[2019.10.28-15.02.24:654][ 16]LogMeshUtilities: Finished distance field build in 9.6s - 64x64x64 distance field, 2232 triangles, Range [-0.3, 0.8], BoardWalkFront_002
+[2019.10.28-15.02.34:152][201]LogMeshUtilities: Finished distance field build in 9.5s - 64x64x64 distance field, 74 triangles, Range [-0.0, 0.5], GB_ParkingLot
+[2019.10.28-15.02.45:866][532]LogMeshUtilities: Finished distance field build in 11.7s - 64x64x64 distance field, 40 triangles, Range [-0.4, 0.6], GB_CurvedBuilding
+[2019.10.28-15.02.55:580][698]LogMeshUtilities: Finished distance field build in 9.7s - 64x64x64 distance field, 1888 triangles, Range [-0.0, 1.0], GB_FerrisWheel
+[2019.10.28-15.03.06:840][859]LogMeshUtilities: Finished distance field build in 11.3s - 64x64x64 distance field, 12708 triangles, Range [-0.1, 0.9], GB_Lighthouse
+[2019.10.28-15.03.17:955][  3]LogMeshUtilities: Finished distance field build in 11.1s - 64x64x64 distance field, 2090 triangles, Range [-0.0, 0.7], GB_manyRocks
+[2019.10.28-15.03.18:312][ 14]LogMeshUtilities: Finished distance field build in 0.4s - 14x11x64 distance field, 976 triangles, Range [-0.0, 1.0], Speaker
+[2019.10.28-15.03.24:888][174]LogMeshUtilities: Finished distance field build in 6.6s - 54x64x47 distance field, 330 triangles, Range [-0.4, 0.9], StairClosed
+[2019.10.28-15.03.32:481][298]LogMeshUtilities: Finished distance field build in 7.6s - 55x64x47 distance field, 128 triangles, Range [-0.0, 0.9], StairOpen
+[2019.10.28-15.03.32:514][299]LogMeshUtilities: Discarded distance field for Stool as mesh was not closed!  Assign a two-sided material to fix.
+[2019.10.28-15.03.32:514][299]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x12 distance field, 538 triangles, Range [-0.3, 0.7], Stool
+[2019.10.28-15.03.34:836][355]LogMeshUtilities: Finished distance field build in 2.3s - 64x19x64 distance field, 2812 triangles, Range [-0.1, 1.0], StopLight
+[2019.10.28-15.03.37:613][400]LogMeshUtilities: Finished distance field build in 2.8s - 64x22x64 distance field, 118 triangles, Range [-0.0, 1.0], TelephonePost_Open
+[2019.10.28-15.03.37:696][402]LogMeshUtilities: Finished distance field build in 0.1s - 10x10x13 distance field, 360 triangles, Range [-0.0, 0.6], Trashcan
+[2019.10.28-15.03.52:072][262]LogStaticMesh: Allocated 512x256x64 distance field atlas = 16.0Mb, with 73 objects containing 13.5Mb backing data
+[2019.10.28-15.04.16:915][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.10.28-15.05.42:894][139]LogSlate: Took 0.013259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.28-15.05.59:575][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.11.12:219][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.11.19:491][333]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.28-15.12.08:194][146]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.28-15.12.08:811][212]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.10.28-15.12.09:172][247]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.10.28-15.12.13:649][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.12.17:733][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.12.30:223][707]Cmd: DELETE
+[2019.10.28-15.12.30:223][707]Cmd: ACTOR DELETE
+[2019.10.28-15.12.30:284][707]LogEditorActor: Deleted Actor: Actor
+[2019.10.28-15.12.30:305][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.10.28-15.12.30:306][707]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2019.10.28-15.12.33:106][ 40]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.28-15.12.44:165][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.12.50:850][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.13.00:352][172]LogSlate: Window 'Select Path' being destroyed
+[2019.10.28-15.13.00:411][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.10.28-15.13.00:440][172]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/DialogueSystem.DialogueSystem
+[2019.10.28-15.13.00:980][172]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.10.28-15.13.02:351][172]LogRenderer: Reallocating scene render targets to support 1144x712 Format 10 NumSamples 1 (Frame:1).
+[2019.10.28-15.13.02:389][174]LogStaticMesh: Allocated 512x320x64 distance field atlas = 20.0Mb, with 74 objects containing 13.7Mb backing data
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.DialogueSystem:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.SKEL_DialogueSystem_C' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.DialogueSystem_C' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.DialogueSystem:EventGraph.K2Node_Event_0' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.DialogueSystem:EventGraph.K2Node_Event_1' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.DialogueSystem:EventGraph.K2Node_Event_2' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.SKEL_DialogueSystem_C:ReceiveBeginPlay' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.SKEL_DialogueSystem_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.SKEL_DialogueSystem_C:ReceiveTick' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.SKEL_DialogueSystem_C:DefaultSceneRoot1' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.SKEL_DialogueSystem_C:UserConstructionScript' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.08:993][634]LogMetaData: Removing '/Game/BP/DialogueSystem.DialogueSystem_C:DefaultSceneRoot1' ref from Metadata '/Game/DialogueSystem.PackageMetaData'
+[2019.10.28-15.13.09:030][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/DialogueSystem" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/BP/DialogueSystem.uasset" SILENT=true
+[2019.10.28-15.13.09:069][634]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/DialogueSystem23F1DF084A785999E719FCABD6EE67A9.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Content/BP/DialogueSystem.uasset'
+[2019.10.28-15.13.09:784][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.10.28-15.13.09:815][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.10.28-15.13.09:843][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.10.28-15.14.05:492][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.10.28-15.14.06:251][732]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/GreyBoxLVL2_Auto172A213EC470282623EB181A8B7811625.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/GreyBoxLVL2_Auto1.umap'
+[2019.10.28-15.14.06:257][732]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL2' took 0.794
+[2019.10.28-15.14.06:257][732]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.794
+[2019.10.28-15.14.06:259][732]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/DialogueSystem] ([1] browsable assets)...
+[2019.10.28-15.14.06:259][732]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/DialogueSystem]
+[2019.10.28-15.14.06:259][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/DialogueSystem" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/BP/DialogueSystem_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.10.28-15.14.06:275][732]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/DialogueSystem_Auto18C909D7D43D6B5402FADD4A6B713F0DA.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/BP/DialogueSystem_Auto1.uasset'
+[2019.10.28-15.14.06:276][732]LogFileHelpers: Auto-saving content packages took 0.018
+[2019.10.28-15.14.48:213][104]LogSlate: Took 0.013590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.10.28-15.15.46:481][638]BlueprintLog: New page: Compile DialogueSystem
+[2019.10.28-15.15.46:656][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.10.28-15.15.47:932][763]LogSlate: Took 0.018576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.28-15.15.57:344][708]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/ActorDatabase.ActorDatabase
+[2019.10.28-15.16.21:165][789]Cmd: DELETE
+[2019.10.28-15.16.21:165][789]Cmd: ACTOR DELETE
+[2019.10.28-15.16.21:175][789]LogEditorActor: Deleted Actor: DialogueSystem_C
+[2019.10.28-15.16.21:211][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.10.28-15.16.21:211][789]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2019.10.28-15.16.54:046][ 41]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/GreyBoxLVL2.GreyBoxLVL2:PersistentLevel.GreyBoxLVL2
+[2019.10.28-15.17.06:061][262]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/BluePrintsData.BluePrintsData
+[2019.10.28-15.17.46:452][358]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/GreyBoxLVL2.GreyBoxLVL2:PersistentLevel.GreyBoxLVL2
+[2019.10.28-15.18.04:791][135]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2019.10.28-15.18.06:856][135]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.28-15.18.57:880][171]LogSlate: Window 'Project Settings' being destroyed
+[2019.10.28-15.18.57:885][171]LogSlate: Window 'Project Settings' being destroyed
+[2019.10.28-15.19.04:161][771]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.10.28-15.19.04:161][771]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/GI_New.GI_New
+[2019.10.28-15.20.22:053][636]BlueprintLog: New page: Compile GI_New
+[2019.10.28-15.20.22:155][636]LogUObjectHash: Compacting FUObjectHashTables data took   9.31ms
+[2019.10.28-15.24.06:604][904]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.10.28-15.24.07:386][904]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/GreyBoxLVL2_Auto2BEA3515349E4D8C23A012F9982B2ECBD.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/GreyBoxLVL2_Auto2.umap'
+[2019.10.28-15.24.07:389][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL2' took 0.833
+[2019.10.28-15.24.07:389][904]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.833
+[2019.10.28-15.24.07:390][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GI_New] ([1] browsable assets)...
+[2019.10.28-15.24.07:390][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GI_New]
+[2019.10.28-15.24.07:390][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GI_New" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/Blueprints/GI_New_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.10.28-15.24.07:405][904]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/GI_New_Auto23EF8CE4C468B130B59A447B289BD76B1.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/Blueprints/GI_New_Auto2.uasset'
+[2019.10.28-15.24.07:406][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/DialogueSystem] ([1] browsable assets)...
+[2019.10.28-15.24.07:406][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/DialogueSystem]
+[2019.10.28-15.24.07:406][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/DialogueSystem" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/BP/DialogueSystem_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.10.28-15.24.07:422][904]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/DialogueSystem_Auto226F7D756479AD52455021F9D962E384B.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/BP/DialogueSystem_Auto2.uasset'
+[2019.10.28-15.24.07:423][904]LogFileHelpers: Auto-saving content packages took 0.033
+[2019.10.28-15.26.00:424][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-15.26.11:147][329]BlueprintLog: New page: Compile GI_New
+[2019.10.28-15.26.11:198][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.10.28-15.26.12:868][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GI_New" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/Blueprints/GI_New.uasset" SILENT=true
+[2019.10.28-15.26.12:880][501]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/GI_New5920734348B4C4DB79C528A682504E46.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Content/Blueprints/GI_New.uasset'
+[2019.10.28-15.34.07:930][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2019.10.28-15.34.08:712][ 27]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/GreyBoxLVL2_Auto3F11D350B49AC182DD9A599B030F81CCE.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/GreyBoxLVL2_Auto3.umap'
+[2019.10.28-15.34.08:715][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL2' took 0.824
+[2019.10.28-15.34.08:715][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.824
+[2019.10.28-15.34.08:716][ 27]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/DialogueSystem] ([1] browsable assets)...
+[2019.10.28-15.34.08:716][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/DialogueSystem]
+[2019.10.28-15.34.08:716][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/DialogueSystem" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/BP/DialogueSystem_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.10.28-15.34.08:734][ 27]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/DialogueSystem_Auto311541BDC47E3BED672B77AA128EFB278.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/BP/DialogueSystem_Auto3.uasset'
+[2019.10.28-15.34.08:735][ 27]LogFileHelpers: Auto-saving content packages took 0.020
+[2019.10.28-16.12.50:221][970]LogInit: XAudio2 using 'Headset Earphone (Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.28-16.39.26:370][726]LogInit: XAudio2 using 'HDMI (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.28-17.03.30:306][154]LogAIModule: Creating AISystem for world GreyBoxLVL1
+[2019.10.28-17.03.30:424][154]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/GreyBoxLVL1.GreyBoxLVL1
+[2019.10.28-17.03.30:520][154]LogUObjectHash: Compacting FUObjectHashTables data took   8.01ms
+[2019.10.28-17.03.36:253][154]LogSlate: Window 'Save Content' being destroyed
+[2019.10.28-17.03.36:415][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/DialogueSystem" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/BP/DialogueSystem.uasset" SILENT=true
+[2019.10.28-17.03.36:439][154]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/DialogueSystemB4D060864B410FB1B62F4EBD27662D77.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Content/BP/DialogueSystem.uasset'
+[2019.10.28-17.03.36:493][154]Cmd: MAP LOAD FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.28-17.03.36:494][154]LightingResults: New page: Lighting Build
+[2019.10.28-17.03.36:513][154]LoadErrors: New page: Loading map: GreyBoxLVL1.umap
+[2019.10.28-17.03.36:637][154]MapCheck: New page: Map Check
+[2019.10.28-17.03.36:637][154]LightingResults: New page: Lighting Build
+[2019.10.28-17.03.36:781][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2019.10.28-17.03.39:413][154]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.28-17.03.39:453][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.10.28-17.03.39:482][154]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.28-17.03.39:482][154]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.134ms to complete.
+[2019.10.28-17.03.39:482][154]LogFileHelpers: Loading map 'GreyBoxLVL1' took 3.040
