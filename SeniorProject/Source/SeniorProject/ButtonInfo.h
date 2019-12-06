@@ -31,5 +31,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	AActor* player;
 	AActor* owner = GetOwner();
+	UPROPERTY(EditAnywhere)
+	UClass* bluePrintClass;
 		
 };

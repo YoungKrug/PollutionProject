@@ -9,9 +9,11 @@ DEFINE_LOG_CATEGORY(LogMyGame);
 // Sets default values for this component's properties
 UButtonInfo::UButtonInfo()
 {
+	
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
+	//bluePrintClass->ClassGeneratedBy->
 	
 	// ...
 }
@@ -31,7 +33,7 @@ void UButtonInfo::BeginPlay()
 void UButtonInfo::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	if (FVector::Dist(player->GetActorLocation(), GetOwner()->GetActorLocation()) > 400.0)
+	if (FVector::Dist(player->GetActorLocation(), GetOwner()->GetActorLocation()) > distance)
 	{
 		UE_LOG(LogMyGame, Verbose, TEXT("UMyClass %s entering FireWeapon()"), *GetNameSafe(this));
 	}

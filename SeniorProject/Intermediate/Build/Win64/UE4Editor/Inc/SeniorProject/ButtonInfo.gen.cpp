@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeButtonInfo() {}
 	SENIORPROJECT_API UClass* Z_Construct_UClass_UButtonInfo();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_SeniorProject();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void UButtonInfo::StaticRegisterNativesUButtonInfo()
@@ -32,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeButtonInfo() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bluePrintClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_bluePrintClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player_MetaData[];
 #endif
@@ -57,6 +63,13 @@ void EmptyLinkFunctionForGeneratedCodeButtonInfo() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UButtonInfo_Statics::NewProp_bluePrintClass_MetaData[] = {
+		{ "Category", "ButtonInfo" },
+		{ "ModuleRelativePath", "ButtonInfo.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UButtonInfo_Statics::NewProp_bluePrintClass = { "bluePrintClass", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UButtonInfo, bluePrintClass), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UButtonInfo_Statics::NewProp_bluePrintClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_UButtonInfo_Statics::NewProp_bluePrintClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UButtonInfo_Statics::NewProp_player_MetaData[] = {
 		{ "Category", "ButtonInfo" },
 		{ "ModuleRelativePath", "ButtonInfo.h" },
@@ -71,6 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeButtonInfo() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UButtonInfo_Statics::NewProp_distance = { "distance", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UButtonInfo, distance), METADATA_PARAMS(Z_Construct_UClass_UButtonInfo_Statics::NewProp_distance_MetaData, ARRAY_COUNT(Z_Construct_UClass_UButtonInfo_Statics::NewProp_distance_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UButtonInfo_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UButtonInfo_Statics::NewProp_bluePrintClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UButtonInfo_Statics::NewProp_player,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UButtonInfo_Statics::NewProp_distance,
 	};
@@ -101,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeButtonInfo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UButtonInfo, 2237460598);
+	IMPLEMENT_CLASS(UButtonInfo, 1104613288);
 	template<> SENIORPROJECT_API UClass* StaticClass<UButtonInfo>()
 	{
 		return UButtonInfo::StaticClass();
