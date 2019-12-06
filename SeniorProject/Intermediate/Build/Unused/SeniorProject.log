@@ -1,16 +1,2 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SeniorProject\PollutionProject).
-  Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
-  Parsing headers for SeniorProjectEditor
-    Running UnrealHeaderTool "C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 7.9889329 seconds
-  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] MyLocalPlayer.gen.cpp
-    [2/5] MyLocalPlayer.cpp
-    [3/5] UE4Editor-SeniorProject-0006.lib
-       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0006.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0006.exp
-    [4/5] UE4Editor-SeniorProject-0006.dll
-       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0006.suppressed.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0006.suppressed.exp
-    [5/5] SeniorProjectEditor.target
-  Total time in Parallel executor: 2.55 seconds
-  Total execution time: 13.07 seconds
+﻿  The system cannot find the path specified.
+C:\Program Files (x86)\VS19\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Rebuild.bat" SeniorProjectEditor Win64 Development -Project="C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" -WaitMutex -FromMsBuild" exited with code 3.
