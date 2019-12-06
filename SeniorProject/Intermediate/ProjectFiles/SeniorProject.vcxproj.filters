@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SeniorProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B2B4B759-B3F8-4A3B-A45E-76851CB4201D}</UniqueIdentifier>
+      <UniqueIdentifier>{D073505B-7A3E-41C9-B870-E02F681F8AEF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SeniorProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6DD1D717-4907-4BAD-9D87-94FAA54D4E50}</UniqueIdentifier>
+      <UniqueIdentifier>{337B5FC6-9F27-4037-8974-26D6C0C95166}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SeniorProject">
-      <UniqueIdentifier>{32A9AC30-9F48-40E6-A810-8BCFF45B3797}</UniqueIdentifier>
+      <UniqueIdentifier>{24A7CC27-DF9C-4CBA-BB7C-9DC999DA9408}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SeniorProject\ButtonInfo.cpp">
       <Filter>Source\SeniorProject</Filter>
