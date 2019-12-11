@@ -7,15 +7,6 @@
  * 
  */
 
-USTRUCT()
-struct FDialougeSystem
-{
-	GENERATED_BODY()
-	int narrationNum;
-	std::vector<FAudioClipInfo> audio;
-	AActor* gameObject;
-	bool hasPlayed;
-};
 struct FAudioClipInfo
 {
 	USoundBase* sound;
@@ -30,4 +21,7 @@ class SENIORPROJECT_API UnrealInfo
 public:
 	UnrealInfo();
 	~UnrealInfo();
+	int narrationNum;
+	AActor* gameObject;
+	bool hasPlayed;
 };

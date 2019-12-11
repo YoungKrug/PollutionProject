@@ -1,0 +1,22 @@
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/DoYouCopySystem.h
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\vector
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\xmemory
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\cstdint
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\limits
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\cfloat
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\climits
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\cwchar
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\cstdio
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\xatomic.h
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\xutility
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\cstring
+E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE\utility
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\AudioInformationStruct.generated.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DialogueSystemStruct.generated.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DoYouCopySystem.generated.h
