@@ -1,0 +1,46 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+#include "CoreMinimal.h"
+#include "UnrealInfo.h"
+#include "GameFramework/Actor.h"
+#include "DoYouCopySystem.generated.h"
+USTRUCT()
+UCLASS()
+class SENIORPROJECT_API ADoYouCopySystem : public AActor
+{
+	GENERATED_BODY()
+
+public:	
+
+	// Sets default values for this actor's properties
+	ADoYouCopySystem();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+	
+	TSubclassOf<AActor*>* player; // Safely accessedPlayer
+	
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(EditAnywhere, Category = "Dialogue")
+	FDialougeSystem dial;
+	TSubclassOf<UGameInstance*> GI;
+	bool isClose();
+	//void StartSubs();
+	//void StopSubs();
+private:
+	UPROPERTY(EditAnywhere)
+	AActor* mainPlayer;//Player to use methods on
+};
+struct FAudioClipInfo
+{
+	USoundBase* sound;
+	bool isScreenLocked;
+	bool isMovementLocked;
+	bool isRotationLocked;
+	bool canContinue;
+	FText subtitles;
+};

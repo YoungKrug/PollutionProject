@@ -1,2 +1,35 @@
-﻿  The system cannot find the path specified.
-C:\Program Files (x86)\VS19\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Rebuild.bat" SeniorProjectEditor Win64 Development -Project="C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" -WaitMutex -FromMsBuild" exited with code 3.
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SeniorProject\PollutionProject).
+  Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
+  Parsing headers for SeniorProjectEditor
+    Running UnrealHeaderTool "C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SeniorProjectEditor in 6.7943853 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 8 actions with 8 processes...
+    [1/8] UnrealInfo.gen.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/UnrealInfo.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/UnrealInfo.h(15): error C2065: 'FAudioClipInfo': undeclared identifier
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/UnrealInfo.h(15): error C2923: 'std::vector': 'FAudioClipInfo' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\vector(334): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\UnrealInfo.gen.cpp(19): error C2039: 'StaticStruct': is not a member of 'FDialougeSystem'
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/UnrealInfo.h(11): note: see declaration of 'FDialougeSystem'
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\UnrealInfo.gen.cpp(31): error C2039: 'StaticStruct': is not a member of 'FDialougeSystem'
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/UnrealInfo.h(11): note: see declaration of 'FDialougeSystem'
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\UnrealInfo.gen.cpp(33): error C2039: 'StaticStruct': is not a member of 'FDialougeSystem'
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/UnrealInfo.h(11): note: see declaration of 'FDialougeSystem'
+    [2/8] UnrealInfo.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(15): error C2065: 'FAudioClipInfo': undeclared identifier
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(15): error C2923: 'std::vector': 'FAudioClipInfo' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\vector(334): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+    [3/8] DoYouCopySystem.gen.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(15): error C2065: 'FAudioClipInfo': undeclared identifier
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(15): error C2923: 'std::vector': 'FAudioClipInfo' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\vector(334): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+    [4/8] SeniorProject.init.gen.cpp
+    [5/8] DoYouCopySystem.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(15): error C2065: 'FAudioClipInfo': undeclared identifier
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h(15): error C2923: 'std::vector': 'FAudioClipInfo' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\vector(334): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Program Files (x86)\VS19\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "D:\TheBestGame\UE_4.22\Engine\Build\BatchFiles\Build.bat SeniorProjectEditor Win64 Development -Project="C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

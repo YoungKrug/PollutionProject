@@ -43,7 +43,7 @@
 #define OVERRIDE_PLATFORM_HEADER_NAME Windows
 #define NDEBUG 1
 #define UE_BUILD_SHIPPING 1
-#define UE_ENGINE_DIRECTORY "C:/Program Files/Epic Games/UE_4.22/Engine/"
+#define UE_ENGINE_DIRECTORY "D:/TheBestGame/UE_4.22/Engine/"
 #define UE_IS_ENGINE_MODULE 0
 #define UE_PROJECT_NAME SeniorProject
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 

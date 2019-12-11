@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SeniorProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3D7011EA-AE80-4101-A8DB-B16774EC04D6}</UniqueIdentifier>
+      <UniqueIdentifier>{11F26F0A-93AA-4DA3-A343-9E17BAC8670B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SeniorProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DB80609F-80F2-4CD0-919D-D0ADB05E6F5D}</UniqueIdentifier>
+      <UniqueIdentifier>{BE9C9051-E475-4FAD-BD47-43B44A16DCF3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SeniorProject">
-      <UniqueIdentifier>{BF3DDAC8-F1E5-491D-98CA-1BA2E783E14F}</UniqueIdentifier>
+      <UniqueIdentifier>{AE120547-7398-4EF8-BF28-DD6B64214B46}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SeniorProject\ButtonInfo.cpp">
       <Filter>Source\SeniorProject</Filter>
@@ -42,6 +42,12 @@
       <Filter>Source\SeniorProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SeniorProject\Movement.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SeniorProject\MyGameInstance.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SeniorProject\MyGameInstance.h">
       <Filter>Source\SeniorProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SeniorProject\MyLocalPlayer.cpp">
@@ -65,5 +71,27 @@
     <ClInclude Include="..\..\Source\SeniorProject\SeniorProjectGameModeBase.h">
       <Filter>Source\SeniorProject</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SeniorProject\DoYouCopySystem.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SeniorProject\UnrealInformation.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SeniorProject\UnrealInfo.h">
+      <Filter>Source\SeniorProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SeniorProject\DoYouCopySystem.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SeniorProject\UnrealInformation.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SeniorProject\UnrealInfo.cpp">
+      <Filter>Source\SeniorProject</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

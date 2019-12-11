@@ -1,0 +1,2 @@
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInformation.h

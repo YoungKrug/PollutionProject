@@ -3,6 +3,7 @@
 
 #include "ButtonInfo.h"
 #include "GameFramework/Actor.h"
+#include "MyGameInstance.h"
 //General Log
 DEFINE_LOG_CATEGORY(LogMyGame);
 

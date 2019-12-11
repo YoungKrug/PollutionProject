@@ -34,11 +34,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\DatasmithCADImporter.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithCADImporter\\DatasmithCADImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\DatasmithImporter.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithImporter\\DatasmithImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -50,15 +50,15 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\DatasmithDataPrepEditor.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithDataPrepEditor\\DatasmithDataPrepEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\DatasmithFBXImporter.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithFBXImporter\\DatasmithFBXImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Runtime\\VariantManager\\VariantManager.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Runtime\\VariantManager\\VariantManager.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -66,7 +66,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithGLTFImporter\\DatasmithGLTFImporter.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Editor\\DatasmithGLTFImporter\\DatasmithGLTFImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -74,11 +74,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Editor\\MDLImporter\\MDLImporter.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Editor\\MDLImporter\\MDLImporter.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "C:\\Program Files\\Epic Games\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\StaticMeshEditorExtension.uplugin",
+			"Path": "D:\\TheBestGame\\UE_4.22\\Enterprise\\Plugins\\Editor\\StaticMeshEditorExtension\\StaticMeshEditorExtension.uplugin",
 			"Type": "UFS"
 		},
 		{
