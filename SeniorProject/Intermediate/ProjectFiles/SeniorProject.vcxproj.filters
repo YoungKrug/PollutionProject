@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SeniorProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2E67F6E9-D147-4757-ACD4-80FCBE030132}</UniqueIdentifier>
+      <UniqueIdentifier>{341F737C-542E-40CC-AD65-61EA27B64AB5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SeniorProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D91ABE29-D9F5-43D8-8A94-6526093A4AD2}</UniqueIdentifier>
+      <UniqueIdentifier>{798410B7-5FE7-436D-B6D5-A6496594FFD9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SeniorProject">
-      <UniqueIdentifier>{1795F381-0FD4-4993-810F-43DA57BFC4BB}</UniqueIdentifier>
+      <UniqueIdentifier>{48904B5F-5341-4A64-B17E-91763B9E2F55}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SeniorProject\ButtonInfo.cpp">
       <Filter>Source\SeniorProject</Filter>
@@ -90,7 +90,7 @@
       <Filter>Source\SeniorProject</Filter>
     </ClInclude>
     <Filter Include="Source\SeniorProject\Private">
-      <UniqueIdentifier>{EEDBCC72-21BE-4546-A414-515A3A56DE59}</UniqueIdentifier>
+      <UniqueIdentifier>{D6E779EC-FF00-48E1-80B3-BDDCB5AB3826}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SeniorProject\Private\AudioInformationStruct.cpp">
       <Filter>Source\SeniorProject\Private</Filter>
@@ -105,7 +105,7 @@
       <Filter>Source\SeniorProject\Private</Filter>
     </ClCompile>
     <Filter Include="Source\SeniorProject\Public">
-      <UniqueIdentifier>{75BD7529-211B-4E95-916E-9C78D8B0675C}</UniqueIdentifier>
+      <UniqueIdentifier>{FFEB56D5-F975-4B8B-A140-A338069B0D8F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\SeniorProject\Public\AudioInformationStruct.h">
       <Filter>Source\SeniorProject\Public</Filter>
@@ -119,5 +119,15 @@
     <ClInclude Include="..\..\Source\SeniorProject\Public\GameObjectInformation.h">
       <Filter>Source\SeniorProject\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SeniorProject\Public\FirstPersonCharacter.h">
+      <Filter>Source\SeniorProject\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SeniorProject\Private\FirstPersonCharacter.cpp">
+      <Filter>Source\SeniorProject\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

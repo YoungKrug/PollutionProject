@@ -34,7 +34,7 @@ struct FDialougeSystem
 	int narrationNum;
 	UPROPERTY(EditAnywhere)
 	TArray<FAudioInformation> audio;
-	UPROPERTY(EditAnywhere)
+	//UPROPERTY(EditAnywhere)
 	bool hasPlayed;
 };
 
@@ -48,7 +48,7 @@ struct FGameObjectInfo
 	float distance;
 	UPROPERTY(EditAnywhere)
 	int narrationNum;
-	UPROPERTY(EditAnywhere)
+	//UPROPERTY(EditAnywhere)
 	bool hasPlayed;
 
 };

@@ -34,6 +34,13 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 }
 bool ADoYouCopySystem::isClose()
 {
+	
+	for (int i = 0;  i < dial.Num(); i++)
+	{
+		FGameObjectInfo info;
+		info.gameObject = dial[i].gameObject;
+		info.distance = FVector::Distance(info.gameObject->GetActorLocation(), dial[i].gameObject->GetActorLocation());
+	}
 	return false;
 }
 

@@ -52,11 +52,6 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFGameObjectInfo
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hasPlayed_MetaData[];
-#endif
-		static void NewProp_hasPlayed_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_hasPlayed;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_narrationNum_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_narrationNum;
@@ -82,17 +77,6 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFGameObjectInfo
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FGameObjectInfo>();
 	}
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_hasPlayed_MetaData[] = {
-		{ "Category", "GameObjectInfo" },
-		{ "ModuleRelativePath", "Public/DialogueSystemStruct.h" },
-	};
-#endif
-	void Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_hasPlayed_SetBit(void* Obj)
-	{
-		((FGameObjectInfo*)Obj)->hasPlayed = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_hasPlayed = { "hasPlayed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FGameObjectInfo), &Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_hasPlayed_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_hasPlayed_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_hasPlayed_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_narrationNum_MetaData[] = {
 		{ "Category", "GameObjectInfo" },
 		{ "ModuleRelativePath", "Public/DialogueSystemStruct.h" },
@@ -114,7 +98,6 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFGameObjectInfo
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_gameObject = { "gameObject", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGameObjectInfo, gameObject), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_gameObject_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_gameObject_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FGameObjectInfo_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_hasPlayed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_narrationNum,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_distance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGameObjectInfo_Statics::NewProp_gameObject,
@@ -147,7 +130,7 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFGameObjectInfo
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FGameObjectInfo_Hash() { return 1916945370U; }
+	uint32 Get_Z_Construct_UScriptStruct_FGameObjectInfo_Hash() { return 2418472620U; }
 class UScriptStruct* FDialougeSystem::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -177,11 +160,6 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFDialougeSystem
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hasPlayed_MetaData[];
-#endif
-		static void NewProp_hasPlayed_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_hasPlayed;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_audio_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_audio;
@@ -208,17 +186,6 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFDialougeSystem
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FDialougeSystem>();
 	}
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_hasPlayed_MetaData[] = {
-		{ "Category", "DialougeSystem" },
-		{ "ModuleRelativePath", "Public/DialogueSystemStruct.h" },
-	};
-#endif
-	void Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_hasPlayed_SetBit(void* Obj)
-	{
-		((FDialougeSystem*)Obj)->hasPlayed = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_hasPlayed = { "hasPlayed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FDialougeSystem), &Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_hasPlayed_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_hasPlayed_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_hasPlayed_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_audio_MetaData[] = {
 		{ "Category", "DialougeSystem" },
 		{ "ModuleRelativePath", "Public/DialogueSystemStruct.h" },
@@ -241,7 +208,6 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFDialougeSystem
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_gameObject = { "gameObject", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FDialougeSystem, gameObject), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_gameObject_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_gameObject_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FDialougeSystem_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_hasPlayed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_audio,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_audio_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDialougeSystem_Statics::NewProp_narrationNum,
@@ -275,7 +241,7 @@ static struct FScriptStruct_SeniorProject_StaticRegisterNativesFDialougeSystem
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FDialougeSystem_Hash() { return 2024655079U; }
+	uint32 Get_Z_Construct_UScriptStruct_FDialougeSystem_Hash() { return 3409290232U; }
 class UScriptStruct* FAudioInformation::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
