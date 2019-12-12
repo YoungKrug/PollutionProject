@@ -34,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dist_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_dist;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dial_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_dial;
@@ -57,6 +61,13 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist_MetaData[] = {
+		{ "Category", "DoYouCopySystem" },
+		{ "ModuleRelativePath", "DoYouCopySystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist = { "dist", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADoYouCopySystem, dist), METADATA_PARAMS(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dial_MetaData[] = {
 		{ "Category", "Dialogue" },
 		{ "ModuleRelativePath", "DoYouCopySystem.h" },
@@ -73,6 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer = { "mainPlayer", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADoYouCopySystem, mainPlayer), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADoYouCopySystem_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dial_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer,
@@ -104,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADoYouCopySystem, 1398476937);
+	IMPLEMENT_CLASS(ADoYouCopySystem, 1660747135);
 	template<> SENIORPROJECT_API UClass* StaticClass<ADoYouCopySystem>()
 	{
 		return ADoYouCopySystem::StaticClass();

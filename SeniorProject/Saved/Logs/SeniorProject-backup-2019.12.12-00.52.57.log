@@ -1,0 +1,1318 @@
+﻿Log file open, 12/11/19 19:51:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SeniorProject
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.529755
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithDataPrepEditor
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.12-00.51.47:456][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.12-00.51.47:456][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.12-00.51.47:456][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.12.12-00.51.47:456][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.12-00.51.47:456][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.12.12-00.51.47:457][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.12-00.51.47:457][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.12-00.51.47:458][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.12.12-00.51.47:458][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.12.12-00.51.47:490][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.12-00.51.47:491][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.12-00.51.47:492][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.12-00.51.47:493][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.12-00.51.47:494][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.12-00.51.47:495][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.12-00.51.47:496][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.12-00.51.47:496][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.12-00.51.47:496][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:496][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.12-00.51.47:496][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.12-00.51.47:496][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.12-00.51.47:496][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.12-00.51.47:510][  0]LogHAL: Display: Platform has ~ 16 GB [17116258304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.12-00.51.47:510][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.12-00.51.47:510][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.12-00.51.47:510][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:510][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.12-00.51.47:510][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.12-00.51.47:510][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.12-00.51.47:511][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.12-00.51.47:512][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.12-00.51.47:513][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.12-00.51.47:514][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.12-00.51.47:515][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.12-00.51.47:516][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.12-00.51.47:516][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.12-00.51.47:516][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2019.12.12-00.51.47:516][  0]LogInit: Computer: GREGSPC
+[2019.12.12-00.51.47:517][  0]LogInit: User: Gregory
+[2019.12.12-00.51.47:517][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.12-00.51.47:517][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.12-00.51.47:517][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.12-00.51.47:517][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.12-00.51.47:517][  0]LogMemory: Process Physical Memory: 104.25 MB used, 104.26 MB peak
+[2019.12.12-00.51.47:517][  0]LogMemory: Process Virtual Memory: 107.05 MB used, 107.05 MB peak
+[2019.12.12-00.51.47:517][  0]LogMemory: Physical Memory: 12730.64 MB used,  3592.70 MB free, 16323.34 MB total
+[2019.12.12-00.51.47:517][  0]LogMemory: Virtual Memory: 4676.26 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.12.12-00.51.47:781][  0]LogInit: Using OS detected language (en-US).
+[2019.12.12-00.51.47:781][  0]LogInit: Using OS detected locale (en-US).
+[2019.12.12-00.51.47:782][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.12-00.51.47:940][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.12-00.51.48:038][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.12-00.51.48:038][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.12-00.51.48:258][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.12.12-00.51.48:258][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.12-00.51.48:339][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2019.12.12-00.51.48:340][  0]LogD3D11RHI:       8010/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2019.12.12-00.51.48:345][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.12-00.51.48:345][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.12-00.51.48:345][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.12-00.51.48:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.12-00.51.48:357][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.12-00.51.48:358][  0]LogWindows: EnumDisplayDevices:
+[2019.12.12-00.51.48:358][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2019.12.12-00.51.48:358][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.12.12-00.51.48:358][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.12.12-00.51.48:359][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2019.12.12-00.51.48:359][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.12.12-00.51.48:359][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2019.12.12-00.51.48:359][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2019.12.12-00.51.48:359][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2019.12.12-00.51.48:359][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2019.12.12-00.51.48:409][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.12-00.51.48:428][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.12-00.51.48:429][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.12-00.51.48:429][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.12-00.51.48:437][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.12-00.51.49:023][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.12-00.51.49:044][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.12-00.51.49:065][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.12-00.51.49:088][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.12-00.51.49:115][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.12-00.51.49:141][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.12-00.51.49:163][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.12-00.51.49:204][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.12-00.51.49:247][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.12-00.51.49:333][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.12-00.51.49:333][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.12-00.51.49:333][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.12-00.51.49:333][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.12-00.51.49:334][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.12-00.51.49:335][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.12-00.51.49:335][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.12-00.51.49:342][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.12-00.51.49:437][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.12-00.51.49:437][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.12-00.51.49:464][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.12-00.51.49:464][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.12-00.51.49:480][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.12-00.51.49:495][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.12-00.51.49:512][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.12-00.51.49:550][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.12-00.51.49:598][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.12-00.51.49:598][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.12-00.51.49:598][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.12-00.51.49:643][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.12-00.51.50:109][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (E:/SeniorProject/PollutionProject/SeniorProject/Intermediate/Shaders/WorkingDirectory/14184/).
+[2019.12.12-00.51.50:110][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gregory/AppData/Local/Temp/UnrealShaderWorkingDir/7B3F391744773C5A7B9AFAB5BDA66FF4/'.
+[2019.12.12-00.51.50:113][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.12-00.51.50:113][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.12-00.51.50:113][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.12-00.51.50:656][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.12-00.51.50:716][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.12-00.51.50:716][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.12-00.51.50:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/SeniorProject/PollutionProject/SeniorProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.12-00.51.50:717][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.12-00.51.50:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/SeniorProject/PollutionProject/SeniorProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.12-00.51.50:717][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.12-00.51.50:729][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.12-00.51.50:731][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.12.12-00.51.50:745][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gregory/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.12-00.51.50:745][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.12-00.51.50:745][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.12-00.51.50:769][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.12-00.51.50:770][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.12-00.51.50:771][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.12-00.51.50:852][  0]LogAssetRegistry: FAssetRegistry took 0.0344 seconds to start up
+[2019.12.12-00.51.51:154][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.12-00.51.51:657][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.12-00.51.51:657][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.12-00.51.51:657][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.12-00.51.51:657][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.12-00.51.51:658][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.12-00.51.51:672][  0]LogNetVersion: SeniorProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 993350713)
+[2019.12.12-00.51.52:127][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.063922 seconds
+[2019.12.12-00.51.52:136][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.12-00.51.52:136][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.12-00.51.52:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.12-00.51.55:045][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.12-00.51.55:070][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.12-00.51.55:835][  0]SourceControl: Source control is disabled
+[2019.12.12-00.51.58:585][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.12-00.51.59:068][  0]LogOcInput: OculusInput pre-init called
+[2019.12.12-00.52.01:514][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.12.12-00.52.01:514][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.12.12-00.52.01:515][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.12.12-00.52.01:515][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.12.12-00.52.01:806][  0]LogEngine: Initializing Engine...
+[2019.12.12-00.52.01:851][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.12.12-00.52.01:852][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.12-00.52.02:070][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.12-00.52.02:111][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.12-00.52.02:305][  0]LogInit: XAudio2 using 'Headset Earphone (3- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.12-00.52.02:344][  0]LogInit: FAudioDevice initialized.
+[2019.12.12-00.52.02:344][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.12-00.52.02:543][  0]LogDerivedDataCache: Saved boot cache 0.20s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.12-00.52.02:554][  0]LogInit: Texture streaming: Enabled
+[2019.12.12-00.52.02:639][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.12-00.52.02:639][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={D50EE88B-4345-03DD-5BA5-33B8F2E90967}
+[2019.12.12-00.52.02:639][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={E87F863F-4C11-85AD-D30F-D4ACA0165146}
+[2019.12.12-00.52.02:710][  0]LogInit: Transaction tracking system initialized
+[2019.12.12-00.52.02:928][  0]BlueprintLog: New page: Editor Load
+[2019.12.12-00.52.04:145][  0]LocalizationService: Localization service is disabled
+[2019.12.12-00.52.04:970][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/' took 0.02s
+[2019.12.12-00.52.04:970][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.12-00.52.04:970][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.12-00.52.07:220][  0]Cmd: MAP LOAD FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.12-00.52.07:220][  0]LightingResults: New page: Lighting Build
+[2019.12.12-00.52.07:224][  0]MapCheck: New page: Map Check
+[2019.12.12-00.52.07:224][  0]LightingResults: New page: Lighting Build
+[2019.12.12-00.52.07:246][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.12.12-00.52.09:270][  0]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2019.12.12-00.52.09:478][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.12.12-00.52.09:779][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.12.12-00.52.09:779][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.12-00.52.09:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.692ms to complete.
+[2019.12.12-00.52.09:780][  0]LogFileHelpers: Loading map 'GreyBoxLVL4' took 2.560
+[2019.12.12-00.52.09:943][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-00.52.09:957][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-00.52.09:968][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-00.52.09:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-00.52.10:011][  0]LogCollectionManager: Loaded 0 collections in 0.003889 seconds
+[2019.12.12-00.52.10:030][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Collections/' took 0.01s
+[2019.12.12-00.52.10:031][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/Developers/Gregory/Collections/' took 0.00s
+[2019.12.12-00.52.10:031][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/Collections/' took 0.00s
+[2019.12.12-00.52.10:031][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.12.12-00.52.10:043][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2875 classes and 729 folders.
+[2019.12.12-00.52.10:057][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.12-00.52.10:059][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:059][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:060][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:062][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:063][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:063][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:064][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:064][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:065][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:065][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:068][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:069][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:070][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:070][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:072][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:072][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:073][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:073][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:074][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:074][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:075][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:075][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.12-00.52.10:113][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.12-00.52.10:118][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.12.12-00.52.10:157][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.12-00.52.10:160][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.12-00.52.10:166][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.12-00.52.10:245][  0]LogRenderer: Reallocating scene render targets to support 1004x552 Format 10 NumSamples 1 (Frame:1).
+[2019.12.12-00.52.10:291][  0]LogStaticMesh: Allocated 512x320x64 distance field atlas = 20.0Mb, with 84 objects containing 14.5Mb backing data
+[2019.12.12-00.52.10:444][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.12-00.52.10:597][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.12-00.52.10:597][  0]LogLoad: (Engine Initialization) Total time: 26.78 seconds
+[2019.12.12-00.52.10:597][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.12-00.52.10:682][  0]LogAssetRegistry: Asset discovery search completed in 19.8545 seconds
+[2019.12.12-00.52.10:686][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.12-00.52.10:687][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000293 seconds (updated 0 objects)
+[2019.12.12-00.52.10:689][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.12-00.52.15:764][411]LogFileCache: Retrieving MD5 hashes for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/' took 5.14s
+[2019.12.12-00.52.36:042][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-00.52.36:148][738]LogSlate: Window 'Details' being destroyed
+[2019.12.12-00.52.36:152][738]LogSlate: Window 'Details' being destroyed
+[2019.12.12-00.52.37:305][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.12-00.52.46:864][879]LogSlate: Took 0.043322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.12-00.52.50:442][282]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.12-00.52.50:557][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2019.12.12-00.52.50:578][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.12-00.52.50:639][282]PIE: New page: PIE session: GreyBoxLVL4 (Dec 11, 2019, 2:52:50 PM)
+[2019.12.12-00.52.50:753][282]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL4
+[2019.12.12-00.52.51:195][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.440630s)
+[2019.12.12-00.52.51:203][282]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2019.12.12-00.52.51:212][282]LogPlayLevel: PIE: World Init took: (0.017868s)
+[2019.12.12-00.52.51:213][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL4.GreyBoxLVL4 to /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 (0.460396s)
+[2019.12.12-00.52.51:245][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.12.12-00.52.51:416][282]LogInit: XAudio2 using 'Headset Earphone (3- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.12-00.52.51:432][282]LogInit: FAudioDevice initialized.
+[2019.12.12-00.52.51:529][282]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.12-00.52.51:855][282]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 up for play (max tick rate 0) at 2019.12.11-19.52.51
+[2019.12.12-00.52.52:119][282]LogWorld: Bringing up level for play took: 0.376235
+[2019.12.12-00.52.52:536][282]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.12.12-00.52.52:659][282]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2019.12.12-00.52.52:677][282]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] X=2940.225 Y=-5695.370 Z=576.800
+[2019.12.12-00.52.52:853][282]LogBlueprintUserMessages: [DialogueSystem_2] Hello
+[2019.12.12-00.52.53:060][282]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL4 2.846
+[2019.12.12-00.52.53:061][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2019.12.12-00.52.53:087][282]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:087][282]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:395][283]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:395][283]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:500][284]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:501][284]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:530][285]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:531][285]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:541][286]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:542][286]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:561][287]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:561][287]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:575][288]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:575][288]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:590][289]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:591][289]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:605][290]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:606][290]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:619][291]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:619][291]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:634][292]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:635][292]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:643][293]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:644][293]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:652][294]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:653][294]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:660][295]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:661][295]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:670][296]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:671][296]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:679][297]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:679][297]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:726][298]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:727][298]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:735][299]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:736][299]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:744][300]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:744][300]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:753][301]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:753][301]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:764][302]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:764][302]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:806][303]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:807][303]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:815][304]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:816][304]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:827][305]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:828][305]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:836][306]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:836][306]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:844][307]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:844][307]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:852][308]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:853][308]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:861][309]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:861][309]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:869][310]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:870][310]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:877][311]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:878][311]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:886][312]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:886][312]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:896][313]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:896][313]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:906][314]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:906][314]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:914][315]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:915][315]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:924][316]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:925][316]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:934][317]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:934][317]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:943][318]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:944][318]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:952][319]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:953][319]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:960][320]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:961][320]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:970][321]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:971][321]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:982][322]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:983][322]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.53:993][323]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.53:994][323]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:003][324]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:004][324]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:013][325]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:013][325]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:022][326]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:022][326]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:030][327]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:031][327]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:039][328]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:039][328]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:047][329]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:048][329]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:056][330]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:056][330]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:064][331]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:064][331]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:072][332]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:073][332]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:081][333]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:081][333]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:090][334]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:090][334]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:097][335]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:098][335]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:106][336]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:106][336]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:114][337]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:114][337]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:123][338]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:124][338]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:133][339]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:133][339]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:145][340]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:172][340]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:185][341]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:204][341]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:216][342]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:218][342]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:230][343]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:230][343]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:243][344]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:250][344]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:265][345]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:265][345]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:277][346]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:277][346]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:288][347]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:289][347]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:296][348]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:296][348]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:305][349]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:306][349]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:314][350]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:314][350]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:324][351]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:324][351]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:332][352]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:332][352]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:342][353]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:343][353]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:351][354]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:352][354]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:360][355]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:360][355]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:369][356]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:369][356]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:377][357]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:378][357]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:387][358]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:387][358]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:395][359]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:395][359]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:403][360]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:404][360]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:411][361]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:412][361]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:421][362]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:421][362]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:429][363]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:429][363]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:439][364]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:440][364]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:448][365]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:448][365]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:457][366]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:458][366]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:466][367]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:466][367]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:476][368]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:476][368]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:485][369]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:485][369]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:493][370]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:493][370]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:501][371]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:502][371]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:510][372]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:510][372]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:518][373]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:519][373]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:526][374]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:526][374]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:535][375]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:535][375]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:543][376]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:543][376]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:552][377]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:552][377]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:559][378]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:559][378]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:568][379]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:569][379]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:577][380]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:577][380]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:586][381]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:586][381]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:593][382]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:593][382]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:602][383]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:602][383]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:610][384]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:610][384]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:619][385]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:619][385]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:627][386]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:627][386]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:637][387]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:637][387]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:646][388]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:646][388]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:657][389]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:657][389]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:665][390]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:666][390]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:675][391]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:676][391]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:684][392]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:684][392]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:692][393]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:692][393]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:701][394]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:701][394]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:709][395]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:709][395]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:718][396]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:718][396]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:726][397]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:726][397]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:734][398]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:735][398]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:743][399]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:743][399]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:751][400]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:752][400]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:760][401]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:760][401]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:771][402]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:771][402]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:779][403]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:779][403]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:788][404]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:788][404]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:796][405]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:796][405]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:805][406]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:805][406]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:814][407]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:814][407]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:823][408]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:824][408]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:832][409]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:832][409]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:842][410]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:842][410]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:850][411]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:851][411]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:861][412]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:861][412]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:872][413]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:873][413]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:880][414]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:881][414]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:891][415]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:892][415]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:899][416]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:900][416]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:908][417]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:908][417]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:916][418]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:916][418]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:925][419]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:925][419]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:933][420]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:934][420]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:941][421]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:942][421]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:950][422]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:950][422]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:959][423]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:959][423]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:968][424]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:968][424]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:975][425]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:976][425]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:984][426]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:985][426]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.54:992][427]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.54:992][427]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:001][428]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:001][428]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:010][429]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:010][429]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:019][430]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:019][430]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:027][431]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:027][431]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:035][432]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:036][432]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:044][433]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:044][433]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:053][434]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:053][434]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:061][435]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:061][435]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:069][436]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:070][436]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:078][437]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:078][437]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:087][438]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:088][438]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:095][439]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:095][439]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:103][440]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:104][440]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:112][441]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:112][441]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:120][442]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:121][442]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:128][443]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:129][443]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:137][444]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:137][444]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:145][445]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:145][445]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:155][446]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:156][446]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:163][447]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:163][447]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:172][448]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:172][448]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:181][449]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:181][449]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:190][450]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:191][450]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:199][451]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:199][451]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:208][452]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:208][452]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:220][453]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:221][453]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:229][454]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:230][454]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:239][455]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:239][455]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:247][456]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:248][456]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:257][457]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:258][457]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:267][458]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:268][458]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:278][459]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:278][459]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:290][460]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:290][460]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:299][461]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:299][461]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:309][462]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:309][462]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:318][463]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:319][463]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:327][464]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:328][464]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:336][465]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:336][465]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:345][466]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:345][466]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:356][467]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:356][467]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:364][468]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:364][468]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:375][469]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:375][469]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:382][470]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:382][470]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:390][471]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:391][471]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:399][472]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:399][472]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:410][473]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:411][473]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:419][474]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:420][474]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:429][475]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:430][475]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:441][476]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:442][476]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:452][477]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:456][477]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:464][478]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:465][478]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:477][479]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:478][479]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:490][480]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:490][480]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:499][481]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:500][481]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:511][482]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:511][482]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:519][483]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:519][483]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:527][484]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:527][484]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:535][485]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:535][485]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:545][486]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:545][486]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:554][487]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:554][487]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:562][488]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:562][488]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:571][489]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:571][489]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:578][490]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:579][490]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:588][491]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:588][491]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:596][492]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:596][492]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:604][493]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:605][493]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:612][494]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:613][494]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:622][495]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:622][495]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:630][496]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:630][496]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:639][497]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:639][497]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:647][498]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:648][498]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:658][499]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:658][499]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:666][500]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:666][500]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:676][501]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:676][501]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:684][502]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:685][502]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:692][503]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:693][503]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:701][504]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:702][504]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:712][505]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:712][505]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:723][506]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:723][506]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:732][507]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:732][507]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:742][508]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:742][508]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:751][509]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:752][509]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:759][510]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:760][510]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:769][511]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:769][511]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:778][512]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:778][512]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:789][513]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:789][513]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:797][514]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:797][514]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:806][515]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:806][515]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:813][516]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:813][516]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:822][517]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:823][517]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:830][518]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:831][518]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:840][519]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:841][519]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:849][520]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:849][520]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:857][521]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:858][521]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:865][522]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:866][522]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:874][523]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:874][523]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:882][524]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:882][524]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:891][525]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:891][525]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:899][526]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:899][526]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:908][527]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:908][527]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:917][528]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:917][528]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:926][529]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:926][529]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:936][530]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:937][530]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:944][531]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:945][531]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:954][532]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:954][532]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:962][533]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:963][533]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:972][534]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:973][534]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:980][535]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:981][535]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:990][536]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:991][536]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.55:999][537]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.55:999][537]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:009][538]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:009][538]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:018][539]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:018][539]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:028][540]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:029][540]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:039][541]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:039][541]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:046][542]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:047][542]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:056][543]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:056][543]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:064][544]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:064][544]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:072][545]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:073][545]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:081][546]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:081][546]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:089][547]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:090][547]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:097][548]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:098][548]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:106][549]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:106][549]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:114][550]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:115][550]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:125][551]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:126][551]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:136][552]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:137][552]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:144][553]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:145][553]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:155][554]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:155][554]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:163][555]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:164][555]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:174][556]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:175][556]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:182][557]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:183][557]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:191][558]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:191][558]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:199][559]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:199][559]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:207][560]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:208][560]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:216][561]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:216][561]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:225][562]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:225][562]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:233][563]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:234][563]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:242][564]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:243][564]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:251][565]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:251][565]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:259][566]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:259][566]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:268][567]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:268][567]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:276][568]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:276][568]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:284][569]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:285][569]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:292][570]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:293][570]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:301][571]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:301][571]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:309][572]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:310][572]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:318][573]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:319][573]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:326][574]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:326][574]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:335][575]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:335][575]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:343][576]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:343][576]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:352][577]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:353][577]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:364][578]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:365][578]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:377][579]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:377][579]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:388][580]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:389][580]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:397][581]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:397][581]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:406][582]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:407][582]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:414][583]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:414][583]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:423][584]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:423][584]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:432][585]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:432][585]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:440][586]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:441][586]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:449][587]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:449][587]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:459][588]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:460][588]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:469][589]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:469][589]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:478][590]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:478][590]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:487][591]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:487][591]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:495][592]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:495][592]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:504][593]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:504][593]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:512][594]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:512][594]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:522][595]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:522][595]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:528][596]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:529][596]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:537][597]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:538][597]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:546][598]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:547][598]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:556][599]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:556][599]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:565][600]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:565][600]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:575][601]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:576][601]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:585][602]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:588][602]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:596][603]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:597][603]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:608][604]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:609][604]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:619][605]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:621][605]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:630][606]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:630][606]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:642][607]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:642][607]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:651][608]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:651][608]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:660][609]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:661][609]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:671][610]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:671][610]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:679][611]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:679][611]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:688][612]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:688][612]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:698][613]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:698][613]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:706][614]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:707][614]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:715][615]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:715][615]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:723][616]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:723][616]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:732][617]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:732][617]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:740][618]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:741][618]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:749][619]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:749][619]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:757][620]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:758][620]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:766][621]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:767][621]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:778][622]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:778][622]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:788][623]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:788][623]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:796][624]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:796][624]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:805][625]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:805][625]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:813][626]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:813][626]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:822][627]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:822][627]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:831][628]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:831][628]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:840][629]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:840][629]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:931][640]LogBlueprintUserMessages: [InteractiveLog] false
+[2019.12.12-00.52.56:931][640]LogExec: Warning: GetGrids() was called.
+[2019.12.12-00.52.56:944][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2019.12.12-00.52.56:988][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-00.52.57:135][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.12-00.52.57:137][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2019.12.12-00.52.57:273][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.12-00.52.57:559][640]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.12.12-00.52.57:609][641]LogPlayLevel: Display: Destroying online subsystem :Context_2

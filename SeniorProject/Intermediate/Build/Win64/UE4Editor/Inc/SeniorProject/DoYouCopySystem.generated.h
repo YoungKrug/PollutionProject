@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADoYouCopySystem); \
 
 #define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__mainPlayer() { return STRUCT_OFFSET(ADoYouCopySystem, mainPlayer); } \
-	FORCEINLINE static uint32 __PPO__dial() { return STRUCT_OFFSET(ADoYouCopySystem, dial); }
+	FORCEINLINE static uint32 __PPO__dial() { return STRUCT_OFFSET(ADoYouCopySystem, dial); } \
+	FORCEINLINE static uint32 __PPO__dist() { return STRUCT_OFFSET(ADoYouCopySystem, dist); }
 
 
 #define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_11_PROLOG

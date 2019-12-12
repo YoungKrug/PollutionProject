@@ -30,6 +30,7 @@ public:
 	//UPROPERTY(EditAnywhere, Category = "Dialogue")
 	TSubclassOf<UGameInstance*> GI;
 	bool isClose();
+	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>&);
 
 	//void StartSubs();
 	//void StopSubs();
@@ -38,4 +39,6 @@ private:
 	AActor* mainPlayer;//Player to use methods on
 	UPROPERTY(EditAnywhere, Category = "Dialogue")
 	TArray<FDialougeSystem> dial;
+	UPROPERTY(EditAnywhere)
+	float dist;
 };
