@@ -3,9 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Camera/CameraActor.h"
 #include "GameFramework/Character.h"
 #include "FirstPersonCharacter.generated.h"
-
 UCLASS()
 class SENIORPROJECT_API AFirstPersonCharacter : public ACharacter
 {
@@ -14,6 +14,8 @@ class SENIORPROJECT_API AFirstPersonCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AFirstPersonCharacter();
+	// Constructor for AFPSCharacter
+	AFirstPersonCharacter(const FObjectInitializer& ObjectInitializer);
 
 protected:
 	// Called when the game starts or when spawned
@@ -25,5 +27,27 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	UFUNCTION()
+	void MoveForward(float val);
+	UFUNCTION()
+	void MoveRight(float val);
+	UFUNCTION()
+	void LookUp(float val);
+	UFUNCTION()
+	void LookSide(float val);
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+	UCameraComponent* firstPersonCameraComponent;
+private:
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	float baseTurnRate;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	float baseLookUpRate;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	float speed;
+	float currentFOV;
+	FVector startTrace;
+	FVector currentNewsPaperPos;
+	FVector currentNewsPaperRot;
+
 
 };

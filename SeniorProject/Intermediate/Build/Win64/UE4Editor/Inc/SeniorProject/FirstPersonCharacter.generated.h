@@ -13,8 +13,84 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SENIORPROJECT_FirstPersonCharacter_generated_h
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execLookSide) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LookSide(Z_Param_val); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLookUp) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LookUp(Z_Param_val); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveRight(Z_Param_val); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveForward(Z_Param_val); \
+		P_NATIVE_END; \
+	}
+
+
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execLookSide) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LookSide(Z_Param_val); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLookUp) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LookUp(Z_Param_val); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveRight(Z_Param_val); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveForward(Z_Param_val); \
+		P_NATIVE_END; \
+	}
+
+
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFirstPersonCharacter(); \
@@ -54,10 +130,15 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AFirstPersonCharacter); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFirstPersonCharacter)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonCharacter)
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__baseTurnRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseTurnRate); } \
+	FORCEINLINE static uint32 __PPO__baseLookUpRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseLookUpRate); } \
+	FORCEINLINE static uint32 __PPO__speed() { return STRUCT_OFFSET(AFirstPersonCharacter, speed); }
+
+
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_9_PROLOG
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

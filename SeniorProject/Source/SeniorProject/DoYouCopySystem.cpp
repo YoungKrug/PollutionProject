@@ -21,7 +21,8 @@ void ADoYouCopySystem::BeginPlay()
 	Super::BeginPlay();
 	TArray<AActor*> returned;
 	UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), (FName)"C_Player", returned);
-	mainPlayer = returned[0];
+	if (returned.Num() > 0)
+		mainPlayer = returned[0];
 	FString test = "s";
 	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
 
@@ -33,13 +34,14 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	bool close = isClose();
 }
+//O(n^2) make it O(N) if it lags but we are only dealing with less then 100 items so it shouldnt matter that much
 bool ADoYouCopySystem::isClose()
 {
 	const int32 AlwaysAddKey = -1;
 	FString test = "s";
 	
 	TArray<FGameObjectInfo> arr;
-	if (dial.Num() <= 0)
+	if (dial.Num() <= 0 || mainPlayer == nullptr)
 	{
 		return false;
 	}
