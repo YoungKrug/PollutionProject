@@ -21,6 +21,14 @@ void AFirstPersonCharacter::BeginPlay()
 	Super::BeginPlay();
 	APlayerController* p = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
 	p->bShowMouseCursor = false;
+	FString test;
+	if (p->bShowMouseCursor)
+	{
+		test = "true";
+	}
+	else
+		test = false;
+	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 
 // Called every frame
@@ -45,14 +53,14 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 void AFirstPersonCharacter::MoveForward(float val)
 {
 	AddMovementInput(GetActorForwardVector(), speed * val);
-	FString test = FString::SanitizeFloat(val);
-	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+	//FString test = FString::SanitizeFloat(val);
+	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 void AFirstPersonCharacter::MoveRight(float val)
 {
-	FString test = FString::SanitizeFloat(val);
+	//FString test = FString::SanitizeFloat(val);
 	AddMovementInput(GetActorRightVector(), speed * val);
-	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 void AFirstPersonCharacter::LookSide(float val)
 {

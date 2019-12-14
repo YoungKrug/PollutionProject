@@ -188,16 +188,17 @@
 /I Runtime\AudioMixer\Classes
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
-/I "C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE"
+/I E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/I C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine
-/Yc"C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine
+/Yc"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
