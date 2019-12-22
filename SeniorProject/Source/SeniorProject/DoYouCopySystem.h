@@ -4,8 +4,8 @@
 #include "UnrealInfo.h"
 #include "DialogueSystemStruct.h"
 #include "GameFramework/Actor.h"
+#include "Components/AudioComponent.h"
 #include "DoYouCopySystem.generated.h"
-
 
 
 UCLASS()
@@ -30,8 +30,9 @@ public:
 	//UPROPERTY(EditAnywhere, Category = "Dialogue")
 	TSubclassOf<UGameInstance*> GI;
 	bool isClose();
+	void PlaySequence(float);
 	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>&);
-
+	void SetBools(FAudioInformation&);
 	//void StartSubs();
 	//void StopSubs();
 private:
@@ -41,4 +42,11 @@ private:
 	TArray<FDialougeSystem> dial;
 	UPROPERTY(EditAnywhere)
 	float dist;
+	bool isPlaying;
+	bool isDone;
+	int narrationNum;
+	float audioDur;
+	bool audioIsPlaying;
+	float audioCounter = 0;
+	UAudioComponent* audio;
 };

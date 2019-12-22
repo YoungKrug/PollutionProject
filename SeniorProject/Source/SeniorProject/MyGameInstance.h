@@ -18,7 +18,7 @@ public:
 	{
 
 	}
-	static UMyGameInstance* GI;
+	static UMyGameInstance* newGI;
 	void ResetString(FString& x);
 	bool isIntro, isOutro, canPlayerMove, canPlayerRotate, isPlayerScreenLocked,
 		pressXToContinue, isSwapped, playerStop, canJumped, isTalking, startFade,

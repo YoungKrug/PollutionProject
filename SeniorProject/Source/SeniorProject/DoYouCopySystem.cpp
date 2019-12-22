@@ -5,6 +5,7 @@
 #include "MyGameInstance.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/Engine.h"
+#include "Components/AudioComponent.h"
 
 // Sets default values
 ADoYouCopySystem::ADoYouCopySystem()
@@ -25,7 +26,7 @@ void ADoYouCopySystem::BeginPlay()
 		mainPlayer = returned[0];
 	FString test = "s";
 	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
-
+	audio = NewObject<UAudioComponent>(this, "audio");
 }
 
 // Called every frame
@@ -33,6 +34,18 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	bool close = isClose();
+	if (close || isPlaying)
+	{
+		if (!audioIsPlaying)
+		{
+			PlaySequence(DeltaTime);
+		}
+		if (isPlaying && DeltaTime >= audioDur)
+		{
+			audioIsPlaying = false;
+			audio->Stop();
+		}
+	}
 }
 //O(n^2) make it O(N) if it lags but we are only dealing with less then 100 items so it shouldnt matter that much
 bool ADoYouCopySystem::isClose()
@@ -60,6 +73,7 @@ bool ADoYouCopySystem::isClose()
 	//UE_LOG(LogExec, Warning, TEXT();
 	if (arr[0].distance < dist)
 	{
+		narrationNum = arr[0].narrationNum;
 		return true;
 	}	
 	return false;
@@ -79,5 +93,23 @@ TArray<FGameObjectInfo> ADoYouCopySystem::SortGameObjectInfoByDistance(TArray<FG
 		}
 	}
 	return x;
+}
+void ADoYouCopySystem::PlaySequence(float deltaTime)
+{
+	isPlaying = true;
+	if (!audioIsPlaying)
+	{	
+		audioIsPlaying = true;
+		audio->Sound = dial[narrationNum].audio[audioCounter].audio;
+		audioDur = audio->Sound->Duration + deltaTime;
+		audio->Play();
+		//UMyGameInstance* a = Cast<>()
+	}
+}
+void ADoYouCopySystem::SetBools(FAudioInformation &audio)
+{
+	//UMyGameInstance::newGI->canPlayerMove = !audio.isMovementLocked;
+	//UMyGameInstance::newGI->canPlayerRotate = !audio.isRotationLocked;
+	//UMyGameInstance::newGI->isPlayerScreenLocked = !audio.isScreenLocked;
 }
 
