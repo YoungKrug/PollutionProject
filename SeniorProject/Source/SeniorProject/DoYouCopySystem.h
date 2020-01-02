@@ -48,5 +48,6 @@ private:
 	float audioDur;
 	bool audioIsPlaying;
 	float audioCounter = 0;
+	UPROPERTY(EditAnywhere)
 	UAudioComponent* audio;
 };

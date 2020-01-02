@@ -24,7 +24,7 @@ void ADoYouCopySystem::BeginPlay()
 	UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), (FName)"C_Player", returned);
 	if (returned.Num() > 0)
 		mainPlayer = returned[0];
-	FString test = "s";
+	FString test = "hello";
 	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
 	audio = NewObject<UAudioComponent>(this, "audio");
 }
