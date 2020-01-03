@@ -12,7 +12,7 @@ AFirstPersonCharacter::AFirstPersonCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	
+	GetOwner()->Tags[0] = "C_Player";
 }
 
 // Called when the game starts or when spawned
@@ -28,7 +28,8 @@ void AFirstPersonCharacter::BeginPlay()
 	}
 	else
 		test = false;
-	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+	//test = GetOwner()->Tags[0].ToString();
+	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 
 // Called every frame

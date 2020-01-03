@@ -22,8 +22,8 @@ void ADoYouCopySystem::BeginPlay()
 	Super::BeginPlay();
 	TArray<AActor*> returned;
 	UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), (FName)"C_Player", returned);
-	if (returned.Num() > 0)
-		mainPlayer = returned[0];
+	//if (returned.Num() > 0)
+	//	mainPlayer = returned[0];
 	FString test = "hello";
 	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
 	audio = NewObject<UAudioComponent>(this, "audio");
@@ -63,6 +63,7 @@ bool ADoYouCopySystem::isClose()
 		FGameObjectInfo info;
 		info.gameObject = dial[i].gameObject;
 		info.distance = FVector::Distance(info.gameObject->GetActorLocation(), mainPlayer->GetActorLocation());
+		info.narrationNum = dial[i].narrationNum;
 		arr.Add(info);
 	}
 	arr = SortGameObjectInfoByDistance(arr);
@@ -100,7 +101,7 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 	if (!audioIsPlaying)
 	{	
 		audioIsPlaying = true;
-		audio->Sound = dial[narrationNum].audio[audioCounter].audio;
+		audio->Sound = GetSound(); 
 		audioDur = audio->Sound->Duration + deltaTime;
 		audio->Play();
 		//UMyGameInstance* a = Cast<>()
@@ -111,5 +112,10 @@ void ADoYouCopySystem::SetBools(FAudioInformation &audio)
 	//UMyGameInstance::newGI->canPlayerMove = !audio.isMovementLocked;
 	//UMyGameInstance::newGI->canPlayerRotate = !audio.isRotationLocked;
 	//UMyGameInstance::newGI->isPlayerScreenLocked = !audio.isScreenLocked;
+}
+USoundBase* ADoYouCopySystem::GetSound()
+{
+	TArray<FAudioInformation> audio = dial[narrationNum].audio;
+	return audio[narrationNum].audio;
 }
 

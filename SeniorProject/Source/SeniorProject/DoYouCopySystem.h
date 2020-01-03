@@ -33,6 +33,7 @@ public:
 	void PlaySequence(float);
 	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>&);
 	void SetBools(FAudioInformation&);
+	USoundBase* GetSound();
 	//void StartSubs();
 	//void StopSubs();
 private:
@@ -47,7 +48,7 @@ private:
 	int narrationNum;
 	float audioDur;
 	bool audioIsPlaying;
-	float audioCounter = 0;
+	int audioCounter = 0;
 	UPROPERTY(EditAnywhere)
 	UAudioComponent* audio;
 };

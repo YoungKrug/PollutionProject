@@ -1,2 +1,20 @@
-﻿  The system cannot find the path specified.
-C:\Program Files (x86)\VS19\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(39,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Clean.bat" SeniorProjectEditor Win64 Development -Project="C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" -WaitMutex -FromMsBuild" exited with code 3.
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
+  Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
+  Parsing headers for SeniorProjectEditor
+    Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SeniorProjectEditor in 5.9296579 seconds
+  Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] DoYouCopySystem.cpp
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(110): warning C4458: declaration of 'audio' hides class member
+    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(53): note: see declaration of 'ADoYouCopySystem::audio'
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(118): warning C4458: declaration of 'audio' hides class member
+    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(53): note: see declaration of 'ADoYouCopySystem::audio'
+    [2/5] DoYouCopySystem.gen.cpp
+    [3/5] UE4Editor-SeniorProject-0012.lib
+       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0012.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0012.exp
+    [4/5] UE4Editor-SeniorProject-0012.dll
+       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0012.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0012.suppressed.exp
+    [5/5] SeniorProjectEditor.target
+  Total time in Parallel executor: 3.00 seconds
+  Total execution time: 10.97 seconds
