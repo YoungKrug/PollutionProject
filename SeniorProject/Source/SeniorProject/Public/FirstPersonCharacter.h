@@ -35,6 +35,8 @@ public:
 	void LookUp(float val);
 	UFUNCTION()
 	void LookSide(float val);
+	UFUNCTION()
+	void StartRayCast();
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	UCameraComponent* firstPersonCameraComponent;
 private:

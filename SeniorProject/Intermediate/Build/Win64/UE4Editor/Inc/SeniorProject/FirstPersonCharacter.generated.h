@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execStartRayCast) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StartRayCast(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execLookSide) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_val); \
@@ -53,6 +61,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execStartRayCast) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StartRayCast(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execLookSide) \
 	{ \
