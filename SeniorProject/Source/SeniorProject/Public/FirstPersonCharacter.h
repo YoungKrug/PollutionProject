@@ -46,10 +46,12 @@ private:
 	float baseLookUpRate;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	float speed;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	FVector offset;
 	float currentFOV;
 	FVector startTrace;
 	FVector currentNewsPaperPos;
 	FVector currentNewsPaperRot;
-
+	FVector currentPlayerPos;
 
 };

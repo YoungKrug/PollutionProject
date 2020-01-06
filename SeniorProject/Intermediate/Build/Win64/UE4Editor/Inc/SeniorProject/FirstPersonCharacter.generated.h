@@ -152,7 +152,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__baseTurnRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseTurnRate); } \
 	FORCEINLINE static uint32 __PPO__baseLookUpRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseLookUpRate); } \
-	FORCEINLINE static uint32 __PPO__speed() { return STRUCT_OFFSET(AFirstPersonCharacter, speed); }
+	FORCEINLINE static uint32 __PPO__speed() { return STRUCT_OFFSET(AFirstPersonCharacter, speed); } \
+	FORCEINLINE static uint32 __PPO__offset() { return STRUCT_OFFSET(AFirstPersonCharacter, offset); }
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_9_PROLOG

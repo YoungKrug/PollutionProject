@@ -8,6 +8,7 @@
 #include "Components/SceneComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
+#include "MyGameInstance.h"
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -37,17 +38,17 @@ void AFirstPersonCharacter::BeginPlay()
 void AFirstPersonCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AFirstPersonCharacter::StartRayCast()
 {
 	//Hit contains information about what the raycast hit.
 	FHitResult Hit;
+	TArray<FHitResult> hit;
 
 	//The length of the ray in units.
 	//For more flexibility you can expose a public variable in the editor
-	float rayLength = 200;
+	float rayLength = 220;
 
 	//The Origin of the raycast
 	FVector startLocation = GetActorLocation();
@@ -57,16 +58,42 @@ void AFirstPersonCharacter::StartRayCast()
 
 	//Collision parameters. The following syntax means that we don't want the trace to be complex
 	FCollisionQueryParams collisionParameters;
-	
+	collisionParameters.AddIgnoredActor(this);
+	collisionParameters.AddIgnoredActor(GetOwner());
 
 	//Perform the line trace
 	//The ECollisionChannel parameter is used in order to determine what we are looking for when performing the raycast
-	ActorLineTraceSingle(Hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
-
+	//ActorLineTraceSingle(Hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
+	GetWorld()->LineTraceMultiByChannel(hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
+	/*if (Hit.Actor != nullptr)
+	{
+		FString test = Hit.GetActor()->GetName();
+		GEngine->AddOnScreenDebugMessage(-1, .2F, FColor::Cyan, test);
+		if (Hit.GetActor()->ActorHasTag("Water"))
+		{
+			test = "Water";
+			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+		}
+	}*/
+	for (int i = 0; i < hit.Num(); i++)
+	{
+		if (hit[i].Actor != nullptr)
+		{
+			if (hit[i].GetActor()->ActorHasTag("Water"))
+			{
+				//SetActorLocation(currentPlayerPos);
+				FString test = "Water";
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				break;
+			}
+			currentPlayerPos = GetActorLocation();
+		}
+	}
 	//DrawDebugLine is used in order to see the raycast we performed
 	//The boolean parameter used here means that we want the lines to be persistent so we can see the actual raycast
 	//The last parameter is the width of the lines.
 	DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1, 0, 1.f);
+	currentPlayerPos = GetActorLocation();
 }
 // Called to bind functionality to input
 void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -83,6 +110,7 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 void AFirstPersonCharacter::MoveForward(float val)
 {
 	AddMovementInput(GetActorForwardVector(), speed * val);
+	StartRayCast();
 	//FString test = FString::SanitizeFloat(val);
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
@@ -90,6 +118,7 @@ void AFirstPersonCharacter::MoveRight(float val)
 {
 	//FString test = FString::SanitizeFloat(val);
 	AddMovementInput(GetActorRightVector(), speed * val);
+	StartRayCast();
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 void AFirstPersonCharacter::LookSide(float val)
