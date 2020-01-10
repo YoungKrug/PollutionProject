@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADoYouCopySystem); \
 	FORCEINLINE static uint32 __PPO__mainPlayer() { return STRUCT_OFFSET(ADoYouCopySystem, mainPlayer); } \
 	FORCEINLINE static uint32 __PPO__dial() { return STRUCT_OFFSET(ADoYouCopySystem, dial); } \
 	FORCEINLINE static uint32 __PPO__dist() { return STRUCT_OFFSET(ADoYouCopySystem, dist); } \
-	FORCEINLINE static uint32 __PPO__audio() { return STRUCT_OFFSET(ADoYouCopySystem, audio); }
+	FORCEINLINE static uint32 __PPO__audio() { return STRUCT_OFFSET(ADoYouCopySystem, audio); } \
+	FORCEINLINE static uint32 __PPO__currentObject() { return STRUCT_OFFSET(ADoYouCopySystem, currentObject); }
 
 
 #define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_11_PROLOG

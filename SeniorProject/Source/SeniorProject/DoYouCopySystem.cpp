@@ -27,23 +27,30 @@ void ADoYouCopySystem::BeginPlay()
 	FString test = "hello";
 	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
 	audio = NewObject<UAudioComponent>(this, "audio");
-	
+	GI = NewObject<UMyGameInstance>(this, "GameInstance");
 }
 
 // Called every frame
 void ADoYouCopySystem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	bool close = isClose();
+	timer += DeltaTime;
+	bool close;
+	if(!isPlaying)
+		close = isClose();
+
 	if (close || isPlaying)
 	{
 		if (!audioIsPlaying)
 		{
-			PlaySequence(DeltaTime);
+			PlaySequence(timer);
+			close = false;
 		}
-		if (isPlaying && DeltaTime >= audioDur)
+		if (isPlaying && timer >= audioDur)
 		{
 			audioIsPlaying = false;
+			isPlaying = false;
+			RemovePoint();
 			audio->Stop();
 		}
 	}
@@ -105,19 +112,31 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 		audio->Sound = GetSound(); 
 		audioDur = audio->Sound->Duration + deltaTime;
 		audio->Play();
-		//SetBools(dial[narrationNum].audio[narrationNum]);
+		SetBools(dial[narrationNum].audio[narrationNum]);
 	}
 }
 void ADoYouCopySystem::SetBools(FAudioInformation &audio)
 {
-	//GI->GetDefaultObject<UMyGameInstance>()->canPlayerMove = !audio.isMovementLocked; 
-	//UMyGameInstance* a = GI;
-	//GI->GetDefaultObject<UMyGameInstance>()->canPlayerRotate = !audio.isRotationLocked;
-	//GI->GetDefaultObject<UMyGameInstance>()->isPlayerScreenLocked = !audio.isScreenLocked;
+	GI->canPlayerMove = !audio.isMovementLocked; 
+	GI->canPlayerRotate = !audio.isRotationLocked;
+	GI->isPlayerScreenLocked = !audio.isScreenLocked;
 }
 USoundBase* ADoYouCopySystem::GetSound()
 {
 	TArray<FAudioInformation> audio = dial[narrationNum].audio;
 	return audio[narrationNum].audio;
+}
+UMyGameInstance* ADoYouCopySystem::GetGameInstanceBase()
+{
+	UMyGameInstance* temp = GI;
+	return temp;
+}
+void ADoYouCopySystem::RemovePoint()
+{
+	FVector currentLocation; 
+	currentObject = dial[narrationNum].gameObject;
+	currentLocation = currentObject->GetActorLocation();
+	currentLocation.Z += 3000000;
+	currentObject->SetActorLocation(currentLocation);
 }
 

@@ -17,9 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 	SENIORPROJECT_API UClass* Z_Construct_UClass_ADoYouCopySystem();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_SeniorProject();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 	SENIORPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDialougeSystem();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void ADoYouCopySystem::StaticRegisterNativesADoYouCopySystem()
 	{
@@ -34,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentObject_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_currentObject;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_audio_MetaData[];
 #endif
@@ -66,6 +70,13 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_currentObject_MetaData[] = {
+		{ "Category", "DoYouCopySystem" },
+		{ "ModuleRelativePath", "DoYouCopySystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_currentObject = { "currentObject", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADoYouCopySystem, currentObject), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_currentObject_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_currentObject_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_audio_MetaData[] = {
 		{ "Category", "DoYouCopySystem" },
 		{ "EditInline", "true" },
@@ -97,6 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer = { "mainPlayer", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADoYouCopySystem, mainPlayer), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADoYouCopySystem_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_currentObject,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_audio,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dial,
@@ -130,7 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADoYouCopySystem, 1258890545);
+	IMPLEMENT_CLASS(ADoYouCopySystem, 4219530419);
 	template<> SENIORPROJECT_API UClass* StaticClass<ADoYouCopySystem>()
 	{
 		return ADoYouCopySystem::StaticClass();

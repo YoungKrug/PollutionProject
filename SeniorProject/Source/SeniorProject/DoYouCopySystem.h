@@ -1,12 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #pragma once
 #include "CoreMinimal.h"
+#include "MyGameInstance.h"
 #include "UnrealInfo.h"
 #include "DialogueSystemStruct.h"
 #include "GameFramework/Actor.h"
 #include "Components/AudioComponent.h"
 #include "DoYouCopySystem.generated.h"
-
 
 UCLASS()
 class SENIORPROJECT_API ADoYouCopySystem : public AActor
@@ -34,6 +34,8 @@ public:
 	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>&);
 	void SetBools(FAudioInformation&);
 	USoundBase* GetSound();
+	UMyGameInstance* GetGameInstanceBase();
+	void RemovePoint();
 	//void StartSubs();
 	//void StopSubs();
 private:
@@ -49,6 +51,9 @@ private:
 	float audioDur;
 	bool audioIsPlaying;
 	int audioCounter = 0;
+	float timer = 0;
 	UPROPERTY(EditAnywhere)
 	UAudioComponent* audio;
+	UPROPERTY(EditAnywhere)
+	AActor* currentObject;
 };
