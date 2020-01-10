@@ -28,7 +28,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	//UPROPERTY(EditAnywhere, Category = "Dialogue")
-	TSubclassOf<UGameInstance*> GI;
+	UMyGameInstance* GI;
 	bool isClose();
 	void PlaySequence(float);
 	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>&);
