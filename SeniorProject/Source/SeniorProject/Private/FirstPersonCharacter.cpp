@@ -104,9 +104,10 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	PlayerInputComponent->BindAxis("MoveRight", this, &AFirstPersonCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &AFirstPersonCharacter::LookSide);
 	PlayerInputComponent->BindAxis("LookUp", this, &AFirstPersonCharacter::LookUp);
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AFirstPersonCharacter::Interact);
 
 }
-
+//Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
 {
 	AddMovementInput(GetActorForwardVector(), speed * val);
@@ -132,6 +133,11 @@ void AFirstPersonCharacter::LookUp(float val)
 	//FString test = "LookUp";
 	AddControllerPitchInput(val);
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+}
+void AFirstPersonCharacter::Interact()
+{
+	FString test = "Interact";
+	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 AFirstPersonCharacter::AFirstPersonCharacter(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)

@@ -36,8 +36,9 @@ public:
 	USoundBase* GetSound();
 	UMyGameInstance* GetGameInstanceBase();
 	void RemovePoint();
-	//void StartSubs();
-	//void StopSubs();
+	void SetSubs();
+	UFUNCTION(BlueprintCallable, Category = "DoYouCopy")
+	FText GetSubs();
 private:
 	UPROPERTY(EditAnywhere)
 	AActor* mainPlayer;//Player to use methods on
@@ -56,4 +57,5 @@ private:
 	UAudioComponent* audio;
 	UPROPERTY(EditAnywhere)
 	AActor* currentObject;
+	FText subtitles;
 };

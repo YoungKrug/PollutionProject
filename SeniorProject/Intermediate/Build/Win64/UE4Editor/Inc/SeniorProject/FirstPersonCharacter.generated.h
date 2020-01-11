@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execInteract) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Interact(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execStartRayCast) \
 	{ \
 		P_FINISH; \
@@ -61,6 +69,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInteract) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Interact(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execStartRayCast) \
 	{ \

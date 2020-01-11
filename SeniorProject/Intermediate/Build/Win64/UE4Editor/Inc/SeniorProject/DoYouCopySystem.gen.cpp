@@ -17,12 +17,51 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 	SENIORPROJECT_API UClass* Z_Construct_UClass_ADoYouCopySystem();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_SeniorProject();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_ADoYouCopySystem_GetSubs();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 	SENIORPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDialougeSystem();
 // End Cross Module References
 	void ADoYouCopySystem::StaticRegisterNativesADoYouCopySystem()
 	{
+		UClass* Class = ADoYouCopySystem::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetSubs", &ADoYouCopySystem::execGetSubs },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics
+	{
+		struct DoYouCopySystem_eventGetSubs_Parms
+		{
+			FText ReturnValue;
+		};
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(DoYouCopySystem_eventGetSubs_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::Function_MetaDataParams[] = {
+		{ "Category", "DoYouCopy" },
+		{ "ModuleRelativePath", "DoYouCopySystem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoYouCopySystem, nullptr, "GetSubs", sizeof(DoYouCopySystem_eventGetSubs_Parms), Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADoYouCopySystem_GetSubs()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADoYouCopySystem_GetSubs_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ADoYouCopySystem_NoRegister()
 	{
@@ -31,6 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 	struct Z_Construct_UClass_ADoYouCopySystem_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -62,6 +102,9 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 	UObject* (*const Z_Construct_UClass_ADoYouCopySystem_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_SeniorProject,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ADoYouCopySystem_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ADoYouCopySystem_GetSubs, "GetSubs" }, // 1628521515
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoYouCopySystem_Statics::Class_MetaDataParams[] = {
@@ -123,11 +166,11 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ADoYouCopySystem_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_ADoYouCopySystem_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -142,7 +185,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADoYouCopySystem, 4219530419);
+	IMPLEMENT_CLASS(ADoYouCopySystem, 208276883);
 	template<> SENIORPROJECT_API UClass* StaticClass<ADoYouCopySystem>()
 	{
 		return ADoYouCopySystem::StaticClass();

@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SENIORPROJECT_DoYouCopySystem_generated_h
 
-#define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_14_RPC_WRAPPERS
-#define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetSubs) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FText*)Z_Param__Result=P_THIS->GetSubs(); \
+		P_NATIVE_END; \
+	}
+
+
+#define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetSubs) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FText*)Z_Param__Result=P_THIS->GetSubs(); \
+		P_NATIVE_END; \
+	}
+
+
 #define SeniorProject_Source_SeniorProject_DoYouCopySystem_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADoYouCopySystem(); \

@@ -1,6 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+/**************TODO*******************
+Allow the system to play all the audio in the audio array, and
+allow for subtitles and skipping.
+Still need to make the gameinstance global
 
+*/
 #include "DoYouCopySystem.h"
 #include "MyGameInstance.h"
 #include "Kismet/GameplayStatics.h"
@@ -49,9 +54,18 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 		if (isPlaying && timer >= audioDur)
 		{
 			audioIsPlaying = false;
-			isPlaying = false;
-			RemovePoint();
 			audio->Stop();
+			TArray<FAudioInformation> audio = dial[narrationNum].audio;
+			if (audio.Num() - 1 > audioCounter)
+			{
+				audioCounter++;			
+			}
+			else
+			{
+				audioCounter = 0;
+				RemovePoint();
+				isPlaying = false;
+			}
 		}
 	}
 }
@@ -110,9 +124,10 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 	{	
 		audioIsPlaying = true;
 		audio->Sound = GetSound(); 
-		audioDur = audio->Sound->Duration + deltaTime;
+		audioDur = audio->Sound->Duration + deltaTime + 1;
 		audio->Play();
-		SetBools(dial[narrationNum].audio[narrationNum]);
+		SetSubs();
+		SetBools(dial[narrationNum].audio[audioCounter]);
 	}
 }
 void ADoYouCopySystem::SetBools(FAudioInformation &audio)
@@ -124,7 +139,7 @@ void ADoYouCopySystem::SetBools(FAudioInformation &audio)
 USoundBase* ADoYouCopySystem::GetSound()
 {
 	TArray<FAudioInformation> audio = dial[narrationNum].audio;
-	return audio[narrationNum].audio;
+	return audio[audioCounter].audio;
 }
 UMyGameInstance* ADoYouCopySystem::GetGameInstanceBase()
 {
@@ -139,4 +154,11 @@ void ADoYouCopySystem::RemovePoint()
 	currentLocation.Z += 3000000;
 	currentObject->SetActorLocation(currentLocation);
 }
-
+void ADoYouCopySystem::SetSubs()
+{
+	subtitles = dial[narrationNum].audio[audioCounter].subtitles;
+}
+FText ADoYouCopySystem::GetSubs()
+{
+	return subtitles;
+}
