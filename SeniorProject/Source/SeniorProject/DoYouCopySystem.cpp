@@ -154,6 +154,7 @@ void ADoYouCopySystem::RemovePoint()
 	currentLocation.Z += 3000000;
 	currentObject->SetActorLocation(currentLocation);
 }
+
 void ADoYouCopySystem::SetSubs()
 {
 	subtitles = dial[narrationNum].audio[audioCounter].subtitles;

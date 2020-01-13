@@ -12,9 +12,11 @@
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GetOwner()->Tags[0] = "C_Player";
+	//TArray<ADoYouCopySystem> sys;
+	///doYouCopyInst = doYouCopySystemActor->FindComponentByClass<ADoYouCopySystem>();
 }
 
 // Called when the game starts or when spawned
@@ -105,6 +107,7 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	PlayerInputComponent->BindAxis("Turn", this, &AFirstPersonCharacter::LookSide);
 	PlayerInputComponent->BindAxis("LookUp", this, &AFirstPersonCharacter::LookUp);
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AFirstPersonCharacter::Interact);
+	PlayerInputComponent->BindAction("Skip", IE_Pressed, this, &AFirstPersonCharacter::ContinueDialogue);
 
 }
 //Add interact function soon **Newspaper etc.
@@ -150,5 +153,11 @@ AFirstPersonCharacter::AFirstPersonCharacter(const FObjectInitializer& ObjectIni
 	// Allow the pawn to control rotation.
 	firstPersonCameraComponent->bUsePawnControlRotation = true;
 	
+}
+void AFirstPersonCharacter::ContinueDialogue()
+{
+	// Going to be the space bar
+	//Send an event to the DoYouCopySystem
+
 }
 

@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
 #include "CoreMinimal.h"
+#include "DoYouCopySystem.h"
 #include "Camera/CameraActor.h"
 #include "GameFramework/Character.h"
 #include "FirstPersonCharacter.generated.h"
@@ -39,8 +39,12 @@ public:
 	void StartRayCast();
 	UFUNCTION()
 	void Interact(); 
+	UFUNCTION()
+	void ContinueDialogue();
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	UCameraComponent* firstPersonCameraComponent;
+	
+
 private:
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	float baseTurnRate;
@@ -50,10 +54,12 @@ private:
 	float speed;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	FVector offset;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	AActor* doYouCopySystemActor;
 	float currentFOV;
 	FVector startTrace;
 	FVector currentNewsPaperPos;
 	FVector currentNewsPaperRot;
 	FVector currentPlayerPos;
-
+	ADoYouCopySystem* doYouCopyInst;
 };

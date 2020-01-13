@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execContinueDialogue) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ContinueDialogue(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execInteract) \
 	{ \
 		P_FINISH; \
@@ -69,6 +77,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execContinueDialogue) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ContinueDialogue(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execInteract) \
 	{ \
@@ -169,7 +185,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__baseTurnRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseTurnRate); } \
 	FORCEINLINE static uint32 __PPO__baseLookUpRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseLookUpRate); } \
 	FORCEINLINE static uint32 __PPO__speed() { return STRUCT_OFFSET(AFirstPersonCharacter, speed); } \
-	FORCEINLINE static uint32 __PPO__offset() { return STRUCT_OFFSET(AFirstPersonCharacter, offset); }
+	FORCEINLINE static uint32 __PPO__offset() { return STRUCT_OFFSET(AFirstPersonCharacter, offset); } \
+	FORCEINLINE static uint32 __PPO__doYouCopySystemActor() { return STRUCT_OFFSET(AFirstPersonCharacter, doYouCopySystemActor); }
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_9_PROLOG
