@@ -16,10 +16,11 @@ class SENIORPROJECT_API UMyGameInstance : public UGameInstance
 public:
 	UMyGameInstance()
 	{
-
+		//if (newGI == nullptr)
+			//newGI = NewObject<UMyGameInstance>(this, "game instance");
 	}
-	static UMyGameInstance* newGI;
-	void ResetString(FString& x);
+	//static UMyGameInstance* newGI;
+	//void ResetString(FString& x);
 	bool isIntro, isOutro, canPlayerMove, canPlayerRotate, isPlayerScreenLocked,
 		pressXToContinue, isSwapped, playerStop, canJumped, isTalking, startFade,
 		isClear, isFadeToBlack, isDone, canDisplayTest, canStartSubs, sequenceIsPlaying,

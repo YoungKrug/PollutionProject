@@ -32,7 +32,8 @@ void ADoYouCopySystem::BeginPlay()
 	FString test = "hello";
 	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
 	audio = NewObject<UAudioComponent>(this, "audio");
-	GI = NewObject<UMyGameInstance>(this, "GameInstance");
+	//GI = NewObject<UMyGameInstance>(this, "GameInstance");
+	GI = Cast<UMyGameInstance>(GetGameInstance());
 }
 
 // Called every frame
@@ -132,7 +133,7 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 }
 void ADoYouCopySystem::SetBools(FAudioInformation &audio)
 {
-	GI->canPlayerMove = !audio.isMovementLocked; 
+	GI->canPlayerMove = !audio.isMovementLocked;
 	GI->canPlayerRotate = !audio.isRotationLocked;
 	GI->isPlayerScreenLocked = !audio.isScreenLocked;
 }

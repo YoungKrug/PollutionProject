@@ -15,8 +15,8 @@ AFirstPersonCharacter::AFirstPersonCharacter()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GetOwner()->Tags[0] = "C_Player";
-	//TArray<ADoYouCopySystem> sys;
-	///doYouCopyInst = doYouCopySystemActor->FindComponentByClass<ADoYouCopySystem>();
+	
+	//doYouCopyInst = doYouCopySystemActor->FindComponentByClass<ADoYouCopySystem>();
 }
 
 // Called when the game starts or when spawned
@@ -32,6 +32,18 @@ void AFirstPersonCharacter::BeginPlay()
 	}
 	else
 		test = false;
+	TArray<AActor*> returned;
+	UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), (FName)"DialSys", returned);
+	if (returned.Num() > 0)
+	{
+		TSet<UActorComponent*> comp = returned[0]->GetComponents();
+		for (auto& it : comp)
+		{
+			FString name = it->GetReadableName();
+			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name);
+
+		}
+	}
 	//test = GetOwner()->Tags[0].ToString();
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
