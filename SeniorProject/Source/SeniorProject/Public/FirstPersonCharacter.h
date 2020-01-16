@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
+#include "MyGameInstance.h"
 #include "CoreMinimal.h"
 #include "DoYouCopySystem.h"
 #include "Camera/CameraActor.h"
@@ -44,6 +44,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	UCameraComponent* firstPersonCameraComponent;
 	
+	
 
 private:
 	UPROPERTY(EditAnywhere, Category = "Character Values")
@@ -62,4 +63,5 @@ private:
 	FVector currentNewsPaperRot;
 	FVector currentPlayerPos;
 	ADoYouCopySystem* doYouCopyInst;
+	UMyGameInstance* GI;
 };

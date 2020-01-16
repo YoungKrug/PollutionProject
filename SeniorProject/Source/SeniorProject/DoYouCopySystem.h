@@ -33,6 +33,7 @@ public:
 	void PlaySequence(float);
 	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>&);
 	void SetBools(FAudioInformation&);
+	void ResetBools(FAudioInformation&);
 	USoundBase* GetSound();
 	UMyGameInstance* GetGameInstanceBase();
 	void RemovePoint();

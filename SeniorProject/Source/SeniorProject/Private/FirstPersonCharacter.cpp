@@ -26,24 +26,8 @@ void AFirstPersonCharacter::BeginPlay()
 	APlayerController* p = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
 	p->bShowMouseCursor = false;
 	FString test;
-	if (p->bShowMouseCursor)
-	{
-		test = "true";
-	}
-	else
-		test = false;
-	TArray<AActor*> returned;
-	UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), (FName)"DialSys", returned);
-	if (returned.Num() > 0)
-	{
-		TSet<UActorComponent*> comp = returned[0]->GetComponents();
-		for (auto& it : comp)
-		{
-			FString name = it->GetReadableName();
-			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name);
-
-		}
-	}
+	// Make sure you make this game instance in editor equal to your own game instance in code
+	GI = Cast<UMyGameInstance>(GetGameInstance());
 	//test = GetOwner()->Tags[0].ToString();
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
@@ -53,7 +37,6 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
-
 void AFirstPersonCharacter::StartRayCast()
 {
 	//Hit contains information about what the raycast hit.
@@ -125,29 +108,25 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
 {
-	AddMovementInput(GetActorForwardVector(), speed * val);
+	if(!GI->canPlayerMove)
+		AddMovementInput(GetActorForwardVector(), speed * val);
 	StartRayCast();
-	//FString test = FString::SanitizeFloat(val);
-	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 void AFirstPersonCharacter::MoveRight(float val)
 {
-	//FString test = FString::SanitizeFloat(val);
-	AddMovementInput(GetActorRightVector(), speed * val);
+	if (!GI->canPlayerMove)
+		AddMovementInput(GetActorRightVector(), speed * val);
 	StartRayCast();
-	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 void AFirstPersonCharacter::LookSide(float val)
 {
-	//FString test = "LookToSide";
-	AddControllerYawInput(val);
-	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+	if (!GI->canPlayerRotate)
+		AddControllerYawInput(val);
 }
 void AFirstPersonCharacter::LookUp(float val)
 {
-	//FString test = "LookUp";
-	AddControllerPitchInput(val);
-	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+	if (!GI->canPlayerRotate)
+		AddControllerPitchInput(val);
 }
 void AFirstPersonCharacter::Interact()
 {
@@ -164,7 +143,6 @@ AFirstPersonCharacter::AFirstPersonCharacter(const FObjectInitializer& ObjectIni
 	firstPersonCameraComponent->RelativeLocation = FVector(0, 0, 50.0f + BaseEyeHeight);
 	// Allow the pawn to control rotation.
 	firstPersonCameraComponent->bUsePawnControlRotation = true;
-	
 }
 void AFirstPersonCharacter::ContinueDialogue()
 {

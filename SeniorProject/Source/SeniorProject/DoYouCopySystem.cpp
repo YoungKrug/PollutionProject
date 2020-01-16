@@ -137,6 +137,12 @@ void ADoYouCopySystem::SetBools(FAudioInformation &audio)
 	GI->canPlayerRotate = !audio.isRotationLocked;
 	GI->isPlayerScreenLocked = !audio.isScreenLocked;
 }
+void ADoYouCopySystem::ResetBools(FAudioInformation& audio)
+{
+	GI->canPlayerMove = false;
+	GI->canPlayerRotate = false;
+	GI->isPlayerScreenLocked = false;
+}
 USoundBase* ADoYouCopySystem::GetSound()
 {
 	TArray<FAudioInformation> audio = dial[narrationNum].audio;
