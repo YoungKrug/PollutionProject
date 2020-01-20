@@ -59,4 +59,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	AActor* currentObject;
 	FText subtitles;
+	bool isUpdatingSubs;
+	float subTime;
 };

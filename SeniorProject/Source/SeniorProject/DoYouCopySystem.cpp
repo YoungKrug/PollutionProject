@@ -44,6 +44,10 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 	bool close;
 	if(!isPlaying)
 		close = isClose();
+	if (isUpdatingSubs)
+	{
+		//subtitles += dial[narrationNum].audio[audioCounter].subtitles[]
+	}
 
 	if (close || isPlaying)
 	{
@@ -129,6 +133,7 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 		audio->Sound = GetSound(); 
 		audioDur = audio->Sound->Duration + deltaTime + 1;
 		audio->Play();
+		subTime = deltaTime;
 		SetSubs();
 		SetBools(dial[narrationNum].audio[audioCounter]);
 	}
@@ -170,6 +175,7 @@ void ADoYouCopySystem::RemovePoint()
 void ADoYouCopySystem::SetSubs()
 {
 	subtitles = dial[narrationNum].audio[audioCounter].subtitles;
+	isUpdatingSubs = true;
 }
 FText ADoYouCopySystem::GetSubs()
 {
