@@ -83,6 +83,8 @@ bool ADoYouCopySystem::isClose()
 	}
 	for (int i = 0;  i < dial.Num(); i++)
 	{
+		if (dial[i].gameObject == nullptr)
+			continue;
 		FGameObjectInfo info;
 		info.gameObject = dial[i].gameObject;
 		info.distance = FVector::Distance(info.gameObject->GetActorLocation(), mainPlayer->GetActorLocation());
@@ -136,12 +138,15 @@ void ADoYouCopySystem::SetBools(FAudioInformation &audio)
 	GI->canPlayerMove = !audio.isMovementLocked;
 	GI->canPlayerRotate = !audio.isRotationLocked;
 	GI->isPlayerScreenLocked = !audio.isScreenLocked;
+	GI->canStartSubs = true;
+	GI->currentSubs = subtitles;
 }
 void ADoYouCopySystem::ResetBools(FAudioInformation& audio)
 {
 	GI->canPlayerMove = false;
 	GI->canPlayerRotate = false;
 	GI->isPlayerScreenLocked = false;
+	GI->canStartSubs = false;
 }
 USoundBase* ADoYouCopySystem::GetSound()
 {

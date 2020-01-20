@@ -1,0 +1,1155 @@
+﻿Log file open, 01/18/20 14:48:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SeniorProject
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.470581
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithDataPrepEditor
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.01.18-19.48.39:573][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.01.18-19.48.39:573][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.18-19.48.39:574][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.18-19.48.39:574][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.18-19.48.39:574][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.18-19.48.39:574][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.18-19.48.39:574][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.18-19.48.39:574][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.01.18-19.48.39:574][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.01.18-19.48.39:597][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.18-19.48.39:597][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.18-19.48.39:598][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.18-19.48.39:598][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.18-19.48.39:598][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.18-19.48.39:660][  0]LogHAL: Display: Platform has ~ 16 GB [17116258304 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.18-19.48.39:660][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.01.18-19.48.39:660][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.18-19.48.39:660][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:660][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.18-19.48.39:660][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.18-19.48.39:660][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:660][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.18-19.48.39:660][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.18-19.48.39:661][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:661][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.18-19.48.39:662][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/SeniorProject/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.01.18-19.48.39:662][  0]LogInit: Computer: GREGSPC
+[2020.01.18-19.48.39:662][  0]LogInit: User: Gregory
+[2020.01.18-19.48.39:662][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.18-19.48.39:662][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.18-19.48.39:663][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.01.18-19.48.39:663][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.18-19.48.39:663][  0]LogMemory: Process Physical Memory: 102.31 MB used, 102.31 MB peak
+[2020.01.18-19.48.39:663][  0]LogMemory: Process Virtual Memory: 105.09 MB used, 105.09 MB peak
+[2020.01.18-19.48.39:663][  0]LogMemory: Physical Memory: 8909.63 MB used,  7413.71 MB free, 16323.34 MB total
+[2020.01.18-19.48.39:663][  0]LogMemory: Virtual Memory: 4674.71 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2020.01.18-19.48.39:691][  0]LogInit: Using OS detected language (en-US).
+[2020.01.18-19.48.39:691][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.18-19.48.39:692][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.18-19.48.39:908][  0]LogInit: Setting process to per monitor DPI aware
+[2020.01.18-19.48.39:995][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.18-19.48.39:995][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.18-19.48.40:788][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.01.18-19.48.40:788][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.18-19.48.40:879][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.01.18-19.48.40:879][  0]LogD3D11RHI:       8010/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2020.01.18-19.48.40:882][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.18-19.48.40:882][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.18-19.48.40:882][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.18-19.48.40:894][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.18-19.48.40:894][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.18-19.48.40:894][  0]LogWindows: EnumDisplayDevices:
+[2020.01.18-19.48.40:894][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.01.18-19.48.40:895][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.01.18-19.48.40:895][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.01.18-19.48.40:895][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.01.18-19.48.40:896][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.01.18-19.48.40:896][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.01.18-19.48.40:896][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.01.18-19.48.40:896][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.01.18-19.48.40:896][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.01.18-19.48.40:951][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.18-19.48.40:958][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.01.18-19.48.40:959][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.01.18-19.48.40:959][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.01.18-19.48.40:966][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.18-19.48.41:701][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.01.18-19.48.41:721][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.01.18-19.48.41:739][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.01.18-19.48.41:756][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.01.18-19.48.41:815][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.01.18-19.48.41:831][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.01.18-19.48.41:849][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.18-19.48.41:867][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.01.18-19.48.41:878][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.01.18-19.48.41:981][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.01.18-19.48.41:983][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.01.18-19.48.42:079][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.01.18-19.48.42:079][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.01.18-19.48.42:107][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.01.18-19.48.42:107][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.01.18-19.48.42:119][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.01.18-19.48.42:135][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.01.18-19.48.42:152][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.01.18-19.48.42:185][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.01.18-19.48.42:234][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.01.18-19.48.42:235][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.01.18-19.48.42:235][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.18-19.48.42:247][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.18-19.48.42:375][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (E:/SeniorProject/PollutionProject/SeniorProject/Intermediate/Shaders/WorkingDirectory/2036/).
+[2020.01.18-19.48.42:375][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gregory/AppData/Local/Temp/UnrealShaderWorkingDir/401995114B99B7850DB604AFCE954F93/'.
+[2020.01.18-19.48.42:378][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.18-19.48.42:379][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.18-19.48.42:379][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.18-19.48.45:532][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.18-19.48.46:144][  0]LogDerivedDataCache: Loaded boot cache 0.61s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.01.18-19.48.46:144][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.01.18-19.48.46:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/SeniorProject/PollutionProject/SeniorProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.18-19.48.46:144][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.18-19.48.46:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/SeniorProject/PollutionProject/SeniorProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.18-19.48.46:144][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.18-19.48.46:156][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.18-19.48.46:159][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2020.01.18-19.48.46:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gregory/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.18-19.48.46:172][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.18-19.48.46:172][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.18-19.48.46:192][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.18-19.48.46:193][  0]LogSlate: Using FreeType 2.6.0
+[2020.01.18-19.48.46:194][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.18-19.48.46:279][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2020.01.18-19.48.46:599][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.18-19.48.46:757][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.18-19.48.46:757][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.18-19.48.46:757][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.18-19.48.46:757][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.18-19.48.46:757][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.18-19.48.46:837][  0]LogNetVersion: SeniorProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 993350713)
+[2020.01.18-19.48.47:388][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.062614 seconds
+[2020.01.18-19.48.47:394][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.01.18-19.48.47:394][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.01.18-19.48.47:394][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.18-19.49.22:666][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.18-19.49.22:680][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.18-19.50.50:510][  0]LogStats: FPlatformStackWalk::StackWalkAndDump - 87.620 s
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: 
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1786]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: Stack: 
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff89f75cd89 UE4Editor-Engine.dll!DispatchCheckVerify<bool,<lambda_2fa4c8014e6e2d59bee8e8ac7e5934f3> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff89e594fa1 UE4Editor-Engine.dll!USceneComponent::AttachToComponent() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\scenecomponent.cpp:1786]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff868773acf UE4Editor-SeniorProject.dll!UnknownFunction []
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a20d610f UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3076]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a2311056 UE4Editor-CoreUObject.dll!UObjectLoadAllCompiledInDefaultProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:793]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a22fedef UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:869]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a20da727 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:813]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a0a24a2b UE4Editor-Core.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:977]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a0bf5cb5 UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:530]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a8578d67 UE4Editor-Projects.dll!FModuleDescriptor::LoadModulesForPhase() [d:\build\++ue4\sync\engine\source\runtime\projects\private\moduledescriptor.cpp:596]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8a8578ff7 UE4Editor-Projects.dll!FProjectManager::LoadModulesForProject() [d:\build\++ue4\sync\engine\source\runtime\projects\private\projectmanager.cpp:63]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff628d87eb1 UE4Editor.exe!FEngineLoop::LoadStartupModules() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3135]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff628d8d671 UE4Editor.exe!FEngineLoop::PreInit() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2536]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff628d85377 UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:129]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff628d855ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff628d9316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff628d95b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\3\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8f6c67bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: [Callstack] 0x00007ff8f7f4ced1 ntdll.dll!UnknownFunction []
+[2020.01.18-19.50.50:511][  0]LogOutputDevice: Error: 
+[2020.01.18-19.50.50:513][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.01.18-19.50.56:577][  0]LogStats:                    SendNewReport -  6.065 s
+[2020.01.18-19.50.56:577][  0]LogStats:             FDebug::EnsureFailed - 93.687 s
+[2020.01.18-19.50.56:614][  0]SourceControl: Source control is disabled
+[2020.01.18-19.51.11:101][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.18-19.51.11:548][  0]LogOcInput: OculusInput pre-init called
+[2020.01.18-19.51.50:172][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2020.01.18-19.51.50:172][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2020.01.18-19.51.50:173][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2020.01.18-19.51.50:173][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2020.01.18-19.51.50:404][  0]LogEngine: Initializing Engine...
+[2020.01.18-19.51.50:480][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.01.18-19.51.50:481][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.01.18-19.51.50:813][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.18-19.51.50:841][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.18-19.51.50:986][  0]LogInit: XAudio2 using 'Headset Earphone (2- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.18-19.51.51:019][  0]LogInit: FAudioDevice initialized.
+[2020.01.18-19.51.51:019][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.18-19.51.51:272][  0]LogDerivedDataCache: Saved boot cache 0.25s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.01.18-19.51.51:276][  0]LogInit: Texture streaming: Enabled
+[2020.01.18-19.51.51:297][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.18-19.51.51:338][  0]LogInit: Transaction tracking system initialized
+[2020.01.18-19.51.51:369][  0]BlueprintLog: New page: Editor Load
+[2020.01.18-19.51.51:546][  0]LocalizationService: Localization service is disabled
+[2020.01.18-19.51.52:115][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/' took 0.02s
+[2020.01.18-19.51.52:115][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.18-19.51.52:116][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.18-19.51.55:675][  0]Cmd: MAP LOAD FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.18-19.51.55:675][  0]LightingResults: New page: Lighting Build
+[2020.01.18-19.51.55:679][  0]MapCheck: New page: Map Check
+[2020.01.18-19.51.55:679][  0]LightingResults: New page: Lighting Build
+[2020.01.18-19.51.55:704][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.01.18-19.52.19:638][  0]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.01.18-19.52.24:146][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.01.18-19.52.24:354][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.01.18-19.52.24:355][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.18-19.52.24:355][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.611ms to complete.
+[2020.01.18-19.52.24:355][  0]LogFileHelpers: Loading map 'GreyBoxLVL4' took 28.680
+[2020.01.18-19.52.27:507][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.18-19.52.27:643][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.18-19.52.27:655][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.18-19.52.27:663][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.18-19.52.28:194][  0]LogCollectionManager: Loaded 0 collections in 0.002241 seconds
+[2020.01.18-19.52.29:272][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Collections/' took 0.01s
+[2020.01.18-19.52.29:272][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/Developers/Gregory/Collections/' took 0.00s
+[2020.01.18-19.52.29:272][  0]LogFileCache: Scanning file cache for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/Collections/' took 0.00s
+[2020.01.18-19.52.29:272][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.01.18-19.52.29:416][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2875 classes and 729 folders.
+[2020.01.18-19.52.29:535][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.18-19.52.29:608][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.29:652][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.29:681][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.29:815][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.29:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.29:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.29:969][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:064][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:086][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:142][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:180][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:194][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:276][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:326][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:354][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:374][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:384][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:410][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:428][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:444][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.30:497][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.01.18-19.52.32:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.18-19.52.32:314][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.01.18-19.52.36:415][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.01.18-19.52.36:648][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.18-19.52.36:672][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.18-19.52.36:793][  0]LogSlate: Took 0.013492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.18-19.52.37:492][  0]LogRenderer: Reallocating scene render targets to support 1004x552 Format 10 NumSamples 1 (Frame:1).
+[2020.01.18-19.52.37:837][  0]LogStaticMesh: Allocated 512x370x64 distance field atlas = 23.1Mb, with 92 objects containing 16.7Mb backing data
+[2020.01.18-19.52.39:156][  0]LogSlate: Took 0.045808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.18-19.52.39:557][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.18-19.52.39:557][  0]LogLoad: (Engine Initialization) Total time: 243.65 seconds
+[2020.01.18-19.52.39:557][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.18-19.52.39:877][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.18-19.52.40:471][  1]LogAssetRegistry: Asset discovery search completed in 234.2155 seconds
+[2020.01.18-19.52.40:475][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.01.18-19.52.40:475][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
+[2020.01.18-19.52.41:316][  3]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.18-19.52.46:145][227]LogFileCache: Retrieving MD5 hashes for directory 'E:/SeniorProject/PollutionProject/SeniorProject/Content/' took 6.53s
+[2020.01.18-19.52.48:832][419]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.18-19.56.15:602][974]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Counter.Counter
+[2020.01.18-19.56.16:767][974]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.01.18-19.56.18:428][974]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2020.01.18-19.56.19:356][974]LogSlate: Took 0.035415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.18-19.56.43:510][702]LogSlate: Took 0.063167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.18-20.02.39:896][563]LogUObjectHash: Compacting FUObjectHashTables data took   8.53ms
+[2020.01.18-20.02.39:896][563]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 0.124
+[2020.01.18-20.02.39:937][563]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Counter] ([1] browsable assets)...
+[2020.01.18-20.02.39:937][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Counter]
+[2020.01.18-20.02.39:937][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.01.18-20.02.40:289][563]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Counter_Auto13D3F169C4C1624E86C1998B1436F794E.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto1.uasset'
+[2020.01.18-20.02.40:324][563]LogFileHelpers: Auto-saving content packages took 0.427
+[2020.01.18-20.13.22:799][466]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.01.18-20.13.22:799][466]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 0.039
+[2020.01.18-20.13.22:800][466]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Counter] ([1] browsable assets)...
+[2020.01.18-20.13.22:801][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Counter]
+[2020.01.18-20.13.22:801][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.01.18-20.13.22:969][466]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Counter_Auto210E4B3A24A396A792F2F4089D6CBEDA6.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto2.uasset'
+[2020.01.18-20.13.22:969][466]LogFileHelpers: Auto-saving content packages took 0.170
+[2020.01.18-20.25.42:010][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.01.18-20.25.42:011][429]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 0.045
+[2020.01.18-20.25.42:013][429]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Counter] ([1] browsable assets)...
+[2020.01.18-20.25.42:013][429]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Counter]
+[2020.01.18-20.25.42:013][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.01.18-20.25.42:224][429]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Counter_Auto39F73336A43480E932686DCB3221CFD9E.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto3.uasset'
+[2020.01.18-20.25.42:226][429]LogFileHelpers: Auto-saving content packages took 0.213
+[2020.01.18-21.25.27:503][279]SourceControl: fatal: /Script: '/Script' is outside repository
+[2020.01.18-21.25.30:822][461]BlueprintLog: New page: Compile Counter
+[2020.01.18-21.25.31:083][461]LogUObjectHash: Compacting FUObjectHashTables data took  11.21ms
+[2020.01.18-21.27.07:512][841]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.08:005][848]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.08:455][858]LogEditorTransaction: Undo Create Pin Link
+[2020.01.18-21.27.09:135][885]LogEditorTransaction: Undo Create Pin Link
+[2020.01.18-21.27.09:757][903]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.10:319][918]LogEditorTransaction: Undo Delete current selection
+[2020.01.18-21.27.12:107][995]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.12:592][  5]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.13:068][ 17]LogEditorTransaction: Undo Add Node
+[2020.01.18-21.27.13:630][ 33]LogEditorTransaction: Undo Delete current selection
+[2020.01.18-21.27.15:590][141]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.16:121][156]LogEditorTransaction: Undo Add Node
+[2020.01.18-21.27.16:978][189]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.17:510][204]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.18:005][217]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.18:494][229]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.19:055][245]LogEditorTransaction: Undo Move Node
+[2020.01.18-21.27.19:533][256]LogEditorTransaction: Undo Add Node
+[2020.01.18-21.27.24:947][455]BlueprintLog: New page: Compile Counter
+[2020.01.18-21.27.25:037][455]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2020.01.18-21.27.51:675][688]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2020.01.18-21.27.51:675][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 0.043
+[2020.01.18-21.27.51:676][688]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Counter] ([1] browsable assets)...
+[2020.01.18-21.27.51:677][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Counter]
+[2020.01.18-21.27.51:677][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.01.18-21.27.51:846][688]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Counter_Auto4423D530F4D236197F97453A0606F956A.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto4.uasset'
+[2020.01.18-21.27.51:846][688]LogFileHelpers: Auto-saving content packages took 0.171
+[2020.01.18-21.33.01:044][727]LogHotReload: New module detected: UE4Editor-SeniorProject-0001.dll
+[2020.01.18-21.33.03:405][735]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.18-21.33.03:453][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.01.18-21.33.03:535][735]LogBlueprintActionDatabase: Requesting refresh due to module change: SeniorProject (unloaded)
+[2020.01.18-21.33.03:594][735]LogClass: Could not find existing class FirstPersonCharacter in package /Script/SeniorProject for HotReload, assuming new class
+[2020.01.18-21.33.03:595][735]LogClass: Function ContinueDialogue is new.
+[2020.01.18-21.33.03:595][735]LogClass: Function Interact is new.
+[2020.01.18-21.33.03:595][735]LogClass: Function LookSide is new.
+[2020.01.18-21.33.03:595][735]LogClass: Function LookUp is new.
+[2020.01.18-21.33.03:595][735]LogClass: Function MoveForward is new.
+[2020.01.18-21.33.03:595][735]LogClass: Function MoveRight is new.
+[2020.01.18-21.33.03:595][735]LogClass: Function StartRayCast is new.
+[2020.01.18-21.33.03:615][735]LogClass: GameObjectInfo HotReload.
+[2020.01.18-21.33.03:615][735]LogClass: DialougeSystem HotReload.
+[2020.01.18-21.33.03:615][735]LogClass: AudioInformation HotReload.
+[2020.01.18-21.33.03:635][735]LogHotReload: Re-instancing FirstPersonCharacter after hot-reload.
+[2020.01.18-21.33.04:205][735]LogBlueprintActionDatabase: Requesting refresh due to module change: SeniorProject (loaded)
+[2020.01.18-21.33.04:206][735]LogContentBrowser: Native class hierarchy updated for 'SeniorProject' in 0.0005 seconds. Added 11 classes and 3 folders.
+[2020.01.18-21.33.04:212][735]Display: HotReload successful (1 functions remapped  3 scriptstructs remapped)
+[2020.01.18-21.33.04:378][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.01.18-21.33.04:379][735]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.01.18-21.33.04:390][735]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2875 classes and 729 folders.
+[2020.01.18-21.33.04:616][735]Display: HotReload took  1.2s.
+[2020.01.18-23.44.43:236][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.18-23.44.56:399][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.18-23.45.39:443][324]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.18-23.46.31:281][278]LogUObjectHash: Compacting FUObjectHashTables data took  12.05ms
+[2020.01.18-23.46.31:282][278]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 0.381
+[2020.01.18-23.46.31:283][278]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Counter] ([1] browsable assets)...
+[2020.01.18-23.46.31:283][278]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Counter]
+[2020.01.18-23.46.31:284][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2020.01.18-23.46.31:451][278]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Counter_Auto5A55B961B46C2D2C466FBBBA2798705E1.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto5.uasset'
+[2020.01.18-23.46.31:452][278]LogFileHelpers: Auto-saving content packages took 0.169
+[2020.01.18-23.47.41:718][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.18-23.47.49:036][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.18-23.48.03:539][ 11]LogSlate: Took 0.015481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.01.18-23.50.04:451][ 74]BlueprintLog: New page: Compile Counter
+[2020.01.18-23.50.04:592][ 74]LogUObjectHash: Compacting FUObjectHashTables data took  11.64ms
+[2020.01.18-23.53.38:436][926]Candidate modules for hot reload:
+[2020.01.18-23.53.38:436][926]  SeniorProject
+[2020.01.18-23.53.38:437][926]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SeniorProject,5712 Win64 Development -TargetType=Editor -Project="E:/SeniorProject/PollutionProject/SeniorProject/SeniorProject.uproject" "E:/SeniorProject/PollutionProject/SeniorProject/SeniorProject.uproject"  -IgnoreJunk]
+[2020.01.18-23.53.38:488][926]Warning: Starting HotReload took  0.6s.
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: New page: Compilation - Jan 18, 2020, 1:53:48 PM
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: Parsing headers for SeniorProjectEditor
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog:   Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: Reflection code generated for SeniorProjectEditor in 6.6664867 seconds
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog:   [1/3] UE4Editor-SeniorProject-5712.lib
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog:      Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-5712.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-5712.exp
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog:   [2/3] UE4Editor-SeniorProject-5712.dll
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog:      Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-5712.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-5712.suppressed.exp
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog:   [3/3] SeniorProjectEditor.target
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: Total time in Parallel executor: 1.25 seconds
+[2020.01.18-23.53.48:286][ 49]CompilerResultsLog: Total execution time: 9.52 seconds
+[2020.01.18-23.53.48:286][ 49]LogMainFrame: MainFrame: Module compiling took 9.862 seconds
+[2020.01.18-23.53.48:329][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2020.01.18-23.53.48:330][ 49]LogBlueprintActionDatabase: Requesting refresh due to module change: SeniorProject (unloaded)
+[2020.01.18-23.53.48:379][ 49]LogClass: Could not find existing class MyGameInstance in package /Script/SeniorProject for HotReload, assuming new class
+[2020.01.18-23.53.48:386][ 49]LogClass: GameObjectInfo HotReload.
+[2020.01.18-23.53.48:386][ 49]LogClass: DialougeSystem HotReload.
+[2020.01.18-23.53.48:386][ 49]LogClass: AudioInformation HotReload.
+[2020.01.18-23.53.48:404][ 49]LogHotReload: Re-instancing MyGameInstance after hot-reload.
+[2020.01.18-23.53.48:665][ 49]LogBlueprintActionDatabase: Requesting refresh due to module change: SeniorProject (loaded)
+[2020.01.18-23.53.48:666][ 49]LogContentBrowser: Native class hierarchy updated for 'SeniorProject' in 0.0005 seconds. Added 11 classes and 3 folders.
+[2020.01.18-23.53.48:673][ 49]Display: HotReload successful (8 functions remapped  3 scriptstructs remapped)
+[2020.01.18-23.53.48:785][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.01.18-23.53.48:786][ 49]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.01.18-23.53.48:798][ 49]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2875 classes and 729 folders.
+[2020.01.18-23.53.48:806][ 49]Display: HotReload took 10.9s.
+[2020.01.18-23.56.32:023][122]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2020.01.18-23.56.32:023][122]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 0.164
+[2020.01.18-23.56.32:026][122]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Counter] ([1] browsable assets)...
+[2020.01.18-23.56.32:026][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Counter]
+[2020.01.18-23.56.32:026][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.01.18-23.56.32:186][122]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Counter_Auto67408AFBF47B582D0B4FFB58B4CAF1FB8.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Autosaves/Game/UI/Counter_Auto6.uasset'
+[2020.01.18-23.56.32:187][122]LogFileHelpers: Auto-saving content packages took 0.163
+[2020.01.18-23.59.34:229][667]Candidate modules for hot reload:
+[2020.01.18-23.59.34:229][667]  SeniorProject
+[2020.01.18-23.59.34:229][667]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SeniorProject,7421 Win64 Development -TargetType=Editor -Project="E:/SeniorProject/PollutionProject/SeniorProject/SeniorProject.uproject" "E:/SeniorProject/PollutionProject/SeniorProject/SeniorProject.uproject"  -IgnoreJunk]
+[2020.01.18-23.59.34:250][667]Warning: Starting HotReload took  0.0s.
+[2020.01.18-23.59.49:732][788]CompilerResultsLog: New page: Compilation - Jan 18, 2020, 1:59:49 PM
+[2020.01.18-23.59.49:733][788]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
+[2020.01.18-23.59.49:733][788]CompilerResultsLog: Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
+[2020.01.18-23.59.49:733][788]CompilerResultsLog: Parsing headers for SeniorProjectEditor
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.18-23.59.49:733][788]CompilerResultsLog: Reflection code generated for SeniorProjectEditor in 5.8113685 seconds
+[2020.01.18-23.59.49:733][788]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.18-23.59.49:733][788]CompilerResultsLog: Building 11 actions with 8 processes...
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [1/11] MyGameInstance.gen.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/MyGameInstance.h(35) : error C2059: syntax error: ']'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/MyGameInstance.h(36) : error C2238: unexpected token(s) preceding ';'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [2/11] SeniorProject.init.gen.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [3/11] ButtonInfo.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(35) : error C2059: syntax error: ']'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(36) : error C2238: unexpected token(s) preceding ';'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [4/11] MyGameInstance.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(35) : error C2059: syntax error: ']'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(36) : error C2238: unexpected token(s) preceding ';'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [5/11] DoYouCopySystem.gen.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(35) : error C2059: syntax error: ']'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(36) : error C2238: unexpected token(s) preceding ';'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [6/11] FirstPersonCharacter.gen.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(35) : error C2059: syntax error: ']'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(36) : error C2238: unexpected token(s) preceding ';'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [7/11] DoYouCopySystem.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(35) : error C2059: syntax error: ']'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(36) : error C2238: unexpected token(s) preceding ';'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(59): warning C4458: declaration of 'audio' hides class member
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(58): note: see declaration of 'ADoYouCopySystem::audio'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(134): warning C4458: declaration of 'audio' hides class member
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(58): note: see declaration of 'ADoYouCopySystem::audio'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(140): warning C4458: declaration of 'audio' hides class member
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(58): note: see declaration of 'ADoYouCopySystem::audio'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(148): warning C4458: declaration of 'audio' hides class member
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(58): note: see declaration of 'ADoYouCopySystem::audio'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:   [8/11] FirstPersonCharacter.cpp
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(35) : error C2059: syntax error: ']'
+[2020.01.18-23.59.49:733][788]CompilerResultsLog:    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(36) : error C2238: unexpected token(s) preceding ';'
+[2020.01.18-23.59.49:733][788]LogMainFrame: MainFrame: Module compiling took 15.508 seconds
+[2020.01.18-23.59.49:733][788]Warning: HotReload failed, recompile failed
+[2020.01.19-00.02.21:131][239]Candidate modules for hot reload:
+[2020.01.19-00.02.21:131][239]  SeniorProject
+[2020.01.19-00.02.21:131][239]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SeniorProject,3387 Win64 Development -TargetType=Editor -Project="E:/SeniorProject/PollutionProject/SeniorProject/SeniorProject.uproject" "E:/SeniorProject/PollutionProject/SeniorProject/SeniorProject.uproject"  -IgnoreJunk]
+[2020.01.19-00.02.21:152][239]Warning: Starting HotReload took  0.0s.
+[2020.01.19-00.02.31:317][463]CompilerResultsLog: New page: Compilation - Jan 18, 2020, 2:02:31 PM
+[2020.01.19-00.02.31:318][463]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
+[2020.01.19-00.02.31:318][463]CompilerResultsLog: Parsing headers for SeniorProjectEditor
+[2020.01.19-00.02.31:318][463]CompilerResultsLog:   Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.19-00.02.31:318][463]CompilerResultsLog: Reflection code generated for SeniorProjectEditor in 7.0472491 seconds
+[2020.01.19-00.02.31:318][463]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.01.19-00.02.31:318][463]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.01.19-00.02.31:318][463]CompilerResultsLog:   [1/3] UE4Editor-SeniorProject-3387.lib
+[2020.01.19-00.02.31:318][463]CompilerResultsLog:      Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-3387.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-3387.exp
+[2020.01.19-00.02.31:318][463]CompilerResultsLog:   [2/3] UE4Editor-SeniorProject-3387.dll
+[2020.01.19-00.02.31:318][463]CompilerResultsLog:      Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-3387.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-3387.suppressed.exp
+[2020.01.19-00.02.31:318][463]CompilerResultsLog:   [3/3] SeniorProjectEditor.target
+[2020.01.19-00.02.31:318][463]CompilerResultsLog: Total time in Parallel executor: 1.57 seconds
+[2020.01.19-00.02.31:318][463]CompilerResultsLog: Total execution time: 10.04 seconds
+[2020.01.19-00.02.31:318][463]LogMainFrame: MainFrame: Module compiling took 10.193 seconds
+[2020.01.19-00.02.31:432][463]LogUObjectHash: Compacting FUObjectHashTables data took   8.90ms
+[2020.01.19-00.02.31:434][463]LogBlueprintActionDatabase: Requesting refresh due to module change: SeniorProject (unloaded)
+[2020.01.19-00.02.31:538][463]LogClass: Could not find existing class MyGameInstance in package /Script/SeniorProject for HotReload, assuming new class
+[2020.01.19-00.02.31:553][463]LogClass: GameObjectInfo HotReload.
+[2020.01.19-00.02.31:553][463]LogClass: DialougeSystem HotReload.
+[2020.01.19-00.02.31:553][463]LogClass: AudioInformation HotReload.
+[2020.01.19-00.02.31:586][463]LogHotReload: Re-instancing MyGameInstance after hot-reload.
+[2020.01.19-00.02.31:939][463]LogBlueprintActionDatabase: Requesting refresh due to module change: SeniorProject (loaded)
+[2020.01.19-00.02.31:939][463]LogContentBrowser: Native class hierarchy updated for 'SeniorProject' in 0.0005 seconds. Added 11 classes and 3 folders.
+[2020.01.19-00.02.31:952][463]Display: HotReload successful (8 functions remapped  3 scriptstructs remapped)
+[2020.01.19-00.02.32:084][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.01.19-00.02.32:085][463]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.01.19-00.02.32:096][463]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2875 classes and 729 folders.
+[2020.01.19-00.02.32:106][463]Display: HotReload took 11.0s.
+[2020.01.19-00.03.03:136][449]Cmd: TRANSACTION UNDO
+[2020.01.19-00.03.03:136][449]LogEditorTransaction: Undo Move Node
+[2020.01.19-00.03.03:484][452]LogEditorTransaction: Undo Delete current selection
+[2020.01.19-00.03.03:787][458]LogEditorTransaction: Undo Delete current selection
+[2020.01.19-00.03.57:429][599]BlueprintLog: New page: Compile Counter
+[2020.01.19-00.03.57:577][599]LogUObjectHash: Compacting FUObjectHashTables data took   7.54ms
+[2020.01.19-00.07.30:721][930]BlueprintLog: New page: Compile Counter
+[2020.01.19-00.07.30:833][930]LogUObjectHash: Compacting FUObjectHashTables data took   8.03ms
+[2020.01.19-00.07.46:868][723]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.19-00.07.47:004][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.07.47:024][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.19-00.07.47:025][723]PIE: New page: PIE session: GreyBoxLVL4 (Jan 18, 2020, 2:07:47 PM)
+[2020.01.19-00.07.47:144][723]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL4
+[2020.01.19-00.07.47:502][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.356087s)
+[2020.01.19-00.07.47:527][723]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.01.19-00.07.47:535][723]LogPlayLevel: PIE: World Init took: (0.034024s)
+[2020.01.19-00.07.47:536][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL4.GreyBoxLVL4 to /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 (0.392154s)
+[2020.01.19-00.07.47:580][723]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.01.19-00.07.47:748][723]LogInit: XAudio2 using 'Headset Earphone (2- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.19-00.07.47:766][723]LogInit: FAudioDevice initialized.
+[2020.01.19-00.07.47:861][723]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.19-00.07.48:006][723]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 up for play (max tick rate 0) at 2020.01.18-19.07.48
+[2020.01.19-00.07.48:191][723]LogWorld: Bringing up level for play took: 0.327997
+[2020.01.19-00.07.48:428][723]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2020.01.19-00.07.48:446][723]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2020.01.19-00.07.48:446][723]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.01.19-00.07.48:840][723]LogBlueprintUserMessages: [DialogueSystem_2] Hello
+[2020.01.19-00.07.48:946][723]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL4 1.732
+[2020.01.19-00.07.48:947][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.08:727][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.19-00.08.13:024][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.13:053][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.08.13:352][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.19-00.08.13:354][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.13:500][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.08.13:612][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2020.01.19-00.08.13:861][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.01.19-00.08.19:125][331]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.19-00.08.19:172][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.19:172][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.19-00.08.19:173][331]PIE: New page: PIE session: GreyBoxLVL4 (Jan 18, 2020, 2:08:19 PM)
+[2020.01.19-00.08.19:173][331]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL4
+[2020.01.19-00.08.19:530][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.356713s)
+[2020.01.19-00.08.19:531][331]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.01.19-00.08.19:531][331]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2020.01.19-00.08.19:532][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL4.GreyBoxLVL4 to /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 (0.358843s)
+[2020.01.19-00.08.19:596][331]LogUObjectHash: Compacting FUObjectHashTables data took   6.47ms
+[2020.01.19-00.08.19:740][331]LogInit: XAudio2 using 'Headset Earphone (2- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.19-00.08.19:758][331]LogInit: FAudioDevice initialized.
+[2020.01.19-00.08.19:805][331]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.19-00.08.19:898][331]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 up for play (max tick rate 0) at 2020.01.18-19.08.19
+[2020.01.19-00.08.19:906][331]LogWorld: Bringing up level for play took: 0.099629
+[2020.01.19-00.08.20:069][331]LogBlueprintUserMessages: [DialogueSystem_2] Hello
+[2020.01.19-00.08.20:071][331]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 154
+[2020.01.19-00.08.20:074][331]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI/Counter.Counter_C:PreConstruct
+	Function /Game/UI/Counter.Counter_C:ExecuteUbergraph_Counter
+
+[2020.01.19-00.08.25:354][331]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL4 6.14
+[2020.01.19-00.08.25:356][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.35:909][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.35:909][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.08.35:974][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.19-00.08.35:976][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.36:063][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.08.36:085][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.01.19-00.08.36:138][836]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.01.19-00.08.44:429][231]BlueprintLog: New page: Compile Counter
+[2020.01.19-00.08.44:510][231]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2020.01.19-00.08.45:320][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/UI/Counter.uasset" SILENT=true
+[2020.01.19-00.08.45:486][250]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/Counter3241C8BD463FB69DDCADABA258BBBA35.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Content/UI/Counter.uasset'
+[2020.01.19-00.08.46:061][272]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.19-00.08.46:093][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.46:093][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.19-00.08.46:093][272]PIE: New page: PIE session: GreyBoxLVL4 (Jan 18, 2020, 2:08:46 PM)
+[2020.01.19-00.08.46:093][272]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL4
+[2020.01.19-00.08.46:393][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.299365s)
+[2020.01.19-00.08.46:393][272]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.01.19-00.08.46:394][272]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2020.01.19-00.08.46:396][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL4.GreyBoxLVL4 to /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 (0.302315s)
+[2020.01.19-00.08.46:440][272]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.01.19-00.08.46:598][272]LogInit: XAudio2 using 'Headset Earphone (2- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.19-00.08.46:616][272]LogInit: FAudioDevice initialized.
+[2020.01.19-00.08.46:649][272]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.19-00.08.46:748][272]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 up for play (max tick rate 0) at 2020.01.18-19.08.46
+[2020.01.19-00.08.46:757][272]LogWorld: Bringing up level for play took: 0.106424
+[2020.01.19-00.08.46:930][272]LogBlueprintUserMessages: [DialogueSystem_2] Hello
+[2020.01.19-00.08.46:932][272]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 490
+[2020.01.19-00.08.46:932][272]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI/Counter.Counter_C:PreConstruct
+	Function /Game/UI/Counter.Counter_C:ExecuteUbergraph_Counter
+
+[2020.01.19-00.08.49:617][272]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL4 4.403
+[2020.01.19-00.08.49:618][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.53:090][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.53:091][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.08.53:151][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.19-00.08.53:153][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.08.53:213][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.08.53:236][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.01.19-00.08.53:277][503]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.01.19-00.09.00:196][938]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.19-00.09.00:290][938]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.09.00:290][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.19-00.09.00:290][938]PIE: New page: PIE session: GreyBoxLVL4 (Jan 18, 2020, 2:09:00 PM)
+[2020.01.19-00.09.00:290][938]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL4
+[2020.01.19-00.09.00:603][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.312263s)
+[2020.01.19-00.09.00:604][938]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.01.19-00.09.00:614][938]LogPlayLevel: PIE: World Init took: (0.010518s)
+[2020.01.19-00.09.00:615][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL4.GreyBoxLVL4 to /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 (0.323777s)
+[2020.01.19-00.09.00:655][938]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2020.01.19-00.09.00:854][938]LogInit: XAudio2 using 'Headset Earphone (2- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.19-00.09.00:869][938]LogInit: FAudioDevice initialized.
+[2020.01.19-00.09.00:902][938]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.19-00.09.01:001][938]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 up for play (max tick rate 0) at 2020.01.18-19.09.01
+[2020.01.19-00.09.01:009][938]LogWorld: Bringing up level for play took: 0.106781
+[2020.01.19-00.09.01:145][938]LogBlueprintUserMessages: [DialogueSystem_2] Hello
+[2020.01.19-00.09.01:146][938]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL4 -0.067
+[2020.01.19-00.09.01:148][938]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.09.02:367][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.09.02:367][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.09.02:423][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.19-00.09.02:424][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.09.02:476][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-00.09.02:494][  7]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.01.19-00.09.02:524][  8]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.01.19-00.09.06:969][258]BlueprintLog: New page: Compile Counter
+[2020.01.19-00.09.07:034][258]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2020.01.19-00.09.07:915][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Counter" FILE="E:/SeniorProject/PollutionProject/SeniorProject/Content/UI/Counter.uasset" SILENT=true
+[2020.01.19-00.09.08:065][294]LogSavePackage: Moving 'E:/SeniorProject/PollutionProject/SeniorProject/Saved/CounterB58C95314299244D996B06A112ABE63B.tmp' to 'E:/SeniorProject/PollutionProject/SeniorProject/Content/UI/Counter.uasset'
+[2020.01.19-00.10.33:449][559]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.19-00.10.33:509][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.10.33:509][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.19-00.10.33:509][559]PIE: New page: PIE session: GreyBoxLVL4 (Jan 18, 2020, 2:10:33 PM)
+[2020.01.19-00.10.33:509][559]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GreyBoxLVL4
+[2020.01.19-00.10.33:806][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.296929s)
+[2020.01.19-00.10.33:806][559]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.01.19-00.10.33:807][559]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2020.01.19-00.10.33:808][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GreyBoxLVL4.GreyBoxLVL4 to /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 (0.298552s)
+[2020.01.19-00.10.33:849][559]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2020.01.19-00.10.34:011][559]LogInit: XAudio2 using 'Headset Earphone (2- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.01.19-00.10.34:033][559]LogInit: FAudioDevice initialized.
+[2020.01.19-00.10.34:064][559]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.01.19-00.10.34:157][559]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GreyBoxLVL4.GreyBoxLVL4 up for play (max tick rate 0) at 2020.01.18-19.10.34
+[2020.01.19-00.10.34:168][559]LogWorld: Bringing up level for play took: 0.103503
+[2020.01.19-00.10.34:319][559]LogBlueprintUserMessages: [DialogueSystem_2] Hello
+[2020.01.19-00.10.34:321][559]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_GreyBoxLVL4 1.107
+[2020.01.19-00.10.34:322][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4' with GeneratedClass '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4_C' with ClassGeneratedBy '/Game/Levels/GreyBoxLVL4.GreyBoxLVL4:PersistentLevel.GreyBoxLVL4'
+[2020.01.19-00.10.36:327][660]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 555
+[2020.01.19-00.10.36:327][660]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI/Counter.Counter_C:Tick
+	Function /Game/UI/Counter.Counter_C:ExecuteUbergraph_Counter
+
+[2020.01.19-00.10.36:371][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:399][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:431][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:469][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:499][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:526][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:551][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:575][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:600][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:622][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:649][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:677][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:705][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:734][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:764][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:793][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:819][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:844][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:869][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:894][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:919][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:948][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.36:974][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:006][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:033][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:065][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:091][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:118][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:144][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:177][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:213][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:241][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:270][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:296][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:323][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:353][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:382][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:416][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:454][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:486][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:509][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:538][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:565][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:595][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:630][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:655][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:675][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:701][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:723][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:746][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:770][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:793][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:816][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:840][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:867][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:891][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:918][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:944][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:970][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.37:993][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:017][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:039][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:070][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:092][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:118][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:141][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:166][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:192][660]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.01.19-00.10.38:205][660]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.01.19-00.11.43:756][660]LogStats: FPlatformStackWalk::StackWalkAndDump - 65.550 s
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: === Handled ensure: ===
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: 
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: Ensure condition failed: ClippingStack.Num() != 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\SlateCore\Private\Layout\Clipping.cpp] [Line: 350]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: 
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: Stack: 
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c808d19 UE4Editor-SlateCore.dll!<lambda_5cc0037ba6dceeccc3f405f6d1a19e37>::operator()() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\layout\clipping.cpp:350]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70759e UE4Editor-SlateCore.dll!FSlateClippingManager::PopClip() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\layout\clipping.cpp:350]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704623 UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1080]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab4c18 UE4Editor-Slate.dll!SCanvas::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\scanvas.cpp:116]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c702571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c702571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c7026d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab9354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.01.19-00.11.43:756][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab9354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab9354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab9354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c702571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c7026d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c702571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c7026d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a1ab9354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c702571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:757][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c7026d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c704bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c7026d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c702571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c701c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70277a UE4Editor-SlateCore.dll!SWindow::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1945]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c70419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff89c7050fe UE4Editor-SlateCore.dll!SWindow::PaintWindow() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1933]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a18ad714 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1289]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a18d68d2 UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1563]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a18ae2a2 UE4Editor-Slate.dll!FSlateApplication::DrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1246]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a18fa859 UE4Editor-Slate.dll!FSlateApplication::TickApplication() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1848]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff8a18f9a4d UE4Editor-Slate.dll!FSlateApplication::Tick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1679]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff628d77a6a UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4071]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff628d8554c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:168]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff628d855ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff628d9316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff628d95b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\3\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff8f6c67bd4 KERNEL32.DLL!UnknownFunction []
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: [Callstack] 0x00007ff8f7f4ced1 ntdll.dll!UnknownFunction []
+[2020.01.19-00.11.43:758][660]LogOutputDevice: Error: 
+[2020.01.19-00.11.43:768][660]LogStats:                SubmitErrorReport -  0.000 s
