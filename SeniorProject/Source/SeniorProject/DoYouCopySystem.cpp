@@ -35,6 +35,7 @@ void ADoYouCopySystem::BeginPlay()
 	//GI = NewObject<UMyGameInstance>(this, "GameInstance");
 	GI = Cast<UMyGameInstance>(GetGameInstance());
 	subTime = 0;
+	timer = 0;
 }
 
 // Called every frame
@@ -46,11 +47,11 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 	if(!isPlaying)
 		close = isClose();
 
-	if (isUpdatingSubs && subTime <= DeltaTime)
-	{
+	if (isUpdatingSubs && subTime <= timer)
+	{ 
 		UpdateSubs(subIncr);
 		subIncr++;
-		subTime = DeltaTime + add;
+		subTime = timer + add;
 	}
 
 	if (close || isPlaying)
@@ -133,11 +134,17 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 	isPlaying = true;
 	if (!audioIsPlaying)
 	{	
-		add = audioDur / (float)dial[narrationNum].audio[audioCounter].subtitles.ToString().Len();
 		audioIsPlaying = true;
 		audio->Sound = GetSound(); 
-		audioDur = audio->Sound->Duration + deltaTime + 1;
-		audio->Play();
+		if (audio->Sound != nullptr)
+		{
+			audioDur = audio->Sound->Duration + deltaTime + 1;
+			audio->Play();
+		}
+		else
+			audioDur = 4;
+		FString temp = dial[narrationNum].audio[audioCounter].subtitles.ToString();
+		add = audioDur / temp.Len();
 		subTime = deltaTime;
 		SetSubs();
 		SetBools(dial[narrationNum].audio[audioCounter]);
@@ -180,6 +187,7 @@ void ADoYouCopySystem::RemovePoint()
 void ADoYouCopySystem::SetSubs()
 {
 	//subtitles = dial[narrationNum].audio[audioCounter].subtitles;
+	subIncr = 0;
 	isUpdatingSubs = true;
 }
 FText ADoYouCopySystem::GetSubs()
