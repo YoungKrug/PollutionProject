@@ -62,6 +62,7 @@ void AFirstPersonCharacter::StartRayCast()
 	//The ECollisionChannel parameter is used in order to determine what we are looking for when performing the raycast
 	//ActorLineTraceSingle(Hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
 	GetWorld()->LineTraceMultiByChannel(hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
+	//{if trigger then kill}
 	/*if (Hit.Actor != nullptr)
 	{
 		FString test = Hit.GetActor()->GetName();

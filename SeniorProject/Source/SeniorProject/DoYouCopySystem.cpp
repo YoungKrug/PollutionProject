@@ -37,15 +37,18 @@ void ADoYouCopySystem::BeginPlay()
 	subTime = 0;
 	timer = 0;
 }
-
 // Called every frame
 void ADoYouCopySystem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	timer += DeltaTime;
 	bool close;
-	if(!isPlaying)
+	if (!isPlaying)
+	{
 		close = isClose();
+		GI->canStartSubs = false;
+		GI->currentSubs = FText::FromString("");
+	}
 
 	if (isUpdatingSubs && subTime <= timer)
 	{ 
@@ -75,6 +78,8 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 				audioCounter = 0;
 				RemovePoint();
 				isPlaying = false;
+				ResetBools(dial[narrationNum].audio[audioCounter]);
+				subtitles = FText::FromString("");
 			}
 		}
 	}
@@ -84,7 +89,6 @@ bool ADoYouCopySystem::isClose()
 {
 	const int32 AlwaysAddKey = -1;
 	FString test = "s";
-	
 	TArray<FGameObjectInfo> arr;
 	if (dial.Num() <= 0 || mainPlayer == nullptr)
 	{
@@ -152,9 +156,9 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 }
 void ADoYouCopySystem::SetBools(FAudioInformation &audio)
 {
-	GI->canPlayerMove = !audio.isMovementLocked;
-	GI->canPlayerRotate = !audio.isRotationLocked;
-	GI->isPlayerScreenLocked = !audio.isScreenLocked;
+	GI->canPlayerMove = audio.isMovementLocked;
+	GI->canPlayerRotate = audio.isRotationLocked;
+	GI->isPlayerScreenLocked = audio.isScreenLocked;
 	GI->canStartSubs = true;
 	GI->currentSubs = subtitles;
 }
@@ -196,9 +200,12 @@ FText ADoYouCopySystem::GetSubs()
 }
 void ADoYouCopySystem::UpdateSubs(int i)
 {
-	if (subIncr >= dial[narrationNum].audio[audioCounter].subtitles.ToString().Len())
+	const int32 AlwaysAddKey = -1;
+	if (&dial[narrationNum].audio[audioCounter] == nullptr)
 	{
 		isUpdatingSubs = false;
+		FString test = "done";
+		GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 4.0F, FColor::Cyan, test);
 		return;
 	}
 	char a = dial[narrationNum].audio[audioCounter].subtitles.ToString()[i];
@@ -206,4 +213,7 @@ void ADoYouCopySystem::UpdateSubs(int i)
 	temp += a;
 	FText text = FText::FromString(temp);
 	subtitles = text;
+	GI->currentSubs = subtitles;
+	FString test = temp; 
+	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, subtitles.ToString()); // How to Debug <-
 }
