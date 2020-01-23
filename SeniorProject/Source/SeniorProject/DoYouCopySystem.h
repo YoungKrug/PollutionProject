@@ -37,6 +37,7 @@ public:
 	USoundBase* GetSound();
 	UMyGameInstance* GetGameInstanceBase();
 	void RemovePoint();
+	void UpdateSubs(int i);
 	void SetSubs();
 	UFUNCTION(BlueprintCallable, Category = "DoYouCopy")
 	FText GetSubs();
@@ -61,4 +62,6 @@ private:
 	FText subtitles;
 	bool isUpdatingSubs;
 	float subTime;
+	int subIncr = 0;
+	float add;
 };
