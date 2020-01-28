@@ -1,24 +1,24 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SeniorProject\PollutionProject).
   Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
   Parsing headers for SeniorProjectEditor
-    Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 5.5719999 seconds
-  Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+    Running UnrealHeaderTool "C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SeniorProjectEditor in 6.7875831 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
     [1/4] DoYouCopySystem.cpp
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(68): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(59): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(153): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(59): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(161): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(59): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(170): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(59): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(57): warning C4701: potentially uninitialized local variable 'close' used
-    [2/4] UE4Editor-SeniorProject.lib
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.exp
-    [3/4] UE4Editor-SeniorProject.dll
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.exp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(71): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(165): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(173): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(182): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(60): warning C4701: potentially uninitialized local variable 'close' used
+    [2/4] UE4Editor-SeniorProject-0011.lib
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.exp
+    [3/4] UE4Editor-SeniorProject-0011.dll
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.suppressed.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.suppressed.exp
     [4/4] SeniorProjectEditor.target
-  Total time in Parallel executor: 2.28 seconds
-  Total execution time: 9.72 seconds
+  Total time in Parallel executor: 2.86 seconds
+  Total execution time: 12.03 seconds

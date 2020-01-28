@@ -41,6 +41,7 @@ public:
 	void SetSubs();
 	UFUNCTION(BlueprintCallable, Category = "DoYouCopy")
 	FText GetSubs();
+	void ResetSubs();
 private:
 	UPROPERTY(EditAnywhere)
 	AActor* mainPlayer;//Player to use methods on

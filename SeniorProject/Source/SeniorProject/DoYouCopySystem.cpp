@@ -47,7 +47,7 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 	{
 		close = isClose();
 		GI->canStartSubs = false;
-		GI->currentSubs = FText::FromString("");
+		ResetSubs();
 	}
 
 	if (isUpdatingSubs && subTime <= timer)
@@ -69,9 +69,14 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 			audioIsPlaying = false;
 			audio->Stop();
 			TArray<FAudioInformation> audio = dial[narrationNum].audio;
-			if (audio.Num() - 1 > audioCounter)
+			int audioCount = audio.Num();
+			ResetSubs();
+			if (audioCount - 1 > audioCounter)
 			{
-				audioCounter++;			
+				audioCounter++;		
+
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
+
 			}
 			else
 			{
@@ -79,7 +84,7 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 				RemovePoint();
 				isPlaying = false;
 				ResetBools(dial[narrationNum].audio[audioCounter]);
-				subtitles = FText::FromString("");
+				ResetSubs();
 			}
 		}
 	}
@@ -106,7 +111,7 @@ bool ADoYouCopySystem::isClose()
 	}
 	arr = SortGameObjectInfoByDistance(arr);
 	test = arr[0].gameObject->GetName();
-	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, .1F, FColor::Cyan, test);
+	//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, .1F, FColor::Cyan, test);
 	//FString s = arr[0].gameObject->GetName();
 	//FText text = arr[0].gameObject->GetName().GetCharArray();
 	//UE_LOG(LogExec, Warning, TEXT();
@@ -138,17 +143,20 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 	isPlaying = true;
 	if (!audioIsPlaying)
 	{	
+		ResetSubs();
 		audioIsPlaying = true;
 		audio->Sound = GetSound(); 
 		if (audio->Sound != nullptr)
 		{
 			audioDur = audio->Sound->Duration + deltaTime + 1;
+			FString test = FString::SanitizeFloat(audioDur);
+			GEngine->AddOnScreenDebugMessage(-1, 4.0F, FColor::Cyan, test);
 			audio->Play();
 		}
 		else
 			audioDur = 4;
 		FString temp = dial[narrationNum].audio[audioCounter].subtitles.ToString();
-		add = audioDur / temp.Len();
+		add = ((audioDur - deltaTime)-2) / temp.Len();
 		subTime = deltaTime;
 		SetSubs();
 		SetBools(dial[narrationNum].audio[audioCounter]);
@@ -198,14 +206,24 @@ FText ADoYouCopySystem::GetSubs()
 {
 	return subtitles;
 }
+void ADoYouCopySystem::ResetSubs()
+{
+	GI->currentSubs = FText::FromString(FString::FString(""));
+	subtitles = FText::FromString(FString::FString(""));
+}
 void ADoYouCopySystem::UpdateSubs(int i)
 {
 	const int32 AlwaysAddKey = -1;
+	int subLen = dial[narrationNum].audio[audioCounter].subtitles.ToString().Len();
+	if (i >= subLen)
+	{
+		return;
+	}
 	if (&dial[narrationNum].audio[audioCounter] == nullptr)
 	{
 		isUpdatingSubs = false;
-		FString test = "done";
-		GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 4.0F, FColor::Cyan, test);
+		//FString test = "done";
+		//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 4.0F, FColor::Cyan, test);
 		return;
 	}
 	char a = dial[narrationNum].audio[audioCounter].subtitles.ToString()[i];
@@ -215,5 +233,5 @@ void ADoYouCopySystem::UpdateSubs(int i)
 	subtitles = text;
 	GI->currentSubs = subtitles;
 	FString test = temp; 
-	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, subtitles.ToString()); // How to Debug <-
+	//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, FString::SanitizeFloat(subLen).Append(FString::FString(" : ").Append(FString::SanitizeFloat(i)))); // How to Debug <-
 }
