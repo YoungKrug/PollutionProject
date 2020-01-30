@@ -1,45 +1,45 @@
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\FirstPersonCharacter.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\MyGameInstance.generated.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\vector
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\xmemory
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdint
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\limits
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cfloat
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\climits
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cwchar
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdio
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\xatomic.h
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\xutility
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cstring
-C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\utility
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\AudioInformationStruct.generated.h
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DialogueSystemStruct.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DoYouCopySystem.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\FirstPersonCharacter.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject\Public\FirstPersonCharacter.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\MyGameInstance.generated.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\vector
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\xatomic.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\cstring
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\utility
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\AudioInformationStruct.generated.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DialogueSystemStruct.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DoYouCopySystem.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\FirstPersonCharacter.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
