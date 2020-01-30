@@ -233,5 +233,5 @@ void ADoYouCopySystem::UpdateSubs(int i)
 	subtitles = text;
 	GI->currentSubs = subtitles;
 	FString test = temp; 
-	//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, FString::SanitizeFloat(subLen).Append(FString::FString(" : ").Append(FString::SanitizeFloat(i)))); // How to Debug <-
+	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, subtitles.ToString()); // How to Debug <-
 }

@@ -2,23 +2,15 @@
   Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
   Parsing headers for SeniorProjectEditor
     Running UnrealHeaderTool "C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 6.7875831 seconds
+  Reflection code generated for SeniorProjectEditor in 6.7922051 seconds
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] DoYouCopySystem.cpp
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(71): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(165): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(173): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(182): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(60): warning C4701: potentially uninitialized local variable 'close' used
-    [2/4] UE4Editor-SeniorProject-0011.lib
-       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.exp
-    [3/4] UE4Editor-SeniorProject-0011.dll
-       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.suppressed.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0011.suppressed.exp
-    [4/4] SeniorProjectEditor.target
-  Total time in Parallel executor: 2.86 seconds
-  Total execution time: 12.03 seconds
+  Building 5 actions with 8 processes...
+    [1/5] FirstPersonCharacter.gen.cpp
+    [2/5] FirstPersonCharacter.cpp
+    [3/5] UE4Editor-SeniorProject-0003.lib
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0003.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0003.exp
+    [4/5] UE4Editor-SeniorProject-0003.dll
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0003.suppressed.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0003.suppressed.exp
+    [5/5] SeniorProjectEditor.target
+  Total time in Parallel executor: 2.87 seconds
+  Total execution time: 11.94 seconds

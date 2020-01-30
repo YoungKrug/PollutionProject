@@ -9,6 +9,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
 #include "MyGameInstance.h"
+#include "Components/CapsuleComponent.h"
+#include "Components/PrimitiveComponent.h"
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -16,7 +18,9 @@ AFirstPersonCharacter::AFirstPersonCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 	GetOwner()->Tags[0] = "C_Player";
 	
-	//doYouCopyInst = doYouCopySystemActor->FindComponentByClass<ADoYouCopySystem>();
+	//doYouCopyInst = doYouCopySystemActor->FindComponentByClass<ADoYouCopySystem
+	
+
 }
 
 // Called when the game starts or when spawned
@@ -30,6 +34,7 @@ void AFirstPersonCharacter::BeginPlay()
 	GI = Cast<UMyGameInstance>(GetGameInstance());
 	//test = GetOwner()->Tags[0].ToString();
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+	
 }
 
 // Called every frame
@@ -144,6 +149,12 @@ AFirstPersonCharacter::AFirstPersonCharacter(const FObjectInitializer& ObjectIni
 	firstPersonCameraComponent->RelativeLocation = FVector(0, 0, 50.0f + BaseEyeHeight);
 	// Allow the pawn to control rotation.
 	firstPersonCameraComponent->bUsePawnControlRotation = true;
+	triggerCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Trigger Capsule"));
+	triggerCapsule->InitCapsuleSize(55.5f, 96.f);
+	triggerCapsule->SetCollisionProfileName(TEXT("Trigger"));
+	triggerCapsule->SetupAttachment(RootComponent);
+	triggerCapsule->OnComponentBeginOverlap.AddDynamic(this, &AFirstPersonCharacter::OnOverlapBegin);
+	triggerCapsule->OnComponentEndOverlap.AddDynamic(this, &AFirstPersonCharacter::OnOverlapEnd);
 }
 void AFirstPersonCharacter::ContinueDialogue()
 {
@@ -151,4 +162,26 @@ void AFirstPersonCharacter::ContinueDialogue()
 	//Send an event to the DoYouCopySystem
 
 }
+
+//For collision
+void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (OtherActor && OtherActor != this)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Hit Object: ").Append(OtherActor->GetFName().ToString()));
+		currentCollidedObj = OtherActor;
+		isCollided = true;
+	}
+}
+void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	if (OtherActor && OtherActor != this)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Left Object: ").Append(OtherActor->GetFName().ToString()));
+		AActor* actor = nullptr;
+		currentCollidedObj = actor;
+		isCollided = false;
+	}
+}
+
 

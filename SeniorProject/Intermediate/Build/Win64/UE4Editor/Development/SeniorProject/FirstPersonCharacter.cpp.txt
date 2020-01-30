@@ -43,3 +43,7 @@ D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStati
 D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h

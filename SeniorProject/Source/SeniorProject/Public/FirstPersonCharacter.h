@@ -1,10 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-#pragma once
+#pragma once // werid
 #include "MyGameInstance.h"
 #include "CoreMinimal.h"
 #include "DoYouCopySystem.h"
 #include "Camera/CameraActor.h"
 #include "GameFramework/Character.h"
+#include "Components/AudioComponent.h"
 #include "FirstPersonCharacter.generated.h"
 UCLASS()
 class SENIORPROJECT_API AFirstPersonCharacter : public ACharacter
@@ -25,6 +25,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	UFUNCTION()
@@ -43,10 +44,15 @@ public:
 	void ContinueDialogue();
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	UCameraComponent* firstPersonCameraComponent;
-	
+	UFUNCTION()
+	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION()
+	void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 	
 
 private:
+	UPROPERTY(VisibleAnywhere, Category = "Trigger Capsule")
+	class UCapsuleComponent* triggerCapsule;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	float baseTurnRate;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
@@ -63,5 +69,15 @@ private:
 	FVector currentNewsPaperRot;
 	FVector currentPlayerPos;
 	ADoYouCopySystem* doYouCopyInst;
-	UMyGameInstance* GI;
+	UMyGameInstance* GI;	
+	AActor* currentCollidedObj;
+	UPROPERTY(EditAnywhere, Category = "Foot Step Sounds")
+	USoundBase* forestStepSounds;
+	UPROPERTY(EditAnywhere, Category = "Foot Step Sounds")
+	USoundBase* cityStepSounds;
+	UPROPERTY(EditAnywhere, Category = "Foot Step Sounds")
+	USoundBase* dockStepSounds;
+	UPROPERTY(EditAnywhere, Category = "Foot Step Sounds")
+	USoundBase* fireHouseStepSounds;
+	bool isCollided;
 };
