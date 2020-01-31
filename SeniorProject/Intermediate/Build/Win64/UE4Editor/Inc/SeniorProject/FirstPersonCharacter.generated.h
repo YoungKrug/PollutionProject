@@ -243,6 +243,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__speed() { return STRUCT_OFFSET(AFirstPersonCharacter, speed); } \
 	FORCEINLINE static uint32 __PPO__offset() { return STRUCT_OFFSET(AFirstPersonCharacter, offset); } \
 	FORCEINLINE static uint32 __PPO__doYouCopySystemActor() { return STRUCT_OFFSET(AFirstPersonCharacter, doYouCopySystemActor); } \
+	FORCEINLINE static uint32 __PPO__footStepCoolDown() { return STRUCT_OFFSET(AFirstPersonCharacter, footStepCoolDown); } \
 	FORCEINLINE static uint32 __PPO__forestStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, forestStepSounds); } \
 	FORCEINLINE static uint32 __PPO__cityStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, cityStepSounds); } \
 	FORCEINLINE static uint32 __PPO__dockStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, dockStepSounds); } \

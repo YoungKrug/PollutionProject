@@ -423,6 +423,10 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_forestStepSounds;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_footStepCoolDown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_footStepCoolDown;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_doYouCopySystemActor_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_doYouCopySystemActor;
@@ -506,6 +510,13 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_forestStepSounds = { "forestStepSounds", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, forestStepSounds), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_forestStepSounds_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_forestStepSounds_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_footStepCoolDown_MetaData[] = {
+		{ "Category", "Character Values" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_footStepCoolDown = { "footStepCoolDown", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, footStepCoolDown), METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_footStepCoolDown_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_footStepCoolDown_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_doYouCopySystemActor_MetaData[] = {
 		{ "Category", "Character Values" },
 		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
@@ -561,6 +572,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_dockStepSounds,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_cityStepSounds,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_forestStepSounds,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_footStepCoolDown,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_doYouCopySystemActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_offset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_speed,
@@ -596,7 +608,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonCharacter, 2918737505);
+	IMPLEMENT_CLASS(AFirstPersonCharacter, 2650676900);
 	template<> SENIORPROJECT_API UClass* StaticClass<AFirstPersonCharacter>()
 	{
 		return AFirstPersonCharacter::StaticClass();

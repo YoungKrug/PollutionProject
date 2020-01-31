@@ -64,6 +64,8 @@ private:
 	FVector offset;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	AActor* doYouCopySystemActor;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	float footStepCoolDown;
 	float currentFOV;
 	FVector startTrace;
 	FVector currentNewsPaperPos;
@@ -81,4 +83,8 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Foot Step Sounds")
 	USoundBase* fireHouseStepSounds;
 	bool isCollided;
+	bool soundIsPlaying;
+	float timer;
+	float cooldown;
+	UAudioComponent* audio;
 };

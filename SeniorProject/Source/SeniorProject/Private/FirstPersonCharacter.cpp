@@ -42,6 +42,11 @@ void AFirstPersonCharacter::BeginPlay()
 void AFirstPersonCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	timer += DeltaTime;
+	if(soundIsPlaying && timer >= cooldown)
+	{
+		soundIsPlaying = false;
+	}
 }
 FString AFirstPersonCharacter::StartRayCast()
 {
@@ -75,26 +80,26 @@ FString AFirstPersonCharacter::StartRayCast()
 			if (hit[i].GetActor()->ActorHasTag("Floor"))
 			{
 				//SetActorLocation(currentPlayerPos);
-				FString test = "Floor";
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				//FString test = "Floor";
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				return FString::FString("Dock");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Dock"))
 			{
-				FString test = "Dock";
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+			//	FString test = "Dock";
+			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				return FString::FString("Dock");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Forest"))
 			{
-				FString test = "Forest";
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+			//	FString test = "Forest";
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				return FString::FString("Forest");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("City"))
 			{
-				FString test = "City";
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				//FString test = "City";
+			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				return FString::FString("City");
 			}
 			//currentPlayerPos = GetActorLocation();
@@ -123,15 +128,23 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
 {
-	if(!GI->canPlayerMove)
+	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorForwardVector(), speed * val);
-	DetermineSoundToPlay(StartRayCast());
+	if (val != 0)
+	{
+		DetermineSoundToPlay(StartRayCast());
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Moving"));
+	}
 }
 void AFirstPersonCharacter::MoveRight(float val)
 {
 	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorRightVector(), speed * val);
-	DetermineSoundToPlay(StartRayCast());
+	if (val != 0)
+	{
+		DetermineSoundToPlay(StartRayCast());
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Moving"));
+	}
 }
 void AFirstPersonCharacter::LookSide(float val)
 {
@@ -174,7 +187,11 @@ void AFirstPersonCharacter::ContinueDialogue()
 
 void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 {
-	UAudioComponent* audio = NewObject<UAudioComponent>(this, "AutoDestroyAudio");
+	if(soundIsPlaying)
+		return;
+	cooldown = timer + footStepCoolDown;
+	soundIsPlaying = true;
+	audio = NewObject<UAudioComponent>(this, "AutoDestroyAudio");
 	audio->bAutoDestroy = true;
 	if (str == "Dock")
 	{
