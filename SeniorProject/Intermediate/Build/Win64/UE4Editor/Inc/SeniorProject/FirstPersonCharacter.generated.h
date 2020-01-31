@@ -243,7 +243,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__speed() { return STRUCT_OFFSET(AFirstPersonCharacter, speed); } \
 	FORCEINLINE static uint32 __PPO__offset() { return STRUCT_OFFSET(AFirstPersonCharacter, offset); } \
 	FORCEINLINE static uint32 __PPO__doYouCopySystemActor() { return STRUCT_OFFSET(AFirstPersonCharacter, doYouCopySystemActor); } \
-	FORCEINLINE static uint32 __PPO__currentCollidedObj() { return STRUCT_OFFSET(AFirstPersonCharacter, currentCollidedObj); }
+	FORCEINLINE static uint32 __PPO__forestStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, forestStepSounds); } \
+	FORCEINLINE static uint32 __PPO__cityStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, cityStepSounds); } \
+	FORCEINLINE static uint32 __PPO__dockStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, dockStepSounds); } \
+	FORCEINLINE static uint32 __PPO__fireHouseStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, fireHouseStepSounds); }
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_9_PROLOG
