@@ -11,6 +11,7 @@
 #include "MyGameInstance.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/PrimitiveComponent.h"
+#include "Components/AudioComponent.h"
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -42,7 +43,7 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
-void AFirstPersonCharacter::StartRayCast()
+FString AFirstPersonCharacter::StartRayCast()
 {
 	//Hit contains information about what the raycast hit.
 	FHitResult Hit;
@@ -67,29 +68,36 @@ void AFirstPersonCharacter::StartRayCast()
 	//The ECollisionChannel parameter is used in order to determine what we are looking for when performing the raycast
 	//ActorLineTraceSingle(Hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
 	GetWorld()->LineTraceMultiByChannel(hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
-	//{if trigger then kill}
-	/*if (Hit.Actor != nullptr)
-	{
-		FString test = Hit.GetActor()->GetName();
-		GEngine->AddOnScreenDebugMessage(-1, .2F, FColor::Cyan, test);
-		if (Hit.GetActor()->ActorHasTag("Water"))
-		{
-			test = "Water";
-			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
-		}
-	}*/
 	for (int i = 0; i < hit.Num(); i++)
 	{
 		if (hit[i].Actor != nullptr)
 		{
-			if (hit[i].GetActor()->ActorHasTag("Water"))
+			if (hit[i].GetActor()->ActorHasTag("Floor"))
 			{
 				//SetActorLocation(currentPlayerPos);
-				FString test = "Water";
+				FString test = "Floor";
 				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
-				break;
+				return FString::FString("Dock");
 			}
-			currentPlayerPos = GetActorLocation();
+			else if (hit[i].GetActor()->ActorHasTag("Dock"))
+			{
+				FString test = "Dock";
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				return FString::FString("Dock");
+			}
+			else if (hit[i].GetActor()->ActorHasTag("Forest"))
+			{
+				FString test = "Forest";
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				return FString::FString("Forest");
+			}
+			else if (hit[i].GetActor()->ActorHasTag("City"))
+			{
+				FString test = "City";
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				return FString::FString("City");
+			}
+			//currentPlayerPos = GetActorLocation();
 		}
 	}
 	//DrawDebugLine is used in order to see the raycast we performed
@@ -97,6 +105,7 @@ void AFirstPersonCharacter::StartRayCast()
 	//The last parameter is the width of the lines.
 	DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1, 0, 1.f);
 	currentPlayerPos = GetActorLocation();
+	return FString::FString("");
 }
 // Called to bind functionality to input
 void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -116,13 +125,13 @@ void AFirstPersonCharacter::MoveForward(float val)
 {
 	if(!GI->canPlayerMove)
 		AddMovementInput(GetActorForwardVector(), speed * val);
-	StartRayCast();
+	DetermineSoundToPlay(StartRayCast());
 }
 void AFirstPersonCharacter::MoveRight(float val)
 {
 	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorRightVector(), speed * val);
-	StartRayCast();
+	DetermineSoundToPlay(StartRayCast());
 }
 void AFirstPersonCharacter::LookSide(float val)
 {
@@ -163,6 +172,26 @@ void AFirstPersonCharacter::ContinueDialogue()
 
 }
 
+void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
+{
+	UAudioComponent* audio = NewObject<UAudioComponent>(this, "AutoDestroyAudio");
+	audio->bAutoDestroy = true;
+	if (str == "Dock")
+	{
+		audio->Sound = dockStepSounds;
+		audio->Play();
+	}
+	else if (str == "Forest")
+	{
+		audio->Sound = forestStepSounds;
+		audio->Play();
+	}
+	else if (str == "City")
+	{
+		audio->Sound = cityStepSounds;
+		audio->Play();
+	}
+}
 //For collision
 void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {

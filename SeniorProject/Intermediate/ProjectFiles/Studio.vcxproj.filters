@@ -2,130 +2,112 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source">
-      <UniqueIdentifier>{FC59DA16-4AFF-42E0-8AEB-D2935F77672D}</UniqueIdentifier>
+      <UniqueIdentifier>{EF64B17F-A155-4898-8EFB-60C1BCC9A3F0}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\StudioEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
     <Filter Include="Source\Runtime">
-      <UniqueIdentifier>{A155620A-FC44-4A60-AF8B-F3091FF08E05}</UniqueIdentifier>
+      <UniqueIdentifier>{28880E64-E662-43FE-A5D7-FC3418F4F452}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Runtime\Launch">
-      <UniqueIdentifier>{BFB1B535-EAE3-43F4-89D3-A910F0DC6C64}</UniqueIdentifier>
+      <UniqueIdentifier>{63EEC74C-D0FB-4281-8C7A-3ACCC80861C5}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Runtime\Launch\EnterpriseLaunch.Build.cs">
       <Filter>Source\Runtime\Launch</Filter>
     </None>
     <Filter Include="Source\Runtime\Launch\Resources">
-      <UniqueIdentifier>{691C3336-0752-478A-B6DF-40E15BC054F2}</UniqueIdentifier>
+      <UniqueIdentifier>{161E79C4-0FF8-4B26-AF31-92BC2A604ABE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Runtime\Launch\Resources\EnterpriseVersion.h">
       <Filter>Source\Runtime\Launch\Resources</Filter>
     </ClInclude>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{009FB881-2240-4363-AAA2-B851300F2FD6}</UniqueIdentifier>
+      <UniqueIdentifier>{22F8BC2F-4149-4321-9B14-C2B909831289}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor">
-      <UniqueIdentifier>{BDDDD078-B79A-4240-8CCB-388D951F955D}</UniqueIdentifier>
+      <UniqueIdentifier>{22C5EA84-F007-419B-9E58-8E49409C3915}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor\DatasmithCADImporter">
-      <UniqueIdentifier>{0583EF7F-B066-46BF-A330-EB7457B2652A}</UniqueIdentifier>
+      <UniqueIdentifier>{80E86702-6F43-4925-BE10-C45FC87A1A63}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithCADImporter\DatasmithCADImporter.uplugin">
       <Filter>Plugins\Editor\DatasmithCADImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithCADImporter\Resources">
-      <UniqueIdentifier>{7B77B6B5-F6CC-43B1-AE34-7A8A8AC46A50}</UniqueIdentifier>
+      <UniqueIdentifier>{1F9C7E2F-AB08-4F0C-A166-894C3A859F72}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithCADImporter\Resources\Icon128.png">
       <Filter>Plugins\Editor\DatasmithCADImporter\Resources</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithDataPrepEditor">
-      <UniqueIdentifier>{494708A4-CE3A-4139-8DC1-5DCEE7DC3E21}</UniqueIdentifier>
+      <UniqueIdentifier>{B588ADE1-E6C9-4EE7-BB48-0A110317FAA7}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithDataPrepEditor\DatasmithDataPrepEditor.uplugin">
       <Filter>Plugins\Editor\DatasmithDataPrepEditor</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithFBXImporter">
-      <UniqueIdentifier>{06225C63-DF29-4740-9074-B574AE7C7EA1}</UniqueIdentifier>
+      <UniqueIdentifier>{7F26A0EC-1FFE-484E-AB5C-6887607CCB35}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\DatasmithFBXImporter.uplugin">
       <Filter>Plugins\Editor\DatasmithFBXImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithFBXImporter\Resources">
-      <UniqueIdentifier>{FBE10CFF-9BF3-4207-BF90-5B598942A023}</UniqueIdentifier>
+      <UniqueIdentifier>{8C0D1DAE-45D7-4457-A7DB-05D1B19A5EAA}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Resources\Icon128.png">
       <Filter>Plugins\Editor\DatasmithFBXImporter\Resources</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithGLTFImporter">
-      <UniqueIdentifier>{EBAD5C6D-EEFA-42D7-8FA0-707604332102}</UniqueIdentifier>
+      <UniqueIdentifier>{6F6AC382-A02C-4046-BFCE-C94561F5D378}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithGLTFImporter\DatasmithGLTFImporter.uplugin">
       <Filter>Plugins\Editor\DatasmithGLTFImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithImporter">
-      <UniqueIdentifier>{46883BAC-2ADC-4F3A-A3B6-AAA2EE5984AC}</UniqueIdentifier>
+      <UniqueIdentifier>{647B9B7C-B2BB-467E-8402-B2B0CD650806}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithImporter\DatasmithImporter.uplugin">
       <Filter>Plugins\Editor\DatasmithImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithImporter\Config">
-      <UniqueIdentifier>{E93DD2DE-0EEE-4017-8A65-29324728FD07}</UniqueIdentifier>
+      <UniqueIdentifier>{292FDC34-479F-4EC6-9885-63CBCBCE1E80}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithImporter\Config\BaseDatasmithImporter.ini">
       <Filter>Plugins\Editor\DatasmithImporter\Config</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithImporter\Resources">
-      <UniqueIdentifier>{F27660D0-78E2-467F-8329-CB0A637EAE0A}</UniqueIdentifier>
+      <UniqueIdentifier>{D79FD759-B913-4AD1-9F1A-BD098A2FB644}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithImporter\Resources\Icon128.png">
       <Filter>Plugins\Editor\DatasmithImporter\Resources</Filter>
     </None>
     <Filter Include="Plugins\Editor\MDLImporter">
-      <UniqueIdentifier>{9EE45034-7C9B-45EC-9F7E-295D7AF42E85}</UniqueIdentifier>
+      <UniqueIdentifier>{29879699-3678-4280-BCF6-5B32D5B56BFC}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\MDLImporter\MDLImporter.uplugin">
       <Filter>Plugins\Editor\MDLImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\StaticMeshEditorExtension">
-      <UniqueIdentifier>{D4FB4E8B-C721-4BA1-9E7A-B5D7836850D1}</UniqueIdentifier>
+      <UniqueIdentifier>{B7A0F4D3-87DE-4DCB-A3A3-19DBA31C1C3A}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\StaticMeshEditorExtension\StaticMeshEditorExtension.uplugin">
       <Filter>Plugins\Editor\StaticMeshEditorExtension</Filter>
     </None>
     <Filter Include="Plugins\Runtime">
-      <UniqueIdentifier>{2B182203-8618-4E7B-9C7E-12A53451F24F}</UniqueIdentifier>
+      <UniqueIdentifier>{92B169E2-421A-4D6E-BD98-86FF3C64F068}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Runtime\VariantManager">
-      <UniqueIdentifier>{67CC843F-CCDC-4EB2-9A47-EC283216D977}</UniqueIdentifier>
+      <UniqueIdentifier>{FA63D5FC-45BD-4C3D-B266-99EFBA6AE178}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Runtime\VariantManager\VariantManager.uplugin">
       <Filter>Plugins\Runtime\VariantManager</Filter>
     </None>
     <Filter Include="Source\ThirdParty">
-      <UniqueIdentifier>{65A4DD1C-B387-4613-A87F-75835EB8233E}</UniqueIdentifier>
+      <UniqueIdentifier>{84F673A2-F1B1-4016-B02E-19FE46F217E7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\ThirdParty\Itoo">
-      <UniqueIdentifier>{8195B133-15A4-414F-9EA6-938BD3FA9EEB}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\forestitreesinterface.h">
-      <Filter>Source\ThirdParty\Itoo</Filter>
-    </ClInclude>
-    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\ForestPackRailcloneAPI.tps">
-      <Filter>Source\ThirdParty\Itoo</Filter>
-    </None>
-    <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\ircinterface.h">
-      <Filter>Source\ThirdParty\Itoo</Filter>
-    </ClInclude>
-    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\Itoo.Build.cs">
-      <Filter>Source\ThirdParty\Itoo</Filter>
-    </None>
-    <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\itreesinterface.H">
-      <Filter>Source\ThirdParty\Itoo</Filter>
-    </ClInclude>
     <Filter Include="Source\ThirdParty\GPureSDK">
-      <UniqueIdentifier>{A68C2EE2-A3CD-437E-9E36-65D74187EBF4}</UniqueIdentifier>
+      <UniqueIdentifier>{99CFC73A-315A-442F-926B-61473273E08A}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\GPureSDK\GPureSDK.Build.cs">
       <Filter>Source\ThirdParty\GPureSDK</Filter>
@@ -133,32 +115,8 @@
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\GPureSDK\GPureSDK.tps">
       <Filter>Source\ThirdParty\GPureSDK</Filter>
     </None>
-    <Filter Include="Source\Developer">
-      <UniqueIdentifier>{5568DE9A-881E-48FE-9038-F84A8CF53AC6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Developer\Datasmith">
-      <UniqueIdentifier>{B9DB04C4-F402-44C3-97A8-258ED8089E44}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Developer\Datasmith\DatasmithExporter">
-      <UniqueIdentifier>{27FC93D1-0342-4D90-8B8B-E87668F2324E}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithExporter\DatasmithExporter.Build.cs">
-      <Filter>Source\Developer\Datasmith\DatasmithExporter</Filter>
-    </None>
-    <Filter Include="Source\Developer\Datasmith\DatasmithFacade">
-      <UniqueIdentifier>{AE5D4114-5F9E-4B61-9C91-19D8EA67B23B}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs">
-      <Filter>Source\Developer\Datasmith\DatasmithFacade</Filter>
-    </None>
-    <Filter Include="Source\Developer\Datasmith\DatasmithCore">
-      <UniqueIdentifier>{090F39C8-03DD-4449-A077-DE583043F4A3}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithCore\DatasmithCore.Build.cs">
-      <Filter>Source\Developer\Datasmith\DatasmithCore</Filter>
-    </None>
     <Filter Include="Source\ThirdParty\FreeImage">
-      <UniqueIdentifier>{DC1524C0-9CDB-4300-8119-67533870CB90}</UniqueIdentifier>
+      <UniqueIdentifier>{07D68CCA-20C9-49DF-88AB-7F74BCE13031}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\FreeImage\FreeImage.Build.cs">
       <Filter>Source\ThirdParty\FreeImage</Filter>
@@ -194,13 +152,13 @@
       <Filter>Source\ThirdParty\FreeImage</Filter>
     </None>
     <Filter Include="Source\ThirdParty\FreeImage\Source">
-      <UniqueIdentifier>{AE953D9A-DAD7-470B-8A08-CFAFC569509B}</UniqueIdentifier>
+      <UniqueIdentifier>{11BCC371-1527-4279-BDB8-870885CEDADB}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\FreeImage\Source\FreeImage.h">
       <Filter>Source\ThirdParty\FreeImage\Source</Filter>
     </ClInclude>
     <Filter Include="Source\ThirdParty\FreeImage\x64">
-      <UniqueIdentifier>{C51E932A-1F48-4603-BD2C-2001E21E53FE}</UniqueIdentifier>
+      <UniqueIdentifier>{2FB84D5D-FF7D-4896-8B3B-12A775AD7AFE}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\FreeImage\x64\FreeImage317.dll">
       <Filter>Source\ThirdParty\FreeImage\x64</Filter>
@@ -211,98 +169,140 @@
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\FreeImage\x64\LibRaw.dll">
       <Filter>Source\ThirdParty\FreeImage\x64</Filter>
     </None>
+    <Filter Include="Source\ThirdParty\Itoo">
+      <UniqueIdentifier>{95751A4D-666B-4259-A3CF-D71C1A1BF6D4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\forestitreesinterface.h">
+      <Filter>Source\ThirdParty\Itoo</Filter>
+    </ClInclude>
+    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\ForestPackRailcloneAPI.tps">
+      <Filter>Source\ThirdParty\Itoo</Filter>
+    </None>
+    <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\ircinterface.h">
+      <Filter>Source\ThirdParty\Itoo</Filter>
+    </ClInclude>
+    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\Itoo.Build.cs">
+      <Filter>Source\ThirdParty\Itoo</Filter>
+    </None>
+    <ClInclude Include="D:\TheBestGame\UE_4.22\Enterprise\Source\ThirdParty\Itoo\itreesinterface.H">
+      <Filter>Source\ThirdParty\Itoo</Filter>
+    </ClInclude>
+    <Filter Include="Source\Developer">
+      <UniqueIdentifier>{04732891-BBDC-4378-ABBB-42C6D2DF8341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Developer\Datasmith">
+      <UniqueIdentifier>{755563A6-1009-4AD2-B754-FFC6BF9B3F8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Developer\Datasmith\DatasmithFacade">
+      <UniqueIdentifier>{C17BB269-A55E-4BD0-B52A-BA6F37AA5ED0}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs">
+      <Filter>Source\Developer\Datasmith\DatasmithFacade</Filter>
+    </None>
+    <Filter Include="Source\Developer\Datasmith\DatasmithExporter">
+      <UniqueIdentifier>{B428D28E-A523-4F7C-B88C-562F067056C7}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithExporter\DatasmithExporter.Build.cs">
+      <Filter>Source\Developer\Datasmith\DatasmithExporter</Filter>
+    </None>
+    <Filter Include="Source\Developer\Datasmith\DatasmithCore">
+      <UniqueIdentifier>{8C00EF3E-D1C9-4DBD-ACDF-9FC61D67D944}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithCore\DatasmithCore.Build.cs">
+      <Filter>Source\Developer\Datasmith\DatasmithCore</Filter>
+    </None>
     <Filter Include="Plugins\Editor\DatasmithCADImporter\Source">
-      <UniqueIdentifier>{8F931C35-637C-4434-AB06-B1610ECE14AA}</UniqueIdentifier>
+      <UniqueIdentifier>{FC5895B2-A595-4D8A-B3D2-951144913C65}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor\DatasmithCADImporter\Source\DatasmithCADImporter">
-      <UniqueIdentifier>{7497760C-5F60-42D8-9985-B8AC37C71F2B}</UniqueIdentifier>
+      <UniqueIdentifier>{09914593-C2CF-4EEE-AB32-E12163261644}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithCADImporter\Source\DatasmithCADImporter\DatasmithCADImporter.Build.cs">
       <Filter>Plugins\Editor\DatasmithCADImporter\Source\DatasmithCADImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithDataPrepEditor\Source">
-      <UniqueIdentifier>{BA596D9D-B8D5-4BDA-A687-2D9911F42D5B}</UniqueIdentifier>
+      <UniqueIdentifier>{9E16A6B2-A8C8-47FD-8AAD-A0CE2DA787C7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepEditor">
-      <UniqueIdentifier>{8BA84F7F-DF18-41A1-B212-C15D2CF4CB75}</UniqueIdentifier>
+      <UniqueIdentifier>{8CE4A0E5-7A43-4179-BA0C-6FA497717D1B}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepEditor\DatasmithDataPrepEditor.Build.cs">
       <Filter>Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepEditor</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepLibraries">
-      <UniqueIdentifier>{00772078-D2DB-4C67-B8C2-448BF0175EB7}</UniqueIdentifier>
+      <UniqueIdentifier>{7302281C-1C14-46F9-A502-B6EF0405C259}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepLibraries\DatasmithDataPrepLibraries.Build.cs">
       <Filter>Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepLibraries</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithFBXImporter\Source">
-      <UniqueIdentifier>{982697D2-1AC5-4A63-9ACC-52069C671580}</UniqueIdentifier>
+      <UniqueIdentifier>{6DF018C7-762D-4F00-A7CA-A418456F63C9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor\DatasmithFBXImporter\Source\DatasmithDeltaGenImporter">
-      <UniqueIdentifier>{76C59FC8-4697-4CAB-9B3C-39B4A71D9AB9}</UniqueIdentifier>
+      <UniqueIdentifier>{2A7C46E0-76B5-4045-8DCC-E9831A2BFE4E}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithDeltaGenImporter\DatasmithDeltaGenImporter.Build.cs">
       <Filter>Plugins\Editor\DatasmithFBXImporter\Source\DatasmithDeltaGenImporter</Filter>
     </None>
-    <Filter Include="Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter">
-      <UniqueIdentifier>{D9B9F757-9A12-4269-8696-28828450F30C}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter\DatasmithFBXImporter.Build.cs">
-      <Filter>Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter</Filter>
-    </None>
     <Filter Include="Plugins\Editor\DatasmithFBXImporter\Source\DatasmithVREDImporter">
-      <UniqueIdentifier>{7F427A7C-7621-4C27-9B79-E32C03B2B576}</UniqueIdentifier>
+      <UniqueIdentifier>{A2854EDC-58C9-47D6-9BE7-14F18D483DA5}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithVREDImporter\DatasmithVREDImporter.Build.cs">
       <Filter>Plugins\Editor\DatasmithFBXImporter\Source\DatasmithVREDImporter</Filter>
     </None>
+    <Filter Include="Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter">
+      <UniqueIdentifier>{F81ED7D4-9D4D-4B28-9908-B21F813635AA}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter\DatasmithFBXImporter.Build.cs">
+      <Filter>Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter</Filter>
+    </None>
     <Filter Include="Plugins\Editor\DatasmithGLTFImporter\Source">
-      <UniqueIdentifier>{E1EFE680-41A9-42CF-AB91-AD97456D02C6}</UniqueIdentifier>
+      <UniqueIdentifier>{E26CBE43-823F-4890-8552-715CEB953411}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor\DatasmithGLTFImporter\Source\DatasmithGLTFImporter">
-      <UniqueIdentifier>{DC208079-3E03-4E2D-80CA-F11C2AF2F058}</UniqueIdentifier>
+      <UniqueIdentifier>{31F59705-034B-463F-8448-A426748974A6}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithGLTFImporter\Source\DatasmithGLTFImporter\DatasmithGLTFImporter.Build.cs">
       <Filter>Plugins\Editor\DatasmithGLTFImporter\Source\DatasmithGLTFImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\DatasmithImporter\Source">
-      <UniqueIdentifier>{ACDECBEE-45D9-4A10-A204-4373782050E3}</UniqueIdentifier>
+      <UniqueIdentifier>{0C4D8732-D616-4420-BE54-111537173D26}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor\DatasmithImporter\Source\DatasmithImporter">
-      <UniqueIdentifier>{FB2B7C1F-2FAE-4329-B339-7F6AD8F0192D}</UniqueIdentifier>
+      <UniqueIdentifier>{48C76509-13DF-47BE-8944-F9B345FE1299}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\DatasmithImporter\Source\DatasmithImporter\DatasmithImporter.Build.cs">
       <Filter>Plugins\Editor\DatasmithImporter\Source\DatasmithImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\MDLImporter\Source">
-      <UniqueIdentifier>{BECE3EA9-78F9-406F-8FFC-ADEE7DCAAE4E}</UniqueIdentifier>
+      <UniqueIdentifier>{190C5007-D84D-4DEB-9899-4AF08742EDAD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Editor\MDLImporter\Source\MDLImporter">
-      <UniqueIdentifier>{723EB8E4-F1A5-4045-B2BA-CD00A80E0852}</UniqueIdentifier>
+      <UniqueIdentifier>{EE19EC66-490C-4615-9739-B47FD55A089D}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\MDLImporter\Source\MDLImporter\MDLImporter.Build.cs">
       <Filter>Plugins\Editor\MDLImporter\Source\MDLImporter</Filter>
     </None>
     <Filter Include="Plugins\Editor\StaticMeshEditorExtension\Source">
-      <UniqueIdentifier>{54529AA7-3B7B-4CDC-B615-B47EBFA05A9C}</UniqueIdentifier>
+      <UniqueIdentifier>{A38FCBCC-9F83-4274-9C9E-9F5BF13C2BBB}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary">
-      <UniqueIdentifier>{FD8BC68C-8A96-4F5B-98D7-B5219AA02913}</UniqueIdentifier>
-    </Filter>
-    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary\MeshProcessingLibrary.Build.cs">
-      <Filter>Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary</Filter>
-    </None>
     <Filter Include="Plugins\Editor\StaticMeshEditorExtension\Source\StaticMeshEditorExtension">
-      <UniqueIdentifier>{580F3091-DA56-457C-9611-1B009B3989FE}</UniqueIdentifier>
+      <UniqueIdentifier>{C413D2DB-ED0F-48F0-9030-D442FD9BAF40}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\StaticMeshEditorExtension\Source\StaticMeshEditorExtension\StaticMeshEditorExtension.Build.cs">
       <Filter>Plugins\Editor\StaticMeshEditorExtension\Source\StaticMeshEditorExtension</Filter>
     </None>
+    <Filter Include="Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary">
+      <UniqueIdentifier>{3F2D60D5-77E6-423F-B5B5-EB3FBEF52BEF}</UniqueIdentifier>
+    </Filter>
+    <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary\MeshProcessingLibrary.Build.cs">
+      <Filter>Plugins\Editor\StaticMeshEditorExtension\Source\MeshProcessingLibrary</Filter>
+    </None>
     <Filter Include="Plugins\Runtime\VariantManager\Source">
-      <UniqueIdentifier>{AF511B75-FC36-4EF6-84A0-C081B638E971}</UniqueIdentifier>
+      <UniqueIdentifier>{2A0EA192-F83E-4EB4-9184-4A3015C88D03}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\Runtime\VariantManager\Source\VariantManager">
-      <UniqueIdentifier>{E6484891-8884-4BFD-843F-DC9D58B40A88}</UniqueIdentifier>
+      <UniqueIdentifier>{CED16C85-B061-46AB-A3F4-92BAD9C18202}</UniqueIdentifier>
     </Filter>
     <None Include="D:\TheBestGame\UE_4.22\Enterprise\Plugins\Runtime\VariantManager\Source\VariantManager\VariantManager.Build.cs">
       <Filter>Plugins\Runtime\VariantManager\Source\VariantManager</Filter>

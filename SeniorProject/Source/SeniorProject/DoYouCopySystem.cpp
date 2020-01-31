@@ -232,6 +232,6 @@ void ADoYouCopySystem::UpdateSubs(int i)
 	FText text = FText::FromString(temp);
 	subtitles = text;
 	GI->currentSubs = subtitles;
-	FString test = temp; 
-	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, subtitles.ToString()); // How to Debug <-
+	//FString test = temp; 
+	//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, subtitles.ToString()); // How to Debug <-
 }

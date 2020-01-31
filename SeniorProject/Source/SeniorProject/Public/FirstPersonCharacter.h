@@ -37,7 +37,7 @@ public:
 	UFUNCTION()
 	void LookSide(float val);
 	UFUNCTION()
-	void StartRayCast();
+	FString StartRayCast();
 	UFUNCTION()
 	void Interact(); 
 	UFUNCTION()
@@ -48,6 +48,7 @@ public:
 	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	UFUNCTION()
 	void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	void DetermineSoundToPlay(FString);
 	
 
 private:
