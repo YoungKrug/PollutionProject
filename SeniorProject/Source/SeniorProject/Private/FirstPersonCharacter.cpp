@@ -20,7 +20,8 @@ AFirstPersonCharacter::AFirstPersonCharacter()
 	GetOwner()->Tags[0] = "C_Player";
 	
 	//doYouCopyInst = doYouCopySystemActor->FindComponentByClass<ADoYouCopySystem
-	
+	// For intro make sure to set isIntro to true and make a function that sets hasPressX to true and false also set is clear, endgame/gameover
+	//and isDisplayed etc... for loop
 
 }
 
