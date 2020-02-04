@@ -18,6 +18,7 @@ public:
 	{
 		//if (newGI == nullptr)
 			//newGI = NewObject<UMyGameInstance>(this, "game instance");
+
 	}
 	//static UMyGameInstance* newGI;
 	//void ResetString(FString& x);

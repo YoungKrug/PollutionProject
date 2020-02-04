@@ -34,6 +34,8 @@ void AFirstPersonCharacter::BeginPlay()
 	FString test;
 	// Make sure you make this game instance in editor equal to your own game instance in code
 	GI = Cast<UMyGameInstance>(GetGameInstance());
+	//GI->canDisplayTest = true;
+	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 	
@@ -159,6 +161,10 @@ void AFirstPersonCharacter::LookUp(float val)
 }
 void AFirstPersonCharacter::Interact()
 {
+	if (GI->canStartSubs)
+	{
+		GI->isPressedX = true;
+	}
 	FString test = "Interact";
 	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
