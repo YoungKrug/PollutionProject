@@ -111,7 +111,7 @@ FString AFirstPersonCharacter::StartRayCast()
 	//DrawDebugLine is used in order to see the raycast we performed
 	//The boolean parameter used here means that we want the lines to be persistent so we can see the actual raycast
 	//The last parameter is the width of the lines.
-	DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1, 0, 1.f);
+	//DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1, 0, 1.f);
 	currentPlayerPos = GetActorLocation();
 	return FString::FString("");
 }
