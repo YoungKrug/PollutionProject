@@ -131,22 +131,32 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
 {
+	if (canClimb)
+	{		
+		AddMovementInput(GetActorUpVector(), (speed / 2) * val);
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
+	}
 	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorForwardVector(), speed * val);
 	if (val != 0)
 	{
 		DetermineSoundToPlay(StartRayCast());
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Moving"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Moving"));
 	}
 }
 void AFirstPersonCharacter::MoveRight(float val)
 {
+	if (canClimb)
+	{
+		AddMovementInput(GetActorUpVector(), (speed/2) * val);
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
+	}
 	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorRightVector(), speed * val);
 	if (val != 0)
 	{
 		DetermineSoundToPlay(StartRayCast());
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Moving"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Moving"));
 	}
 }
 void AFirstPersonCharacter::LookSide(float val)
@@ -161,9 +171,10 @@ void AFirstPersonCharacter::LookUp(float val)
 }
 void AFirstPersonCharacter::Interact()
 {
-	if (GI->canStartSubs)
+	if (GI->isIntro)
 	{
 		GI->isPressedX = true;
+		GI->isIntro = false;		
 	}
 	FString test = "Interact";
 	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
@@ -224,6 +235,22 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Hit Object: ").Append(OtherActor->GetFName().ToString()));
 		currentCollidedObj = OtherActor;
 		isCollided = true;
+		TArray<FName> name = OtherActor->Tags;
+		for (int i = 0; i < name.Num(); i++)
+		{
+		//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
+			if (name[i] == "Climb")
+			{
+				canClimb = true;
+				climbActor = OtherActor;	
+				TSubclassOf<UPrimitiveComponent> prim;
+				GetComponentByClass(prim);
+				if(prim != nullptr)
+					GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, prim.Get()->GetSuperClass()->GetName());
+				break;
+				//Object we can climb;
+			}
+		}
 	}
 }
 void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
@@ -234,6 +261,7 @@ void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AA
 		AActor* actor = nullptr;
 		currentCollidedObj = actor;
 		isCollided = false;
+		canClimb = false;
 	}
 }
 

@@ -87,4 +87,6 @@ private:
 	float timer;
 	float cooldown;
 	UAudioComponent* audio;
+	bool canClimb;
+	AActor* climbActor;
 };

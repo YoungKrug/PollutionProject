@@ -62,6 +62,7 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 		if (!audioIsPlaying)
 		{
 			PlaySequence(timer);
+			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Playing"));
 			close = false;
 		}
 		if (isPlaying && timer >= audioDur)
@@ -95,6 +96,10 @@ bool ADoYouCopySystem::isClose()
 	const int32 AlwaysAddKey = -1;
 	FString test = "s";
 	TArray<FGameObjectInfo> arr;
+	if (GI->isIntro)
+	{
+		return false;
+	}
 	if (dial.Num() <= 0 || mainPlayer == nullptr)
 	{
 		return false;
