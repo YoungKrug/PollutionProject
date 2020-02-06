@@ -12,6 +12,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/PrimitiveComponent.h"
 #include "Components/AudioComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -38,7 +39,8 @@ void AFirstPersonCharacter::BeginPlay()
 	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
-	
+
+//	UCharacterMovementComponent::SetMovementMode(MODE_FLYING)
 }
 
 // Called every frame
@@ -131,10 +133,17 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
 {
-	if (canClimb)
+	if (canClimb && !isAtClimbEnd)
 	{		
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
 		AddMovementInput(GetActorUpVector(), (speed / 2) * val);
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
+		return;
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
+	}
+	else if (isAtClimbEnd)
+	{
+		AddMovementInput(GetActorForwardVector(), speed * val);
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
 	}
 	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorForwardVector(), speed * val);
@@ -146,11 +155,19 @@ void AFirstPersonCharacter::MoveForward(float val)
 }
 void AFirstPersonCharacter::MoveRight(float val)
 {
-	if (canClimb)
+	if (canClimb && !isAtClimbEnd)
 	{
-		AddMovementInput(GetActorUpVector(), (speed/2) * val);
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+		AddMovementInput(GetActorUpVector(), (speed / 2) * val);
+		return;
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
 	}
+	else if (isAtClimbEnd)
+	{
+		AddMovementInput(GetActorRightVector(), speed * val);
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
+	}
+
 	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorRightVector(), speed * val);
 	if (val != 0)
@@ -243,12 +260,12 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			{
 				canClimb = true;
 				climbActor = OtherActor;	
-				TSubclassOf<UPrimitiveComponent> prim;
-				GetComponentByClass(prim);
-				if(prim != nullptr)
-					GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, prim.Get()->GetSuperClass()->GetName());
 				break;
 				//Object we can climb;
+			}
+			if (name[i] == "ClimbEnd")
+			{
+				isAtClimbEnd = true;
 			}
 		}
 	}
@@ -261,7 +278,22 @@ void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AA
 		AActor* actor = nullptr;
 		currentCollidedObj = actor;
 		isCollided = false;
-		canClimb = false;
+		TArray<FName> name = OtherActor->Tags;
+		for (int i = 0; i < name.Num(); i++)
+		{
+			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
+			if (name[i] == "Climb")
+			{
+				canClimb = false;
+				GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
+				//Object we can climb;
+			}
+			if (name[i] == "ClimbEnd")
+			{
+				isAtClimbEnd = false;
+				GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
+			}
+		}
 	}
 }
 
