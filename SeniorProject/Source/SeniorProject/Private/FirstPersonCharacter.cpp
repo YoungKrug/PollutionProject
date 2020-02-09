@@ -61,7 +61,7 @@ FString AFirstPersonCharacter::StartRayCast()
 
 	//The length of the ray in units.
 	//For more flexibility you can expose a public variable in the editor
-	float rayLength = 220;
+	float rayLength = 145;
 
 	//The Origin of the raycast
 	FVector startLocation = GetActorLocation();
@@ -87,26 +87,32 @@ FString AFirstPersonCharacter::StartRayCast()
 				//SetActorLocation(currentPlayerPos);
 				//FString test = "Floor";
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				currentPlayerPos = GetActorLocation(); // Means they have not hit the water
 				return FString::FString("Dock");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Dock"))
 			{
 			//	FString test = "Dock";
 			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				currentPlayerPos = GetActorLocation();
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Dock");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Forest"))
 			{
 			//	FString test = "Forest";
-				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				currentPlayerPos = GetActorLocation();
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Forest");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("City"))
 			{
 				//FString test = "City";
 			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				currentPlayerPos = GetActorLocation();
 				return FString::FString("City");
 			}
+			
 			//currentPlayerPos = GetActorLocation();
 		}
 	}
@@ -114,7 +120,19 @@ FString AFirstPersonCharacter::StartRayCast()
 	//The boolean parameter used here means that we want the lines to be persistent so we can see the actual raycast
 	//The last parameter is the width of the lines.
 	//DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1, 0, 1.f);
-	currentPlayerPos = GetActorLocation();
+	// If it does not break in the loop
+	for (int i = 0; i < hit.Num(); i++)
+	{
+		if (hit[i].Actor != nullptr)
+		{
+			if (hit[i].GetActor()->ActorHasTag("Water") && GetCharacterMovement()->MovementMode != EMovementMode::MOVE_Flying) // the water is underneath us
+			{
+				SetActorLocation(currentPlayerPos);
+			}
+		}
+	}
+
+
 	return FString::FString("");
 }
 // Called to bind functionality to input
@@ -146,7 +164,9 @@ void AFirstPersonCharacter::MoveForward(float val)
 		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
 	}
 	if (!GI->canPlayerMove)
+	{
 		AddMovementInput(GetActorForwardVector(), speed * val);
+	}
 	if (val != 0)
 	{
 		DetermineSoundToPlay(StartRayCast());
@@ -228,20 +248,28 @@ void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 	soundIsPlaying = true;
 	audio = NewObject<UAudioComponent>(this, "AutoDestroyAudio");
 	audio->bAutoDestroy = true;
+	FRandomStream rand;
+	float randomNum = rand.RandRange(0.5f, 2.f);
 	if (str == "Dock")
 	{
-		audio->Sound = dockStepSounds;
+		audio->Sound = dockStepSounds;	
+		audio->SetPitchMultiplier(randomNum);
 		audio->Play();
+		return;
 	}
 	else if (str == "Forest")
 	{
 		audio->Sound = forestStepSounds;
+		audio->SetPitchMultiplier(randomNum);
 		audio->Play();
+		return;
 	}
 	else if (str == "City")
 	{
 		audio->Sound = cityStepSounds;
+		audio->SetPitchMultiplier(randomNum);
 		audio->Play();
+		return;
 	}
 }
 //For collision
