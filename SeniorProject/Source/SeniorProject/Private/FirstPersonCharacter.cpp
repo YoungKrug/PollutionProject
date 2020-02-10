@@ -13,6 +13,7 @@
 #include "Components/PrimitiveComponent.h"
 #include "Components/AudioComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/KismetSystemLibrary.h"
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -52,6 +53,11 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	{
 		soundIsPlaying = false;
 	}
+	if (isRespawning && timer >= respawnTimer)
+	{
+		isRespawning = false;
+		SetActorLocation(currentPlayerPos);
+	}
 }
 FString AFirstPersonCharacter::StartRayCast()
 {
@@ -61,7 +67,7 @@ FString AFirstPersonCharacter::StartRayCast()
 
 	//The length of the ray in units.
 	//For more flexibility you can expose a public variable in the editor
-	float rayLength = 145;
+	float rayLength = rayLengthForSteps;
 
 	//The Origin of the raycast
 	FVector startLocation = GetActorLocation();
@@ -121,13 +127,16 @@ FString AFirstPersonCharacter::StartRayCast()
 	//The last parameter is the width of the lines.
 	//DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1, 0, 1.f);
 	// If it does not break in the loop
+	if(!isRespawning)
 	for (int i = 0; i < hit.Num(); i++)
 	{
 		if (hit[i].Actor != nullptr)
 		{
 			if (hit[i].GetActor()->ActorHasTag("Water") && GetCharacterMovement()->MovementMode != EMovementMode::MOVE_Flying) // the water is underneath us
 			{
-				SetActorLocation(currentPlayerPos);
+				isRespawning = true;
+				respawnTimer = timer + 1.0f;
+				//SetActorLocation(currentPlayerPos);
 			}
 		}
 	}
@@ -213,6 +222,27 @@ void AFirstPersonCharacter::Interact()
 		GI->isPressedX = true;
 		GI->isIntro = false;		
 	}
+	else if(!currentlyHolding)
+	{
+		
+	//	TArray<AActor*> collidedActors;
+		TArray<AActor*> returned;
+		UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), (FName)"Newspaper", returned);
+		TArray<FGameObjectInfo> info;
+		for (int i = 0; i < returned.Num(); i++)
+		{
+			FGameObjectInfo s;
+			s.distance = FVector::Dist(GetActorLocation(), returned[i]->GetActorLocation());
+			s.gameObject = returned[i];
+			info.Add(s);
+		}
+		SortGameObjectInfoByDistance(info);
+		if (info[0].distance < 250.f)
+		{
+			FString test = "Carrying: " + info[0].gameObject->GetName();
+			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+		}
+	}
 	FString test = "Interact";
 	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
@@ -272,6 +302,23 @@ void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 		return;
 	}
 }
+//Sort Array
+TArray<FGameObjectInfo> AFirstPersonCharacter::SortGameObjectInfoByDistance(TArray<FGameObjectInfo>& x)
+{
+	for (int i = 0; i < x.Num(); i++)
+	{
+		for (int j = 0; j < x.Num(); j++)
+		{
+			if (x[i].distance < x[j].distance)
+			{
+				x.Swap(i, j);
+				FString test = x[i].gameObject->GetName();
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+			}
+		}
+	}
+	return x;
+}
 //For collision
 void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
@@ -323,6 +370,7 @@ void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AA
 			}
 		}
 	}
+
 }
 
 

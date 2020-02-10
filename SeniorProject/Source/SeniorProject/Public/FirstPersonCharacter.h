@@ -1,4 +1,5 @@
 #pragma once // werid
+#include "DialogueSystemStruct.h"
 #include "MyGameInstance.h"
 #include "CoreMinimal.h"
 #include "DoYouCopySystem.h"
@@ -49,6 +50,8 @@ public:
 	UFUNCTION()
 	void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 	void DetermineSoundToPlay(FString);
+	UFUNCTION()
+	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>& x);
 	
 
 private:
@@ -67,6 +70,7 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	float footStepCoolDown;
 	float currentFOV;
+	AActor* currentlyHolding;
 	FVector startTrace;
 	FVector currentNewsPaperPos;
 	FVector currentNewsPaperRot;
@@ -90,4 +94,10 @@ private:
 	bool canClimb;
 	bool isAtClimbEnd;
 	AActor* climbActor;
+	UPROPERTY(EditAnywhere, Category = "Foot Step Sounds")
+	float rayLengthForSteps = 130;
+	bool isRespawning;
+	float respawnTimer;
+	UPROPERTY(EditAnywhere, Category = "CollisionOverlaps")
+	float sphereRadius = 5;
 };

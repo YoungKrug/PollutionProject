@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FGameObjectInfo;
 class UPrimitiveComponent;
 class AActor;
 struct FHitResult;
@@ -16,7 +17,16 @@ struct FHitResult;
 #endif
 #define SENIORPROJECT_FirstPersonCharacter_generated_h
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSortGameObjectInfoByDistance) \
+	{ \
+		P_GET_TARRAY_REF(FGameObjectInfo,Z_Param_Out_x); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TArray<FGameObjectInfo>*)Z_Param__Result=P_THIS->SortGameObjectInfoByDistance(Z_Param_Out_x); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
@@ -105,7 +115,16 @@ struct FHitResult;
 	}
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSortGameObjectInfoByDistance) \
+	{ \
+		P_GET_TARRAY_REF(FGameObjectInfo,Z_Param_Out_x); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TArray<FGameObjectInfo>*)Z_Param__Result=P_THIS->SortGameObjectInfoByDistance(Z_Param_Out_x); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd) \
 	{ \
@@ -194,7 +213,7 @@ struct FHitResult;
 	}
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFirstPersonCharacter(); \
 	friend struct Z_Construct_UClass_AFirstPersonCharacter_Statics; \
@@ -203,7 +222,7 @@ public: \
 	DECLARE_SERIALIZER(AFirstPersonCharacter)
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_INCLASS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAFirstPersonCharacter(); \
 	friend struct Z_Construct_UClass_AFirstPersonCharacter_Statics; \
@@ -212,7 +231,7 @@ public: \
 	DECLARE_SERIALIZER(AFirstPersonCharacter)
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFirstPersonCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonCharacter) \
@@ -225,7 +244,7 @@ private: \
 public:
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFirstPersonCharacter(AFirstPersonCharacter&&); \
@@ -236,7 +255,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonCharacter)
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__triggerCapsule() { return STRUCT_OFFSET(AFirstPersonCharacter, triggerCapsule); } \
 	FORCEINLINE static uint32 __PPO__baseTurnRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseTurnRate); } \
 	FORCEINLINE static uint32 __PPO__baseLookUpRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseLookUpRate); } \
@@ -247,28 +266,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__forestStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, forestStepSounds); } \
 	FORCEINLINE static uint32 __PPO__cityStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, cityStepSounds); } \
 	FORCEINLINE static uint32 __PPO__dockStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, dockStepSounds); } \
-	FORCEINLINE static uint32 __PPO__fireHouseStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, fireHouseStepSounds); }
+	FORCEINLINE static uint32 __PPO__fireHouseStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, fireHouseStepSounds); } \
+	FORCEINLINE static uint32 __PPO__rayLengthForSteps() { return STRUCT_OFFSET(AFirstPersonCharacter, rayLengthForSteps); } \
+	FORCEINLINE static uint32 __PPO__sphereRadius() { return STRUCT_OFFSET(AFirstPersonCharacter, sphereRadius); }
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_9_PROLOG
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_GENERATED_BODY_LEGACY \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_10_PROLOG
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_INCLASS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_STANDARD_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_GENERATED_BODY \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
