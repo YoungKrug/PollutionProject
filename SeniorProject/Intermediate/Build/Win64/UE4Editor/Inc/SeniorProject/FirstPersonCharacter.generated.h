@@ -19,13 +19,23 @@ struct FHitResult;
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSafelyEmptyList) \
+	{ \
+		P_GET_TARRAY_REF(AActor*,Z_Param_Out_arr); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SafelyEmptyList(Z_Param_Out_arr); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDetermineInteraction) \
 	{ \
 		P_GET_PROPERTY(UStrProperty,Z_Param_str); \
-		P_GET_OBJECT(AActor,Z_Param_a); \
+		P_GET_OBJECT(AActor,Z_Param_act); \
+		P_GET_TARRAY(FGameObjectInfo,Z_Param_info); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DetermineInteraction(Z_Param_str,Z_Param_a); \
+		P_THIS->DetermineInteraction(Z_Param_str,Z_Param_act,Z_Param_info); \
 		P_NATIVE_END; \
 	} \
  \
@@ -127,13 +137,23 @@ struct FHitResult;
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execSafelyEmptyList) \
+	{ \
+		P_GET_TARRAY_REF(AActor*,Z_Param_Out_arr); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SafelyEmptyList(Z_Param_Out_arr); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDetermineInteraction) \
 	{ \
 		P_GET_PROPERTY(UStrProperty,Z_Param_str); \
-		P_GET_OBJECT(AActor,Z_Param_a); \
+		P_GET_OBJECT(AActor,Z_Param_act); \
+		P_GET_TARRAY(FGameObjectInfo,Z_Param_info); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->DetermineInteraction(Z_Param_str,Z_Param_a); \
+		P_THIS->DetermineInteraction(Z_Param_str,Z_Param_act,Z_Param_info); \
 		P_NATIVE_END; \
 	} \
  \

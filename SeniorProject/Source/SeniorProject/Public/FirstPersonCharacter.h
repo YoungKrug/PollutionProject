@@ -53,7 +53,9 @@ public:
 	UFUNCTION()
 	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>& x);
 	UFUNCTION()
-	void DetermineInteraction(const FString str, AActor* a);
+	void DetermineInteraction(const FString str, AActor* act, TArray<FGameObjectInfo> info);
+	UFUNCTION()
+	void SafelyEmptyList(TArray<AActor*>& arr);
 	
 
 private:
@@ -72,7 +74,7 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	float footStepCoolDown;
 	float currentFOV;
-	AActor* currentlyHolding;
+	TArray<AActor*> currentlyInteracting;
 	FVector startTrace;
 	FVector currentNewsPaperPos;
 	FVector currentNewsPaperRot;
@@ -104,4 +106,5 @@ private:
 	float sphereRadius = 5;
 	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
 	TArray<FName> interactableTags;
+	TArray<FVector> interactableObjectsOrgPos;
 };

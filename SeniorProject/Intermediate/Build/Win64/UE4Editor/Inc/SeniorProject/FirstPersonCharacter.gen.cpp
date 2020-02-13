@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_SeniorProject();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction();
+	SENIORPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGameObjectInfo();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_Interact();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_LookSide();
@@ -29,8 +30,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapEnd();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SortGameObjectInfoByDistance();
-	SENIORPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGameObjectInfo();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_StartRayCast();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
@@ -50,6 +51,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 			{ "MoveRight", &AFirstPersonCharacter::execMoveRight },
 			{ "OnOverlapBegin", &AFirstPersonCharacter::execOnOverlapBegin },
 			{ "OnOverlapEnd", &AFirstPersonCharacter::execOnOverlapEnd },
+			{ "SafelyEmptyList", &AFirstPersonCharacter::execSafelyEmptyList },
 			{ "SortGameObjectInfoByDistance", &AFirstPersonCharacter::execSortGameObjectInfoByDistance },
 			{ "StartRayCast", &AFirstPersonCharacter::execStartRayCast },
 		};
@@ -82,9 +84,12 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		struct FirstPersonCharacter_eventDetermineInteraction_Parms
 		{
 			FString str;
-			AActor* a;
+			AActor* act;
+			TArray<FGameObjectInfo> info;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_info;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_info_Inner;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_act;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_str_MetaData[];
 #endif
@@ -95,7 +100,9 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_a = { "a", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventDetermineInteraction_Parms, a), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_info = { "info", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventDetermineInteraction_Parms, info), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_info_Inner = { "info", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FGameObjectInfo, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_act = { "act", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventDetermineInteraction_Parms, act), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str_MetaData[] = {
 		{ "NativeConst", "" },
@@ -103,7 +110,9 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str = { "str", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventDetermineInteraction_Parms, str), METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_a,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_info,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_info_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_act,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str,
 	};
 #if WITH_METADATA
@@ -412,6 +421,41 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics
+	{
+		struct FirstPersonCharacter_eventSafelyEmptyList_Parms
+		{
+			TArray<AActor*> arr;
+		};
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_arr;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_arr_Inner;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::NewProp_arr = { "arr", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventSafelyEmptyList_Parms, arr), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::NewProp_arr_Inner = { "arr", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::NewProp_arr,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::NewProp_arr_Inner,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "SafelyEmptyList", sizeof(FirstPersonCharacter_eventSafelyEmptyList_Parms), Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AFirstPersonCharacter_SortGameObjectInfoByDistance_Statics
 	{
 		struct FirstPersonCharacter_eventSortGameObjectInfoByDistance_Parms
@@ -568,7 +612,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFirstPersonCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue, "ContinueDialogue" }, // 29390116
-		{ &Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction, "DetermineInteraction" }, // 643952293
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction, "DetermineInteraction" }, // 4118446
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_Interact, "Interact" }, // 1780806731
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookSide, "LookSide" }, // 2819758198
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookUp, "LookUp" }, // 33048402
@@ -576,6 +620,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_MoveRight, "MoveRight" }, // 2891570342
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 299696162
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 3449750689
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList, "SafelyEmptyList" }, // 3720783970
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_SortGameObjectInfoByDistance, "SortGameObjectInfoByDistance" }, // 3748554121
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_StartRayCast, "StartRayCast" }, // 3897720143
 	};
@@ -740,7 +785,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonCharacter, 2084474647);
+	IMPLEMENT_CLASS(AFirstPersonCharacter, 3396753706);
 	template<> SENIORPROJECT_API UClass* StaticClass<AFirstPersonCharacter>()
 	{
 		return AFirstPersonCharacter::StaticClass();

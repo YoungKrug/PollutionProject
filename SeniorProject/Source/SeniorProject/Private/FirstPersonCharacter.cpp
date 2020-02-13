@@ -222,21 +222,28 @@ void AFirstPersonCharacter::Interact()
 		GI->isPressedX = true;
 		GI->isIntro = false;		
 	}
-	else if(!currentlyHolding)
+	else if(currentlyInteracting.Num() <= 0)
 	{
 		bool hasCalled = false;
 	//	TArray<AActor*> collidedActors;
 		for (int i = 0; i < interactableTags.Num(); i++)
 		{
+			TArray<AActor*> emptyCheck;
+			emptyCheck.Empty();
 			TArray<AActor*> returned;
 			UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), interactableTags[i], returned);
 			TArray<FGameObjectInfo> info;
+			interactableObjectsOrgPos.Empty();
+			SafelyEmptyList(currentlyInteracting);
+			if (returned == emptyCheck)
+				return;
 			for (int i = 0; i < returned.Num(); i++)
 			{
 				FGameObjectInfo s;
 				s.distance = FVector::Dist(GetActorLocation(), returned[i]->GetActorLocation());
 				s.gameObject = returned[i];
 				info.Add(s);
+				interactableObjectsOrgPos.Add(returned[i]->GetActorLocation());
 			}
 			SortGameObjectInfoByDistance(info);
 			if (info[0].distance < 250.f) // if i am close to the objects I have found
@@ -244,12 +251,43 @@ void AFirstPersonCharacter::Interact()
 				FString test = "Carrying: " + info[0].gameObject->GetName();
 				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				hasCalled = true;
-				DetermineInteraction(interactableTags[i].ToString(), info[0].gameObject);
+				DetermineInteraction(interactableTags[i].ToString(), info[0].gameObject, info);
+				break;
 			}
 		}		
 	}
+	int num = currentlyInteracting.Num();
+	TArray<AActor*> a;
+	a.Empty();
+	if (currentlyInteracting != a && num > 0) // I am carrying objects
+	{
+		FString test = "Switch";
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+		if (currentlyInteracting.Num() == 1)
+		{
+			currentlyInteracting[0]->SetActorLocation(interactableObjectsOrgPos[0]);
+			currentlyInteracting[0] = nullptr;
+			currentlyInteracting.Empty();
+			return;
+		}
+		else // If i am carrying more then one object remove one at a time until the list is empty
+		{
+			currentlyInteracting[0] = nullptr;
+			currentlyInteracting.Remove(0);
+		}
+	}
 	FString test = "Interact";
 	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+}
+
+void AFirstPersonCharacter::SafelyEmptyList(TArray<AActor*>& arr) // method to dereference the pointers
+{
+	for (int i = 0; i < arr.Num(); i++)
+	{
+		AActor* temp = nullptr;
+		arr[i] = temp;
+	}
+	arr.Empty();
 }
 AFirstPersonCharacter::AFirstPersonCharacter(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
@@ -275,21 +313,41 @@ void AFirstPersonCharacter::ContinueDialogue()
 
 }
 
-void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act)
+void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act, TArray<FGameObjectInfo> info)
 {
-	if (str == "Newspaper")
+	if (currentlyInteracting.Num() <= 0)
 	{
-		
-		act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
-		FVector newPos = GetActorLocation() * (GetActorForwardVector() * 1.5f);
-		FQuat q;
-		act->SetActorLocation(newPos);
-		q.RotateVector(FVector(act->GetActorRotation().Vector().X, 90.f, act->GetActorRotation().Vector().Z));
-		act->SetActorRotation(q);
-	}
-	else if (str == "Interactable")
-	{
-
+		if (str == "Newspaper")
+		{
+			for(int i = 0; i < info.Num(); i++)
+			{
+				if (info[i].distance < 250.f) //for every newspaper in this distance add it to our carry inven
+				{
+					float offset = i * 20.f;
+					act = info[i].gameObject;
+					act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
+					FVector newPos = GetActorLocation() * (GetActorForwardVector() * 1.5f);
+					FQuat rot;
+					act->SetActorLocation(newPos);
+					rot.RotateVector(FVector(act->GetActorRotation().Vector().X, 90.f, act->GetActorRotation().Vector().Z + offset));
+					act->SetActorRotation(rot);
+					currentlyInteracting.Add(act);
+				}
+			}
+			return;
+		}
+		else if (str == "Interactable")
+		{
+			// Playing with animations(Cinematics)
+		}
+		else if (str == "Moveable Objects")
+		{
+			//Movable objects in the scene you can interact with
+		}
+		else if (str == "Radio")
+		{
+			//Interacting with the radio will call a different function, we want to be able to push buttons etc.
+		}
 	}
 }
 void AFirstPersonCharacter::DetermineSoundToPlay(FString str)

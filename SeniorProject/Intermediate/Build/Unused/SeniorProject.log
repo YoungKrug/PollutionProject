@@ -1,52 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SeniorProject\PollutionProject).
-  Creating makefile for SeniorProjectEditor (no existing makefile)
+  Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
   Parsing headers for SeniorProjectEditor
     Running UnrealHeaderTool "C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 10.8622562 seconds
-  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 30 actions with 8 processes...
-    [1/30] SharedPCH.Engine.cpp
-    [2/30] SeniorProject.cpp
-    [3/30] Movement.cpp
-    [4/30] GameObjectInformation.cpp
-    [5/30] MyGameInstance.cpp
-    [6/30] ButtonInfo.cpp
-    [7/30] UnrealInfo.cpp
-    [8/30] MyLocalPlayer.cpp
-    [9/30] DialougeSystemStruct.cpp
-    [10/30] UnrealInformation.cpp
-    [11/30] AudioInformationStruct.cpp
-    [12/30] DialogueSystemStruct.cpp
-    [13/30] SeniorProjectGameModeBase.cpp
-    [14/30] ButtonInfo.gen.cpp
-    [15/30] DialougeSystemStruct.gen.cpp
-    [16/30] DialogueSystemStruct.gen.cpp
-    [17/30] FirstPersonCharacter.cpp
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(234): warning C4456: declaration of 'i' hides previous local declaration
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(229): note: see declaration of 'i'
-    [18/30] GameObjectInformation.gen.cpp
-    [19/30] Movement.gen.cpp
-    [20/30] MyGameInstance.gen.cpp
-    [21/30] DoYouCopySystem.gen.cpp
-    [22/30] SeniorProject.init.gen.cpp
-    [23/30] FirstPersonCharacter.gen.cpp
-    [24/30] MyLocalPlayer.gen.cpp
-    [25/30] AudioInformationStruct.gen.cpp
-    [26/30] SeniorProjectGameModeBase.gen.cpp
-    [27/30] DoYouCopySystem.cpp
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(72): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(170): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(178): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(187): warning C4458: declaration of 'audio' hides class member
-    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(60): warning C4701: potentially uninitialized local variable 'close' used
-    [28/30] UE4Editor-SeniorProject.lib
-       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.exp
-    [29/30] UE4Editor-SeniorProject.dll
-       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.exp
-    [30/30] SeniorProjectEditor.target
-  Total time in Parallel executor: 29.14 seconds
-  Total execution time: 43.69 seconds
+  Reflection code generated for SeniorProjectEditor in 6.97159 seconds
+  Target is up to date
+  Total execution time: 9.58 seconds
