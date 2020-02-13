@@ -1,3 +1,3 @@
-C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject\SeniorProject.Build.cs
-C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProject.Target.cs
-C:\Users\hlee2\Desktop\Thesis\Project\PollutionProject\SeniorProject\Source\SeniorProjectEditor.Target.cs
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\SeniorProject.Build.cs
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject.Target.cs
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProjectEditor.Target.cs

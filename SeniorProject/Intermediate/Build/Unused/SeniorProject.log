@@ -1,63 +1,52 @@
-﻿  Cleaning SeniorProjectEditor and UnrealHeaderTool binaries...
-UnrealBuildTool : error : Unable to delete E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.dll (Access to the path 'E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.dll' is denied.)
-  Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SeniorProject\PollutionProject).
   Creating makefile for SeniorProjectEditor (no existing makefile)
   Parsing headers for SeniorProjectEditor
-    Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 5.4386403 seconds
-  Failed to delete file 'E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.pdb'
-      Exception: Access to the path 'E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.pdb' is denied.
-  Attempting to retry...
-  Failed to delete file 'E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.pdb'
-      Exception: Access to the path 'E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.pdb' is denied.
-  Attempting to retry...
-  Failed to delete file 'E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.pdb'
-      Exception: Access to the path 'E:\SeniorProject\PollutionProject\SeniorProject\Binaries\Win64\UE4Editor-SeniorProject.pdb' is denied.
-EXEC : error : Exhausted all retries!
-  Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 31 actions with 8 processes...
-    [1/31] Default.rc2
-    [2/31] SharedPCH.Engine.cpp
-    [3/31] SeniorProject.cpp
-    [4/31] MyGameInstance.cpp
-    [5/31] GameObjectInformation.cpp
-    [6/31] Movement.cpp
-    [7/31] ButtonInfo.cpp
-    [8/31] UnrealInfo.cpp
-    [9/31] DialougeSystemStruct.cpp
-    [10/31] MyLocalPlayer.cpp
-    [11/31] DialogueSystemStruct.cpp
-    [12/31] UnrealInformation.cpp
-    [13/31] AudioInformationStruct.cpp
-    [14/31] SeniorProjectGameModeBase.cpp
-    [15/31] SeniorProject.init.gen.cpp
-    [16/31] SeniorProjectGameModeBase.gen.cpp
-    [17/31] MyLocalPlayer.gen.cpp
-    [18/31] MyGameInstance.gen.cpp
-    [19/31] AudioInformationStruct.gen.cpp
-    [20/31] GameObjectInformation.gen.cpp
-    [21/31] Movement.gen.cpp
-    [22/31] DialougeSystemStruct.gen.cpp
-    [23/31] FirstPersonCharacter.cpp
-    [24/31] ButtonInfo.gen.cpp
-    [25/31] DialogueSystemStruct.gen.cpp
-    [26/31] DoYouCopySystem.gen.cpp
-    [27/31] FirstPersonCharacter.gen.cpp
-    [28/31] DoYouCopySystem.cpp
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(72): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(170): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(178): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(187): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(60): warning C4701: potentially uninitialized local variable 'close' used
-    [29/31] UE4Editor-SeniorProject-0001.lib
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.exp
-    [30/31] UE4Editor-SeniorProject-0001.dll
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.suppressed.exp
-    [31/31] SeniorProjectEditor.target
-  Total time in Parallel executor: 29.36 seconds
-  Total execution time: 38.79 seconds
-E:\VisualStudios\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Rebuild.bat" SeniorProjectEditor Win64 Development -Project="E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+    Running UnrealHeaderTool "C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SeniorProjectEditor in 10.8622562 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 30 actions with 8 processes...
+    [1/30] SharedPCH.Engine.cpp
+    [2/30] SeniorProject.cpp
+    [3/30] Movement.cpp
+    [4/30] GameObjectInformation.cpp
+    [5/30] MyGameInstance.cpp
+    [6/30] ButtonInfo.cpp
+    [7/30] UnrealInfo.cpp
+    [8/30] MyLocalPlayer.cpp
+    [9/30] DialougeSystemStruct.cpp
+    [10/30] UnrealInformation.cpp
+    [11/30] AudioInformationStruct.cpp
+    [12/30] DialogueSystemStruct.cpp
+    [13/30] SeniorProjectGameModeBase.cpp
+    [14/30] ButtonInfo.gen.cpp
+    [15/30] DialougeSystemStruct.gen.cpp
+    [16/30] DialogueSystemStruct.gen.cpp
+    [17/30] FirstPersonCharacter.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(234): warning C4456: declaration of 'i' hides previous local declaration
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(229): note: see declaration of 'i'
+    [18/30] GameObjectInformation.gen.cpp
+    [19/30] Movement.gen.cpp
+    [20/30] MyGameInstance.gen.cpp
+    [21/30] DoYouCopySystem.gen.cpp
+    [22/30] SeniorProject.init.gen.cpp
+    [23/30] FirstPersonCharacter.gen.cpp
+    [24/30] MyLocalPlayer.gen.cpp
+    [25/30] AudioInformationStruct.gen.cpp
+    [26/30] SeniorProjectGameModeBase.gen.cpp
+    [27/30] DoYouCopySystem.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(72): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(170): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(178): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(187): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(60): warning C4701: potentially uninitialized local variable 'close' used
+    [28/30] UE4Editor-SeniorProject.lib
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.exp
+    [29/30] UE4Editor-SeniorProject.dll
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.exp
+    [30/30] SeniorProjectEditor.target
+  Total time in Parallel executor: 29.14 seconds
+  Total execution time: 43.69 seconds

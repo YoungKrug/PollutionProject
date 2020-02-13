@@ -8,9 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 struct FGameObjectInfo;
 class UPrimitiveComponent;
-class AActor;
 struct FHitResult;
 #ifdef SENIORPROJECT_FirstPersonCharacter_generated_h
 #error "FirstPersonCharacter.generated.h already included, missing '#pragma once' in FirstPersonCharacter.h"
@@ -18,6 +18,16 @@ struct FHitResult;
 #define SENIORPROJECT_FirstPersonCharacter_generated_h
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDetermineInteraction) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_str); \
+		P_GET_OBJECT(AActor,Z_Param_a); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DetermineInteraction(Z_Param_str,Z_Param_a); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSortGameObjectInfoByDistance) \
 	{ \
@@ -116,6 +126,16 @@ struct FHitResult;
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDetermineInteraction) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_str); \
+		P_GET_OBJECT(AActor,Z_Param_a); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DetermineInteraction(Z_Param_str,Z_Param_a); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSortGameObjectInfoByDistance) \
 	{ \
@@ -268,7 +288,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__dockStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, dockStepSounds); } \
 	FORCEINLINE static uint32 __PPO__fireHouseStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, fireHouseStepSounds); } \
 	FORCEINLINE static uint32 __PPO__rayLengthForSteps() { return STRUCT_OFFSET(AFirstPersonCharacter, rayLengthForSteps); } \
-	FORCEINLINE static uint32 __PPO__sphereRadius() { return STRUCT_OFFSET(AFirstPersonCharacter, sphereRadius); }
+	FORCEINLINE static uint32 __PPO__sphereRadius() { return STRUCT_OFFSET(AFirstPersonCharacter, sphereRadius); } \
+	FORCEINLINE static uint32 __PPO__interactableTags() { return STRUCT_OFFSET(AFirstPersonCharacter, interactableTags); }
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_10_PROLOG

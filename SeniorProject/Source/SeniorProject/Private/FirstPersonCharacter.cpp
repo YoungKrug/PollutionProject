@@ -224,24 +224,29 @@ void AFirstPersonCharacter::Interact()
 	}
 	else if(!currentlyHolding)
 	{
-		
+		bool hasCalled = false;
 	//	TArray<AActor*> collidedActors;
-		TArray<AActor*> returned;
-		UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), (FName)"Newspaper", returned);
-		TArray<FGameObjectInfo> info;
-		for (int i = 0; i < returned.Num(); i++)
+		for (int i = 0; i < interactableTags.Num(); i++)
 		{
-			FGameObjectInfo s;
-			s.distance = FVector::Dist(GetActorLocation(), returned[i]->GetActorLocation());
-			s.gameObject = returned[i];
-			info.Add(s);
-		}
-		SortGameObjectInfoByDistance(info);
-		if (info[0].distance < 250.f)
-		{
-			FString test = "Carrying: " + info[0].gameObject->GetName();
-			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
-		}
+			TArray<AActor*> returned;
+			UGameplayStatics::GetAllActorsWithTag(UObject::GetWorld(), interactableTags[i], returned);
+			TArray<FGameObjectInfo> info;
+			for (int i = 0; i < returned.Num(); i++)
+			{
+				FGameObjectInfo s;
+				s.distance = FVector::Dist(GetActorLocation(), returned[i]->GetActorLocation());
+				s.gameObject = returned[i];
+				info.Add(s);
+			}
+			SortGameObjectInfoByDistance(info);
+			if (info[0].distance < 250.f) // if i am close to the objects I have found
+			{
+				FString test = "Carrying: " + info[0].gameObject->GetName();
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				hasCalled = true;
+				DetermineInteraction(interactableTags[i].ToString(), info[0].gameObject);
+			}
+		}		
 	}
 	FString test = "Interact";
 	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
@@ -270,6 +275,23 @@ void AFirstPersonCharacter::ContinueDialogue()
 
 }
 
+void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act)
+{
+	if (str == "Newspaper")
+	{
+		
+		act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
+		FVector newPos = GetActorLocation() * (GetActorForwardVector() * 1.5f);
+		FQuat q;
+		act->SetActorLocation(newPos);
+		q.RotateVector(FVector(act->GetActorRotation().Vector().X, 90.f, act->GetActorRotation().Vector().Z));
+		act->SetActorRotation(q);
+	}
+	else if (str == "Interactable")
+	{
+
+	}
+}
 void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 {
 	if(soundIsPlaying)

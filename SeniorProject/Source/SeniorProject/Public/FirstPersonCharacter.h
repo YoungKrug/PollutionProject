@@ -52,6 +52,8 @@ public:
 	void DetermineSoundToPlay(FString);
 	UFUNCTION()
 	TArray<FGameObjectInfo> SortGameObjectInfoByDistance(TArray<FGameObjectInfo>& x);
+	UFUNCTION()
+	void DetermineInteraction(const FString str, AActor* a);
 	
 
 private:
@@ -100,4 +102,6 @@ private:
 	float respawnTimer;
 	UPROPERTY(EditAnywhere, Category = "CollisionOverlaps")
 	float sphereRadius = 5;
+	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
+	TArray<FName> interactableTags;
 };

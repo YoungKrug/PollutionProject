@@ -18,6 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_SeniorProject();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_Interact();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_LookSide();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_LookUp();
@@ -26,7 +28,6 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapEnd();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SortGameObjectInfoByDistance();
 	SENIORPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGameObjectInfo();
@@ -41,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		UClass* Class = AFirstPersonCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ContinueDialogue", &AFirstPersonCharacter::execContinueDialogue },
+			{ "DetermineInteraction", &AFirstPersonCharacter::execDetermineInteraction },
 			{ "Interact", &AFirstPersonCharacter::execInteract },
 			{ "LookSide", &AFirstPersonCharacter::execLookSide },
 			{ "LookUp", &AFirstPersonCharacter::execLookUp },
@@ -72,6 +74,50 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics
+	{
+		struct FirstPersonCharacter_eventDetermineInteraction_Parms
+		{
+			FString str;
+			AActor* a;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_a;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_str_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_str;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_a = { "a", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventDetermineInteraction_Parms, a), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str = { "str", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventDetermineInteraction_Parms, str), METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_a,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::NewProp_str,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "DetermineInteraction", sizeof(FirstPersonCharacter_eventDetermineInteraction_Parms), Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -452,6 +498,11 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_interactableTags_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_interactableTags;
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_interactableTags_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sphereRadius_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_sphereRadius;
@@ -517,6 +568,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFirstPersonCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue, "ContinueDialogue" }, // 29390116
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction, "DetermineInteraction" }, // 643952293
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_Interact, "Interact" }, // 1780806731
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookSide, "LookSide" }, // 2819758198
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookUp, "LookUp" }, // 33048402
@@ -535,6 +587,14 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableTags_MetaData[] = {
+		{ "Category", "Interactable Tags" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableTags = { "interactableTags", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, interactableTags), METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableTags_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableTags_MetaData)) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableTags_Inner = { "interactableTags", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_sphereRadius_MetaData[] = {
 		{ "Category", "CollisionOverlaps" },
@@ -636,6 +696,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent = { "firstPersonCameraComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, firstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableTags,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableTags_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_sphereRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_rayLengthForSteps,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_fireHouseStepSounds,
@@ -678,7 +740,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonCharacter, 2777750157);
+	IMPLEMENT_CLASS(AFirstPersonCharacter, 2084474647);
 	template<> SENIORPROJECT_API UClass* StaticClass<AFirstPersonCharacter>()
 	{
 		return AFirstPersonCharacter::StaticClass();
