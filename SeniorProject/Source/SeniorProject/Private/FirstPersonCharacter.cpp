@@ -271,6 +271,8 @@ void AFirstPersonCharacter::Interact()
 			currentlyInteracting.Empty();
 			interactableObjectsOrgPos.RemoveAt(0);
 			interactableObjectsOrgRot.RemoveAt(0);
+			GI->canPlayerMove = false;
+			//GI->canPlayerRotate = false;
 			return;
 		}
 		else // If i am carrying more then one object remove one at a time until the list is empty
@@ -338,11 +340,11 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 					FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 150.f);
 					FQuat rot;
 					act->SetActorLocation(newPos);
-					rot.RotateVector(FVector(0.f, 145.f, 50.f));
-					act->SetActorRotation(rot);
+					rot.RotateVector(FVector(0,0,90.f));
+					act->SetActorRotation(FRotator(0, 90.f, 0));
 					currentlyInteracting.Add(act);
 					GI->canPlayerMove = true;
-					GI->canPlayerRotate = true;
+				  //GI->canPlayerRotate = true;
 				}
 			}
 			return;

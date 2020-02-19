@@ -109,4 +109,6 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
 	TArray<FVector> interactableObjectsOrgPos;
 	TArray<FRotator> interactableObjectsOrgRot;
+	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
+	TArray<FText> newsPaperText;
 };

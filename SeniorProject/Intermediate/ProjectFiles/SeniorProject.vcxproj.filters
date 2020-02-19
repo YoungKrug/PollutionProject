@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SeniorProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0A8E62F9-DF8B-47BA-8056-609F21D762D8}</UniqueIdentifier>
+      <UniqueIdentifier>{A7713D80-7CB2-4391-B10F-8CEB5BA94E54}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SeniorProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4B5B5BD8-410C-45D8-B0AA-2D12F3AC1739}</UniqueIdentifier>
+      <UniqueIdentifier>{851CADA6-CCBD-4121-A385-46050E92E0C4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SeniorProject">
-      <UniqueIdentifier>{3DE5BE81-E736-4575-9D59-E5AEA29808BC}</UniqueIdentifier>
+      <UniqueIdentifier>{6475FD06-0B61-40F9-B37B-EF22B1C4C576}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SeniorProject\ButtonInfo.cpp">
       <Filter>Source\SeniorProject</Filter>
@@ -90,7 +90,7 @@
       <Filter>Source\SeniorProject</Filter>
     </ClInclude>
     <Filter Include="Source\SeniorProject\Private">
-      <UniqueIdentifier>{69395BD4-61C6-4D05-9591-FC362F1E025C}</UniqueIdentifier>
+      <UniqueIdentifier>{95438544-1CEF-4018-ACE3-E9AB705F9DCB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SeniorProject\Private\AudioInformationStruct.cpp">
       <Filter>Source\SeniorProject\Private</Filter>
@@ -111,7 +111,7 @@
       <Filter>Source\SeniorProject\Private</Filter>
     </ClCompile>
     <Filter Include="Source\SeniorProject\Public">
-      <UniqueIdentifier>{27C711DA-D55F-48BA-80BA-9C436DB69D08}</UniqueIdentifier>
+      <UniqueIdentifier>{2EC0C0DF-AFCE-4A82-AA0D-A895E654CA69}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\SeniorProject\Public\AudioInformationStruct.h">
       <Filter>Source\SeniorProject\Public</Filter>
