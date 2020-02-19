@@ -296,6 +296,7 @@ void AFirstPersonCharacter::SafelyEmptyList(TArray<AActor*>& arr) // method to d
 		AActor* temp = nullptr;
 		arr[i] = temp;
 	}
+
 	arr.Empty();
 }
 AFirstPersonCharacter::AFirstPersonCharacter(const FObjectInitializer& ObjectInitializer)
