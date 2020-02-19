@@ -1,7 +1,60 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\SeniorProject\PollutionProject).
-  Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
+﻿  Cleaning SeniorProjectEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (C:\SeniorProject\PollutionProject).
+  Creating makefile for SeniorProjectEditor (no existing makefile)
   Parsing headers for SeniorProjectEditor
     Running UnrealHeaderTool "C:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 6.97159 seconds
-  Target is up to date
-  Total execution time: 9.58 seconds
+  Reflection code generated for SeniorProjectEditor in 7.2315027 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 33 actions with 8 processes...
+    [1/33] Default.rc2
+    [2/33] SharedPCH.Engine.cpp
+    [3/33] SeniorProject.cpp
+    [4/33] GameObjectInformation.cpp
+    [5/33] MyGameInstance.cpp
+    [6/33] Movement.cpp
+    [7/33] InteractableObjects.cpp
+    [8/33] UnrealInfo.cpp
+    [9/33] MyLocalPlayer.cpp
+    [10/33] DialougeSystemStruct.cpp
+    [11/33] UnrealInformation.cpp
+    [12/33] AudioInformationStruct.cpp
+    [13/33] DialogueSystemStruct.cpp
+    [14/33] SeniorProjectGameModeBase.cpp
+    [15/33] DoYouCopySystem.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(72): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(170): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(178): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(187): warning C4458: declaration of 'audio' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(60): warning C4701: potentially uninitialized local variable 'close' used
+    [16/33] SeniorProjectGameModeBase.gen.cpp
+    [17/33] SeniorProject.init.gen.cpp
+    [18/33] MyLocalPlayer.gen.cpp
+    [19/33] Movement.gen.cpp
+    [20/33] MyGameInstance.gen.cpp
+    [21/33] AudioInformationStruct.gen.cpp
+    [22/33] InteractableObjects.gen.cpp
+    [23/33] FirstPersonCharacter.cpp
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(240): warning C4456: declaration of 'i' hides previous local declaration
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(229): note: see declaration of 'i'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(269): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1209): note: see declaration of 'AActor::DetachRootComponentFromParent'
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(328): warning C4458: declaration of 'offset' hides class member
+    C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\FirstPersonCharacter.h(71): note: see declaration of 'AFirstPersonCharacter::offset'
+    [24/33] DialougeSystemStruct.gen.cpp
+    [25/33] ButtonInfo.gen.cpp
+    [26/33] GameObjectInformation.gen.cpp
+    [27/33] ButtonInfo.cpp
+    [28/33] DialogueSystemStruct.gen.cpp
+    [29/33] DoYouCopySystem.gen.cpp
+    [30/33] FirstPersonCharacter.gen.cpp
+    [31/33] UE4Editor-SeniorProject-0001.lib
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.exp
+    [32/33] UE4Editor-SeniorProject-0001.dll
+       Creating library C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.suppressed.lib and object C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0001.suppressed.exp
+    [33/33] SeniorProjectEditor.target
+  Total time in Parallel executor: 33.00 seconds
+  Total execution time: 68.26 seconds

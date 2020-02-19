@@ -225,7 +225,7 @@ void AFirstPersonCharacter::Interact()
 	else if(currentlyInteracting.Num() <= 0)
 	{
 		bool hasCalled = false;
-	//	TArray<AActor*> collidedActors;
+	  //TArray<AActor*> collidedActors;
 		for (int i = 0; i < interactableTags.Num(); i++)
 		{
 			TArray<AActor*> emptyCheck;
@@ -243,7 +243,6 @@ void AFirstPersonCharacter::Interact()
 				s.distance = FVector::Dist(GetActorLocation(), returned[i]->GetActorLocation());
 				s.gameObject = returned[i];
 				info.Add(s);
-				interactableObjectsOrgPos.Add(returned[i]->GetActorLocation());
 			}
 			SortGameObjectInfoByDistance(info);
 			if (info[0].distance < 250.f) // if i am close to the objects I have found
@@ -255,6 +254,7 @@ void AFirstPersonCharacter::Interact()
 				break;
 			}
 		}		
+		return;
 	}
 	int num = currentlyInteracting.Num();
 	TArray<AActor*> a;
@@ -265,15 +265,22 @@ void AFirstPersonCharacter::Interact()
 		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 		if (currentlyInteracting.Num() == 1)
 		{
-			currentlyInteracting[0]->SetActorLocation(interactableObjectsOrgPos[0]);
+			currentlyInteracting[0]->DetachRootComponentFromParent();
+			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
 			currentlyInteracting[0] = nullptr;
 			currentlyInteracting.Empty();
+			interactableObjectsOrgPos.RemoveAt(0);
+			interactableObjectsOrgRot.RemoveAt(0);
 			return;
 		}
 		else // If i am carrying more then one object remove one at a time until the list is empty
 		{
+			currentlyInteracting[0]->DetachRootComponentFromParent();
+			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
 			currentlyInteracting[0] = nullptr;
 			currentlyInteracting.Remove(0);
+			interactableObjectsOrgPos.RemoveAt(0);
+			interactableObjectsOrgRot.RemoveAt(0);
 		}
 	}
 	FString test = "Interact";
@@ -323,15 +330,19 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			{
 				if (info[i].distance < 250.f) //for every newspaper in this distance add it to our carry inven
 				{
-					float offset = i * 20.f;
+					interactableObjectsOrgPos.Add(info[i].gameObject->GetActorLocation());
+					interactableObjectsOrgRot.Add(info[i].gameObject->GetActorRotation());
+					//float offset = i * 20.f;
 					act = info[i].gameObject;
 					act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
-					FVector newPos = GetActorLocation() * (GetActorForwardVector() * 1.5f);
+					FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 150.f);
 					FQuat rot;
 					act->SetActorLocation(newPos);
-					rot.RotateVector(FVector(act->GetActorRotation().Vector().X, 90.f, act->GetActorRotation().Vector().Z + offset));
+					rot.RotateVector(FVector(0.f, 145.f, 50.f));
 					act->SetActorRotation(rot);
 					currentlyInteracting.Add(act);
+					GI->canPlayerMove = true;
+					GI->canPlayerRotate = true;
 				}
 			}
 			return;

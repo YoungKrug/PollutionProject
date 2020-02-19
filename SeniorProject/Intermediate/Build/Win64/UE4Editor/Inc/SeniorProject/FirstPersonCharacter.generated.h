@@ -309,7 +309,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__fireHouseStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, fireHouseStepSounds); } \
 	FORCEINLINE static uint32 __PPO__rayLengthForSteps() { return STRUCT_OFFSET(AFirstPersonCharacter, rayLengthForSteps); } \
 	FORCEINLINE static uint32 __PPO__sphereRadius() { return STRUCT_OFFSET(AFirstPersonCharacter, sphereRadius); } \
-	FORCEINLINE static uint32 __PPO__interactableTags() { return STRUCT_OFFSET(AFirstPersonCharacter, interactableTags); }
+	FORCEINLINE static uint32 __PPO__interactableTags() { return STRUCT_OFFSET(AFirstPersonCharacter, interactableTags); } \
+	FORCEINLINE static uint32 __PPO__interactableObjectsOrgPos() { return STRUCT_OFFSET(AFirstPersonCharacter, interactableObjectsOrgPos); }
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_10_PROLOG

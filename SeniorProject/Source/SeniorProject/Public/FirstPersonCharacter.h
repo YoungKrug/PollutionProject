@@ -106,5 +106,7 @@ private:
 	float sphereRadius = 5;
 	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
 	TArray<FName> interactableTags;
+	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
 	TArray<FVector> interactableObjectsOrgPos;
+	TArray<FRotator> interactableObjectsOrgRot;
 };
