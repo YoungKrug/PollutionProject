@@ -6,7 +6,12 @@
 #include "Camera/CameraActor.h"
 #include "GameFramework/Character.h"
 #include "Components/AudioComponent.h"
-#include "FirstPersonCharacter.generated.h"
+#include "Animation/AnimSequence.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "FirstPersonCharacter.generated.h" // If you regenerate the vs solution you are able to fix the generated body error
+
+
+
 UCLASS()
 class SENIORPROJECT_API AFirstPersonCharacter : public ACharacter
 {
@@ -111,4 +116,5 @@ private:
 	TArray<FRotator> interactableObjectsOrgRot;
 	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
 	TArray<FText> newsPaperText;
+	UAnimSequence* currentAnim;
 };

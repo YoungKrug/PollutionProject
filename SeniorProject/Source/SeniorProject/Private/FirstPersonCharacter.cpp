@@ -101,14 +101,14 @@ FString AFirstPersonCharacter::StartRayCast()
 			//	FString test = "Dock";
 			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation();
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Dock");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Forest"))
 			{
 			//	FString test = "Forest";
 				currentPlayerPos = GetActorLocation();
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Forest");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("City"))
@@ -286,7 +286,7 @@ void AFirstPersonCharacter::Interact()
 		}
 	}
 	FString test = "Interact";
-	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
 
 void AFirstPersonCharacter::SafelyEmptyList(TArray<AActor*>& arr) // method to dereference the pointers
@@ -353,6 +353,8 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 		else if (str == "Interactable")
 		{
 			// Playing with animations(Cinematics)
+			TArray<USkeletalMeshComponent*> skele;
+			act->GetComponents<USkeletalMeshComponent*>(skele);
 		}
 		else if (str == "Moveable Objects")
 		{
@@ -436,6 +438,10 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			{
 				isAtClimbEnd = true;
 			}
+			if (name[i] == "Point")
+			{
+				GI->currentlyCollidingObj = OtherActor;
+			}
 		}
 	}
 }
@@ -462,9 +468,12 @@ void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AA
 				isAtClimbEnd = false;
 				GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
 			}
+			if (name[i] == "Point")
+			{
+				GI->currentlyCollidingObj = nullptr;
+			}
 		}
 	}
-
 }
 
 

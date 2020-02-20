@@ -17,7 +17,7 @@ struct FHitResult;
 #endif
 #define SENIORPROJECT_FirstPersonCharacter_generated_h
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSafelyEmptyList) \
 	{ \
@@ -135,7 +135,7 @@ struct FHitResult;
 	}
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSafelyEmptyList) \
 	{ \
@@ -253,7 +253,7 @@ struct FHitResult;
 	}
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFirstPersonCharacter(); \
 	friend struct Z_Construct_UClass_AFirstPersonCharacter_Statics; \
@@ -262,7 +262,7 @@ public: \
 	DECLARE_SERIALIZER(AFirstPersonCharacter)
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAFirstPersonCharacter(); \
 	friend struct Z_Construct_UClass_AFirstPersonCharacter_Statics; \
@@ -271,7 +271,7 @@ public: \
 	DECLARE_SERIALIZER(AFirstPersonCharacter)
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_STANDARD_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFirstPersonCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonCharacter) \
@@ -284,7 +284,7 @@ private: \
 public:
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFirstPersonCharacter(AFirstPersonCharacter&&); \
@@ -295,7 +295,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFirstPersonCharacter)
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__triggerCapsule() { return STRUCT_OFFSET(AFirstPersonCharacter, triggerCapsule); } \
 	FORCEINLINE static uint32 __PPO__baseTurnRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseTurnRate); } \
 	FORCEINLINE static uint32 __PPO__baseLookUpRate() { return STRUCT_OFFSET(AFirstPersonCharacter, baseLookUpRate); } \
@@ -314,25 +314,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__newsPaperText() { return STRUCT_OFFSET(AFirstPersonCharacter, newsPaperText); }
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_10_PROLOG
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_GENERATED_BODY_LEGACY \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_15_PROLOG
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_STANDARD_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_RPC_WRAPPERS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_INCLASS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_GENERATED_BODY \
+#define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_INCLASS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_ENHANCED_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

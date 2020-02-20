@@ -83,5 +83,7 @@ public:
 	FText swapString;
 	UPROPERTY(BlueprintReadWrite)
 	FText currentSubs;
+	UPROPERTY(BlueprintReadWrite)
+	AActor* currentlyCollidingObj;
 
 };

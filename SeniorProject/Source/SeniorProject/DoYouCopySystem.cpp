@@ -76,7 +76,7 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 			{
 				audioCounter++;		
 
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
 
 			}
 			else
@@ -120,9 +120,10 @@ bool ADoYouCopySystem::isClose()
 	//FString s = arr[0].gameObject->GetName();
 	//FText text = arr[0].gameObject->GetName().GetCharArray();
 	//UE_LOG(LogExec, Warning, TEXT();
-	if (arr[0].distance < dist)
+	if (arr[0].distance < dist || GI->currentlyCollidingObj != nullptr && GI->currentlyCollidingObj == arr[0].gameObject)
 	{
 		narrationNum = arr[0].narrationNum;
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(narrationNum));
 		return true;
 	}	
 	return false;
@@ -155,7 +156,7 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 		{
 			audioDur = audio->Sound->Duration + deltaTime + 1;
 			FString test = FString::SanitizeFloat(audioDur);
-			GEngine->AddOnScreenDebugMessage(-1, 4.0F, FColor::Cyan, test);
+			//GEngine->AddOnScreenDebugMessage(-1, 4.0F, FColor::Cyan, test);
 			audio->Play();
 		}
 		else

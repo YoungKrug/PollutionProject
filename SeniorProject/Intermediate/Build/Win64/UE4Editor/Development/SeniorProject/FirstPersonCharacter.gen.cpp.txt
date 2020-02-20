@@ -1,34 +1,34 @@
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/Public/FirstPersonCharacter.h
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\AudioInformationStruct.generated.h
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DialogueSystemStruct.generated.h
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\MyGameInstance.generated.h
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\vector
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\xmemory
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdint
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\limits
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cfloat
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\climits
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cwchar
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdio
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\xatomic.h
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\xutility
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cstring
-E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\utility
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DoYouCopySystem.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\FirstPersonCharacter.generated.h
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/Public/FirstPersonCharacter.h
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\AudioInformationStruct.generated.h
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DialogueSystemStruct.generated.h
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\MyGameInstance.generated.h
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h
+C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInfo.h
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\vector
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\xmemory
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdint
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\limits
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cfloat
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\climits
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cwchar
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdio
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\xatomic.h
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\xutility
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\cstring
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\utility
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
+D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DoYouCopySystem.generated.h
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
+D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\FirstPersonCharacter.generated.h
