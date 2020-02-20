@@ -217,7 +217,7 @@ void AFirstPersonCharacter::LookUp(float val)
 }
 void AFirstPersonCharacter::Interact()
 {
-	if (GI->isIntro)
+	if (GI->isIntro && GI->isClear)
 	{
 		GI->isPressedX = true;
 		GI->isIntro = false;		
