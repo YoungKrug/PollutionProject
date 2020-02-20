@@ -353,8 +353,8 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 		else if (str == "Interactable")
 		{
 			// Playing with animations(Cinematics)
-			TArray<USkeletalMeshComponent*> skele;
-			act->GetComponents<USkeletalMeshComponent*>(skele);
+		//	TArray<USkeletalMeshComponent*> skele;
+			//act->GetComponents<USkeletalMeshComponent*>(skele);
 		}
 		else if (str == "Moveable Objects")
 		{
