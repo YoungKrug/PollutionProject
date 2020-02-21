@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction();
 	SENIORPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGameObjectInfo();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_Interact();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_LookSide();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_LookUp();
@@ -33,8 +34,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SortGameObjectInfoByDistance();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_StartRayCast();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
@@ -44,6 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ContinueDialogue", &AFirstPersonCharacter::execContinueDialogue },
 			{ "DetermineInteraction", &AFirstPersonCharacter::execDetermineInteraction },
+			{ "HandleIntro", &AFirstPersonCharacter::execHandleIntro },
 			{ "Interact", &AFirstPersonCharacter::execInteract },
 			{ "LookSide", &AFirstPersonCharacter::execLookSide },
 			{ "LookUp", &AFirstPersonCharacter::execLookUp },
@@ -127,6 +129,28 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "HandleIntro", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -542,6 +566,18 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_recorderSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_recorderSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cellPhoneSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cellPhoneSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_phoneTimer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_phoneTimer;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stopTimeForBoxes_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_stopTimeForBoxes;
@@ -627,6 +663,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFirstPersonCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue, "ContinueDialogue" }, // 29390116
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction, "DetermineInteraction" }, // 4118446
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro, "HandleIntro" }, // 4230943743
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_Interact, "Interact" }, // 1780806731
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookSide, "LookSide" }, // 2819758198
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookUp, "LookUp" }, // 33048402
@@ -646,6 +683,27 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_recorderSound_MetaData[] = {
+		{ "Category", "Intro Values" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_recorderSound = { "recorderSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, recorderSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_recorderSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_recorderSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_cellPhoneSound_MetaData[] = {
+		{ "Category", "Intro Values" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_cellPhoneSound = { "cellPhoneSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, cellPhoneSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_cellPhoneSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_cellPhoneSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_phoneTimer_MetaData[] = {
+		{ "Category", "Intro Values" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_phoneTimer = { "phoneTimer", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, phoneTimer), METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_phoneTimer_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_phoneTimer_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_stopTimeForBoxes_MetaData[] = {
 		{ "Category", "Interactable Tags" },
@@ -778,6 +836,9 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent = { "firstPersonCameraComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, firstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_recorderSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_cellPhoneSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_phoneTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_stopTimeForBoxes,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperText,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperText_Inner,
@@ -827,7 +888,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonCharacter, 2113401583);
+	IMPLEMENT_CLASS(AFirstPersonCharacter, 3808232793);
 	template<> SENIORPROJECT_API UClass* StaticClass<AFirstPersonCharacter>()
 	{
 		return AFirstPersonCharacter::StaticClass();

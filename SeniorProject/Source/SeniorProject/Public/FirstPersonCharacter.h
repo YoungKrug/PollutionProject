@@ -10,8 +10,6 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "FirstPersonCharacter.generated.h" // If you regenerate the vs solution you are able to fix the generated body error
 
-
-
 UCLASS()
 class SENIORPROJECT_API AFirstPersonCharacter : public ACharacter
 {
@@ -61,6 +59,8 @@ public:
 	void DetermineInteraction(const FString str, AActor* act, TArray<FGameObjectInfo> info);
 	UFUNCTION()
 	void SafelyEmptyList(TArray<AActor*>& arr);
+	UFUNCTION()
+	void HandleIntro();
 	
 
 private:
@@ -121,4 +121,16 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
 	float stopTimeForBoxes;
 	bool hasInteracted;
+	UPROPERTY(EditAnywhere, Category = "Intro Values")
+	float phoneTimer;
+	float introTimer;
+	UPROPERTY(EditAnywhere, Category = "Intro Values")
+	USoundBase* cellPhoneSound;
+	UPROPERTY(EditAnywhere, Category = "Intro Values")
+	USoundBase* recorderSound;
+	UAudioComponent* introAudio;
+	bool isWaitingForPhone;
+	bool isWaitingForRecorder;
+	bool isLadderDown;
+	bool isLadderUp;
 };

@@ -37,6 +37,7 @@ void AFirstPersonCharacter::BeginPlay()
 	FString test;
 	// Make sure you make this game instance in editor equal to your own game instance in code
 	GI = Cast<UMyGameInstance>(GetGameInstance());
+	GI->canPlayerMove = true;
 	//GI->canDisplayTest = true;
 	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
@@ -64,9 +65,27 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 		aniTimerForBoxes += DeltaTime;
 		if (aniTimerForBoxes >= stopTimeForBoxes)
 		{
-			currentInteractableAnim->GlobalAnimRateScale = 0.000000001f;
+			//currentInteractableAnim->GlobalAnimRateScale = 0.000000001f;
+			currentInteractableAnim->bPauseAnims = true;
 			hasInteracted = false;
 		}
+	}
+	if (GI->isIntro && timer >= introTimer && isWaitingForPhone && !isWaitingForRecorder)
+	{
+	
+		introAudio->Stop();
+		introAudio->Sound = recorderSound;
+		introTimer = timer + introAudio->Sound->Duration;
+		introAudio->Play();
+		isWaitingForRecorder = true;
+	}
+	if (isWaitingForRecorder && timer >= introTimer)
+	{
+		GI->isPressedX = true;
+		GI->isIntro = false;
+		introAudio->Stop();
+		isWaitingForRecorder = false;
+		GI->canPlayerMove = false;
 	}
 }
 FString AFirstPersonCharacter::StartRayCast()
@@ -172,8 +191,8 @@ void AFirstPersonCharacter::MoveForward(float val)
 {
 	if (canClimb && !isAtClimbEnd)
 	{		
-		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
-		AddMovementInput(GetActorUpVector(), (speed / 2) * val);
+		//GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+		//AddMovementInput(GetActorUpVector(), (speed / 2) * val);
 		return;
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
 	}
@@ -196,8 +215,8 @@ void AFirstPersonCharacter::MoveRight(float val)
 {
 	if (canClimb && !isAtClimbEnd)
 	{
-		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
-		AddMovementInput(GetActorUpVector(), (speed / 2) * val);
+	//	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+		//AddMovementInput(GetActorUpVector(), (speed / 2) * val);
 		return;
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
 	}
@@ -218,20 +237,19 @@ void AFirstPersonCharacter::MoveRight(float val)
 void AFirstPersonCharacter::LookSide(float val)
 {
 	if (!GI->canPlayerRotate)
-		AddControllerYawInput(val);
+		AddControllerYawInput(val * baseTurnRate);
 }
 void AFirstPersonCharacter::LookUp(float val)
 {
 	if (!GI->canPlayerRotate)
-		AddControllerPitchInput(val);
+		AddControllerPitchInput(val * baseLookUpRate);
 }
 void AFirstPersonCharacter::Interact()
 {
-	
 	if (GI->isIntro && GI->isClear)
 	{
-		GI->isPressedX = true;
-		GI->isIntro = false;		
+		//Play phone sound next
+		HandleIntro();
 	}
 	else if(currentlyInteracting.Num() <= 0)
 	{
@@ -272,28 +290,45 @@ void AFirstPersonCharacter::Interact()
 	a.Empty();
 	if (currentlyInteracting != a && num > 0) // I am carrying objects
 	{
-		if (currentInteractableAnim != nullptr && aniTimerForBoxes >= stopTimeForBoxes)
+		if (currentlyInteracting[0]->ActorHasTag("Interactable"))
 		{
-			currentInteractableAnim->GlobalAnimRateScale = 1.f;
-			currentlyInteracting.RemoveAt(0);
-			currentInteractableAnim = nullptr;
+			if (currentInteractableAnim != nullptr && aniTimerForBoxes >= stopTimeForBoxes)
+			{
+				//currentInteractableAnim->GlobalAnimRateScale = 1.f;
+				currentInteractableAnim->bPauseAnims = false;
+				currentlyInteracting.RemoveAt(0);
+				currentInteractableAnim = nullptr;
+				return;
+			}
 		}
-
-		FString test = "Switch";
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
-		if (currentlyInteracting.Num() == 1)
+		else if (currentlyInteracting[0]->ActorHasTag("Newspaper"))
 		{
-			currentlyInteracting[0]->DetachRootComponentFromParent();
-			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
-			currentlyInteracting[0] = nullptr;
-			currentlyInteracting.Empty();
-			interactableObjectsOrgPos.RemoveAt(0);
-			interactableObjectsOrgRot.RemoveAt(0);
-			GI->canPlayerMove = false;
-			//GI->canPlayerRotate = false;
-			return;
+			FString test = "Switch";
+			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+			if (currentlyInteracting.Num() == 1)
+			{
+				currentlyInteracting[0]->DetachRootComponentFromParent();
+				currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
+				currentlyInteracting[0] = nullptr;
+				currentlyInteracting.Empty();
+				interactableObjectsOrgPos.RemoveAt(0);
+				interactableObjectsOrgRot.RemoveAt(0);
+				GI->canPlayerMove = false;
+				//GI->canPlayerRotate = false;
+				return;
+			}
+			else // Iff i am grabbing the gun
+			{
+				currentlyInteracting[0]->DetachRootComponentFromParent();
+				currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
+				currentlyInteracting[0] = nullptr;
+				currentlyInteracting.Remove(0);
+				interactableObjectsOrgPos.RemoveAt(0);
+				interactableObjectsOrgRot.RemoveAt(0);
+				return;
+			}
 		}
-		else // If i am carrying more then one object remove one at a time until the list is empty
+		else if (currentlyInteracting[0]->ActorHasTag("Gun"))
 		{
 			currentlyInteracting[0]->DetachRootComponentFromParent();
 			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
@@ -301,6 +336,8 @@ void AFirstPersonCharacter::Interact()
 			currentlyInteracting.Remove(0);
 			interactableObjectsOrgPos.RemoveAt(0);
 			interactableObjectsOrgRot.RemoveAt(0);
+			GI->canPlayerMove = false;
+			return;
 		}
 	}
 	FString test = "Interact";
@@ -391,6 +428,20 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 		{
 			//Interacting with the radio will call a different function, we want to be able to push buttons etc.
 		}
+		else if (str == "Gun")
+		{
+			interactableObjectsOrgPos.Add(act->GetActorLocation());
+			interactableObjectsOrgRot.Add(act->GetActorRotation());
+			//float offset = i * 20.f;
+			act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
+			FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 30.f) + (GetActorUpVector() * 90.f);
+			FQuat rot;
+			act->SetActorLocation(newPos);
+			rot.RotateVector(FVector(0, 0, 90.f));
+			act->SetActorRotation(FRotator(0, 70.f, 0));
+			currentlyInteracting.Add(act);
+			GI->canPlayerMove = true;
+		}
 	}
 }
 void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
@@ -442,6 +493,19 @@ TArray<FGameObjectInfo> AFirstPersonCharacter::SortGameObjectInfoByDistance(TArr
 	}
 	return x;
 }
+
+
+void AFirstPersonCharacter::HandleIntro()
+{
+	if (!isWaitingForPhone)
+	{
+		introTimer = timer + phoneTimer;
+		isWaitingForPhone = true;
+		introAudio = NewObject<UAudioComponent>(this, "audio");
+		introAudio->Sound = cellPhoneSound;
+		introAudio->Play();
+	}
+}
 //For collision
 void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
@@ -468,6 +532,14 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			if (name[i] == "Point")
 			{
 				GI->currentlyCollidingObj = OtherActor;
+			}
+			if (name[i] == "LadderUp")
+			{
+				isLadderUp = true;
+			}
+			if (name[i] == "LadderDown")
+			{
+				isLadderDown = true;
 			}
 		}
 	}
@@ -498,6 +570,14 @@ void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AA
 			if (name[i] == "Point")
 			{
 				GI->currentlyCollidingObj = nullptr;
+			}
+			if (name[i] == "LadderUp")
+			{
+				isLadderUp = false;
+			}
+			if (name[i] == "LadderDown")
+			{
+				isLadderDown = false;
 			}
 		}
 	}
