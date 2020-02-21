@@ -542,6 +542,10 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stopTimeForBoxes_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_stopTimeForBoxes;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_newsPaperText_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_newsPaperText;
@@ -642,6 +646,13 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_stopTimeForBoxes_MetaData[] = {
+		{ "Category", "Interactable Tags" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_stopTimeForBoxes = { "stopTimeForBoxes", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, stopTimeForBoxes), METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_stopTimeForBoxes_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_stopTimeForBoxes_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperText_MetaData[] = {
 		{ "Category", "Interactable Tags" },
@@ -767,6 +778,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent = { "firstPersonCameraComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, firstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_stopTimeForBoxes,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperText,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperText_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_interactableObjectsOrgPos,
@@ -815,7 +827,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonCharacter, 2418523468);
+	IMPLEMENT_CLASS(AFirstPersonCharacter, 2113401583);
 	template<> SENIORPROJECT_API UClass* StaticClass<AFirstPersonCharacter>()
 	{
 		return AFirstPersonCharacter::StaticClass();

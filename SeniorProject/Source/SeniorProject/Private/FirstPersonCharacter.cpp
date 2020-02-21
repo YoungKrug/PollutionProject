@@ -14,6 +14,7 @@
 #include "Components/AudioComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include <typeinfo>
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -57,6 +58,15 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	{
 		isRespawning = false;
 		SetActorLocation(currentPlayerPos);
+	}
+	if (currentInteractableAnim != nullptr && hasInteracted)
+	{
+		aniTimerForBoxes += DeltaTime;
+		if (aniTimerForBoxes >= stopTimeForBoxes)
+		{
+			currentInteractableAnim->GlobalAnimRateScale = 0.000000001f;
+			hasInteracted = false;
+		}
 	}
 }
 FString AFirstPersonCharacter::StartRayCast()
@@ -217,6 +227,7 @@ void AFirstPersonCharacter::LookUp(float val)
 }
 void AFirstPersonCharacter::Interact()
 {
+	
 	if (GI->isIntro && GI->isClear)
 	{
 		GI->isPressedX = true;
@@ -261,6 +272,13 @@ void AFirstPersonCharacter::Interact()
 	a.Empty();
 	if (currentlyInteracting != a && num > 0) // I am carrying objects
 	{
+		if (currentInteractableAnim != nullptr && aniTimerForBoxes >= stopTimeForBoxes)
+		{
+			currentInteractableAnim->GlobalAnimRateScale = 1.f;
+			currentlyInteracting.RemoveAt(0);
+			currentInteractableAnim = nullptr;
+		}
+
 		FString test = "Switch";
 		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 		if (currentlyInteracting.Num() == 1)
@@ -353,8 +371,17 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 		else if (str == "Interactable")
 		{
 			// Playing with animations(Cinematics)
-		//	TArray<USkeletalMeshComponent*> skele;
-			//act->GetComponents<USkeletalMeshComponent*>(skele);
+			TArray<USkeletalMeshComponent*> comp;
+			act->GetComponents<USkeletalMeshComponent>(comp);
+			for (int i = 0; i < comp.Num(); i++)
+			{
+				comp[i]->PlayAnimation(comp[i]->AnimationData.AnimToPlay, false);
+				currentInteractableAnim = comp[i];
+				aniTimerForBoxes = 0.f;
+				hasInteracted = true;
+			}
+				currentlyInteracting.Add(act);
+			//if (typeid(skele).name() == typeid(tele).name())
 		}
 		else if (str == "Moveable Objects")
 		{

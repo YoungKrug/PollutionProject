@@ -116,5 +116,9 @@ private:
 	TArray<FRotator> interactableObjectsOrgRot;
 	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
 	TArray<FText> newsPaperText;
-	UAnimSequence* currentAnim;
+	USkeletalMeshComponent* currentInteractableAnim;
+	float aniTimerForBoxes;
+	UPROPERTY(EditAnywhere, Category = "Interactable Tags")
+	float stopTimeForBoxes;
+	bool hasInteracted;
 };

@@ -63,3 +63,5 @@ D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Pawn
 D:\TheBestGame\UE_4.22\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
 D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
 D:\TheBestGame\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\typeinfo
+C:\Program Files (x86)\VS19\VC\Tools\MSVC\14.22.27905\INCLUDE\vcruntime_typeinfo.h
