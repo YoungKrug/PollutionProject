@@ -30,7 +30,7 @@ void ADoYouCopySystem::BeginPlay()
 	//if (returned.Num() > 0)
 	//	mainPlayer = returned[0];
 	FString test = "hello";
-	GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
+	//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
 	audio = NewObject<UAudioComponent>(this, "audio");
 	//GI = NewObject<UMyGameInstance>(this, "GameInstance");
 	GI = Cast<UMyGameInstance>(GetGameInstance());
@@ -62,7 +62,7 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 		if (!audioIsPlaying)
 		{
 			PlaySequence(timer);
-			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Playing"));
+			//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Playing"));
 			close = false;
 		}
 		if (isPlaying && timer >= audioDur)
@@ -123,7 +123,7 @@ bool ADoYouCopySystem::isClose()
 	if (arr[0].distance < dist || GI->currentlyCollidingObj != nullptr && GI->currentlyCollidingObj == arr[0].gameObject)
 	{
 		narrationNum = arr[0].narrationNum;
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(narrationNum));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(narrationNum));
 		return true;
 	}	
 	return false;

@@ -1,0 +1,5 @@
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Development\SeniorProject\Definitions.SeniorProject.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/Public/DialougeSystemStruct.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Inc\SeniorProject\DialougeSystemStruct.generated.h

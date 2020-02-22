@@ -277,7 +277,7 @@ void AFirstPersonCharacter::Interact()
 			if (info[0].distance < 250.f) // if i am close to the objects I have found
 			{
 				FString test = "Carrying: " + info[0].gameObject->GetName();
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				hasCalled = true;
 				DetermineInteraction(interactableTags[i].ToString(), info[0].gameObject, info);
 				break;
@@ -304,7 +304,7 @@ void AFirstPersonCharacter::Interact()
 		else if (currentlyInteracting[0]->ActorHasTag("Newspaper"))
 		{
 			FString test = "Switch";
-			GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+			//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 			if (currentlyInteracting.Num() == 1)
 			{
 				currentlyInteracting[0]->DetachRootComponentFromParent();
@@ -458,21 +458,21 @@ void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 	{
 		audio->Sound = dockStepSounds;	
 		audio->SetPitchMultiplier(randomNum);
-		audio->Play();
+		//audio->Play();
 		return;
 	}
 	else if (str == "Forest")
 	{
 		audio->Sound = forestStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		audio->Play();
+		//audio->Play();
 		return;
 	}
 	else if (str == "City")
 	{
 		audio->Sound = cityStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		audio->Play();
+		//audio->Play();
 		return;
 	}
 }
@@ -511,7 +511,7 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 {
 	if (OtherActor && OtherActor != this)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Hit Object: ").Append(OtherActor->GetFName().ToString()));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Hit Object: ").Append(OtherActor->GetFName().ToString()));
 		currentCollidedObj = OtherActor;
 		isCollided = true;
 		TArray<FName> name = OtherActor->Tags;
@@ -548,7 +548,7 @@ void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AA
 {
 	if (OtherActor && OtherActor != this)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Left Object: ").Append(OtherActor->GetFName().ToString()));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Left Object: ").Append(OtherActor->GetFName().ToString()));
 		AActor* actor = nullptr;
 		currentCollidedObj = actor;
 		isCollided = false;

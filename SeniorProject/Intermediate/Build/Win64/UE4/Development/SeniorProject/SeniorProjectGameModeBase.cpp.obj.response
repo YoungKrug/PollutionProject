@@ -26,6 +26,7 @@
 /wd4838
 /we4668
 /I .
+/I E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private
 /I ..\Intermediate\Build\Win64\UE4\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -221,8 +222,23 @@
 /I Runtime\AnimationCore
 /I E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Inc\SeniorProject
 /I E:\SeniorProject\PollutionProject\SeniorProject\Source
+/I E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public
 /I E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject
-/I E:\VisualStudios\VC\Tools\MSVC\14.23.28105\INCLUDE
+/I ..\Intermediate\Build\Win64\UE4\Inc\MovieScene
+/I Runtime\MovieScene\Public
+/I Runtime\MovieScene
+/I Runtime\MovieScene\Public\Channels
+/I Runtime\MovieScene\Public\Compilation
+/I Runtime\MovieScene\Public\Evaluation
+/I Runtime\MovieScene\Public\Evaluation\Blending
+/I Runtime\MovieScene\Public\Generators
+/I Runtime\MovieScene\Public\Sections
+/I Runtime\MovieScene\Public\Tracks
+/I ..\Intermediate\Build\Win64\UE4\Inc\TimeManagement
+/I Runtime\TimeManagement\Public
+/I Runtime\TimeManagement
+/I Runtime\TimeManagement\Public\Widgets
+/I E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
