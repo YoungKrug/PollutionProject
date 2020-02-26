@@ -7,9 +7,9 @@
 #include "GameFramework/Character.h"
 #include "Components/AudioComponent.h"
 #include "Animation/AnimSequence.h"
+#include "UMG/Public/Components/BackgroundBlur.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "FirstPersonCharacter.generated.h" // If you regenerate the vs solution you are able to fix the generated body error
-
 UCLASS()
 class SENIORPROJECT_API AFirstPersonCharacter : public ACharacter
 {
@@ -61,6 +61,20 @@ public:
 	void SafelyEmptyList(TArray<AActor*>& arr);
 	UFUNCTION()
 	void HandleIntro();
+	UFUNCTION(BlueprintCallable, Category = "Blur")
+	void SetBlur(UBackgroundBlur* backGroundBlur, bool isActive);
+	UFUNCTION()
+	void SetTextForNewPaper(int num);
+	UFUNCTION()
+	void ActivateNewPaperUI(bool activation);
+	UFUNCTION()
+	void GetNumbers();
+	UFUNCTION()
+	void NextPage();
+	UFUNCTION()
+	void PrevPage();
+	UFUNCTION()
+	void ExitNewsPaper();
 	
 
 private:
@@ -133,4 +147,10 @@ private:
 	bool isWaitingForRecorder;
 	bool isLadderDown;
 	bool isLadderUp;
+	UBackgroundBlur* blur;
+	bool isReading;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	TArray<FText> newsPaperTexts;
+	TArray<int> newsPaperNums;
+	float currentPaperNum;
 };

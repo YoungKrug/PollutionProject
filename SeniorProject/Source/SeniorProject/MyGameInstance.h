@@ -1,11 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
-
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "UMG/Public/Components/BackgroundBlur.h"
+#include "UMG/Public/Components/TextBlock.h"
+#include "UMG/Public/Components/Image.h"
 #include "MyGameInstance.generated.h"
-
 /**
  *
  */
@@ -85,5 +85,15 @@ public:
 	FText currentSubs;
 	UPROPERTY(BlueprintReadWrite)
 	AActor* currentlyCollidingObj;
+	UPROPERTY(BlueprintReadWrite)
+	UBackgroundBlur* blur;
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* currentTextBlock;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* continueButton;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* prevButton;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* exitButton;
 
 };

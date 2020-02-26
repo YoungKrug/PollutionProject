@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UBackgroundBlur;
 class AActor;
 struct FGameObjectInfo;
 class UPrimitiveComponent;
@@ -18,6 +19,66 @@ struct FHitResult;
 #define SENIORPROJECT_FirstPersonCharacter_generated_h
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execExitNewsPaper) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ExitNewsPaper(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPrevPage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PrevPage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execNextPage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->NextPage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetNumbers) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetNumbers(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActivateNewPaperUI) \
+	{ \
+		P_GET_UBOOL(Z_Param_activation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActivateNewPaperUI(Z_Param_activation); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetTextForNewPaper) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_num); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTextForNewPaper(Z_Param_num); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetBlur) \
+	{ \
+		P_GET_OBJECT(UBackgroundBlur,Z_Param_backGroundBlur); \
+		P_GET_UBOOL(Z_Param_isActive); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetBlur(Z_Param_backGroundBlur,Z_Param_isActive); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execHandleIntro) \
 	{ \
@@ -144,6 +205,66 @@ struct FHitResult;
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execExitNewsPaper) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ExitNewsPaper(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPrevPage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PrevPage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execNextPage) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->NextPage(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetNumbers) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GetNumbers(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActivateNewPaperUI) \
+	{ \
+		P_GET_UBOOL(Z_Param_activation); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActivateNewPaperUI(Z_Param_activation); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetTextForNewPaper) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_num); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTextForNewPaper(Z_Param_num); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetBlur) \
+	{ \
+		P_GET_OBJECT(UBackgroundBlur,Z_Param_backGroundBlur); \
+		P_GET_UBOOL(Z_Param_isActive); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetBlur(Z_Param_backGroundBlur,Z_Param_isActive); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execHandleIntro) \
 	{ \
@@ -331,7 +452,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__stopTimeForBoxes() { return STRUCT_OFFSET(AFirstPersonCharacter, stopTimeForBoxes); } \
 	FORCEINLINE static uint32 __PPO__phoneTimer() { return STRUCT_OFFSET(AFirstPersonCharacter, phoneTimer); } \
 	FORCEINLINE static uint32 __PPO__cellPhoneSound() { return STRUCT_OFFSET(AFirstPersonCharacter, cellPhoneSound); } \
-	FORCEINLINE static uint32 __PPO__recorderSound() { return STRUCT_OFFSET(AFirstPersonCharacter, recorderSound); }
+	FORCEINLINE static uint32 __PPO__recorderSound() { return STRUCT_OFFSET(AFirstPersonCharacter, recorderSound); } \
+	FORCEINLINE static uint32 __PPO__newsPaperTexts() { return STRUCT_OFFSET(AFirstPersonCharacter, newsPaperTexts); }
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PROLOG

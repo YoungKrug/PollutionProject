@@ -14,6 +14,8 @@
 #include "Components/AudioComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "UMG/Public/Components/TextBlock.h"
+#include "UMG/Public/Components/Image.h"
 #include <typeinfo>
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
@@ -21,7 +23,7 @@ AFirstPersonCharacter::AFirstPersonCharacter()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GetOwner()->Tags[0] = "C_Player";
-	
+
 	//doYouCopyInst = doYouCopySystemActor->FindComponentByClass<ADoYouCopySystem
 	// For intro make sure to set isIntro to true and make a function that sets hasPressX to true and false also set is clear, endgame/gameover
 	//and isDisplayed etc... for loop
@@ -38,6 +40,8 @@ void AFirstPersonCharacter::BeginPlay()
 	// Make sure you make this game instance in editor equal to your own game instance in code
 	GI = Cast<UMyGameInstance>(GetGameInstance());
 	GI->canPlayerMove = true;
+	blur = GI->blur;
+
 	//GI->canDisplayTest = true;
 	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
@@ -46,12 +50,21 @@ void AFirstPersonCharacter::BeginPlay()
 //	UCharacterMovementComponent::SetMovementMode(MODE_FLYING)
 }
 
+void AFirstPersonCharacter::SetBlur(UBackgroundBlur* backGroundBlur, bool isActive)
+{
+	if (isActive)
+		backGroundBlur->SetVisibility(ESlateVisibility::Visible);
+	else
+		backGroundBlur->SetVisibility(ESlateVisibility::Hidden);
+	ActivateNewPaperUI(isActive);
+}
+
 // Called every frame
 void AFirstPersonCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	timer += DeltaTime;
-	if(soundIsPlaying && timer >= cooldown)
+	if (soundIsPlaying && timer >= cooldown)
 	{
 		soundIsPlaying = false;
 	}
@@ -72,7 +85,7 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	}
 	if (GI->isIntro && timer >= introTimer && isWaitingForPhone && !isWaitingForRecorder)
 	{
-	
+
 		introAudio->Stop();
 		introAudio->Sound = recorderSound;
 		introTimer = timer + introAudio->Sound->Duration;
@@ -127,15 +140,15 @@ FString AFirstPersonCharacter::StartRayCast()
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Dock"))
 			{
-			//	FString test = "Dock";
-			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				//	FString test = "Dock";
+				//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation();
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Dock");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Forest"))
 			{
-			//	FString test = "Forest";
+				//	FString test = "Forest";
 				currentPlayerPos = GetActorLocation();
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Forest");
@@ -147,7 +160,7 @@ FString AFirstPersonCharacter::StartRayCast()
 				currentPlayerPos = GetActorLocation();
 				return FString::FString("City");
 			}
-			
+
 			//currentPlayerPos = GetActorLocation();
 		}
 	}
@@ -156,19 +169,19 @@ FString AFirstPersonCharacter::StartRayCast()
 	//The last parameter is the width of the lines.
 	//DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1, 0, 1.f);
 	// If it does not break in the loop
-	if(!isRespawning)
-	for (int i = 0; i < hit.Num(); i++)
-	{
-		if (hit[i].Actor != nullptr)
+	if (!isRespawning)
+		for (int i = 0; i < hit.Num(); i++)
 		{
-			if (hit[i].GetActor()->ActorHasTag("Water") && GetCharacterMovement()->MovementMode != EMovementMode::MOVE_Flying) // the water is underneath us
+			if (hit[i].Actor != nullptr)
 			{
-				isRespawning = true;
-				respawnTimer = timer + 1.0f;
-				//SetActorLocation(currentPlayerPos);
+				if (hit[i].GetActor()->ActorHasTag("Water") && GetCharacterMovement()->MovementMode != EMovementMode::MOVE_Flying) // the water is underneath us
+				{
+					isRespawning = true;
+					respawnTimer = timer + 1.0f;
+					//SetActorLocation(currentPlayerPos);
+				}
 			}
 		}
-	}
 
 
 	return FString::FString("");
@@ -176,7 +189,7 @@ FString AFirstPersonCharacter::StartRayCast()
 // Called to bind functionality to input
 void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
-	
+
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &AFirstPersonCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AFirstPersonCharacter::MoveRight);
@@ -184,13 +197,17 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	PlayerInputComponent->BindAxis("LookUp", this, &AFirstPersonCharacter::LookUp);
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AFirstPersonCharacter::Interact);
 	PlayerInputComponent->BindAction("Skip", IE_Pressed, this, &AFirstPersonCharacter::ContinueDialogue);
+	PlayerInputComponent->BindAction("E_Continue", IE_Pressed, this, &AFirstPersonCharacter::NextPage);
+	PlayerInputComponent->BindAction("R_Previous", IE_Pressed, this, &AFirstPersonCharacter::PrevPage);
+	PlayerInputComponent->BindAction("Q_Quit", IE_Pressed, this, &AFirstPersonCharacter::ExitNewsPaper);
 
 }
+
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
 {
 	if (canClimb && !isAtClimbEnd)
-	{		
+	{
 		//GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
 		//AddMovementInput(GetActorUpVector(), (speed / 2) * val);
 		return;
@@ -215,8 +232,8 @@ void AFirstPersonCharacter::MoveRight(float val)
 {
 	if (canClimb && !isAtClimbEnd)
 	{
-	//	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
-		//AddMovementInput(GetActorUpVector(), (speed / 2) * val);
+		//	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+			//AddMovementInput(GetActorUpVector(), (speed / 2) * val);
 		return;
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Climbing"));
 	}
@@ -251,10 +268,10 @@ void AFirstPersonCharacter::Interact()
 		//Play phone sound next
 		HandleIntro();
 	}
-	else if(currentlyInteracting.Num() <= 0)
+	else if (currentlyInteracting.Num() <= 0)
 	{
 		bool hasCalled = false;
-	  //TArray<AActor*> collidedActors;
+		//TArray<AActor*> collidedActors;
 		for (int i = 0; i < interactableTags.Num(); i++)
 		{
 			TArray<AActor*> emptyCheck;
@@ -282,7 +299,7 @@ void AFirstPersonCharacter::Interact()
 				DetermineInteraction(interactableTags[i].ToString(), info[0].gameObject, info);
 				break;
 			}
-		}		
+		}
 		return;
 	}
 	int num = currentlyInteracting.Num();
@@ -301,9 +318,9 @@ void AFirstPersonCharacter::Interact()
 				return;
 			}
 		}
-		else if (currentlyInteracting[0]->ActorHasTag("Newspaper"))
+		else if (currentlyInteracting[0]->ActorHasTag("Newspaper")) // Reading this might be redunent now
 		{
-			FString test = "Switch";
+			/*FString test = "Switch";
 			//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 			if (currentlyInteracting.Num() == 1)
 			{
@@ -314,10 +331,11 @@ void AFirstPersonCharacter::Interact()
 				interactableObjectsOrgPos.RemoveAt(0);
 				interactableObjectsOrgRot.RemoveAt(0);
 				GI->canPlayerMove = false;
+				SetBlur(GI->blur, false);
 				//GI->canPlayerRotate = false;
 				return;
 			}
-			else // Iff i am grabbing the gun
+			else // if there are more newspapers, switch
 			{
 				currentlyInteracting[0]->DetachRootComponentFromParent();
 				currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
@@ -326,9 +344,9 @@ void AFirstPersonCharacter::Interact()
 				interactableObjectsOrgPos.RemoveAt(0);
 				interactableObjectsOrgRot.RemoveAt(0);
 				return;
-			}
+			}*/
 		}
-		else if (currentlyInteracting[0]->ActorHasTag("Gun"))
+		else if (currentlyInteracting[0]->ActorHasTag("Gun"))// Iff i am grabbing the gun
 		{
 			currentlyInteracting[0]->DetachRootComponentFromParent();
 			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
@@ -343,7 +361,91 @@ void AFirstPersonCharacter::Interact()
 	FString test = "Interact";
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 }
+void AFirstPersonCharacter::NextPage()
+{
+	if (!isReading)
+		return;
+	currentPaperNum++;
+	if (currentPaperNum >= newsPaperNums.Num())
+	{
+		currentPaperNum = newsPaperNums.Num() - 1;
+		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+	}
+	else
+	{
+		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+	}
+}
+void AFirstPersonCharacter::PrevPage()
+{
+	if (!isReading)
+		return;
+	currentPaperNum--;
+	if (currentPaperNum <= 0)
+	{
+		currentPaperNum = 0;
+		SetTextForNewPaper(0);
+	}
+	else
+		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+}
+void AFirstPersonCharacter::ExitNewsPaper()
+{
+	if (!isReading)
+		return;
+	SetBlur(GI->blur, false);
+	for (int i = 0; i < currentlyInteracting.Num(); i++)
+	{
+		currentlyInteracting[i]->DetachRootComponentFromParent();
+		currentlyInteracting[i]->SetActorLocationAndRotation(interactableObjectsOrgPos[i], interactableObjectsOrgRot[i]);
+		currentlyInteracting[i] = nullptr;
 
+	}
+	GI->canPlayerMove = false;
+	interactableObjectsOrgPos.Empty();
+	currentlyInteracting.Empty();
+	isReading = false;
+}
+void AFirstPersonCharacter::SetTextForNewPaper(int num)
+{
+	if (currentlyInteracting[0]->ActorHasTag("Newspaper"))
+	{
+		if (num >= newsPaperTexts.Num())
+			return;
+		GI->currentTextBlock->Text = newsPaperTexts[num];
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, newsPaperTexts[num].ToString());
+	}
+}
+void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
+{
+	if (activation)
+	{
+		GI->continueButton->SetVisibility(ESlateVisibility::Visible);
+		GI->prevButton->SetVisibility(ESlateVisibility::Visible);
+		GI->exitButton->SetVisibility(ESlateVisibility::Visible);
+	}
+	else
+	{
+		GI->continueButton->SetVisibility(ESlateVisibility::Hidden);
+		GI->prevButton->SetVisibility(ESlateVisibility::Hidden);
+		GI->exitButton->SetVisibility(ESlateVisibility::Hidden);
+	}
+	currentPaperNum = 0;
+	SetTextForNewPaper(currentPaperNum);
+}
+void AFirstPersonCharacter::GetNumbers()
+{
+	for (int i = 0; i < currentlyInteracting.Num(); i++)
+	{
+		if (currentlyInteracting[i]->Tags[1] == "")
+		{
+			return;
+		}
+		FString s = currentlyInteracting[i]->Tags[1].ToString();
+		int num = FCString::Atoi(*s);
+		newsPaperNums.Add(num);
+	}
+}
 void AFirstPersonCharacter::SafelyEmptyList(TArray<AActor*>& arr) // method to dereference the pointers
 {
 	for (int i = 0; i < arr.Num(); i++)
@@ -384,7 +486,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 	{
 		if (str == "Newspaper")
 		{
-			for(int i = 0; i < info.Num(); i++)
+			for (int i = 0; i < info.Num(); i++)
 			{
 				if (info[i].distance < 250.f) //for every newspaper in this distance add it to our carry inven
 				{
@@ -396,13 +498,16 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 					FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 150.f);
 					FQuat rot;
 					act->SetActorLocation(newPos);
-					rot.RotateVector(FVector(0,0,90.f));
+					rot.RotateVector(FVector(0, 0, 90.f));
 					act->SetActorRotation(FRotator(0, 90.f, 0));
 					currentlyInteracting.Add(act);
 					GI->canPlayerMove = true;
-				  //GI->canPlayerRotate = true;
+					//GI->canPlayerRotate = true;
 				}
 			}
+			GetNumbers();
+			SetBlur(GI->blur, true);
+			isReading = true;
 			return;
 		}
 		else if (str == "Interactable")
@@ -417,7 +522,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 				aniTimerForBoxes = 0.f;
 				hasInteracted = true;
 			}
-				currentlyInteracting.Add(act);
+			currentlyInteracting.Add(act);
 			//if (typeid(skele).name() == typeid(tele).name())
 		}
 		else if (str == "Moveable Objects")
@@ -446,7 +551,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 }
 void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 {
-	if(soundIsPlaying)
+	if (soundIsPlaying)
 		return;
 	cooldown = timer + footStepCoolDown;
 	soundIsPlaying = true;
@@ -456,7 +561,7 @@ void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 	float randomNum = rand.RandRange(0.5f, 2.f);
 	if (str == "Dock")
 	{
-		audio->Sound = dockStepSounds;	
+		audio->Sound = dockStepSounds;
 		audio->SetPitchMultiplier(randomNum);
 		//audio->Play();
 		return;
@@ -517,11 +622,11 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 		TArray<FName> name = OtherActor->Tags;
 		for (int i = 0; i < name.Num(); i++)
 		{
-		//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
+			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
 			if (name[i] == "Climb")
 			{
 				canClimb = true;
-				climbActor = OtherActor;	
+				climbActor = OtherActor;
 				break;
 				//Object we can climb;
 			}

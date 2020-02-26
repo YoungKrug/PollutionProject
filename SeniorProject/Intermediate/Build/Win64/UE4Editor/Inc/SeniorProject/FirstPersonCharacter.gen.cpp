@@ -17,21 +17,29 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	SENIORPROJECT_API UClass* Z_Construct_UClass_AFirstPersonCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_SeniorProject();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction();
 	SENIORPROJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGameObjectInfo();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_Interact();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_LookSide();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_LookUp();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_MoveForward();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_MoveRight();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_NextPage();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapEnd();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_PrevPage();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SetBlur();
+	UMG_API UClass* Z_Construct_UClass_UBackgroundBlur_NoRegister();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SortGameObjectInfoByDistance();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_StartRayCast();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -43,21 +51,65 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	{
 		UClass* Class = AFirstPersonCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ActivateNewPaperUI", &AFirstPersonCharacter::execActivateNewPaperUI },
 			{ "ContinueDialogue", &AFirstPersonCharacter::execContinueDialogue },
 			{ "DetermineInteraction", &AFirstPersonCharacter::execDetermineInteraction },
+			{ "ExitNewsPaper", &AFirstPersonCharacter::execExitNewsPaper },
+			{ "GetNumbers", &AFirstPersonCharacter::execGetNumbers },
 			{ "HandleIntro", &AFirstPersonCharacter::execHandleIntro },
 			{ "Interact", &AFirstPersonCharacter::execInteract },
 			{ "LookSide", &AFirstPersonCharacter::execLookSide },
 			{ "LookUp", &AFirstPersonCharacter::execLookUp },
 			{ "MoveForward", &AFirstPersonCharacter::execMoveForward },
 			{ "MoveRight", &AFirstPersonCharacter::execMoveRight },
+			{ "NextPage", &AFirstPersonCharacter::execNextPage },
 			{ "OnOverlapBegin", &AFirstPersonCharacter::execOnOverlapBegin },
 			{ "OnOverlapEnd", &AFirstPersonCharacter::execOnOverlapEnd },
+			{ "PrevPage", &AFirstPersonCharacter::execPrevPage },
 			{ "SafelyEmptyList", &AFirstPersonCharacter::execSafelyEmptyList },
+			{ "SetBlur", &AFirstPersonCharacter::execSetBlur },
+			{ "SetTextForNewPaper", &AFirstPersonCharacter::execSetTextForNewPaper },
 			{ "SortGameObjectInfoByDistance", &AFirstPersonCharacter::execSortGameObjectInfoByDistance },
 			{ "StartRayCast", &AFirstPersonCharacter::execStartRayCast },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics
+	{
+		struct FirstPersonCharacter_eventActivateNewPaperUI_Parms
+		{
+			bool activation;
+		};
+		static void NewProp_activation_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_activation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::NewProp_activation_SetBit(void* Obj)
+	{
+		((FirstPersonCharacter_eventActivateNewPaperUI_Parms*)Obj)->activation = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::NewProp_activation = { "activation", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FirstPersonCharacter_eventActivateNewPaperUI_Parms), &Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::NewProp_activation_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::NewProp_activation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "ActivateNewPaperUI", sizeof(FirstPersonCharacter_eventActivateNewPaperUI_Parms), Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue_Statics
 	{
@@ -129,6 +181,50 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "ExitNewsPaper", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "GetNumbers", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -304,6 +400,28 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_NextPage_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_NextPage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_NextPage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "NextPage", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_NextPage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_NextPage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_NextPage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_NextPage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapBegin_Statics
 	{
 		struct FirstPersonCharacter_eventOnOverlapBegin_Parms
@@ -445,6 +563,28 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_PrevPage_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_PrevPage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_PrevPage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "PrevPage", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_PrevPage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_PrevPage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_PrevPage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_PrevPage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics
 	{
 		struct FirstPersonCharacter_eventSafelyEmptyList_Parms
@@ -477,6 +617,88 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics
+	{
+		struct FirstPersonCharacter_eventSetBlur_Parms
+		{
+			UBackgroundBlur* backGroundBlur;
+			bool isActive;
+		};
+		static void NewProp_isActive_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isActive;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_backGroundBlur_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_backGroundBlur;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_isActive_SetBit(void* Obj)
+	{
+		((FirstPersonCharacter_eventSetBlur_Parms*)Obj)->isActive = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_isActive = { "isActive", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FirstPersonCharacter_eventSetBlur_Parms), &Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_isActive_SetBit, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_backGroundBlur_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_backGroundBlur = { "backGroundBlur", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventSetBlur_Parms, backGroundBlur), Z_Construct_UClass_UBackgroundBlur_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_backGroundBlur_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_backGroundBlur_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_isActive,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::NewProp_backGroundBlur,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Blur" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "SetBlur", sizeof(FirstPersonCharacter_eventSetBlur_Parms), Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SetBlur()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_SetBlur_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics
+	{
+		struct FirstPersonCharacter_eventSetTextForNewPaper_Parms
+		{
+			int32 num;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_num;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::NewProp_num = { "num", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FirstPersonCharacter_eventSetTextForNewPaper_Parms, num), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::NewProp_num,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "SetTextForNewPaper", sizeof(FirstPersonCharacter_eventSetTextForNewPaper_Parms), Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -565,6 +787,11 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_newsPaperTexts_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_newsPaperTexts;
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_newsPaperTexts_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_recorderSound_MetaData[];
 #endif
@@ -661,17 +888,24 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_SeniorProject,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFirstPersonCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_ActivateNewPaperUI, "ActivateNewPaperUI" }, // 26185436
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_ContinueDialogue, "ContinueDialogue" }, // 29390116
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_DetermineInteraction, "DetermineInteraction" }, // 4118446
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_ExitNewsPaper, "ExitNewsPaper" }, // 2895881647
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_GetNumbers, "GetNumbers" }, // 994434111
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_HandleIntro, "HandleIntro" }, // 4230943743
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_Interact, "Interact" }, // 1780806731
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookSide, "LookSide" }, // 2819758198
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_LookUp, "LookUp" }, // 33048402
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_MoveForward, "MoveForward" }, // 1659129491
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_MoveRight, "MoveRight" }, // 2891570342
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_NextPage, "NextPage" }, // 2618184544
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 299696162
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 3449750689
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_PrevPage, "PrevPage" }, // 3498105164
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList, "SafelyEmptyList" }, // 3720783970
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_SetBlur, "SetBlur" }, // 3763789225
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_SetTextForNewPaper, "SetTextForNewPaper" }, // 1001755922
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_SortGameObjectInfoByDistance, "SortGameObjectInfoByDistance" }, // 3748554121
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_StartRayCast, "StartRayCast" }, // 3897720143
 	};
@@ -683,6 +917,14 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperTexts_MetaData[] = {
+		{ "Category", "Character Values" },
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperTexts = { "newsPaperTexts", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, newsPaperTexts), METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperTexts_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperTexts_MetaData)) };
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperTexts_Inner = { "newsPaperTexts", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_recorderSound_MetaData[] = {
 		{ "Category", "Intro Values" },
@@ -836,6 +1078,8 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent = { "firstPersonCameraComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFirstPersonCharacter, firstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_firstPersonCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperTexts,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_newsPaperTexts_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_recorderSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_cellPhoneSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharacter_Statics::NewProp_phoneTimer,
@@ -888,7 +1132,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonCharacter, 3808232793);
+	IMPLEMENT_CLASS(AFirstPersonCharacter, 3922189934);
 	template<> SENIORPROJECT_API UClass* StaticClass<AFirstPersonCharacter>()
 	{
 		return AFirstPersonCharacter::StaticClass();
