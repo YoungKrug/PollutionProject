@@ -230,7 +230,7 @@ void AFirstPersonCharacter::MoveForward(float val)
 }
 void AFirstPersonCharacter::MoveRight(float val)
 {
-	if (canClimb && !isAtClimbEnd)
+/*	if (canClimb && !isAtClimbEnd)
 	{
 		//	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
 			//AddMovementInput(GetActorUpVector(), (speed / 2) * val);
@@ -241,7 +241,7 @@ void AFirstPersonCharacter::MoveRight(float val)
 	{
 		AddMovementInput(GetActorRightVector(), speed * val);
 		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Walking);
-	}
+	}*/
 
 	if (!GI->canPlayerMove)
 		AddMovementInput(GetActorRightVector(), speed * val);
@@ -410,10 +410,10 @@ void AFirstPersonCharacter::SetTextForNewPaper(int num)
 {
 	if (currentlyInteracting[0]->ActorHasTag("Newspaper"))
 	{
-		if (num >= newsPaperTexts.Num())
+		if (num >= newsPaperText.Num())
 			return;
-		GI->currentTextBlock->Text = newsPaperTexts[num];
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, newsPaperTexts[num].ToString());
+		GI->currentTextBlock->SetText(newsPaperText[num]);
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, newsPaperText[num].ToString());
 	}
 }
 void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
@@ -431,7 +431,7 @@ void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
 		GI->exitButton->SetVisibility(ESlateVisibility::Hidden);
 	}
 	currentPaperNum = 0;
-	SetTextForNewPaper(currentPaperNum);
+	SetTextForNewPaper(newsPaperNums[currentPaperNum]);
 }
 void AFirstPersonCharacter::GetNumbers()
 {

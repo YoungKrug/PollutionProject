@@ -11,6 +11,7 @@ Still need to make the gameinstance global
 #include "Kismet/GameplayStatics.h"
 #include "Engine/Engine.h"
 #include "Components/AudioComponent.h"
+#include "Misc/Char.h"
 
 // Sets default values
 ADoYouCopySystem::ADoYouCopySystem()
@@ -31,7 +32,7 @@ void ADoYouCopySystem::BeginPlay()
 	//	mainPlayer = returned[0];
 	FString test = "hello";
 	//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 2.0F, FColor::Cyan, test); // How to Debug <-
-	audio = NewObject<UAudioComponent>(this, "audio");
+	audio = NewObject<UAudioComponent>(this, TEXT("audio"));
 	//GI = NewObject<UMyGameInstance>(this, "GameInstance");
 	GI = Cast<UMyGameInstance>(GetGameInstance());
 	subTime = 0;
@@ -232,7 +233,7 @@ void ADoYouCopySystem::UpdateSubs(int i)
 		//GEngine->AddOnScreenDebugMessage(AlwaysAddKey, 4.0F, FColor::Cyan, test);
 		return;
 	}
-	char a = dial[narrationNum].audio[audioCounter].subtitles.ToString()[i];
+	TCHAR a = dial[narrationNum].audio[audioCounter].subtitles.ToString()[i];
 	FString temp = subtitles.ToString();
 	temp += a;
 	FText text = FText::FromString(temp);
