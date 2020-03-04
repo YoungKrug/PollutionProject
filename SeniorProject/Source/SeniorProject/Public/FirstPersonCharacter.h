@@ -32,6 +32,7 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
 	UFUNCTION()
 	void MoveForward(float val);
 	UFUNCTION()
@@ -75,7 +76,8 @@ public:
 	void PrevPage();
 	UFUNCTION()
 	void ExitNewsPaper();
-	
+	UFUNCTION()
+	void JumpUpward();
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Trigger Capsule")
@@ -92,6 +94,8 @@ private:
 	AActor* doYouCopySystemActor;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	float footStepCoolDown;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	float jumpSpeed;
 	float currentFOV;
 	TArray<AActor*> currentlyInteracting;
 	FVector startTrace;

@@ -200,9 +200,16 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	PlayerInputComponent->BindAction("E_Continue", IE_Pressed, this, &AFirstPersonCharacter::NextPage);
 	PlayerInputComponent->BindAction("R_Previous", IE_Pressed, this, &AFirstPersonCharacter::PrevPage);
 	PlayerInputComponent->BindAction("Q_Quit", IE_Pressed, this, &AFirstPersonCharacter::ExitNewsPaper);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AFirstPersonCharacter::JumpUpward);
 
 }
 
+void AFirstPersonCharacter::JumpUpward()
+{
+	//if(GI->canJumped)
+	AddMovementInput(GetActorUpVector() * jumpSpeed);
+	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Jumping"));
+}
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
 {

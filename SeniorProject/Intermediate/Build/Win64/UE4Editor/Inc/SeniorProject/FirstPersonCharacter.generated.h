@@ -20,6 +20,14 @@ struct FHitResult;
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execJumpUpward) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->JumpUpward(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execExitNewsPaper) \
 	{ \
 		P_FINISH; \
@@ -205,6 +213,14 @@ struct FHitResult;
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execJumpUpward) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->JumpUpward(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execExitNewsPaper) \
 	{ \
@@ -440,6 +456,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__offset() { return STRUCT_OFFSET(AFirstPersonCharacter, offset); } \
 	FORCEINLINE static uint32 __PPO__doYouCopySystemActor() { return STRUCT_OFFSET(AFirstPersonCharacter, doYouCopySystemActor); } \
 	FORCEINLINE static uint32 __PPO__footStepCoolDown() { return STRUCT_OFFSET(AFirstPersonCharacter, footStepCoolDown); } \
+	FORCEINLINE static uint32 __PPO__jumpSpeed() { return STRUCT_OFFSET(AFirstPersonCharacter, jumpSpeed); } \
 	FORCEINLINE static uint32 __PPO__forestStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, forestStepSounds); } \
 	FORCEINLINE static uint32 __PPO__cityStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, cityStepSounds); } \
 	FORCEINLINE static uint32 __PPO__dockStepSounds() { return STRUCT_OFFSET(AFirstPersonCharacter, dockStepSounds); } \
