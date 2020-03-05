@@ -206,8 +206,8 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 
 void AFirstPersonCharacter::JumpUpward()
 {
-	//if(GI->canJumped)
-	AddMovementInput(GetActorUpVector() * jumpSpeed);
+	if (GI->canJumped)
+		Jump();
 	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Jumping"));
 }
 //Add interact function soon **Newspaper etc.
@@ -409,6 +409,8 @@ void AFirstPersonCharacter::ExitNewsPaper()
 
 	}
 	GI->canPlayerMove = false;
+	
+	GI->currentTextBlock->SetText(FText::FromString(FString::FString("")));
 	interactableObjectsOrgPos.Empty();
 	currentlyInteracting.Empty();
 	isReading = false;
