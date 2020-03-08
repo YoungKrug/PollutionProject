@@ -36,6 +36,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapEnd();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_PauseGame();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_PrevPage();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_AFirstPersonCharacter_SetBlur();
@@ -67,6 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 			{ "NextPage", &AFirstPersonCharacter::execNextPage },
 			{ "OnOverlapBegin", &AFirstPersonCharacter::execOnOverlapBegin },
 			{ "OnOverlapEnd", &AFirstPersonCharacter::execOnOverlapEnd },
+			{ "PauseGame", &AFirstPersonCharacter::execPauseGame },
 			{ "PrevPage", &AFirstPersonCharacter::execPrevPage },
 			{ "SafelyEmptyList", &AFirstPersonCharacter::execSafelyEmptyList },
 			{ "SetBlur", &AFirstPersonCharacter::execSetBlur },
@@ -587,6 +589,28 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFirstPersonCharacter_PauseGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFirstPersonCharacter_PauseGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharacter_PauseGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharacter, nullptr, "PauseGame", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFirstPersonCharacter_PauseGame_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharacter_PauseGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFirstPersonCharacter_PauseGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFirstPersonCharacter_PauseGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AFirstPersonCharacter_PrevPage_Statics
 	{
 #if WITH_METADATA
@@ -931,6 +955,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_NextPage, "NextPage" }, // 2618184544
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 299696162
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 3449750689
+		{ &Z_Construct_UFunction_AFirstPersonCharacter_PauseGame, "PauseGame" }, // 3317186322
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_PrevPage, "PrevPage" }, // 3498105164
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_SafelyEmptyList, "SafelyEmptyList" }, // 3720783970
 		{ &Z_Construct_UFunction_AFirstPersonCharacter_SetBlur, "SetBlur" }, // 3763789225
@@ -1169,7 +1194,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFirstPersonCharacter, 349187273);
+	IMPLEMENT_CLASS(AFirstPersonCharacter, 1191676040);
 	template<> SENIORPROJECT_API UClass* StaticClass<AFirstPersonCharacter>()
 	{
 		return AFirstPersonCharacter::StaticClass();

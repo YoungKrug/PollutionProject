@@ -78,6 +78,8 @@ public:
 	void ExitNewsPaper();
 	UFUNCTION()
 	void JumpUpward();
+	UFUNCTION()
+	void PauseGame();
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Trigger Capsule")
@@ -157,4 +159,5 @@ private:
 	TArray<FText> newsPaperTexts;
 	TArray<int> newsPaperNums;
 	float currentPaperNum;
+	float orgTimeDilation;
 };

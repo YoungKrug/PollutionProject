@@ -39,9 +39,9 @@ void AFirstPersonCharacter::BeginPlay()
 	FString test;
 	// Make sure you make this game instance in editor equal to your own game instance in code
 	GI = Cast<UMyGameInstance>(GetGameInstance());
-	GI->canPlayerMove = true;
+	GI->canPlayerMove = false;
 	blur = GI->blur;
-
+	orgTimeDilation = GetActorTimeDilation();
 	//GI->canDisplayTest = true;
 	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
@@ -189,7 +189,7 @@ FString AFirstPersonCharacter::StartRayCast()
 // Called to bind functionality to input
 void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
-
+	
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &AFirstPersonCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AFirstPersonCharacter::MoveRight);
@@ -201,13 +201,24 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	PlayerInputComponent->BindAction("R_Previous", IE_Pressed, this, &AFirstPersonCharacter::PrevPage);
 	PlayerInputComponent->BindAction("Q_Quit", IE_Pressed, this, &AFirstPersonCharacter::ExitNewsPaper);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AFirstPersonCharacter::JumpUpward);
+	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &AFirstPersonCharacter::PauseGame);
+	PlayerInputComponent->SetTickableWhenPaused(true);
 
 }
-
+void AFirstPersonCharacter::PauseGame()
+{
+	if(!UGameplayStatics::IsGamePaused(UObject::GetWorld()))
+		UGameplayStatics::SetGamePaused(UObject::GetWorld(), true);
+	else
+		UGameplayStatics::SetGamePaused(UObject::GetWorld(), false);
+	
+}
 void AFirstPersonCharacter::JumpUpward()
 {
 	if (GI->canJumped)
+	{
 		Jump();
+	}
 	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Jumping"));
 }
 //Add interact function soon **Newspaper etc.
@@ -453,6 +464,7 @@ void AFirstPersonCharacter::GetNumbers()
 		FString s = currentlyInteracting[i]->Tags[1].ToString();
 		int num = FCString::Atoi(*s);
 		newsPaperNums.Add(num);
+	
 	}
 }
 void AFirstPersonCharacter::SafelyEmptyList(TArray<AActor*>& arr) // method to dereference the pointers
