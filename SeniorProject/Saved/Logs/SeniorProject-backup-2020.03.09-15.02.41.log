@@ -1,0 +1,1384 @@
+﻿Log file open, 03/09/20 10:17:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SeniorProject
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.393582
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA Quadro P2000
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.03.09-14.17.45:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.09-14.17.45:155][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.03.09-14.17.45:155][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.03.09-14.17.45:161][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.09-14.17.45:161][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.09-14.17.45:162][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.09-14.17.45:162][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.09-14.17.45:162][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.09-14.17.45:180][  0]LogHAL: Display: Platform has ~ 16 GB [17023926272 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.03.09-14.17.45:180][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.09-14.17.45:180][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.09-14.17.45:180][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:1]]
+[2020.03.09-14.17.45:181][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.03.09-14.17.45:181][  0]LogInit: Computer: 5CD911CWKH
+[2020.03.09-14.17.45:181][  0]LogInit: User: hlee2
+[2020.03.09-14.17.45:181][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.03.09-14.17.45:181][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.09-14.17.45:181][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.09-14.17.45:181][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.09-14.17.45:181][  0]LogMemory: Process Physical Memory: 100.98 MB used, 100.98 MB peak
+[2020.03.09-14.17.45:181][  0]LogMemory: Process Virtual Memory: 97.87 MB used, 97.87 MB peak
+[2020.03.09-14.17.45:181][  0]LogMemory: Physical Memory: 8278.72 MB used,  7956.56 MB free, 16235.28 MB total
+[2020.03.09-14.17.45:181][  0]LogMemory: Virtual Memory: 4683.25 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2020.03.09-14.17.45:198][  0]LogInit: Using OS detected language (en-US).
+[2020.03.09-14.17.45:198][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.09-14.17.45:198][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.09-14.17.45:329][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.09-14.17.45:365][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.09-14.17.45:365][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.09-14.17.45:542][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.09-14.17.45:542][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.09-14.17.45:597][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P2000' (Feature Level 11_0)
+[2020.03.09-14.17.45:597][  0]LogD3D11RHI:       4018/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.09-14.17.45:599][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.09-14.17.45:599][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.09-14.17.45:599][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.09-14.17.45:607][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.09-14.17.45:607][  0]LogD3D11RHI:     GPU DeviceId: 0x1cba (for the marketing name, search the web for "GPU Device Id")
+[2020.03.09-14.17.45:607][  0]LogWindows: EnumDisplayDevices:
+[2020.03.09-14.17.45:607][  0]LogWindows:    0. 'NVIDIA Quadro P2000' (P:1 D:1)
+[2020.03.09-14.17.45:607][  0]LogWindows:    1. 'NVIDIA Quadro P2000' (P:0 D:1)
+[2020.03.09-14.17.45:607][  0]LogWindows:    2. 'NVIDIA Quadro P2000' (P:0 D:0)
+[2020.03.09-14.17.45:607][  0]LogWindows:    3. 'NVIDIA Quadro P2000' (P:0 D:0)
+[2020.03.09-14.17.45:608][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.09-14.17.45:608][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P2000
+[2020.03.09-14.17.45:608][  0]LogD3D11RHI:   Driver Version: 419.72 (internal:25.21.14.1972, unified:419.72)
+[2020.03.09-14.17.45:608][  0]LogD3D11RHI:      Driver Date: 3-18-2019
+[2020.03.09-14.17.45:608][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.03.09-14.17.45:645][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.09-14.17.45:649][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.09-14.17.45:649][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.09-14.17.45:649][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.09-14.17.45:657][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.09-14.17.46:043][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.09-14.17.46:057][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.09-14.17.46:073][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.09-14.17.46:085][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.09-14.17.46:097][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.09-14.17.46:110][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.09-14.17.46:123][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.09-14.17.46:135][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.09-14.17.46:140][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.09-14.17.46:212][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.09-14.17.46:214][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.09-14.17.46:259][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.09-14.17.46:259][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.09-14.17.46:280][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.09-14.17.46:280][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.09-14.17.46:291][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.09-14.17.46:302][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.09-14.17.46:314][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.09-14.17.46:325][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.09-14.17.46:364][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.09-14.17.46:364][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.09-14.17.46:364][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.09-14.17.46:371][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.09-14.17.46:417][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Intermediate/Shaders/WorkingDirectory/16484/).
+[2020.03.09-14.17.46:417][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hlee2/AppData/Local/Temp/UnrealShaderWorkingDir/E255D3E648CC447EF1F120B090FDFBD1/'.
+[2020.03.09-14.17.46:420][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.09-14.17.46:420][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.09-14.17.46:420][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.09-14.17.46:947][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.09-14.17.46:999][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/hlee2/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.09-14.17.46:999][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hlee2/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.03.09-14.17.46:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.09-14.17.46:999][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.09-14.17.46:999][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.09-14.17.46:999][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.09-14.17.47:010][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.09-14.17.47:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.09-14.17.47:010][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.09-14.17.47:022][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hlee2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.09-14.17.47:022][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.09-14.17.47:022][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.09-14.17.47:041][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.09-14.17.47:041][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.09-14.17.47:042][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.09-14.17.47:126][  0]LogAssetRegistry: FAssetRegistry took 0.0322 seconds to start up
+[2020.03.09-14.17.47:421][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.09-14.17.47:540][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.09-14.17.47:540][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.09-14.17.47:540][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.09-14.17.47:540][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.09-14.17.47:540][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.09-14.17.47:550][  0]LogNetVersion: SeniorProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 993350713)
+[2020.03.09-14.17.47:923][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.053096 seconds
+[2020.03.09-14.17.47:929][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.03.09-14.17.47:929][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.03.09-14.17.47:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.09-14.17.48:767][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.09-14.17.48:781][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.09-14.17.49:505][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.627 s
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: 
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1786]
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: Stack: 
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff95668cd89 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff9554c4fa1 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff9445e4d2d UE4Editor-SeniorProject.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff95796610f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff957ba1056 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff957b8edef UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff95796a727 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff957f34a2b UE4Editor-Core.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff958105cb5 UE4Editor-Core.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff9ab6d8d67 UE4Editor-Projects.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff9ab6d8ff7 UE4Editor-Projects.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7b1f87eb1 UE4Editor.exe!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7b1f8d671 UE4Editor.exe!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7b1f85377 UE4Editor.exe!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7b1f855ca UE4Editor.exe!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7b1f9316c UE4Editor.exe!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7b1f95b8e UE4Editor.exe!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff9d1547974 KERNEL32.DLL!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: [Callstack] 0x00007ff9d3f7a271 ntdll.dll!UnknownFunction []
+[2020.03.09-14.17.49:505][  0]LogOutputDevice: Error: 
+[2020.03.09-14.17.49:512][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.03.09-14.17.49:945][  0]LogStats:                    SendNewReport -  0.432 s
+[2020.03.09-14.17.49:945][  0]LogStats:             FDebug::EnsureFailed -  1.066 s
+[2020.03.09-14.17.49:980][  0]SourceControl: Source control is disabled
+[2020.03.09-14.17.50:425][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.09-14.17.50:500][  0]LogOcInput: OculusInput pre-init called
+[2020.03.09-14.17.51:242][  0]LogEngine: Initializing Engine...
+[2020.03.09-14.17.51:243][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.09-14.17.51:244][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.09-14.17.51:431][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.09-14.17.51:445][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.09-14.17.51:461][  0]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.03.09-14.17.51:591][  0]LogInit: FAudioDevice initialized.
+[2020.03.09-14.17.51:591][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.09-14.17.51:639][  0]LogDerivedDataCache: Saved boot cache 0.05s 72MB C:/Users/hlee2/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.09-14.17.51:643][  0]LogInit: Texture streaming: Enabled
+[2020.03.09-14.17.51:659][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.09-14.17.51:678][  0]LogInit: Transaction tracking system initialized
+[2020.03.09-14.17.51:701][  0]BlueprintLog: New page: Editor Load
+[2020.03.09-14.17.51:792][  0]LocalizationService: Localization service is disabled
+[2020.03.09-14.17.52:079][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.09-14.17.52:079][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.09-14.17.52:261][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/' took 0.05s
+[2020.03.09-14.17.52:261][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Levels/GreyBoxLVL4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.09-14.17.52:261][  0]LightingResults: New page: Lighting Build
+[2020.03.09-14.17.52:263][  0]MapCheck: New page: Map Check
+[2020.03.09-14.17.52:263][  0]LightingResults: New page: Lighting Build
+[2020.03.09-14.17.52:289][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.03.09-14.17.52:364][  0]LogLinker: Warning: Can't find file '/Game/Geometry/Textures/CGSkies_0240_free_Mat'
+[2020.03.09-14.17.52:364][  0]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Textures/CGSkies_0240_free_Mat' while loading NULL.
+[2020.03.09-14.17.52:366][  0]LogLinker: Warning: Can't find file '/Game/Geometry/Textures/CGSkies_0240_free_Mat'
+[2020.03.09-14.17.52:366][  0]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Textures/CGSkies_0240_free_Mat' while loading NULL.
+[2020.03.09-14.17.52:367][  0]LogLinker: Warning: Can't find file '/Game/Geometry/Textures/CGSkies_0240_free_Mat'
+[2020.03.09-14.17.52:367][  0]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Textures/CGSkies_0240_free_Mat' while loading NULL.
+[2020.03.09-14.17.52:367][  0]LogLinker: Warning: Can't find file '/Game/Geometry/Textures/CGSkies_0240_free_Mat'
+[2020.03.09-14.17.52:368][  0]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Textures/CGSkies_0240_free_Mat' while loading NULL.
+[2020.03.09-14.17.52:369][  0]LogLinker: Warning: Can't find file '/Game/Geometry/Textures/CGSkies_0240_free_Mat'
+[2020.03.09-14.17.52:369][  0]LoadErrors: Failed to load /Game/Geometry/Textures/CGSkies_0240_free_Mat.CGSkies_0240_free_Mat Referenced by K2Node_CallFunction_40283
+[2020.03.09-14.17.52:369][  0]LogLinker: Warning: Can't find file for asset '/Game/Geometry/Textures/CGSkies_0240_free_Mat' while loading NULL.
+[2020.03.09-14.18.02:174][  0]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.03.09-14.18.03:644][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.09-14.18.03:724][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.03.09-14.18.03:725][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.09-14.18.03:725][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.387ms to complete.
+[2020.03.09-14.18.03:725][  0]LogFileHelpers: Loading map 'GreyBoxLVL4' took 11.464
+[2020.03.09-14.18.03:889][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.09-14.18.03:901][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.09-14.18.03:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.09-14.18.03:914][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.09-14.18.04:176][  0]LogCollectionManager: Loaded 0 collections in 0.001694 seconds
+[2020.03.09-14.18.04:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Collections/' took 0.01s
+[2020.03.09-14.18.04:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Developers/hlee2/Collections/' took 0.00s
+[2020.03.09-14.18.04:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Collections/' took 0.00s
+[2020.03.09-14.18.04:198][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.09-14.18.04:208][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2745 classes and 664 folders.
+[2020.03.09-14.18.04:217][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.09-14.18.04:225][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:233][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:269][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:274][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:294][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:305][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:312][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:318][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:325][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:331][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:356][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:361][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:367][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:372][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:378][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:383][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:388][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:393][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.09-14.18.04:584][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.03.09-14.18.04:590][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.09-14.18.04:592][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.09-14.18.04:716][  0]LogRenderer: Reallocating scene render targets to support 1524x924 Format 10 NumSamples 1 (Frame:1).
+[2020.03.09-14.18.04:767][  0]LogStaticMesh: Allocated 512x448x64 distance field atlas = 28.0Mb, with 161 objects containing 24.3Mb backing data
+[2020.03.09-14.18.04:964][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.09-14.18.04:964][  0]LogLoad: (Engine Initialization) Total time: 21.84 seconds
+[2020.03.09-14.18.04:964][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.09-14.18.05:015][  0]LogAssetRegistry: Asset discovery search completed in 17.9117 seconds
+[2020.03.09-14.18.05:017][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.09-14.18.05:017][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2020.03.09-14.18.05:023][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.09-14.18.05:042][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.09-14.18.07:663][ 72]LogSlate: Window 'Message Log' being destroyed
+[2020.03.09-14.18.07:666][ 72]LogSlate: Window 'Message Log' being destroyed
+[2020.03.09-14.32.27:804][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.32.27:875][848]LogSlate: Took 0.005996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.09-14.32.59:632][546]LogSlate: Took 0.005391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.09-14.33.00:779][546]LogSlate: Window 'Message' being destroyed
+[2020.03.09-14.33.00:860][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bin_001A.FBX)
+[2020.03.09-14.33.00:881][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bin_001A.FBX]
+[2020.03.09-14.33.00:901][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bin_001A.FBX
+[2020.03.09-14.33.00:913][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.00:930][546]LogStaticMesh: Building static mesh Bin_001A...
+[2020.03.09-14.33.00:961][546]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Dock/Bin_001A.Bin_001A
+[2020.03.09-14.33.01:164][546]LogMeshUtilities: Finished distance field build in 0.1s - 13x22x13 distance field, 848 triangles, Range [-0.1, 0.5], Bin_001A
+[2020.03.09-14.33.03:046][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.03:052][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.03:175][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bin_001B.FBX)
+[2020.03.09-14.33.03:182][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bin_001B.FBX]
+[2020.03.09-14.33.03:193][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bin_001B.FBX
+[2020.03.09-14.33.03:199][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.03:200][546]LogFbx: Display: Triangulating static mesh Object443
+[2020.03.09-14.33.03:211][546]LogStaticMesh: Building static mesh Bin_001B...
+[2020.03.09-14.33.03:218][546]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Dock/Bin_001B.Bin_001B
+[2020.03.09-14.33.03:365][546]LogMeshUtilities: Discarded distance field for Bin_001B as mesh was not closed!  Assign a two-sided material to fix.
+[2020.03.09-14.33.03:365][546]LogMeshUtilities: Finished distance field build in 0.0s - 13x21x8 distance field, 230 triangles, Range [-0.2, 0.4], Bin_001B
+[2020.03.09-14.33.04:621][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.04:626][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.04:756][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001A.FBX)
+[2020.03.09-14.33.04:763][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001A.FBX]
+[2020.03.09-14.33.04:775][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001A.FBX
+[2020.03.09-14.33.04:780][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.04:783][546]LogFbx: Display: Triangulating static mesh Object445
+[2020.03.09-14.33.04:827][546]LogStaticMesh: Building static mesh Booie_001A...
+[2020.03.09-14.33.04:839][546]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Dock/Booie_001A.Booie_001A
+[2020.03.09-14.33.04:975][546]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x15 distance field, 1172 triangles, Range [-0.0, 0.5], Booie_001A
+[2020.03.09-14.33.05:948][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.05:953][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.06:067][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001B.FBX)
+[2020.03.09-14.33.06:073][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001B.FBX]
+[2020.03.09-14.33.06:085][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001B.FBX
+[2020.03.09-14.33.06:091][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.06:093][546]LogFbx: Display: Triangulating static mesh Object444
+[2020.03.09-14.33.06:124][546]LogStaticMesh: Building static mesh Booie_001B...
+[2020.03.09-14.33.06:133][546]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Dock/Booie_001B.Booie_001B
+[2020.03.09-14.33.06:268][546]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x12 distance field, 812 triangles, Range [-0.1, 0.7], Booie_001B
+[2020.03.09-14.33.06:780][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.06:787][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.06:899][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001C.FBX)
+[2020.03.09-14.33.06:906][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001C.FBX]
+[2020.03.09-14.33.06:918][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Booie_001C.FBX
+[2020.03.09-14.33.06:924][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.06:925][546]LogFbx: Display: Triangulating static mesh Object446
+[2020.03.09-14.33.06:942][546]LogStaticMesh: Building static mesh Booie_001C...
+[2020.03.09-14.33.06:948][546]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Dock/Booie_001C.Booie_001C
+[2020.03.09-14.33.07:075][546]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x12 distance field, 452 triangles, Range [-0.1, 0.7], Booie_001C
+[2020.03.09-14.33.07:587][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.07:592][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.07:713][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bucket_001A.FBX)
+[2020.03.09-14.33.07:720][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bucket_001A.FBX]
+[2020.03.09-14.33.07:734][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Bucket_001A.FBX
+[2020.03.09-14.33.07:740][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.07:742][546]LogFbx: Display: Triangulating static mesh Object438
+[2020.03.09-14.33.07:769][546]LogStaticMesh: Building static mesh Bucket_001A...
+[2020.03.09-14.33.07:776][546]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Dock/Bucket_001A.Bucket_001A
+[2020.03.09-14.33.07:910][546]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x11 distance field, 716 triangles, Range [-0.3, 0.5], Bucket_001A
+[2020.03.09-14.33.08:583][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.08:588][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.08:700][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001A.FBX)
+[2020.03.09-14.33.08:706][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001A.FBX]
+[2020.03.09-14.33.08:719][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001A.FBX
+[2020.03.09-14.33.08:725][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.08:727][546]LogFbx: Display: Triangulating static mesh Object435
+[2020.03.09-14.33.08:755][546]LogStaticMesh: Building static mesh LobsterTrap_001A...
+[2020.03.09-14.33.08:777][546]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Dock/LobsterTrap_001A.LobsterTrap_001A
+[2020.03.09-14.33.08:920][546]LogMeshUtilities: Finished distance field build in 0.0s - 11x18x8 distance field, 728 triangles, Range [-0.0, 0.4], LobsterTrap_001A
+[2020.03.09-14.33.09:703][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.09:709][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.09:837][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001B.FBX)
+[2020.03.09-14.33.09:844][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001B.FBX]
+[2020.03.09-14.33.09:858][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001B.FBX
+[2020.03.09-14.33.09:867][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.09:891][546]LogFbx: Display: Triangulating static mesh Bin_001B
+[2020.03.09-14.33.10:218][546]LogStaticMesh: Building static mesh LobsterTrap_001B...
+[2020.03.09-14.33.10:298][546]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Dock/LobsterTrap_001B.LobsterTrap_001B
+[2020.03.09-14.33.10:526][546]LogMeshUtilities: Finished distance field build in 0.1s - 19x27x11 distance field, 8911 triangles, Range [-0.2, 0.5], LobsterTrap_001B
+[2020.03.09-14.33.12:012][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.12:020][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.12:158][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001C.FBX)
+[2020.03.09-14.33.12:165][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001C.FBX]
+[2020.03.09-14.33.12:178][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/LobsterTrap_001C.FBX
+[2020.03.09-14.33.12:186][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.12:208][546]LogFbx: Display: Triangulating static mesh Object447
+[2020.03.09-14.33.12:530][546]LogStaticMesh: Building static mesh LobsterTrap_001C...
+[2020.03.09-14.33.12:619][546]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Dock/LobsterTrap_001C.LobsterTrap_001C
+[2020.03.09-14.33.12:807][546]LogMeshUtilities: Finished distance field build in 0.1s - 19x27x8 distance field, 8908 triangles, Range [-0.1, 0.4], LobsterTrap_001C
+[2020.03.09-14.33.13:929][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.13:936][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.14:078][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Pallet_001A.FBX)
+[2020.03.09-14.33.14:086][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Pallet_001A.FBX]
+[2020.03.09-14.33.14:098][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Pallet_001A.FBX
+[2020.03.09-14.33.14:102][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.14:104][546]LogFbx: Display: Triangulating static mesh Object439
+[2020.03.09-14.33.14:112][546]LogStaticMesh: Building static mesh Pallet_001A...
+[2020.03.09-14.33.14:121][546]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Dock/Pallet_001A.Pallet_001A
+[2020.03.09-14.33.14:293][546]LogMeshUtilities: Finished distance field build in 0.1s - 21x29x8 distance field, 192 triangles, Range [-0.0, 0.4], Pallet_001A
+[2020.03.09-14.33.14:817][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.14:821][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.14:943][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Rope_001A.FBX)
+[2020.03.09-14.33.14:950][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Rope_001A.FBX]
+[2020.03.09-14.33.14:962][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Rope_001A.FBX
+[2020.03.09-14.33.14:970][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.14:981][546]LogFbx: Display: Triangulating static mesh Object440
+[2020.03.09-14.33.15:176][546]LogStaticMesh: Building static mesh Rope_001A...
+[2020.03.09-14.33.15:226][546]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Dock/Rope_001A.Rope_001A
+[2020.03.09-14.33.15:372][546]LogMeshUtilities: Finished distance field build in 0.0s - 12x12x8 distance field, 5416 triangles, Range [-0.0, 0.7], Rope_001A
+[2020.03.09-14.33.15:806][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.15:812][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.15:855][546]LogStaticMesh: Building static mesh Spindal_001A...
+[2020.03.09-14.33.15:885][546]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Dock/Spindal_001A.Spindal_001A
+[2020.03.09-14.33.15:988][546]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Spindal_001A.FBX)
+[2020.03.09-14.33.15:990][546]LogEditorFactories: Performing atomic reimport of [C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Spindal_001A.FBX]
+[2020.03.09-14.33.16:010][546]LogFbx: Loading FBX Scene from C:/Users/hlee2/Desktop/Thesis/Max/Unwrap/Dock/Spindal_001A.FBX
+[2020.03.09-14.33.16:022][546]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.09-14.33.16:030][546]LogFbx: Display: Triangulating static mesh Object441
+[2020.03.09-14.33.16:135][546]LogMeshUtilities: Finished distance field build in 0.1s - 25x14x16 distance field, 2368 triangles, Range [-0.3, 0.6], Spindal_001A
+[2020.03.09-14.33.16:135][546]LogStaticMesh: Building static mesh Spindal_001A...
+[2020.03.09-14.33.16:161][546]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Dock/Spindal_001A.Spindal_001A
+[2020.03.09-14.33.16:369][546]LogMeshUtilities: Finished distance field build in 0.1s - 25x14x16 distance field, 2368 triangles, Range [-0.3, 0.6], Spindal_001A
+[2020.03.09-14.33.16:715][546]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.03.09-14.33.16:720][546]LogEditorFactories: -- imported successfully
+[2020.03.09-14.33.19:860][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.03.09-14.33.24:176][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GreyBoxLVL4_Auto16CA5B67C4C42708FCC80109CC610A130.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/GreyBoxLVL4_Auto1.umap'
+[2020.03.09-14.33.24:186][772]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 4.352
+[2020.03.09-14.33.24:186][772]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.352
+[2020.03.09-14.33.24:188][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bin_001B3_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.24:203][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bin_001B3_Blueprint.Bin_001B3_Blueprint]
+[2020.03.09-14.33.24:203][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bin_001B3_Blueprint]
+[2020.03.09-14.33.24:234][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bin_001B3_Blueprint_Auto1422755654D392FE2736FF39065574DE6.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Bin_001B3_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.24:235][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Bin_001A] ([1] browsable assets)...
+[2020.03.09-14.33.24:246][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Bin_001A.Bin_001A]
+[2020.03.09-14.33.24:246][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Bin_001A]
+[2020.03.09-14.33.24:273][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bin_001A_Auto119E8A5BA408E7758F8CE19A4E83C0876.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Bin_001A_Auto1.uasset'
+[2020.03.09-14.33.24:274][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Bin_001B] ([1] browsable assets)...
+[2020.03.09-14.33.24:284][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Bin_001B.Bin_001B]
+[2020.03.09-14.33.24:285][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Bin_001B]
+[2020.03.09-14.33.24:308][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bin_001B_Auto10D1AEEED4FA90BF3E577839D442C946B.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Bin_001B_Auto1.uasset'
+[2020.03.09-14.33.24:310][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Pallet_001A] ([1] browsable assets)...
+[2020.03.09-14.33.24:321][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Pallet_001A.Pallet_001A]
+[2020.03.09-14.33.24:321][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Pallet_001A]
+[2020.03.09-14.33.24:344][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A_Auto1AB28B7854CDD79E6CF780B8D9AA358FE.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Pallet_001A_Auto1.uasset'
+[2020.03.09-14.33.24:345][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BoxInteraction] ([1] browsable assets)...
+[2020.03.09-14.33.24:359][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BoxInteraction.BoxInteraction]
+[2020.03.09-14.33.24:359][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/BoxInteraction]
+[2020.03.09-14.33.24:405][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/BoxInteraction_Auto13D412C23473847D310926DA04D2D4F5D.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/BoxInteraction_Auto1.uasset'
+[2020.03.09-14.33.24:406][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Bucket_001A] ([1] browsable assets)...
+[2020.03.09-14.33.24:416][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Bucket_001A.Bucket_001A]
+[2020.03.09-14.33.24:416][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Bucket_001A]
+[2020.03.09-14.33.24:442][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bucket_001A_Auto111370FD64C529F6FE69586AD854ABA96.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Bucket_001A_Auto1.uasset'
+[2020.03.09-14.33.24:444][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bucket_001A5_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.24:459][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bucket_001A5_Blueprint.Bucket_001A5_Blueprint]
+[2020.03.09-14.33.24:459][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bucket_001A5_Blueprint]
+[2020.03.09-14.33.24:489][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bucket_001A5_Blueprint_Auto17ABBC0064405D2E04E204DB227F866A6.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Bucket_001A5_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.24:490][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LobsterTrap_001A3_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.24:505][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LobsterTrap_001A3_Blueprint.LobsterTrap_001A3_Blueprint]
+[2020.03.09-14.33.24:505][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001A3_Blueprint]
+[2020.03.09-14.33.24:535][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001A3_Blueprint_AutoCAE4A9DF4B5F2D1CD09F8BAC41067488.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001A3_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.24:536][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/LobsterTrap_001A] ([1] browsable assets)...
+[2020.03.09-14.33.24:547][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/LobsterTrap_001A.LobsterTrap_001A]
+[2020.03.09-14.33.24:547][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/LobsterTrap_001A]
+[2020.03.09-14.33.24:574][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001A_Auto18A8E37994D1686DEF3AD02B271638B32.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/LobsterTrap_001A_Auto1.uasset'
+[2020.03.09-14.33.24:576][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LobsterTrap_001C10_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.24:591][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LobsterTrap_001C10_Blueprint.LobsterTrap_001C10_Blueprint]
+[2020.03.09-14.33.24:591][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C10_Blueprint]
+[2020.03.09-14.33.24:623][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C10_Blueprint_Aut1D6A14EA408334ADA66D44B6DAE74C20.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C10_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.24:624][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/LobsterTrap_001B] ([1] browsable assets)...
+[2020.03.09-14.33.24:634][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/LobsterTrap_001B.LobsterTrap_001B]
+[2020.03.09-14.33.24:634][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/LobsterTrap_001B]
+[2020.03.09-14.33.24:669][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001B_Auto1F2FD71F14BA63392032BD497D2CF1DCA.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/LobsterTrap_001B_Auto1.uasset'
+[2020.03.09-14.33.24:670][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/LobsterTrap_001C] ([1] browsable assets)...
+[2020.03.09-14.33.24:681][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/LobsterTrap_001C.LobsterTrap_001C]
+[2020.03.09-14.33.24:681][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/LobsterTrap_001C]
+[2020.03.09-14.33.24:716][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C_Auto1262156ED4D3628EB2D0BF2B89719CD67.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/LobsterTrap_001C_Auto1.uasset'
+[2020.03.09-14.33.24:718][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.24:733][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LobsterTrap_001C10_Blueprint3_Blueprint.LobsterTrap_001C10_Blueprint3_Blueprint]
+[2020.03.09-14.33.24:733][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint]
+[2020.03.09-14.33.24:772][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C10_Blueprint3_Bl9AE5516A4295A4F653DD239475F07C19.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C10_Blueprint3_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.24:774][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint1] ([1] browsable assets)...
+[2020.03.09-14.33.24:794][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LobsterTrap_001C10_Blueprint3_Blueprint1.LobsterTrap_001C10_Blueprint3_Blueprint1]
+[2020.03.09-14.33.24:794][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint1]
+[2020.03.09-14.33.24:885][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C10_Blueprint3_BlCBCAF5B0489ECBF06AB3DEA439666891.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C10_Blueprint3_Blueprint1_Auto1.uasset'
+[2020.03.09-14.33.24:887][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LobsterTrap_001C5_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.24:902][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LobsterTrap_001C5_Blueprint.LobsterTrap_001C5_Blueprint]
+[2020.03.09-14.33.24:902][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C5_Blueprint]
+[2020.03.09-14.33.24:933][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C5_Blueprint_AutoC1943F6D400CA975C0EC9BA2BD22220F.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C5_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.24:935][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LobsterTrap_001C5_Blueprint8_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.24:952][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LobsterTrap_001C5_Blueprint8_Blueprint.LobsterTrap_001C5_Blueprint8_Blueprint]
+[2020.03.09-14.33.24:952][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C5_Blueprint8_Blueprint]
+[2020.03.09-14.33.25:009][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C5_Blueprint8_Blu945FD1AF405903357F985D8B280165F3.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C5_Blueprint8_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.25:011][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Pallet_001A4_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.25:025][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Pallet_001A4_Blueprint.Pallet_001A4_Blueprint]
+[2020.03.09-14.33.25:025][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pallet_001A4_Blueprint]
+[2020.03.09-14.33.25:054][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A4_Blueprint_Auto14117EB3D40FCE4C2D8B406A702CE3C22.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Pallet_001A4_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.25:056][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Pallet_001A4_Blueprint3_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.25:071][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Pallet_001A4_Blueprint3_Blueprint.Pallet_001A4_Blueprint3_Blueprint]
+[2020.03.09-14.33.25:071][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pallet_001A4_Blueprint3_Blueprint]
+[2020.03.09-14.33.25:102][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A4_Blueprint3_BlueprinCE64E2DC418CB29A244731A4952B7F20.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Pallet_001A4_Blueprint3_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.25:104][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Pallet_001A4_Blueprint3_Blueprint5_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.33.25:119][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Pallet_001A4_Blueprint3_Blueprint5_Blueprint.Pallet_001A4_Blueprint3_Blueprint5_Blueprint]
+[2020.03.09-14.33.25:119][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pallet_001A4_Blueprint3_Blueprint5_Blueprint]
+[2020.03.09-14.33.25:157][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A4_Blueprint3_Blueprin24177E794D2439EB5F2C40954050BF86.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Pallet_001A4_Blueprint3_Blueprint5_Blueprint_Auto1.uasset'
+[2020.03.09-14.33.25:159][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Booie_001A] ([1] browsable assets)...
+[2020.03.09-14.33.25:168][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Booie_001A.Booie_001A]
+[2020.03.09-14.33.25:169][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Booie_001A]
+[2020.03.09-14.33.25:196][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Booie_001A_Auto1B340B0134B96895D8F44CE9770BFA5DF.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Booie_001A_Auto1.uasset'
+[2020.03.09-14.33.25:198][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Booie_001B] ([1] browsable assets)...
+[2020.03.09-14.33.25:208][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Booie_001B.Booie_001B]
+[2020.03.09-14.33.25:208][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Booie_001B]
+[2020.03.09-14.33.25:237][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Booie_001B_Auto15D74558442021F823AC36C8C510C5E0F.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Booie_001B_Auto1.uasset'
+[2020.03.09-14.33.25:239][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Booie_001C] ([1] browsable assets)...
+[2020.03.09-14.33.25:249][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Booie_001C.Booie_001C]
+[2020.03.09-14.33.25:249][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Booie_001C]
+[2020.03.09-14.33.25:276][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Booie_001C_Auto188F888B64D1E952873A04FAEB1115965.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Booie_001C_Auto1.uasset'
+[2020.03.09-14.33.25:278][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Rope_001A] ([1] browsable assets)...
+[2020.03.09-14.33.25:288][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Rope_001A.Rope_001A]
+[2020.03.09-14.33.25:288][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Rope_001A]
+[2020.03.09-14.33.25:323][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Rope_001A_Auto1C7F0ADED4C39E0C1C8FDB0B70E86D921.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Rope_001A_Auto1.uasset'
+[2020.03.09-14.33.25:325][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Spindal_001A] ([1] browsable assets)...
+[2020.03.09-14.33.25:335][772]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/Spindal_001A.Spindal_001A]
+[2020.03.09-14.33.25:335][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Spindal_001A]
+[2020.03.09-14.33.25:367][772]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Spindal_001A_Auto1A0577E17469D8CDE3C95D3908C13611D.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Spindal_001A_Auto1.uasset'
+[2020.03.09-14.33.25:369][772]LogFileHelpers: Auto-saving content packages took 1.181
+[2020.03.09-14.33.53:118][ 18]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Substance/Dock/DockTexture/Dock_low02_Material _0_BaseColor.png)
+[2020.03.09-14.33.53:302][ 18]LogTexture: Display: Building textures: Dock_low02_Material__0_BaseColor (AutoDXT, 2048X2048)
+[2020.03.09-14.33.54:606][ 18]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Substance/Dock/DockTexture/Dock_low02_Material _0_Normal.png)
+[2020.03.09-14.33.54:800][ 18]LogTexture: Display: Building textures: Dock_low02_Material__0_Normal (BC5, 2048X2048)
+[2020.03.09-14.33.55:289][ 18]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/hlee2/Desktop/Thesis/Substance/Dock/DockTexture/Dock_low02_Material _0_OcclusionRoughnessMetallic.png)
+[2020.03.09-14.33.55:453][ 18]LogTexture: Display: Building textures: Dock_low02_Material__0_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2020.03.09-14.33.57:788][180]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Assets/Dock/Dock_low02_Material__0_OcclusionRoughnessMetallic.Dock_low02_Material__0_OcclusionRoughnessMetallic
+[2020.03.09-14.33.57:805][180]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.09-14.34.00:651][488]LogTexture: Display: Building textures: Dock_low02_Material__0_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2020.03.09-14.34.03:414][680]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Dock_low02_Material__0_OcclusionD416ECE64BFD2629170AACAE62E45E5A.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Dock_low02_Material__0_OcclusionRoughnessMetallic.uasset'
+[2020.03.09-14.34.04:038][709]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (47.246 sec). This should never happen. Something is wrong with the timer delegate!
+[2020.03.09-14.34.04:888][810]LogSlate: Window 'Dock_low02_Material__0_OcclusionRoughnessMetallic' being destroyed
+[2020.03.09-14.34.04:892][810]LogSlate: Window 'Dock_low02_Material__0_OcclusionRoughnessMetallic' being destroyed
+[2020.03.09-14.34.06:770][ 24]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Dock/Dock_Material.Dock_Material
+[2020.03.09-14.34.06:773][ 24]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.07:147][ 24]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.07:161][ 24]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.07:179][ 24]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.07:304][ 24]LogSlate: Took 0.005959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.09-14.34.08:217][ 69]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.34.10:570][260]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.10:585][260]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.10:585][260]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.03.09-14.34.10:623][260]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.03.09-14.34.10:961][273]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.34.12:157][334]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.03.09-14.34.12:157][334]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.03.09-14.34.12:157][334]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.03.09-14.34.12:157][334]MaterialEditorStats: Texture samplers: 3/16
+[2020.03.09-14.34.14:143][570]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.14:159][570]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.14:162][570]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.03.09-14.34.14:628][589]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.34.16:353][701]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.16:369][701]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.16:369][701]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.03.09-14.34.16:408][701]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.03.09-14.34.16:414][701]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.03.09-14.34.16:769][714]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.34.18:763][857]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.18:782][857]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.03.09-14.34.18:797][857]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.19:196][875]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.34.20:472][933]MaterialEditorStats: Base pass shader: 116 instructions
+[2020.03.09-14.34.20:472][933]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 190 instructions
+[2020.03.09-14.34.20:472][933]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.03.09-14.34.20:472][933]MaterialEditorStats: Texture samplers: 5/16
+[2020.03.09-14.34.20:472][933]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.03.09-14.34.20:472][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.03.09-14.34.21:872][ 97]LogMaterialEditor: Saving and Compiling material Dock_Material
+[2020.03.09-14.34.23:390][ 97]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.23:436][ 97]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.23:451][ 97]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.23:528][ 97]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.23:804][ 97]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.03.09-14.34.23:812][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.03.09-14.34.23:823][ 97]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.09-14.34.24:722][ 97]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.03.09-14.34.24:724][ 97]TextureStreamingBuild: Display: Compiling optional shaders took 0.912 seconds.
+[2020.03.09-14.34.24:762][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.03.09-14.34.26:985][ 97]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Dock_Material4939E923489BF26229A1E39F7474F0B3.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Dock_Material.uasset'
+[2020.03.09-14.34.28:978][286]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.28:993][286]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.03.09-14.34.29:000][286]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.29:027][286]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.03.09-14.34.29:034][286]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.03.09-14.34.29:041][286]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.03.09-14.34.29:781][316]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.34.30:791][360]MaterialEditorStats: Base pass shader: 116 instructions
+[2020.03.09-14.34.30:791][360]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 190 instructions
+[2020.03.09-14.34.30:791][360]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.03.09-14.34.30:791][360]MaterialEditorStats: Texture samplers: 5/16
+[2020.03.09-14.34.30:791][360]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2020.03.09-14.34.30:791][360]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.03.09-14.34.33:334][654]LogMaterialEditor: Saving and Compiling material Dock_Material
+[2020.03.09-14.34.33:678][654]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.33:719][654]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.34.33:736][654]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.33:816][654]LogMaterial: Display: Missing cached shader map for material Dock_Material, compiling. 
+[2020.03.09-14.34.33:984][654]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2020.03.09-14.34.34:094][654]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.03.09-14.34.34:129][654]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.09-14.34.35:001][654]TextureStreamingBuild: Display: Compiling optional shaders took 0.887 seconds.
+[2020.03.09-14.34.35:035][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.03.09-14.34.37:260][654]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Dock_Material237BBF7E440C471E221F009F0DE71429.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Dock_Material.uasset'
+[2020.03.09-14.34.37:911][727]LogSlate: Window 'Dock_Material' being destroyed
+[2020.03.09-14.34.37:916][727]LogSlate: Window 'Dock_Material' being destroyed
+[2020.03.09-14.34.41:810][167]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Bin_001A.Bin_001A
+[2020.03.09-14.34.42:136][167]LogSlate: Took 0.005452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.09-14.34.49:149][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Bin_001A" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Bin_001A.uasset" SILENT=true
+[2020.03.09-14.34.49:182][896]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bin_001AE42905DC44073CAC605C198CBC522042.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Bin_001A.uasset'
+[2020.03.09-14.34.52:517][196]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Bin_001B.Bin_001B
+[2020.03.09-14.34.58:855][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Bin_001B" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Bin_001B.uasset" SILENT=true
+[2020.03.09-14.34.58:883][629]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bin_001B3E845359448D627ABF70EAA9D54BE292.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Bin_001B.uasset'
+[2020.03.09-14.35.01:613][789]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Booie_001A.Booie_001A
+[2020.03.09-14.35.07:326][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Booie_001A" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Booie_001A.uasset" SILENT=true
+[2020.03.09-14.35.07:363][152]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Booie_001A876315874A2669093A217D81D2B6A907.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Booie_001A.uasset'
+[2020.03.09-14.35.09:105][233]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Booie_001B.Booie_001B
+[2020.03.09-14.35.15:092][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Booie_001B" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Booie_001B.uasset" SILENT=true
+[2020.03.09-14.35.15:123][635]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Booie_001BDB9E55604C3334A694C3C3A89AAE9F94.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Booie_001B.uasset'
+[2020.03.09-14.35.16:890][701]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Booie_001C.Booie_001C
+[2020.03.09-14.35.22:725][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Booie_001C" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Booie_001C.uasset" SILENT=true
+[2020.03.09-14.35.22:754][103]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Booie_001CF1C2F003400AD0EFB8E8628CBF8559CC.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Booie_001C.uasset'
+[2020.03.09-14.35.24:852][171]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Bucket_001A.Bucket_001A
+[2020.03.09-14.35.30:318][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Bucket_001A" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Bucket_001A.uasset" SILENT=true
+[2020.03.09-14.35.30:349][490]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bucket_001A78C27ECD4833058E4C9E2EB13ECF703E.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Bucket_001A.uasset'
+[2020.03.09-14.35.33:924][585]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/LobsterTrap_001A.LobsterTrap_001A
+[2020.03.09-14.35.40:589][968]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001ACC9AD22B42B7E4931D4118BC3AA83AAB.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/LobsterTrap_001A.uasset'
+[2020.03.09-14.35.42:747][ 25]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/LobsterTrap_001B.LobsterTrap_001B
+[2020.03.09-14.36.08:253][863]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001BF3763CF3463D1E4660D63DAD921F2C81.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/LobsterTrap_001B.uasset'
+[2020.03.09-14.36.10:787][922]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/LobsterTrap_001C.LobsterTrap_001C
+[2020.03.09-14.36.21:761][280]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C414115D34190AC0583F69DB030892770.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/LobsterTrap_001C.uasset'
+[2020.03.09-14.36.23:763][322]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Pallet_001A.Pallet_001A
+[2020.03.09-14.36.29:310][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Pallet_001A" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Pallet_001A.uasset" SILENT=true
+[2020.03.09-14.36.29:336][573]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A6C94C10B4E9D675D0B08AB963E88FA04.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Pallet_001A.uasset'
+[2020.03.09-14.36.30:596][594]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Rope_001A.Rope_001A
+[2020.03.09-14.36.36:831][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Rope_001A" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Rope_001A.uasset" SILENT=true
+[2020.03.09-14.36.36:864][896]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Rope_001A1E06EB0A434BDAA1BB575F9A606C3676.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Rope_001A.uasset'
+[2020.03.09-14.36.39:434][934]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Assets/Dock/Spindal_001A.Spindal_001A
+[2020.03.09-14.36.44:671][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dock/Spindal_001A" FILE="../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Spindal_001A.uasset" SILENT=true
+[2020.03.09-14.36.44:706][184]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Spindal_001AB3C2311D4CA9F374FC80E887A9FE6610.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/Assets/Dock/Spindal_001A.uasset'
+[2020.03.09-14.36.51:705][221]LogSlate: Window 'Message' being destroyed
+[2020.03.09-14.36.51:719][221]LogStaticMesh: Building static mesh LobsterTrap_001B...
+[2020.03.09-14.36.51:804][221]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Dock/LobsterTrap_001B.LobsterTrap_001B
+[2020.03.09-14.36.52:023][221]LogMeshUtilities: Finished distance field build in 0.1s - 19x27x11 distance field, 8911 triangles, Range [0.0, 0.5], LobsterTrap_001B
+[2020.03.09-14.36.55:454][221]LogSlate: Window 'Message' being destroyed
+[2020.03.09-14.36.55:482][221]LogStaticMesh: Building static mesh LobsterTrap_001C...
+[2020.03.09-14.36.55:571][221]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/Dock/LobsterTrap_001C.LobsterTrap_001C
+[2020.03.09-14.36.55:629][221]LogSlate: Window 'Spindal_001A' being destroyed
+[2020.03.09-14.36.55:630][221]LogSlate: Window 'Spindal_001A' being destroyed
+[2020.03.09-14.36.55:764][221]LogMeshUtilities: Finished distance field build in 0.1s - 19x27x8 distance field, 8908 triangles, Range [0.0, 0.4], LobsterTrap_001C
+[2020.03.09-14.37.16:301][846]LogEditorViewport: Clicking on Actor (LMB): LobsterTrap_001A3_Blueprint_C (LobsterTrap_001A3_Blueprint2)
+[2020.03.09-14.37.22:940][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.38.17:386][414]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LobsterTrap_001A3_Blueprint.LobsterTrap_001A3_Blueprint
+[2020.03.09-14.38.17:794][414]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.03.09-14.38.37:532][775]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.09-14.38.40:959][970]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2020.03.09-14.38.48:603][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.09-14.38.59:658][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.39.17:134][932]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.09-14.39.22:963][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.39.23:300][298]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001A3_Blueprint29980E5F49584214CA467E9FDD1B1793.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Content/LobsterTrap_001A3_Blueprint.uasset'
+[2020.03.09-14.39.25:481][324]LogSlate: Window 'LobsterTrap_001A3_Blueprint' being destroyed
+[2020.03.09-14.39.25:573][324]LogSlate: Window 'LobsterTrap_001A3_Blueprint' being destroyed
+[2020.03.09-14.39.31:409][389]LogEditorViewport: Clicking on Actor (LMB): Pallet_001A4_Blueprint3_Blueprint_C (Pallet_001A4_Blueprint3_Blueprint)
+[2020.03.09-14.39.36:551][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.39.50:652][867]LogEditorViewport: Clicking on Actor (LMB): LobsterTrap_001C10_Blueprint3_Blueprint_C (LobsterTrap_001C10_Blueprint3_Blueprint)
+[2020.03.09-14.39.54:098][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.40.20:013][724]LogEditorViewport: Clicking on Actor (LMB): LobsterTrap_001C10_Blueprint3_Blueprint1_C (LobsterTrap_001C10_Blueprint3_Blueprint3)
+[2020.03.09-14.40.29:634][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.41.29:940][602]LogEditorViewport: Clicking on Component (CTRL LMB): StaticMeshComponent (StaticMeshComponent63)
+[2020.03.09-14.41.44:176][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.09-14.42.20:610][575]LogUObjectHash: Compacting FUObjectHashTables data took  11.32ms
+[2020.03.09-14.42.24:892][575]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.42.25:929][684]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Dock/02_-_Default.02_-_Default
+[2020.03.09-14.42.25:933][684]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2020.03.09-14.42.26:088][684]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2020.03.09-14.42.26:109][684]LogMaterial: Display: Missing cached shader map for material 02_-_Default, compiling. 
+[2020.03.09-14.42.26:133][684]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.03.09-14.42.26:160][684]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.03.09-14.42.27:095][707]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.42.27:976][740]LogSlate: Window '02_-_Default' being destroyed
+[2020.03.09-14.42.27:989][740]LogSlate: Window '02_-_Default' being destroyed
+[2020.03.09-14.42.28:291][740]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.42.30:878][920]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.03.09-14.42.34:254][920]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.42.36:741][176]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/Dock/08_-_Default.08_-_Default
+[2020.03.09-14.42.36:744][176]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2020.03.09-14.42.36:878][176]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2020.03.09-14.42.36:895][176]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2020.03.09-14.42.36:917][176]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.42.36:944][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.03.09-14.42.37:389][181]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.42.38:963][235]LogSlate: Window '08_-_Default' being destroyed
+[2020.03.09-14.42.38:978][235]LogSlate: Window '08_-_Default' being destroyed
+[2020.03.09-14.42.40:085][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.03.09-14.42.42:191][325]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.43.09:698][915]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent24)
+[2020.03.09-14.43.14:495][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.09-14.43.18:950][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.43.31:770][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.03.09-14.43.37:525][506]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.43.41:337][687]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent19)
+[2020.03.09-14.43.46:519][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.44.02:115][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.03.09-14.44.08:956][452]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.44.21:786][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.03.09-14.44.28:373][925]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.44.28:380][925]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/structure/01_-_Default.01_-_Default
+[2020.03.09-14.44.32:885][925]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.03.09-14.44.32:929][925]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.03.09-14.44.32:974][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.03.09-14.44.35:021][925]SourceControl: rm 'SeniorProject/Content/Assets/structure/01_-_Default.uasset'
+[2020.03.09-14.44.44:348][188]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.09-14.44.44:434][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.03.09-14.44.49:429][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/GreyBoxLVL4_Auto214C5D73043B8A167098424990037B125.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Levels/GreyBoxLVL4_Auto2.umap'
+[2020.03.09-14.44.49:438][188]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GreyBoxLVL4' took 5.041
+[2020.03.09-14.44.49:438][188]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.041
+[2020.03.09-14.44.49:440][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001A] ([1] browsable assets)...
+[2020.03.09-14.44.49:454][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001A.Window_001A]
+[2020.03.09-14.44.49:454][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001A]
+[2020.03.09-14.44.49:483][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001A_Auto2482928BB4D8A7A921EA720A6B86D90B0.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001A_Auto2.uasset'
+[2020.03.09-14.44.49:485][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001G] ([1] browsable assets)...
+[2020.03.09-14.44.49:497][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001G.Window_001G]
+[2020.03.09-14.44.49:497][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001G]
+[2020.03.09-14.44.49:527][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001G_Auto2616047994B5B1F50E40A1FB23824F5FF.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001G_Auto2.uasset'
+[2020.03.09-14.44.49:528][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001E] ([1] browsable assets)...
+[2020.03.09-14.44.49:540][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001E.Window_001E]
+[2020.03.09-14.44.49:540][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001E]
+[2020.03.09-14.44.49:569][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001E_Auto2840795A54D693107775BE7A6A778C755.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001E_Auto2.uasset'
+[2020.03.09-14.44.49:571][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001L] ([1] browsable assets)...
+[2020.03.09-14.44.49:582][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001L.Window_001L]
+[2020.03.09-14.44.49:582][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001L]
+[2020.03.09-14.44.49:612][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001L_Auto2350E7816467150E35B2A84B91A6C40DF.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001L_Auto2.uasset'
+[2020.03.09-14.44.49:613][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Perfabs/Building_001E2_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.49:625][188]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Perfabs/Building_001E2_Blueprint.Building_001E2_Blueprint]
+[2020.03.09-14.44.49:625][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Perfabs/Building_001E2_Blueprint]
+[2020.03.09-14.44.49:666][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Building_001E2_Blueprint_Auto2A6CEBA2D41544739AB4B8592965432B8.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Perfabs/Building_001E2_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.49:668][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001F] ([1] browsable assets)...
+[2020.03.09-14.44.49:679][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001F.Window_001F]
+[2020.03.09-14.44.49:679][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001F]
+[2020.03.09-14.44.49:709][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001F_Auto27577CF4E4B75B1D93FC900BCEF00AF9C.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001F_Auto2.uasset'
+[2020.03.09-14.44.49:711][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/structure/Building_001U] ([1] browsable assets)...
+[2020.03.09-14.44.49:722][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/structure/Building_001U.Building_001U]
+[2020.03.09-14.44.49:722][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/structure/Building_001U]
+[2020.03.09-14.44.49:757][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Building_001U_Auto206D009004188F1C484638385DE0A8F8E.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/structure/Building_001U_Auto2.uasset'
+[2020.03.09-14.44.49:759][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001B] ([1] browsable assets)...
+[2020.03.09-14.44.49:770][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001B.Window_001B]
+[2020.03.09-14.44.49:770][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001B]
+[2020.03.09-14.44.49:801][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001B_Auto2A3CB81904C9443BF091A60BFA0E601CB.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001B_Auto2.uasset'
+[2020.03.09-14.44.49:803][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Trash_001A] ([1] browsable assets)...
+[2020.03.09-14.44.49:815][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Trash_001A.Trash_001A]
+[2020.03.09-14.44.49:815][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Trash_001A]
+[2020.03.09-14.44.49:852][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Trash_001A_Auto29AFD25AF410D2D1D38CEE59F196FE0DC.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Trash_001A_Auto2.uasset'
+[2020.03.09-14.44.49:854][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Trash_001B] ([1] browsable assets)...
+[2020.03.09-14.44.49:864][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Trash_001B.Trash_001B]
+[2020.03.09-14.44.49:864][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Trash_001B]
+[2020.03.09-14.44.49:898][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Trash_001B_Auto2F075F11849F309B27BACEE959EF00200.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Trash_001B_Auto2.uasset'
+[2020.03.09-14.44.49:899][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Box_001A] ([1] browsable assets)...
+[2020.03.09-14.44.49:910][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Box_001A.Box_001A]
+[2020.03.09-14.44.49:910][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Box_001A]
+[2020.03.09-14.44.49:939][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Box_001A_Auto29C88299D4264063CED14B38AE653322F.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Box_001A_Auto2.uasset'
+[2020.03.09-14.44.49:941][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Box_001C] ([1] browsable assets)...
+[2020.03.09-14.44.49:952][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Box_001C.Box_001C]
+[2020.03.09-14.44.49:952][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Box_001C]
+[2020.03.09-14.44.49:981][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Box_001C_Auto24960C41A40B7E5713ED4BC92EC039D1D.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Box_001C_Auto2.uasset'
+[2020.03.09-14.44.49:982][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Box_001D] ([1] browsable assets)...
+[2020.03.09-14.44.49:993][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Box_001D.Box_001D]
+[2020.03.09-14.44.49:993][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Box_001D]
+[2020.03.09-14.44.50:022][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Box_001D_Auto21B16E90A4852D862C53269AA1C740B04.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Box_001D_Auto2.uasset'
+[2020.03.09-14.44.50:023][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Box_001E] ([1] browsable assets)...
+[2020.03.09-14.44.50:034][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Box_001E.Box_001E]
+[2020.03.09-14.44.50:034][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Box_001E]
+[2020.03.09-14.44.50:064][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Box_001E_Auto25694B16B46DB75A93714C2841C9F68BB.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Box_001E_Auto2.uasset'
+[2020.03.09-14.44.50:065][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Box_001F] ([1] browsable assets)...
+[2020.03.09-14.44.50:078][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Box_001F.Box_001F]
+[2020.03.09-14.44.50:078][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Box_001F]
+[2020.03.09-14.44.50:106][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Box_001F_Auto2A04446014DCF1421107B698FEFCA2B7A.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Box_001F_Auto2.uasset'
+[2020.03.09-14.44.50:108][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bin_001B3_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:108][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bin_001B3_Blueprint]
+[2020.03.09-14.44.50:140][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bin_001B3_Blueprint_Auto235F7B0074B6B88C78D19F3AD58FFE763.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Bin_001B3_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:142][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobsterTrap_001C10_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:142][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C10_Blueprint]
+[2020.03.09-14.44.50:172][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C10_Blueprint_Aut277EE40146A0027832A12D88CDE59615.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C10_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:174][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/LobsterTrap_001B] ([1] browsable assets)...
+[2020.03.09-14.44.50:185][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/LobsterTrap_001B.LobsterTrap_001B]
+[2020.03.09-14.44.50:185][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/LobsterTrap_001B]
+[2020.03.09-14.44.50:227][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001B_Auto2BDDF985E46A9069367DD2EB6CF553378.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/LobsterTrap_001B_Auto2.uasset'
+[2020.03.09-14.44.50:229][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/LobsterTrap_001C] ([1] browsable assets)...
+[2020.03.09-14.44.50:240][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Dock/LobsterTrap_001C.LobsterTrap_001C]
+[2020.03.09-14.44.50:240][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/LobsterTrap_001C]
+[2020.03.09-14.44.50:282][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C_Auto2C77CAC4F4BEAD75E011B5E996B3E7FAD.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/LobsterTrap_001C_Auto2.uasset'
+[2020.03.09-14.44.50:284][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:284][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint]
+[2020.03.09-14.44.50:324][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C10_Blueprint3_BlE2CA19E64423AE114F97E2A4BF506359.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C10_Blueprint3_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:326][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint1] ([1] browsable assets)...
+[2020.03.09-14.44.50:326][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C10_Blueprint3_Blueprint1]
+[2020.03.09-14.44.50:425][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C10_Blueprint3_BlC1FBE3984EBA5DC548E285BB168F069D.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C10_Blueprint3_Blueprint1_Auto2.uasset'
+[2020.03.09-14.44.50:427][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobsterTrap_001C5_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:427][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C5_Blueprint]
+[2020.03.09-14.44.50:461][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C5_Blueprint_AutoE7BAFC7044012851028CBD943C5DEA99.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C5_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:463][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LobsterTrap_001C5_Blueprint8_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:463][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/LobsterTrap_001C5_Blueprint8_Blueprint]
+[2020.03.09-14.44.50:530][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/LobsterTrap_001C5_Blueprint8_BluCD2465F0484F9402D8FAF2A193DD8924.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/LobsterTrap_001C5_Blueprint8_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:533][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Pallet_001A4_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:533][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pallet_001A4_Blueprint]
+[2020.03.09-14.44.50:568][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A4_Blueprint_Auto2C51486B040C87BDF16D73FB432B93650.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Pallet_001A4_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:570][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Pallet_001A4_Blueprint3_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:570][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pallet_001A4_Blueprint3_Blueprint]
+[2020.03.09-14.44.50:604][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A4_Blueprint3_BlueprinCEC1B44848761DEEC87CE4A254B96F57.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Pallet_001A4_Blueprint3_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:606][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Pallet_001A4_Blueprint3_Blueprint5_Blueprint] ([1] browsable assets)...
+[2020.03.09-14.44.50:606][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pallet_001A4_Blueprint3_Blueprint5_Blueprint]
+[2020.03.09-14.44.50:649][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Pallet_001A4_Blueprint3_Blueprin8A751CC440F2A3EA12C5258B0F706872.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Pallet_001A4_Blueprint3_Blueprint5_Blueprint_Auto2.uasset'
+[2020.03.09-14.44.50:650][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Bottle_001A] ([1] browsable assets)...
+[2020.03.09-14.44.50:662][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Bottle_001A.Bottle_001A]
+[2020.03.09-14.44.50:662][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Bottle_001A]
+[2020.03.09-14.44.50:702][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Bottle_001A_Auto216DE037C4D3588F7BC4D908EC47D7C5A.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Bottle_001A_Auto2.uasset'
+[2020.03.09-14.44.50:704][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Can_001A] ([1] browsable assets)...
+[2020.03.09-14.44.50:715][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Can_001A.Can_001A]
+[2020.03.09-14.44.50:715][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Can_001A]
+[2020.03.09-14.44.50:751][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Can_001A_Auto23F5F8DB44510D231EC97AF9B8FF8B48D.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Can_001A_Auto2.uasset'
+[2020.03.09-14.44.50:753][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Can_001B] ([1] browsable assets)...
+[2020.03.09-14.44.50:764][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Can_001B.Can_001B]
+[2020.03.09-14.44.50:764][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Can_001B]
+[2020.03.09-14.44.50:798][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Can_001B_Auto20B48C1454AC94F0E01F65A94A0007CF5.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Can_001B_Auto2.uasset'
+[2020.03.09-14.44.50:800][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trash/Rings_001A] ([1] browsable assets)...
+[2020.03.09-14.44.50:811][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trash/Rings_001A.Rings_001A]
+[2020.03.09-14.44.50:811][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trash/Rings_001A]
+[2020.03.09-14.44.50:850][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Rings_001A_Auto2030E41F740A7F7F3870A7B9860F35F6E.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Trash/Rings_001A_Auto2.uasset'
+[2020.03.09-14.44.50:852][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001D] ([1] browsable assets)...
+[2020.03.09-14.44.50:864][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001D.Window_001D]
+[2020.03.09-14.44.50:864][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001D]
+[2020.03.09-14.44.50:899][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001D_Auto294FC5454465FE90C82CC9994D1CBECC9.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001D_Auto2.uasset'
+[2020.03.09-14.44.50:901][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001I] ([1] browsable assets)...
+[2020.03.09-14.44.50:912][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001I.Window_001I]
+[2020.03.09-14.44.50:912][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001I]
+[2020.03.09-14.44.50:946][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001I_Auto27D8FA6444398DA0CF0D43F8B099E4211.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001I_Auto2.uasset'
+[2020.03.09-14.44.50:948][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001J] ([1] browsable assets)...
+[2020.03.09-14.44.50:960][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001J.Window_001J]
+[2020.03.09-14.44.50:960][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001J]
+[2020.03.09-14.44.50:994][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001J_Auto27B0B4E254E4FBEA41B52419848A4FDC8.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001J_Auto2.uasset'
+[2020.03.09-14.44.50:996][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Windows/Window_001M] ([1] browsable assets)...
+[2020.03.09-14.44.51:007][188]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Windows/Window_001M.Window_001M]
+[2020.03.09-14.44.51:007][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Windows/Window_001M]
+[2020.03.09-14.44.51:042][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Window_001M_Auto21A331B5B46603C3485AE54B501282964.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Windows/Window_001M_Auto2.uasset'
+[2020.03.09-14.44.51:044][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Dock_low02_Material__0_BaseColor] ([1] browsable assets)...
+[2020.03.09-14.44.51:052][188]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Dock/Dock_low02_Material__0_BaseColor.Dock_low02_Material__0_BaseColor]
+[2020.03.09-14.44.51:052][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Dock_low02_Material__0_BaseColor]
+[2020.03.09-14.44.51:076][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Dock_low02_Material__0_BaseColor0DCA12DF438F12341B52E39DD303C2DD.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Dock_low02_Material__0_BaseColor_Auto2.uasset'
+[2020.03.09-14.44.51:078][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Dock/Dock_low02_Material__0_Normal] ([1] browsable assets)...
+[2020.03.09-14.44.51:088][188]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Dock/Dock_low02_Material__0_Normal.Dock_low02_Material__0_Normal]
+[2020.03.09-14.44.51:089][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dock/Dock_low02_Material__0_Normal]
+[2020.03.09-14.44.51:112][188]LogSavePackage: Moving '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Dock_low02_Material__0_Normal_AuB753BC6C4BB1833E8D439F929A1587F7.tmp' to '../../../../../../Users/hlee2/Desktop/Thesis/Project/PollutionProject/SeniorProject/Saved/Autosaves/Game/Assets/Dock/Dock_low02_Material__0_Normal_Auto2.uasset'
+[2020.03.09-14.44.51:113][188]LogFileHelpers: Auto-saving content packages took 1.674
+[2020.03.09-14.44.52:405][213]LogEditorViewport: Clicking on Actor (LMB): Bucket_001A5_Blueprint_C (Bucket_001A5_Blueprint10)
+[2020.03.09-14.44.55:428][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.45.01:770][600]LogAssetEditorManager: Opening Asset editor for Material /Game/Assets/structure/08_-_Default.08_-_Default
+[2020.03.09-14.45.01:773][600]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2020.03.09-14.45.01:902][600]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2020.03.09-14.45.01:919][600]LogMaterial: Display: Missing cached shader map for material 08_-_Default, compiling. 
+[2020.03.09-14.45.01:938][600]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.45.01:965][600]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.03.09-14.45.02:925][622]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.45.04:953][689]MaterialEditorStats: Base pass shader: 109 instructions
+[2020.03.09-14.45.04:953][689]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2020.03.09-14.45.04:953][689]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.03.09-14.45.04:953][689]MaterialEditorStats: Texture samplers: 3/16
+[2020.03.09-14.45.05:307][722]LogSlate: Window '08_-_Default' being destroyed
+[2020.03.09-14.45.05:313][722]LogSlate: Window '08_-_Default' being destroyed
+[2020.03.09-14.45.07:501][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.03.09-14.45.10:909][958]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.45.22:943][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.03.09-14.45.26:394][374]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.45.36:759][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.03.09-14.45.57:862][544]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.46.11:997][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.03.09-14.46.17:781][179]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.46.37:830][255]LogEditorViewport: Clicking on Actor (LMB): Bucket_001A5_Blueprint_C (Bucket_001A5_Blueprint7)
+[2020.03.09-14.46.43:081][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.09-14.46.46:914][441]LogAssetEditorManager: Opening Asset editor for Material /Game/Geometry/Meshes/01_-_Default.01_-_Default
+[2020.03.09-14.46.46:919][441]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.03.09-14.46.47:100][441]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.03.09-14.46.47:146][441]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2020.03.09-14.46.47:218][441]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.03.09-14.46.48:105][452]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.03.09-14.46.49:498][471]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.03.09-14.46.50:757][491]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.03.09-14.46.51:579][517]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.03.09-14.46.52:745][558]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.09-14.46.53:575][592]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.09-14.46.55:196][657]MaterialEditorStats: Base pass shader: 109 instructions
+[2020.03.09-14.46.55:196][657]MaterialEditorStats: Base pass shader with Surface Lightmap: 137 instructions
+[2020.03.09-14.46.55:196][657]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2020.03.09-14.46.55:196][657]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.03.09-14.46.55:196][657]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2020.03.09-14.46.55:196][657]MaterialEditorStats: Texture samplers: 3/16
+[2020.03.09-14.46.56:737][802]LogSlate: Window '01_-_Default' being destroyed
+[2020.03.09-14.46.56:743][802]LogSlate: Window '01_-_Default' being destroyed
+[2020.03.09-14.46.58:566][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.03.09-14.47.03:440][996]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.09-14.47.03:443][996]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Geometry/Meshes/01_-_Default.01_-_Default
+[2020.03.09-14.47.11:199][996]LogMaterial: Warning: Material /Game/Assets/LowPolyAssets/Material__0.Material__0 needed to have new flag set bUsedWithStaticLighting !
+[2020.03.09-14.47.11:205][996]LogMaterial: Display: Missing cached shader map for material Material__0, compiling. 
+[2020.03.09-15.02.35:929][996]LogD3D11RHI: Error: Device->CreateBuffer(&Desc, NULL, UniformBufferResource.GetInitReference()) failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11UniformBuffer.cpp:149 
+ with error E_OUTOFMEMORY
+[2020.03.09-15.02.41:200][996]LogConsoleResponse:     74 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap
+[2020.03.09-15.02.41:201][996]LogConsoleResponse:     44 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap
+[2020.03.09-15.02.41:201][996]LogConsoleResponse:     79 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap
+[2020.03.09-15.02.41:201][996]LogConsoleResponse:     82 = 22156 KB (3D 191x116x128 PF_FloatRGBA RT UAV) LightScattering
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:     32 = 13752 KB (2D 1524x924 PF_DepthStencil 4xMSAA) EditorPrimitivesDepth unused(209)
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:     85 = 11002 KB (2D 1524x924 PF_B8G8R8A8 RT 4xMSAA) EditorPrimitivesColor unused(209)
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:    128 = 11002 KB (2D 1524x924 PF_FloatRGBA RT UAV VRam) DOFRecombine unused(511) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:     66 = 11002 KB (2D 1524x924 PF_FloatRGBA RT UAV VRam) SceneColor VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:     30 = 11002 KB (2D 1524x924 PF_FloatRGBA RT UAV) LightAccumulation
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:     69 = 11002 KB (2D 1524x924 PF_FloatRGBA RT VRam) BokehDOFRecombine unused(1) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:    127 = 11002 KB (2D 1524x924 PF_FloatRGBA RT) ScreenSpaceReflections unused(209)
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:     45 = 11002 KB (2D 1524x924 PF_FloatRGBA RT) SeparateTranslucency unused(1)
+[2020.03.09-15.02.41:202][996]LogConsoleResponse:    124 = 11002 KB (2D 1524x924 PF_FloatRGBA RT) SSRTemporalAA
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     75 = 11002 KB (2D 1524x924 PF_FloatRGBA RT) TemporalAA
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    132 = 11002 KB (2D 1524x924 PF_FloatRGBA RT) TemporalAA unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     91 = 11002 KB (2D 1524x924 PF_FloatRGBA RT) TemporalAA unused(209)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     20 = 6876 KB (2D 1524x924 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    114 = 5501 KB (2D 1524x924 PF_A2B10G10R10 RT) GBufferA
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    111 = 5501 KB (2D 1524x924 PF_B8G8R8A8 RT sRGB) GBufferC
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     87 = 5501 KB (2D 1524x924 PF_B8G8R8A8 RT VRam) GBufferE VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     89 = 5501 KB (2D 1524x924 PF_B8G8R8A8 RT VRam) LightAttenuation VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     41 = 5501 KB (2D 1524x924 PF_B8G8R8A8 RT VRam) Tonemap VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     76 = 5501 KB (2D 1524x924 PF_B8G8R8A8 RT) GBufferD
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    102 = 5501 KB (2D 1524x924 PF_G16R16 RT) Velocity unused(209)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     34 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField0
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    136 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField0 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     36 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    138 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField1 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     38 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    140 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField2 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     40 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    142 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) GlobalDistanceField3 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     33 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField0
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    135 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField0 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     35 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField1
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    137 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField1 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     37 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    139 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField2 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     39 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    141 = 4096 KB (3D 128x128x128 PF_R16F RT UAV) MostlyStaticGlobalDistanceField3 unused(194)
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     21 = 3438 KB (2D 762x462 PF_DepthStencil) SmallDepthZ
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     31 = 2751 KB (2D 1524x462 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     29 = 2751 KB (2D 1524x924 PF_R8G8 RT) DirectionalOcclusion
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    134 = 2751 KB (2D 762x462 PF_FloatRGBA RT UAV VRam) DistanceFieldAOHistory unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    126 = 2751 KB (2D 762x462 PF_FloatRGBA RT UAV VRam) DistanceFieldBentNormalAO unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     95 = 2751 KB (2D 762x462 PF_FloatRGBA RT UAV VRam) DistanceFieldNormal unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     70 = 2751 KB (2D 762x462 PF_FloatRGBA RT UAV VRam) DOFTemporalAA VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     78 = 2751 KB (2D 762x462 PF_FloatRGBA RT UAV) DistanceFieldBentNormalAO
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:    101 = 2751 KB (2D 762x462 PF_FloatRGBA RT VRam) AmbientOcclusionSetup unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:203][996]LogConsoleResponse:     23 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     25 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     27 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     24 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     26 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     28 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     90 = 2048 KB (Cube[2] 128 PF_FloatRGBA) ReflectionEnvs
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     22 = 1376 KB (2D 1524x924 PF_G8 RT UAV) ScreenSpaceAO
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    100 = 1376 KB (2D 762x462 PF_B8G8R8A8 RT VRam) AmbientOcclusion unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     46 = 1376 KB (2D 762x462 PF_FloatRGB RT) BloomBlurX
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     43 = 1376 KB (2D 762x462 PF_FloatRGB RT) BloomBlurY
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    125 = 1376 KB (2D 762x462 PF_G16R16F RT UAV VRam) RayTracedShadows unused(511) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    115 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap0
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    116 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap1
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    130 = 688 KB (2D 381x231 PF_FloatRGBA RT VRam) LensBlur unused(511) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    107 = 633 KB (2D 360x360 PF_DepthStencil) RSMDepth unused(209)
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    108 = 507 KB (2D 360x360 PF_FloatR11G11B10 RT) RSMDiffuse unused(209)
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    109 = 507 KB (2D 360x360 PF_R8G8B8A8 RT) RSMNormal unused(209)
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     65 = 344 KB (2D 381x231 PF_FloatRGB RT) BloomBlurX
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     64 = 344 KB (2D 381x231 PF_FloatRGB RT) BloomBlurY
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    129 = 344 KB (2D 381x231 PF_FloatRGB RT) BloomBlurY unused(511)
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    144 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A0 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     47 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A0 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    145 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A1 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     48 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A1 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    146 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A2 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     49 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A2 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    133 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A3 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     50 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A3 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    123 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A4 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     51 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A4 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    122 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A5 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     52 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A5 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    121 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A6 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     53 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_A6 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    120 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B0 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     54 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B0 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    110 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B1 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     55 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B1 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    106 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B2 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     56 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B2 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    105 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B3 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     57 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B3 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    104 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B4 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     58 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B4 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    103 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B5 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     59 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B5 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     99 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B6 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     60 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_B6 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     98 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_GV0 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     61 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_GV0 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     94 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_GV1 unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     62 = 256 KB (3D 32x32x32 PF_FloatRGBA UAV VRam) LPV_GV1 VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     93 = 171 KB (2D 190x115 PF_FloatRGBA RT UAV VRam) DownsampledBentNormal unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     67 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs unused(318) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     42 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    112 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     88 = 87 KB (2D 191x116 PF_FloatRGB RT VRam) BloomBlurX VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     71 = 87 KB (2D 191x116 PF_FloatRGB RT) BloomBlurY
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:    143 = 86 KB (2D 256x128 PF_R16F RT VRam) HZB unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:204][996]LogConsoleResponse:     10 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:    117 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap0
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:    118 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap1
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     68 = 32 KB (2D 64x64 PF_A16B16G16R16) SSProfiles
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     18 = 32 KB (2D 64x64 PF_FloatRGBA VRam) LTCMat VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     92 = 32 KB (3D 32x32x32 PF_G8 UAV VRam) LPVAOVolume unused(194) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     63 = 32 KB (3D 32x32x32 PF_G8 UAV VRam) LPVAOVolume VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     84 = 23 KB (2D 16x180 PF_FloatRGBA RT UAV VRam) Histogram unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     86 = 22 KB (2D 96x58 PF_FloatRGB RT VRam) BloomBlurX VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     83 = 22 KB (2D 96x58 PF_FloatRGB RT) BloomBlurY
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     17 = 16 KB (2D 128x32 PF_G16R16) PreintegratedGF
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     19 = 16 KB (2D 64x64 PF_G16R16F VRam) LTCAmp VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     15 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     16 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     77 = 6 KB (2D 48x29 PF_FloatRGB RT VRam) BloomBlurY VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:    113 = 3 KB (2D 24x29 PF_FloatRGB RT) BloomBlurX
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     72 = 2 KB (2D 24x15 PF_FloatRGB RT VRam) BloomBlurY VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     73 = 1 KB (2D 12x15 PF_FloatRGB RT) BloomBlurX
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     81 = 1 KB (2D 16x2 PF_A32B32G32R32F RT VRam) HistogramReduce unused(209) VRamInKB(Start/Size):<NONE>
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     97 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     96 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     80 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation unused(194)
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:    131 = 1 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation unused(194)
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     11 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     13 = 1 KB (2D 32x16 PF_R16_UINT) SobolSampling
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:    119 = 1 KB (2D 9x1 PF_FloatRGBA RT) SkySHIrradianceMap
+[2020.03.09-15.02.41:205][996]LogConsoleResponse:     14 = 1 KB (3D 1x1x1 PF_B8G8R8A8 RT) VolumetricBlackDummy
+[2020.03.09-15.02.41:205][996]LogConsoleResponse: 
+[2020.03.09-15.02.41:205][996]LogConsoleResponse: Pool: 141/395 MB (referenced/allocated)
+[2020.03.09-15.02.41:206][996]Cmd: rhi.DumpMemory
+[2020.03.09-15.02.41:290][996]RHI resource memory (not tracked by our allocator)
+[2020.03.09-15.02.41:290][996]         2228160  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]       133914628  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]      3310165024  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]        30312144  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]       204429544  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]        95485428  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]      2999192613  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]        50221648  -  Structured buffer memory - STAT_StructuredBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]       708769514  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:290][996]        22052462  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+[2020.03.09-15.02.41:291][996]7206.699MB total
+[2020.03.09-15.02.41:293][996]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.03.09-15.02.41:307][996]Log file closed, 03/09/20 11:02:41
