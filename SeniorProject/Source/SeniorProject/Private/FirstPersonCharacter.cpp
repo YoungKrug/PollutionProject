@@ -39,7 +39,7 @@ void AFirstPersonCharacter::BeginPlay()
 	FString test;
 	// Make sure you make this game instance in editor equal to your own game instance in code
 	GI = Cast<UMyGameInstance>(GetGameInstance());
-	GI->canPlayerMove = false;
+	//GI->canPlayerMove = false;
 	blur = GI->blur;
 	orgTimeDilation = GetActorTimeDilation();
 	//GI->canDisplayTest = true;
