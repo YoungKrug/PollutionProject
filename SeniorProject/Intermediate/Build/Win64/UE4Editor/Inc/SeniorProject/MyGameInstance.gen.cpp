@@ -17,14 +17,122 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	SENIORPROJECT_API UClass* Z_Construct_UClass_UMyGameInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
 	UPackage* Z_Construct_UPackage__Script_SeniorProject();
-	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_Ending();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_SetTextVariables();
 	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UBackgroundBlur_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
 	void UMyGameInstance::StaticRegisterNativesUMyGameInstance()
 	{
+		UClass* Class = UMyGameInstance::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Ending", &UMyGameInstance::execEnding },
+			{ "SetTextVariables", &UMyGameInstance::execSetTextVariables },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_Ending_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_Ending_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameInstance" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_Ending_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "Ending", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_Ending_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_Ending_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_Ending()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_Ending_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics
+	{
+		struct MyGameInstance_eventSetTextVariables_Parms
+		{
+			UTextBlock* Ucreators;
+			UTextBlock* UendingText;
+			UTextBlock* UscriptText;
+			UTextBlock* UvoiceActorsText;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UvoiceActorsText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UvoiceActorsText;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UscriptText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UscriptText;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UendingText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_UendingText;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ucreators_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Ucreators;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UvoiceActorsText_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UvoiceActorsText = { "UvoiceActorsText", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventSetTextVariables_Parms, UvoiceActorsText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UvoiceActorsText_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UvoiceActorsText_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UscriptText_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UscriptText = { "UscriptText", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventSetTextVariables_Parms, UscriptText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UscriptText_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UscriptText_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UendingText_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UendingText = { "UendingText", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventSetTextVariables_Parms, UendingText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UendingText_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UendingText_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_Ucreators_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_Ucreators = { "Ucreators", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventSetTextVariables_Parms, Ucreators), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_Ucreators_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_Ucreators_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UvoiceActorsText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UscriptText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_UendingText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::NewProp_Ucreators,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameInstance" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "SetTextVariables", sizeof(MyGameInstance_eventSetTextVariables_Parms), Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_SetTextVariables()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_SetTextVariables_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UMyGameInstance_NoRegister()
 	{
@@ -33,9 +141,26 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	struct Z_Construct_UClass_UMyGameInstance_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_voiceActorsText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_voiceActorsText;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_scriptText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_scriptText;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_endingText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_endingText;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_creators_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_creators;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_exitButton_MetaData[];
 #endif
@@ -212,12 +337,48 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		(UObject* (*)())Z_Construct_UClass_UGameInstance,
 		(UObject* (*)())Z_Construct_UPackage__Script_SeniorProject,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UMyGameInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMyGameInstance_Ending, "Ending" }, // 2171921448
+		{ &Z_Construct_UFunction_UMyGameInstance_SetTextVariables, "SetTextVariables" }, // 1957380951
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "MyGameInstance.h" },
 		{ "ModuleRelativePath", "MyGameInstance.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_voiceActorsText_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_voiceActorsText = { "voiceActorsText", nullptr, (EPropertyFlags)0x001000000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, voiceActorsText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_voiceActorsText_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_voiceActorsText_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_scriptText_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_scriptText = { "scriptText", nullptr, (EPropertyFlags)0x001000000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, scriptText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_scriptText_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_scriptText_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_endingText_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_endingText = { "endingText", nullptr, (EPropertyFlags)0x001000000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, endingText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_endingText_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_endingText_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_creators_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_creators = { "creators", nullptr, (EPropertyFlags)0x001000000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, creators), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_creators_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_creators_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_exitButton_MetaData[] = {
 		{ "Category", "MyGameInstance" },
@@ -573,6 +734,10 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro = { "isIntro", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyGameInstance), &Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyGameInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_voiceActorsText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_scriptText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_endingText,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_creators,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_exitButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_prevButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_continueButton,
@@ -618,11 +783,11 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_UMyGameInstance_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::PropPointers),
 		0,
 		0x009000A8u,
@@ -637,7 +802,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 2997803166);
+	IMPLEMENT_CLASS(UMyGameInstance, 304967848);
 	template<> SENIORPROJECT_API UClass* StaticClass<UMyGameInstance>()
 	{
 		return UMyGameInstance::StaticClass();

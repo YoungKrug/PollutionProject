@@ -8,13 +8,58 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UTextBlock;
 #ifdef SENIORPROJECT_MyGameInstance_generated_h
 #error "MyGameInstance.generated.h already included, missing '#pragma once' in MyGameInstance.h"
 #endif
 #define SENIORPROJECT_MyGameInstance_generated_h
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execEnding) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Ending(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetTextVariables) \
+	{ \
+		P_GET_OBJECT(UTextBlock,Z_Param_Ucreators); \
+		P_GET_OBJECT(UTextBlock,Z_Param_UendingText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_UscriptText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_UvoiceActorsText); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTextVariables(Z_Param_Ucreators,Z_Param_UendingText,Z_Param_UscriptText,Z_Param_UvoiceActorsText); \
+		P_NATIVE_END; \
+	}
+
+
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEnding) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Ending(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetTextVariables) \
+	{ \
+		P_GET_OBJECT(UTextBlock,Z_Param_Ucreators); \
+		P_GET_OBJECT(UTextBlock,Z_Param_UendingText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_UscriptText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_UvoiceActorsText); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTextVariables(Z_Param_Ucreators,Z_Param_UendingText,Z_Param_UscriptText,Z_Param_UvoiceActorsText); \
+		P_NATIVE_END; \
+	}
+
+
 #define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \

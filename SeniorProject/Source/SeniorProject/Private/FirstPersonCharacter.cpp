@@ -667,6 +667,10 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			{
 				isLadderDown = true;
 			}
+			if (name[i] == "Ending")
+			{
+				GI->Ending();
+			}
 		}
 	}
 }
@@ -705,6 +709,7 @@ void AFirstPersonCharacter::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AA
 			{
 				isLadderDown = false;
 			}
+
 		}
 	}
 }

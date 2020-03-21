@@ -20,6 +20,10 @@ public:
 			//newGI = NewObject<UMyGameInstance>(this, "game instance");
 
 	}
+	UFUNCTION(BlueprintCallable, Category = "GameInstance")
+	void SetTextVariables(UTextBlock* Ucreators, UTextBlock* UendingText, UTextBlock* UscriptText, UTextBlock* UvoiceActorsText);
+	UFUNCTION(BlueprintCallable, Category = "GameInstance")
+	void Ending();
 	//static UMyGameInstance* newGI;
 	//void ResetString(FString& x);
 	// variables that need to be accessable by blueprint so they can work with UI
@@ -95,5 +99,13 @@ public:
 	UImage* prevButton;
 	UPROPERTY(BlueprintReadWrite)
 	UImage* exitButton;
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* creators;
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* endingText; 
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* scriptText; 
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* voiceActorsText;
 
 };
