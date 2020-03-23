@@ -218,8 +218,10 @@ void AFirstPersonCharacter::JumpUpward()
 	if (GI->canJumped)
 	{
 		Jump();
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Jumping"));
 	}
-	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Jumping"));
+	else
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Not Jumping"));
 }
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
