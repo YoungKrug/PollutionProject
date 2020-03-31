@@ -160,4 +160,6 @@ private:
 	TArray<int> newsPaperNums;
 	float currentPaperNum;
 	float orgTimeDilation;
+	bool isAtEnd;
+	
 };

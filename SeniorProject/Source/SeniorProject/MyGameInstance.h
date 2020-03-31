@@ -107,5 +107,9 @@ public:
 	UTextBlock* scriptText; 
 	UPROPERTY(BlueprintReadWrite)
 	UTextBlock* voiceActorsText;
+	UPROPERTY(BlueprintReadWrite)
+	bool isFinished;
+	UPROPERTY(BlueprintReadWrite)
+	bool isCurrentlyPaused;
 
 };

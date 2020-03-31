@@ -42,54 +42,73 @@ void ADoYouCopySystem::BeginPlay()
 void ADoYouCopySystem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	timer += DeltaTime;
-	bool close;
-	if (!isPlaying)
+	isPaused = GI->isCurrentlyPaused;
+	if (isPaused)
 	{
-		close = isClose();
-		GI->canStartSubs = false;
-		ResetSubs();
+		audio->SetPaused(true);
+		stopPause = true;
 	}
-
-	if (isUpdatingSubs && subTime <= timer)
-	{ 
-		UpdateSubs(subIncr);
-		subIncr++;
-		subTime = timer + add;
-	}
-
-	if (close || isPlaying)
+	if (!isPaused)
 	{
-		if (!audioIsPlaying)
+		if(stopPause)
 		{
-			PlaySequence(timer);
-			//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Playing"));
-			close = false;
+			stopPause = false;
+			audio->SetPaused(false);
 		}
-		if (isPlaying && timer >= audioDur)
+		timer += DeltaTime; // have to freeze
+		bool close;
+		if (!isPlaying)
 		{
-			audioIsPlaying = false;
-			audio->Stop();
-			TArray<FAudioInformation> audio = dial[narrationNum].audio;
-			int audioCount = audio.Num();
+			close = isClose();
+			GI->canStartSubs = false;
 			ResetSubs();
-			if (audioCount - 1 > audioCounter)
+		}
+
+		if (isUpdatingSubs && subTime <= timer)
+		{
+			UpdateSubs(subIncr);
+			subIncr++;
+			subTime = timer + add;
+		}
+
+		if (close || isPlaying)
+		{
+			if (!audioIsPlaying)
 			{
-				audioCounter++;		
-
-				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
-
+				PlaySequence(timer);
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Playing"));
+				close = false;
 			}
-			else
+			if (isPlaying && timer >= audioDur)
 			{
-				audioCounter = 0;
-				RemovePoint();
-				isPlaying = false;
-				ResetBools(dial[narrationNum].audio[audioCounter]);
+				audioIsPlaying = false;
+				audio->Stop();
+				TArray<FAudioInformation> audio = dial[narrationNum].audio;
+				int audioCount = audio.Num();
 				ResetSubs();
+				if (audioCount - 1 > audioCounter)
+				{
+					audioCounter++;
+
+					//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
+
+				}
+				else
+				{
+					if (narrationNum == dial.Num() - 1) // if its the last one
+					{
+						GI->isAtEnd = true;
+					}
+					audioCounter = 0;
+					RemovePoint();
+					isPlaying = false;
+					ResetBools(dial[narrationNum].audio[audioCounter]);
+					ResetSubs();
+				}
 			}
 		}
 	}
+	
 }
 //O(n^2) make it O(N) if it lags but we are only dealing with less then 100 items so it shouldnt matter that much
 bool ADoYouCopySystem::isClose()
@@ -121,7 +140,7 @@ bool ADoYouCopySystem::isClose()
 	//FString s = arr[0].gameObject->GetName();
 	//FText text = arr[0].gameObject->GetName().GetCharArray();
 	//UE_LOG(LogExec, Warning, TEXT();
-	if (arr[0].distance < dist || GI->currentlyCollidingObj != nullptr && GI->currentlyCollidingObj == arr[0].gameObject)
+	if (arr[0].distance < dist || GI->currentlyCollidingObj != nullptr && GI->currentlyCollidingObj == arr[0].gameObject) // I am currently colliding with this object and I am close
 	{
 		narrationNum = arr[0].narrationNum;
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(narrationNum));

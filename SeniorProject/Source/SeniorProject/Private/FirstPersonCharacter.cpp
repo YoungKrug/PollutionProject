@@ -100,6 +100,10 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 		isWaitingForRecorder = false;
 		GI->canPlayerMove = false;
 	}
+	if (isAtEnd && GI->isAtEnd)
+	{
+		GI->Ending();
+	}
 }
 FString AFirstPersonCharacter::StartRayCast()
 {
@@ -427,6 +431,7 @@ void AFirstPersonCharacter::ExitNewsPaper()
 	interactableObjectsOrgPos.Empty();
 	currentlyInteracting.Empty();
 	isReading = false;
+	GI->isCurrentlyPaused = false;
 }
 void AFirstPersonCharacter::SetTextForNewPaper(int num)
 {
@@ -531,6 +536,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			GetNumbers();
 			SetBlur(GI->blur, true);
 			isReading = true;
+			GI->isCurrentlyPaused = true;
 			return;
 		}
 		else if (str == "Interactable")
@@ -671,7 +677,9 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			}
 			if (name[i] == "Ending")
 			{
-				GI->Ending();
+				isAtEnd = true;
+				GI->canPlayerMove = true;
+				//GI->Ending();
 			}
 		}
 	}

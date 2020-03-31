@@ -65,4 +65,6 @@ private:
 	float subTime;
 	int subIncr = 0;
 	float add;
+	bool isPaused;
+	bool stopPause;
 };
