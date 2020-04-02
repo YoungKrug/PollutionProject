@@ -17,6 +17,7 @@
 #include "UMG/Public/Components/TextBlock.h"
 #include "UMG/Public/Components/Image.h"
 #include <typeinfo>
+#include "Components/StaticMeshComponent.h"
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -42,6 +43,17 @@ void AFirstPersonCharacter::BeginPlay()
 	//GI->canPlayerMove = false;
 	blur = GI->blur;
 	orgTimeDilation = GetActorTimeDilation();
+	TArray<AActor*> childs;
+	//GetAttachedActors(childs);
+	// Current set of components to check
+	TArray<UStaticMeshComponent*> staticComps;
+	GetComponents<UStaticMeshComponent>(staticComps);
+	for (int i = 0; i < staticComps.Num(); i++)
+	{
+		if (staticComps[i]->GetName() == "NewsPaperLoc")
+			newsPaperLoc = staticComps[i];
+	}
+
 	//GI->canDisplayTest = true;
 	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
@@ -422,11 +434,12 @@ void AFirstPersonCharacter::ExitNewsPaper()
 	{
 		currentlyInteracting[i]->DetachRootComponentFromParent();
 		currentlyInteracting[i]->SetActorLocationAndRotation(interactableObjectsOrgPos[i], interactableObjectsOrgRot[i]);
+		currentlyInteracting[i]->SetActorHiddenInGame(false);
 		currentlyInteracting[i] = nullptr;
 
 	}
 	GI->canPlayerMove = false;
-	
+	newsPaperLoc->SetVisibility(false);
 	GI->currentTextBlock->SetText(FText::FromString(FString::FString("")));
 	interactableObjectsOrgPos.Empty();
 	currentlyInteracting.Empty();
@@ -528,6 +541,8 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 					act->SetActorLocation(newPos);
 					rot.RotateVector(FVector(0, 0, 90.f));
 					act->SetActorRotation(FRotator(0, 90.f, 0));
+					act->SetActorHiddenInGame(true);
+					newsPaperLoc->SetVisibility(true);
 					currentlyInteracting.Add(act);
 					GI->canPlayerMove = true;
 					//GI->canPlayerRotate = true;

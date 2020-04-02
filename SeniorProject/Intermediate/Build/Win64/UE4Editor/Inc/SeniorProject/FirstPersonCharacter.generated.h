@@ -486,7 +486,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFirstPersonCharacter); \
 	FORCEINLINE static uint32 __PPO__phoneTimer() { return STRUCT_OFFSET(AFirstPersonCharacter, phoneTimer); } \
 	FORCEINLINE static uint32 __PPO__cellPhoneSound() { return STRUCT_OFFSET(AFirstPersonCharacter, cellPhoneSound); } \
 	FORCEINLINE static uint32 __PPO__recorderSound() { return STRUCT_OFFSET(AFirstPersonCharacter, recorderSound); } \
-	FORCEINLINE static uint32 __PPO__newsPaperTexts() { return STRUCT_OFFSET(AFirstPersonCharacter, newsPaperTexts); }
+	FORCEINLINE static uint32 __PPO__newsPaperTexts() { return STRUCT_OFFSET(AFirstPersonCharacter, newsPaperTexts); } \
+	FORCEINLINE static uint32 __PPO__newsPaperLoc() { return STRUCT_OFFSET(AFirstPersonCharacter, newsPaperLoc); }
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_13_PROLOG

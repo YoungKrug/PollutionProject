@@ -157,6 +157,8 @@ private:
 	bool isReading;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	TArray<FText> newsPaperTexts;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	UStaticMeshComponent* newsPaperLoc;
 	TArray<int> newsPaperNums;
 	float currentPaperNum;
 	float orgTimeDilation;

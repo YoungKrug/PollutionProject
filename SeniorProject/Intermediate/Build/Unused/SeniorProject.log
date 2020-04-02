@@ -2,36 +2,20 @@
   Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
   Parsing headers for SeniorProjectEditor
     Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 15.9882471 seconds
+  Reflection code generated for SeniorProjectEditor in 6.077395 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 11 actions with 8 processes...
-    [1/11] SeniorProject.init.gen.cpp
-    [2/11] ButtonInfo.cpp
-    [3/11] MyGameInstance.gen.cpp
-    [4/11] MyGameInstance.cpp
-    [5/11] DoYouCopySystem.gen.cpp
-    [6/11] FirstPersonCharacter.gen.cpp
-    [7/11] DoYouCopySystem.cpp
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(76): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(181): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(189): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(198): warning C4458: declaration of 'audio' hides class member
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(60): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(64): warning C4701: potentially uninitialized local variable 'close' used
-    [8/11] FirstPersonCharacter.cpp
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(310): warning C4456: declaration of 'i' hides previous local declaration
-    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(299): note: see declaration of 'i'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(375): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  Building 4 actions with 8 processes...
+    [1/4] FirstPersonCharacter.cpp
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(322): warning C4456: declaration of 'i' hides previous local declaration
+    E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(311): note: see declaration of 'i'
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(387): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
     C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1209): note: see declaration of 'AActor::DetachRootComponentFromParent'
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(423): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(435): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
     C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1209): note: see declaration of 'AActor::DetachRootComponentFromParent'
-    [9/11] UE4Editor-SeniorProject-0002.lib
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0002.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0002.exp
-    [10/11] UE4Editor-SeniorProject-0002.dll
-       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0002.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0002.suppressed.exp
-    [11/11] SeniorProjectEditor.target
-  Total time in Parallel executor: 22.73 seconds
-  Total execution time: 42.77 seconds
+    [2/4] UE4Editor-SeniorProject-0016.lib
+       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0016.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0016.exp
+    [3/4] UE4Editor-SeniorProject-0016.dll
+       Creating library E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0016.suppressed.lib and object E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0016.suppressed.exp
+    [4/4] SeniorProjectEditor.target
+  Total time in Parallel executor: 5.93 seconds
+  Total execution time: 14.49 seconds
