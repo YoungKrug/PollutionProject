@@ -47,6 +47,8 @@ private:
 	AActor* mainPlayer;//Player to use methods on
 	UPROPERTY(EditAnywhere, Category = "Dialogue")
 	TArray<FDialougeSystem> dial;
+	UPROPERTY(EditAnywhere, Category = "DoYouCopy")
+	bool stopSubs;
 	UPROPERTY(EditAnywhere)
 	float dist;
 	bool isPlaying;

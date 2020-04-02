@@ -87,6 +87,11 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_dist;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stopSubs_MetaData[];
+#endif
+		static void NewProp_stopSubs_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_stopSubs;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dial_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_dial;
@@ -135,6 +140,17 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist = { "dist", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADoYouCopySystem, dist), METADATA_PARAMS(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_stopSubs_MetaData[] = {
+		{ "Category", "DoYouCopy" },
+		{ "ModuleRelativePath", "DoYouCopySystem.h" },
+	};
+#endif
+	void Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_stopSubs_SetBit(void* Obj)
+	{
+		((ADoYouCopySystem*)Obj)->stopSubs = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_stopSubs = { "stopSubs", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ADoYouCopySystem), &Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_stopSubs_SetBit, METADATA_PARAMS(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_stopSubs_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_stopSubs_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dial_MetaData[] = {
 		{ "Category", "Dialogue" },
 		{ "ModuleRelativePath", "DoYouCopySystem.h" },
@@ -154,6 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_currentObject,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_audio,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dist,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_stopSubs,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_dial_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoYouCopySystem_Statics::NewProp_mainPlayer,
@@ -185,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeDoYouCopySystem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADoYouCopySystem, 208276883);
+	IMPLEMENT_CLASS(ADoYouCopySystem, 1547650517);
 	template<> SENIORPROJECT_API UClass* StaticClass<ADoYouCopySystem>()
 	{
 		return ADoYouCopySystem::StaticClass();

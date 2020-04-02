@@ -43,67 +43,70 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	isPaused = GI->isCurrentlyPaused;
-	if (isPaused)
+	if (!stopSubs) 
 	{
-		audio->SetPaused(true);
-		stopPause = true;
-	}
-	if (!isPaused)
-	{
-		if(stopPause)
+		if (isPaused)
 		{
-			stopPause = false;
-			audio->SetPaused(false);
+			audio->SetPaused(true);
+			stopPause = true;
 		}
-		timer += DeltaTime; // have to freeze
-		bool close;
-		if (!isPlaying)
+		if (!isPaused)
 		{
-			close = isClose();
-			GI->canStartSubs = false;
-			ResetSubs();
-		}
-
-		if (isUpdatingSubs && subTime <= timer)
-		{
-			UpdateSubs(subIncr);
-			subIncr++;
-			subTime = timer + add;
-		}
-
-		if (close || isPlaying)
-		{
-			if (!audioIsPlaying)
+			if (stopPause)
 			{
-				PlaySequence(timer);
-				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Playing"));
-				close = false;
+				stopPause = false;
+				audio->SetPaused(false);
 			}
-			if (isPlaying && timer >= audioDur)
+			timer += DeltaTime; // have to freeze
+			bool close;
+			if (!isPlaying)
 			{
-				audioIsPlaying = false;
-				audio->Stop();
-				TArray<FAudioInformation> audio = dial[narrationNum].audio;
-				int audioCount = audio.Num();
+				close = isClose();
+				GI->canStartSubs = false;
 				ResetSubs();
-				if (audioCount - 1 > audioCounter)
+			}
+
+			if (isUpdatingSubs && subTime <= timer)
+			{
+				UpdateSubs(subIncr);
+				subIncr++;
+				subTime = timer + add;
+			}
+
+			if (close || isPlaying)
+			{
+				if (!audioIsPlaying)
 				{
-					audioCounter++;
-
-					//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
-
+					PlaySequence(timer);
+					//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Playing"));
+					close = false;
 				}
-				else
+				if (isPlaying && timer >= audioDur)
 				{
-					if (narrationNum == dial.Num() - 1) // if its the last one
-					{
-						GI->isAtEnd = true;
-					}
-					audioCounter = 0;
-					RemovePoint();
-					isPlaying = false;
-					ResetBools(dial[narrationNum].audio[audioCounter]);
+					audioIsPlaying = false;
+					audio->Stop();
+					TArray<FAudioInformation> audio = dial[narrationNum].audio;
+					int audioCount = audio.Num();
 					ResetSubs();
+					if (audioCount - 1 > audioCounter)
+					{
+						audioCounter++;
+
+						//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
+
+					}
+					else
+					{
+						if (narrationNum == dial.Num() - 1) // if its the last one
+						{
+							GI->isAtEnd = true;
+						}
+						audioCounter = 0;
+						RemovePoint();
+						isPlaying = false;
+						ResetBools(dial[narrationNum].audio[audioCounter]);
+						ResetSubs();
+					}
 				}
 			}
 		}
