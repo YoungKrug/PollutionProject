@@ -393,6 +393,23 @@ void AFirstPersonCharacter::Interact()
 			GI->canPlayerMove = false;
 			return;
 		}
+		else if (currentlyInteracting[0]->ActorHasTag("FlashLight")) // I am grabbing the flash light
+		{
+			currentlyInteracting[0]->DetachRootComponentFromParent();
+			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
+			TArray<AActor*> children;
+			currentlyInteracting[0]->GetAllChildActors(children);
+			for (int i = 0; i < children.Num(); i++)
+			{
+					children[i]->SetActorHiddenInGame(true);
+			}
+			currentlyInteracting[0] = nullptr;
+			currentlyInteracting.Remove(0);
+			interactableObjectsOrgPos.RemoveAt(0);
+			interactableObjectsOrgRot.RemoveAt(0);
+			GI->canPlayerMove = false;
+			return;
+		}
 	}
 	FString test = "Interact";
 	//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
@@ -583,13 +600,33 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			interactableObjectsOrgRot.Add(act->GetActorRotation());
 			//float offset = i * 20.f;
 			act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
-			FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 30.f) + (GetActorUpVector() * 90.f);
+			FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 30.f) + (GetActorUpVector() * 50.f);
 			FQuat rot;
 			act->SetActorLocation(newPos);
 			rot.RotateVector(FVector(0, 0, 90.f));
 			act->SetActorRotation(FRotator(0, 70.f, 0));
 			currentlyInteracting.Add(act);
 			GI->canPlayerMove = true;
+		}
+		else if (str == "FlashLight")
+		{
+			interactableObjectsOrgPos.Add(act->GetActorLocation());
+			interactableObjectsOrgRot.Add(act->GetActorRotation());
+			//float offset = i * 20.f;
+			act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
+			FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 30.f) + (GetActorUpVector() * 50.f);
+			FQuat rot;
+			act->SetActorLocation(newPos);
+			rot.RotateVector(FVector(0, 0, 90.f));
+			act->SetActorRotation(FRotator(0, 70.f, 0));
+			currentlyInteracting.Add(act);
+			GI->canPlayerMove = true;
+			TArray<AActor*> children;
+			act->GetAllChildActors(children);
+			for (int i = 0; i < children.Num(); i++)
+			{
+					children[i]->SetActorHiddenInGame(false);
+			}
 		}
 	}
 }
