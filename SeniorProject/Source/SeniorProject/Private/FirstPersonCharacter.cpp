@@ -607,6 +607,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			act->SetActorRotation(FRotator(0, 70.f, 0));
 			currentlyInteracting.Add(act);
 			GI->canPlayerMove = true;
+			
 		}
 		else if (str == "FlashLight")
 		{
