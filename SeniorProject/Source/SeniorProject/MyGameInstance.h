@@ -24,6 +24,8 @@ public:
 	void SetTextVariables(UTextBlock* Ucreators, UTextBlock* UendingText, UTextBlock* UscriptText, UTextBlock* UvoiceActorsText);
 	UFUNCTION(BlueprintCallable, Category = "GameInstance")
 	void Ending();
+	UFUNCTION(BlueprintCallable, Category = "GameInstance")
+	void TurnOnLight(UChildActorComponent* child, bool visible);
 	//static UMyGameInstance* newGI;
 	//void ResetString(FString& x);
 	// variables that need to be accessable by blueprint so they can work with UI
@@ -111,5 +113,10 @@ public:
 	bool isFinished;
 	UPROPERTY(BlueprintReadWrite)
 	bool isCurrentlyPaused;
-
+	UPROPERTY(BlueprintReadWrite)
+	bool currentlyCarrying;
+	UPROPERTY(BlueprintReadWrite)
+	bool canPutDown;
+	UPROPERTY(BlueprintReadWrite)
+	UChildActorComponent* childLight;
 };

@@ -6,11 +6,10 @@
 #include "Camera/CameraActor.h"
 #include "GameFramework/Character.h"
 #include "Components/AudioComponent.h"
-#include "Animation/AnimSequence.h"
 #include "UMG/Public/Components/BackgroundBlur.h"
 #include "Components/SkeletalMeshComponent.h"
-#include "LevelSequence/Public/LevelSequence.h"
 #include "FirstPersonCharacter.generated.h" // If you regenerate the vs solution you are able to fix the generated body error
+
 UCLASS()
 class SENIORPROJECT_API AFirstPersonCharacter : public ACharacter
 {
@@ -160,10 +159,12 @@ private:
 	TArray<FText> newsPaperTexts;
 	UPROPERTY(EditAnywhere, Category = "Character Values")
 	UStaticMeshComponent* newsPaperLoc;
+	UPROPERTY(EditAnywhere, Category = "Character Values")
+	UStaticMeshComponent* interactiveLoc;
 	TArray<int> newsPaperNums;
 	float currentPaperNum;
 	float orgTimeDilation;
 	bool isAtEnd;
-	UMovieSceneSequence scene;
+	//UMovieSceneSequence scene;
 	
 };

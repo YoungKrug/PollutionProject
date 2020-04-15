@@ -20,6 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_Ending();
 	SENIORPROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_SetTextVariables();
 	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
+	SENIORPROJECT_API UFunction* Z_Construct_UFunction_UMyGameInstance_TurnOnLight();
+	ENGINE_API UClass* Z_Construct_UClass_UChildActorComponent_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UBackgroundBlur_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
@@ -31,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Ending", &UMyGameInstance::execEnding },
 			{ "SetTextVariables", &UMyGameInstance::execSetTextVariables },
+			{ "TurnOnLight", &UMyGameInstance::execTurnOnLight },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -134,6 +137,56 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics
+	{
+		struct MyGameInstance_eventTurnOnLight_Parms
+		{
+			UChildActorComponent* child;
+			bool visible;
+		};
+		static void NewProp_visible_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_visible;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_child_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_child;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_visible_SetBit(void* Obj)
+	{
+		((MyGameInstance_eventTurnOnLight_Parms*)Obj)->visible = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_visible = { "visible", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(MyGameInstance_eventTurnOnLight_Parms), &Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_visible_SetBit, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_child_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_child = { "child", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyGameInstance_eventTurnOnLight_Parms, child), Z_Construct_UClass_UChildActorComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_child_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_child_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_visible,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::NewProp_child,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameInstance" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMyGameInstance, nullptr, "TurnOnLight", sizeof(MyGameInstance_eventTurnOnLight_Parms), Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMyGameInstance_TurnOnLight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyGameInstance_TurnOnLight_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UMyGameInstance_NoRegister()
 	{
 		return UMyGameInstance::StaticClass();
@@ -145,6 +198,20 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_childLight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_childLight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_canPutDown_MetaData[];
+#endif
+		static void NewProp_canPutDown_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_canPutDown;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentlyCarrying_MetaData[];
+#endif
+		static void NewProp_currentlyCarrying_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_currentlyCarrying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isCurrentlyPaused_MetaData[];
 #endif
@@ -350,6 +417,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMyGameInstance_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMyGameInstance_Ending, "Ending" }, // 2171921448
 		{ &Z_Construct_UFunction_UMyGameInstance_SetTextVariables, "SetTextVariables" }, // 1957380951
+		{ &Z_Construct_UFunction_UMyGameInstance_TurnOnLight, "TurnOnLight" }, // 2958894066
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::Class_MetaDataParams[] = {
@@ -357,6 +425,36 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		{ "ModuleRelativePath", "MyGameInstance.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_childLight_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_childLight = { "childLight", nullptr, (EPropertyFlags)0x001000000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyGameInstance, childLight), Z_Construct_UClass_UChildActorComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_childLight_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_childLight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_canPutDown_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMyGameInstance_Statics::NewProp_canPutDown_SetBit(void* Obj)
+	{
+		((UMyGameInstance*)Obj)->canPutDown = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_canPutDown = { "canPutDown", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyGameInstance), &Z_Construct_UClass_UMyGameInstance_Statics::NewProp_canPutDown_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_canPutDown_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_canPutDown_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_currentlyCarrying_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMyGameInstance_Statics::NewProp_currentlyCarrying_SetBit(void* Obj)
+	{
+		((UMyGameInstance*)Obj)->currentlyCarrying = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_currentlyCarrying = { "currentlyCarrying", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyGameInstance), &Z_Construct_UClass_UMyGameInstance_Statics::NewProp_currentlyCarrying_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_currentlyCarrying_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_currentlyCarrying_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isCurrentlyPaused_MetaData[] = {
 		{ "Category", "MyGameInstance" },
@@ -766,6 +864,9 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro = { "isIntro", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyGameInstance), &Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyGameInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_childLight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_canPutDown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_currentlyCarrying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isCurrentlyPaused,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isFinished,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_voiceActorsText,
@@ -836,7 +937,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 3324670093);
+	IMPLEMENT_CLASS(UMyGameInstance, 3651699381);
 	template<> SENIORPROJECT_API UClass* StaticClass<UMyGameInstance>()
 	{
 		return UMyGameInstance::StaticClass();

@@ -2,7 +2,7 @@
 
 
 #include "MyGameInstance.h"
-
+//#include "Components/ChildActorComponent.h"
 void UMyGameInstance::SetTextVariables(UTextBlock* Ucreators, UTextBlock* UendingText, UTextBlock* UscriptText, UTextBlock* UvoiceActorsText)
 {
 	this->creators = Ucreators;
@@ -17,4 +17,8 @@ void UMyGameInstance::Ending()
 	this->scriptText->SetVisibility(ESlateVisibility::Visible);
 	this->voiceActorsText->SetVisibility(ESlateVisibility::Visible);
 	this->canPlayerMove = true;
+}
+void UMyGameInstance::TurnOnLight(UChildActorComponent* child, bool visible)
+{
+	child->SetVisibility(visible);
 }

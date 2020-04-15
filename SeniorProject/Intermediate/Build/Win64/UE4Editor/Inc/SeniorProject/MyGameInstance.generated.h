@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UChildActorComponent;
 class UTextBlock;
 #ifdef SENIORPROJECT_MyGameInstance_generated_h
 #error "MyGameInstance.generated.h already included, missing '#pragma once' in MyGameInstance.h"
@@ -15,6 +16,16 @@ class UTextBlock;
 #define SENIORPROJECT_MyGameInstance_generated_h
 
 #define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTurnOnLight) \
+	{ \
+		P_GET_OBJECT(UChildActorComponent,Z_Param_child); \
+		P_GET_UBOOL(Z_Param_visible); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TurnOnLight(Z_Param_child,Z_Param_visible); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execEnding) \
 	{ \
@@ -38,6 +49,16 @@ class UTextBlock;
 
 
 #define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTurnOnLight) \
+	{ \
+		P_GET_OBJECT(UChildActorComponent,Z_Param_child); \
+		P_GET_UBOOL(Z_Param_visible); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TurnOnLight(Z_Param_child,Z_Param_visible); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execEnding) \
 	{ \

@@ -18,6 +18,8 @@
 #include "UMG/Public/Components/Image.h"
 #include <typeinfo>
 #include "Components/StaticMeshComponent.h"
+#include "Math/TransformNonVectorized.h"
+
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -48,10 +50,13 @@ void AFirstPersonCharacter::BeginPlay()
 	// Current set of components to check
 	TArray<UStaticMeshComponent*> staticComps;
 	GetComponents<UStaticMeshComponent>(staticComps);
+	
 	for (int i = 0; i < staticComps.Num(); i++)
 	{
 		if (staticComps[i]->GetName() == "NewsPaperLoc")
 			newsPaperLoc = staticComps[i];
+		if (staticComps[i]->GetName() == "Cube")
+			interactiveLoc = staticComps[i];
 	}
 
 	//GI->canDisplayTest = true;
@@ -382,7 +387,7 @@ void AFirstPersonCharacter::Interact()
 				return;
 			}*/
 		}
-		else if (currentlyInteracting[0]->ActorHasTag("Gun"))// Iff i am grabbing the gun
+		else if (currentlyInteracting[0]->ActorHasTag("Gun") && GI->canPutDown)// Iff i am grabbing the gun
 		{
 			currentlyInteracting[0]->DetachRootComponentFromParent();
 			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
@@ -391,9 +396,10 @@ void AFirstPersonCharacter::Interact()
 			interactableObjectsOrgPos.RemoveAt(0);
 			interactableObjectsOrgRot.RemoveAt(0);
 			GI->canPlayerMove = false;
+			GI->currentlyCarrying = false;
 			return;
 		}
-		else if (currentlyInteracting[0]->ActorHasTag("FlashLight")) // I am grabbing the flash light
+		else if (currentlyInteracting[0]->ActorHasTag("FlashLight") && GI->canPutDown) // I am grabbing the flash light
 		{
 			currentlyInteracting[0]->DetachRootComponentFromParent();
 			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
@@ -408,6 +414,8 @@ void AFirstPersonCharacter::Interact()
 			interactableObjectsOrgPos.RemoveAt(0);
 			interactableObjectsOrgRot.RemoveAt(0);
 			GI->canPlayerMove = false;
+			GI->currentlyCarrying = false;
+			//GI->TurnOnLight(GI->childLight, true);
 			return;
 		}
 	}
@@ -607,7 +615,8 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			act->SetActorRotation(FRotator(0, 70.f, 0));
 			currentlyInteracting.Add(act);
 			GI->canPlayerMove = true;
-			
+			GI->currentlyCarrying = true;
+			GI->canPutDown = false;
 		}
 		else if (str == "FlashLight")
 		{
@@ -616,18 +625,22 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			//float offset = i * 20.f;
 			act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
 			FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 30.f) + (GetActorUpVector() * 50.f);
-			FQuat rot;
+			FTransform position = interactiveLoc->GetRelativeTransform();
+			FQuat rot = position.GetRotation();
 			act->SetActorLocation(newPos);
-			rot.RotateVector(FVector(0, 0, 90.f));
-			act->SetActorRotation(FRotator(0, 70.f, 0));
+			//rot.RotateVector(FVector(0, 0, 90.f));
+			act->SetActorRotation(rot);
 			currentlyInteracting.Add(act);
 			GI->canPlayerMove = true;
 			TArray<AActor*> children;
 			act->GetAllChildActors(children);
-			for (int i = 0; i < children.Num(); i++)
+			GI->currentlyCarrying = true;
+			GI->canPutDown = false;
+			//for (int i = 0; i < children.Num(); i++)
 			{
-					children[i]->SetActorHiddenInGame(false);
+				//	children[i]->SetActorHiddenInGame(false);
 			}
+			//GI->TurnOnLight(GI->childLight, false);
 		}
 	}
 }

@@ -466,6 +466,7 @@
     <None Include="..\..\SeniorProject.uproject"/>
     <None Include="..\..\Source\SeniorProject.Target.cs"/>
     <None Include="..\..\Source\SeniorProjectEditor.Target.cs"/>
+    <None Include="..\..\ForestLandscape.png"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
