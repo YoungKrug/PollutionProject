@@ -19,6 +19,7 @@
 #include <typeinfo>
 #include "Components/StaticMeshComponent.h"
 #include "Math/TransformNonVectorized.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
@@ -609,7 +610,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			//float offset = i * 20.f;
 			act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
 			FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 30.f) + (GetActorUpVector() * 50.f);
-			FQuat rot;
+			FQuat rot = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), newPos).Quaternion();
 			act->SetActorLocation(newPos);
 			rot.RotateVector(FVector(0, 0, 90.f));
 			act->SetActorRotation(FRotator(0, 70.f, 0));
@@ -626,10 +627,16 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			act->AttachToActor(GetOwner(), FAttachmentTransformRules::KeepRelativeTransform);
 			FVector newPos = (GetActorLocation()) + (GetActorForwardVector() * 30.f) + (GetActorUpVector() * 50.f);
 			FTransform position = interactiveLoc->GetRelativeTransform();
-			FQuat rot = position.GetRotation();
+		    
+			FQuat rot = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), (GetActorForwardVector() * 1000.f) + GetActorLocation()).Quaternion();
+			FVector correctRot = UKismetMathLibrary::InverseTransformLocation(GetActorTransform(), rot.Vector());
+			correctRot *= cos(GetActorRotation().Yaw);
+			//correctRot = correctRot.RotateAngleAxis(correctRot.X, FVector(1, 0, 0));
+			GEngine->AddOnScreenDebugMessage(-1, 21.0F, FColor::Cyan, correctRot.ToString() + FString::FString(":") + FString::SanitizeFloat(cos(GetActorRotation().Yaw)));
+			rot = correctRot.Rotation().Quaternion();
 			act->SetActorLocation(newPos);
 			//rot.RotateVector(FVector(0, 0, 90.f));
-			act->SetActorRotation(rot);
+			act->SetActorRotation(correctRot.Rotation());
 			currentlyInteracting.Add(act);
 			GI->canPlayerMove = true;
 			TArray<AActor*> children;
