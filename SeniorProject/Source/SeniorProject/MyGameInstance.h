@@ -4,6 +4,9 @@
 #include "Engine/GameInstance.h"
 #include "UMG/Public/Components/BackgroundBlur.h"
 #include "UMG/Public/Components/TextBlock.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/PlayerController.h"
+#include "Styling/SlateColor.h"
 #include "UMG/Public/Components/Image.h"
 #include "MyGameInstance.generated.h"
 /**
@@ -21,11 +24,14 @@ public:
 
 	}
 	UFUNCTION(BlueprintCallable, Category = "GameInstance")
-	void SetTextVariables(UTextBlock* Ucreators, UTextBlock* UendingText, UTextBlock* UscriptText, UTextBlock* UvoiceActorsText);
+	void SetTextVariables(UImage* Ucreators, UImage* UendingText, UTextBlock* UscriptText, UTextBlock* UvoiceActorsText, UTextBlock* exitText, UTextBlock* prevText,
+	UTextBlock* continueText, UImage* fadeBlock, UImage* endImg, UImage* endMenu, UImage* creditImage);
 	UFUNCTION(BlueprintCallable, Category = "GameInstance")
-	void Ending();
+	void Ending(float time);
 	UFUNCTION(BlueprintCallable, Category = "GameInstance")
 	void TurnOnLight(UChildActorComponent* child, bool visible);
+	UFUNCTION(BlueprintCallable, Category = "GameInstance")
+	void GoToCredits(UImage* fade, UImage* credits, float time);
 	//static UMyGameInstance* newGI;
 	//void ResetString(FString& x);
 	// variables that need to be accessable by blueprint so they can work with UI
@@ -102,9 +108,17 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	UImage* exitButton;
 	UPROPERTY(BlueprintReadWrite)
-	UTextBlock* creators;
+	UTextBlock* exitText;
 	UPROPERTY(BlueprintReadWrite)
-	UTextBlock* endingText; 
+	UTextBlock* prevText;
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* nextText;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* creators;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* endingText; 
+	UPROPERTY(BlueprintReadWrite)
+	UImage* endMenu;
 	UPROPERTY(BlueprintReadWrite)
 	UTextBlock* scriptText; 
 	UPROPERTY(BlueprintReadWrite)
@@ -119,4 +133,10 @@ public:
 	bool canPutDown;
 	UPROPERTY(BlueprintReadWrite)
 	UChildActorComponent* childLight;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* screenFade;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* endingImg;
+	UPROPERTY(BlueprintReadWrite)
+	UImage* creditImage;
 };

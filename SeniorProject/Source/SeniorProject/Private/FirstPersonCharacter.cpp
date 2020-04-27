@@ -59,7 +59,16 @@ void AFirstPersonCharacter::BeginPlay()
 		if (staticComps[i]->GetName() == "Cube")
 			interactiveLoc = staticComps[i];
 	}
-
+	APlayerController* a = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
+	//FInputModeUIOnly* a;
+	//a->SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+	if (a != nullptr)
+	{
+		a->SetInputMode(FInputModeGameOnly::FInputModeGameOnly());
+		a->bShowMouseCursor = false;
+	}
+	GI->canPlayerMove = false;
+	GI->canPlayerRotate = false;
 	//GI->canDisplayTest = true;
 	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
@@ -120,8 +129,9 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	}
 	if (isAtEnd && GI->isAtEnd)
 	{
-		GI->Ending();
+		GI->Ending(timer - endTime);
 	}
+
 }
 FString AFirstPersonCharacter::StartRayCast()
 {
@@ -489,12 +499,18 @@ void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
 		GI->continueButton->SetVisibility(ESlateVisibility::Visible);
 		GI->prevButton->SetVisibility(ESlateVisibility::Visible);
 		GI->exitButton->SetVisibility(ESlateVisibility::Visible);
+		GI->nextText->SetVisibility(ESlateVisibility::Visible);
+		GI->prevText->SetVisibility(ESlateVisibility::Visible);
+		GI->exitText->SetVisibility(ESlateVisibility::Visible);
 	}
 	else
 	{
 		GI->continueButton->SetVisibility(ESlateVisibility::Hidden);
 		GI->prevButton->SetVisibility(ESlateVisibility::Hidden);
 		GI->exitButton->SetVisibility(ESlateVisibility::Hidden);
+		GI->nextText->SetVisibility(ESlateVisibility::Hidden);
+		GI->prevText->SetVisibility(ESlateVisibility::Hidden);
+		GI->exitText->SetVisibility(ESlateVisibility::Hidden);
 	}
 	currentPaperNum = 0;
 	SetTextForNewPaper(newsPaperNums[currentPaperNum]);
@@ -752,6 +768,17 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			{
 				isAtEnd = true;
 				GI->canPlayerMove = true;
+				endTime = timer;
+				GI->isAtEnd = true;
+				APlayerController* p = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
+				//FInputModeUIOnly* a;
+				//a->SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+				if (p != nullptr)
+				{
+					p->SetInputMode(FInputModeUIOnly::FInputModeUIOnly());
+					p->bShowMouseCursor = true;
+				}
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("End"));
 				//GI->Ending();
 			}
 		}

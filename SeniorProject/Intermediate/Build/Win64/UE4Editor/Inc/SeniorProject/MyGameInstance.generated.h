@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UImage;
 class UChildActorComponent;
 class UTextBlock;
 #ifdef SENIORPROJECT_MyGameInstance_generated_h
@@ -15,7 +16,18 @@ class UTextBlock;
 #endif
 #define SENIORPROJECT_MyGameInstance_generated_h
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGoToCredits) \
+	{ \
+		P_GET_OBJECT(UImage,Z_Param_fade); \
+		P_GET_OBJECT(UImage,Z_Param_credits); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_time); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GoToCredits(Z_Param_fade,Z_Param_credits,Z_Param_time); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execTurnOnLight) \
 	{ \
@@ -29,26 +41,45 @@ class UTextBlock;
  \
 	DECLARE_FUNCTION(execEnding) \
 	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_time); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Ending(); \
+		P_THIS->Ending(Z_Param_time); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execSetTextVariables) \
 	{ \
-		P_GET_OBJECT(UTextBlock,Z_Param_Ucreators); \
-		P_GET_OBJECT(UTextBlock,Z_Param_UendingText); \
+		P_GET_OBJECT(UImage,Z_Param_Ucreators); \
+		P_GET_OBJECT(UImage,Z_Param_UendingText); \
 		P_GET_OBJECT(UTextBlock,Z_Param_UscriptText); \
 		P_GET_OBJECT(UTextBlock,Z_Param_UvoiceActorsText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_exitText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_prevText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_continueText); \
+		P_GET_OBJECT(UImage,Z_Param_fadeBlock); \
+		P_GET_OBJECT(UImage,Z_Param_endImg); \
+		P_GET_OBJECT(UImage,Z_Param_endMenu); \
+		P_GET_OBJECT(UImage,Z_Param_creditImage); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetTextVariables(Z_Param_Ucreators,Z_Param_UendingText,Z_Param_UscriptText,Z_Param_UvoiceActorsText); \
+		P_THIS->SetTextVariables(Z_Param_Ucreators,Z_Param_UendingText,Z_Param_UscriptText,Z_Param_UvoiceActorsText,Z_Param_exitText,Z_Param_prevText,Z_Param_continueText,Z_Param_fadeBlock,Z_Param_endImg,Z_Param_endMenu,Z_Param_creditImage); \
 		P_NATIVE_END; \
 	}
 
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGoToCredits) \
+	{ \
+		P_GET_OBJECT(UImage,Z_Param_fade); \
+		P_GET_OBJECT(UImage,Z_Param_credits); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_time); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GoToCredits(Z_Param_fade,Z_Param_credits,Z_Param_time); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execTurnOnLight) \
 	{ \
@@ -62,26 +93,34 @@ class UTextBlock;
  \
 	DECLARE_FUNCTION(execEnding) \
 	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_time); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Ending(); \
+		P_THIS->Ending(Z_Param_time); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execSetTextVariables) \
 	{ \
-		P_GET_OBJECT(UTextBlock,Z_Param_Ucreators); \
-		P_GET_OBJECT(UTextBlock,Z_Param_UendingText); \
+		P_GET_OBJECT(UImage,Z_Param_Ucreators); \
+		P_GET_OBJECT(UImage,Z_Param_UendingText); \
 		P_GET_OBJECT(UTextBlock,Z_Param_UscriptText); \
 		P_GET_OBJECT(UTextBlock,Z_Param_UvoiceActorsText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_exitText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_prevText); \
+		P_GET_OBJECT(UTextBlock,Z_Param_continueText); \
+		P_GET_OBJECT(UImage,Z_Param_fadeBlock); \
+		P_GET_OBJECT(UImage,Z_Param_endImg); \
+		P_GET_OBJECT(UImage,Z_Param_endMenu); \
+		P_GET_OBJECT(UImage,Z_Param_creditImage); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->SetTextVariables(Z_Param_Ucreators,Z_Param_UendingText,Z_Param_UscriptText,Z_Param_UvoiceActorsText); \
+		P_THIS->SetTextVariables(Z_Param_Ucreators,Z_Param_UendingText,Z_Param_UscriptText,Z_Param_UvoiceActorsText,Z_Param_exitText,Z_Param_prevText,Z_Param_continueText,Z_Param_fadeBlock,Z_Param_endImg,Z_Param_endMenu,Z_Param_creditImage); \
 		P_NATIVE_END; \
 	}
 
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \
 	friend struct Z_Construct_UClass_UMyGameInstance_Statics; \
@@ -90,7 +129,7 @@ public: \
 	DECLARE_SERIALIZER(UMyGameInstance)
 
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_INCLASS \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \
 	friend struct Z_Construct_UClass_UMyGameInstance_Statics; \
@@ -99,7 +138,7 @@ public: \
 	DECLARE_SERIALIZER(UMyGameInstance)
 
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyGameInstance(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyGameInstance) \
@@ -112,7 +151,7 @@ private: \
 public:
 
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMyGameInstance(UMyGameInstance&&); \
@@ -123,26 +162,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyGameInstance); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMyGameInstance)
 
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_12_PROLOG
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_GENERATED_BODY_LEGACY \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_PRIVATE_PROPERTY_OFFSET
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_PROLOG
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_INCLASS \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_RPC_WRAPPERS \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_INCLASS \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SeniorProject_Source_SeniorProject_MyGameInstance_h_15_GENERATED_BODY \
+#define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
-	SeniorProject_Source_SeniorProject_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_PRIVATE_PROPERTY_OFFSET \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_INCLASS_NO_PURE_DECLS \
+	SeniorProject_Source_SeniorProject_MyGameInstance_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

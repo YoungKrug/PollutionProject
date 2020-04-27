@@ -165,6 +165,7 @@ private:
 	float currentPaperNum;
 	float orgTimeDilation;
 	bool isAtEnd;
+	float endTime;
 	//UMovieSceneSequence scene;
 	
 };
