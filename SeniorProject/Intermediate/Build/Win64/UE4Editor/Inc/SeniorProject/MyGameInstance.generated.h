@@ -18,6 +18,15 @@ class UTextBlock;
 
 #define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execStartIntstructions) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_timer); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StartIntstructions(Z_Param_timer); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGoToCredits) \
 	{ \
 		P_GET_OBJECT(UImage,Z_Param_fade); \
@@ -69,6 +78,15 @@ class UTextBlock;
 
 
 #define SeniorProject_Source_SeniorProject_MyGameInstance_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execStartIntstructions) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_timer); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StartIntstructions(Z_Param_timer); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGoToCredits) \
 	{ \

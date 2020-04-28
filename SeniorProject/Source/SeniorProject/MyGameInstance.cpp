@@ -171,3 +171,41 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 		}
 	}
 }
+void UMyGameInstance::StartIntstructions(float timer)
+{
+	if (first == nullptr || second == nullptr || third == nullptr)
+		return;
+	if (introTime <= 0)
+	{
+		introTime = timer;
+	}
+	if (timer - introTime < 8)
+	{
+		if (!first->IsVisible())
+		{
+			first->SetVisibility(ESlateVisibility::Visible);
+		}
+	}
+	if (timer - introTime < 16 && timer - introTime > 8)
+	{
+		if (!second->IsVisible())
+		{
+			first->SetVisibility(ESlateVisibility::Hidden);
+			second->SetVisibility(ESlateVisibility::Visible);
+		}
+	}
+	if (timer - introTime < 25 && timer - introTime> 16)
+	{
+		if (!third->IsVisible())
+		{
+			second->SetVisibility(ESlateVisibility::Hidden);
+			third->SetVisibility(ESlateVisibility::Visible);
+		}
+	}
+	if (timer - introTime > 27)
+	{
+		third->SetVisibility(ESlateVisibility::Hidden);
+		finishedInstructions = true;
+	}
+
+}

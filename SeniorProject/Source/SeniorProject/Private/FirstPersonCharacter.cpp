@@ -91,6 +91,10 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	timer += DeltaTime;
+	if (!GI->finishedInstructions)
+	{
+		GI->StartIntstructions(timer);
+	}
 	if (soundIsPlaying && timer >= cooldown)
 	{
 		soundIsPlaying = false;

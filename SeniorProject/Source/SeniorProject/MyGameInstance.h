@@ -32,6 +32,8 @@ public:
 	void TurnOnLight(UChildActorComponent* child, bool visible);
 	UFUNCTION(BlueprintCallable, Category = "GameInstance")
 	void GoToCredits(UImage* fade, UImage* credits, float time);
+	UFUNCTION(BlueprintCallable, Category = "GameInstance")
+	void StartIntstructions(float timer);
 	//static UMyGameInstance* newGI;
 	//void ResetString(FString& x);
 	// variables that need to be accessable by blueprint so they can work with UI
@@ -139,4 +141,13 @@ public:
 	UImage* endingImg;
 	UPROPERTY(BlueprintReadWrite)
 	UImage* creditImage;
+	UPROPERTY(BlueprintReadWrite)
+	bool finishedInstructions;
+	float introTime = 0.f;
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* first;
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* second;
+	UPROPERTY(BlueprintReadWrite)
+	UTextBlock* third;
 };
