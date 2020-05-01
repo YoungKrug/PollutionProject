@@ -93,7 +93,12 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	timer += DeltaTime;
 	if (!GI->finishedInstructions)
 	{
-		GI->StartIntstructions(timer);
+		if (GI->pressX)
+		{
+			timer += 8.f;
+			GI->pressX = false;
+		}
+		GI->StartIntstructions(timer, GI->pressX);
 	}
 	if (soundIsPlaying && timer >= cooldown)
 	{
@@ -101,7 +106,7 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	}
 	if (isRespawning && timer >= respawnTimer)
 	{
-		isRespawning = false;
+		isRespawning = false;	
 		SetActorLocation(currentPlayerPos);
 	}
 	if (currentInteractableAnim != nullptr && hasInteracted)
@@ -118,8 +123,8 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	{
 
 		introAudio->Stop();
-		introAudio->Sound = recorderSound;
-		introTimer = timer + introAudio->Sound->Duration;
+		introAudio->Sound = cellPhoneSound;
+		introTimer = timer + phoneTimer;
 		introAudio->Play();
 		isWaitingForRecorder = true;
 	}
@@ -128,10 +133,12 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 		GI->isPressedX = true;
 		GI->isIntro = false;
 		introAudio->Stop();
+		introAudio->Sound = staticSound;
+		introAudio->Play();
 		isWaitingForRecorder = false;
 		GI->canPlayerMove = false;
 	}
-	if (isAtEnd && GI->isAtEnd)
+	if (isAtEnd && GI->isAtEnd && !GI->isWaitingForEndCinematic)
 	{
 		GI->Ending(timer - endTime);
 	}
@@ -172,6 +179,7 @@ FString AFirstPersonCharacter::StartRayCast()
 				//FString test = "Floor";
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation(); // Means they have not hit the water
+				GI->currentPlayerPos = GetActorLocation();
 				return FString::FString("Dock");
 			}
 			else if (hit[i].GetActor()->ActorHasTag("Dock"))
@@ -179,6 +187,7 @@ FString AFirstPersonCharacter::StartRayCast()
 				//	FString test = "Dock";
 				//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation();
+				GI->currentPlayerPos = GetActorLocation();
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Dock");
 			}
@@ -186,6 +195,7 @@ FString AFirstPersonCharacter::StartRayCast()
 			{
 				//	FString test = "Forest";
 				currentPlayerPos = GetActorLocation();
+				GI->currentPlayerPos = GetActorLocation();
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
 				return FString::FString("Forest");
 			}
@@ -194,6 +204,7 @@ FString AFirstPersonCharacter::StartRayCast()
 				//FString test = "City";
 			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation();
+				GI->currentPlayerPos = GetActorLocation();
 				return FString::FString("City");
 			}
 
@@ -319,6 +330,7 @@ void AFirstPersonCharacter::LookUp(float val)
 }
 void AFirstPersonCharacter::Interact()
 {
+	GI->pressX = true;
 	if (GI->isIntro && GI->isClear)
 	{
 		//Play phone sound next
@@ -439,6 +451,8 @@ void AFirstPersonCharacter::Interact()
 }
 void AFirstPersonCharacter::NextPage()
 {
+	if (newsPaperNums.Num() < 1)
+		return;
 	if (!isReading)
 		return;
 	currentPaperNum++;
@@ -449,11 +463,13 @@ void AFirstPersonCharacter::NextPage()
 	}
 	else
 	{
-		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		SetTextForNewPaper(currentPaperNum);
 	}
 }
 void AFirstPersonCharacter::PrevPage()
 {
+	if (newsPaperNums.Num() < 1)
+		return;
 	if (!isReading)
 		return;
 	currentPaperNum--;
@@ -463,7 +479,7 @@ void AFirstPersonCharacter::PrevPage()
 		SetTextForNewPaper(0);
 	}
 	else
-		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		SetTextForNewPaper(currentPaperNum);
 }
 void AFirstPersonCharacter::ExitNewsPaper()
 {
@@ -485,15 +501,16 @@ void AFirstPersonCharacter::ExitNewsPaper()
 	currentlyInteracting.Empty();
 	isReading = false;
 	GI->isCurrentlyPaused = false;
+	newsPaperNums.Empty();
 }
 void AFirstPersonCharacter::SetTextForNewPaper(int num)
 {
 	if (currentlyInteracting[0]->ActorHasTag("Newspaper"))
 	{
-		if (num >= newsPaperText.Num())
+		if (num >= newsPaperNums.Num())
 			return;
-		GI->currentTextBlock->SetText(newsPaperText[num]);
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, newsPaperText[num].ToString());
+		GI->currentTextBlock->SetText(newsPaperText[newsPaperNums[num]]);
+		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, newsPaperText[newsPaperNums[num]].ToString());
 	}
 }
 void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
@@ -517,7 +534,7 @@ void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
 		GI->exitText->SetVisibility(ESlateVisibility::Hidden);
 	}
 	currentPaperNum = 0;
-	SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+	SetTextForNewPaper(currentPaperNum);
 }
 void AFirstPersonCharacter::GetNumbers()
 {
@@ -587,8 +604,11 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 					act->SetActorLocation(newPos);
 					rot.RotateVector(FVector(0, 0, 90.f));
 					act->SetActorRotation(FRotator(0, 90.f, 0));
-					act->SetActorHiddenInGame(true);
-					newsPaperLoc->SetVisibility(true);
+					if (act->Tags.Num() <= 2)
+					{
+						act->SetActorHiddenInGame(true);
+						newsPaperLoc->SetVisibility(true);
+					}
 					currentlyInteracting.Add(act);
 					GI->canPlayerMove = true;
 					//GI->canPlayerRotate = true;
@@ -729,7 +749,7 @@ void AFirstPersonCharacter::HandleIntro()
 		introTimer = timer + phoneTimer;
 		isWaitingForPhone = true;
 		introAudio = NewObject<UAudioComponent>(this, "audio");
-		introAudio->Sound = cellPhoneSound;
+		introAudio->Sound = recorderSound;
 		introAudio->Play();
 	}
 }
@@ -744,7 +764,7 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 		TArray<FName> name = OtherActor->Tags;
 		for (int i = 0; i < name.Num(); i++)
 		{
-			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
 			if (name[i] == "Climb")
 			{
 				canClimb = true;
@@ -770,8 +790,10 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			}
 			if (name[i] == "Ending")
 			{
+				GI->isWaitingForEndCinematic = true;
 				isAtEnd = true;
 				GI->canPlayerMove = true;
+				GI->canPlayerRotate = true;
 				endTime = timer;
 				GI->isAtEnd = true;
 				APlayerController* p = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
@@ -784,6 +806,12 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 				}
 				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("End"));
 				//GI->Ending();
+			}
+			if (name[i] == "Water")
+			{
+				isRespawning = true;
+				respawnTimer = timer + 1.0f;
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, currentPlayerPos.ToString());
 			}
 		}
 	}

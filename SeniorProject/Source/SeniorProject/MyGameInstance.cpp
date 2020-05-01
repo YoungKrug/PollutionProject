@@ -55,14 +55,14 @@ void UMyGameInstance::Ending(float time)
 	if (time > 6.5f)
 	{
 		
-		FSlateColor col = this->endingText->ColorAndOpacity;
+		FSlateColor col = this->endingImg->ColorAndOpacity;
 		FLinearColor lin = col.GetSpecifiedColor();
 		if (lin.A < 0.92f)
 		{
 			lin.A += 0.05f;
 			col = lin;
-			this->endingText->SetVisibility(ESlateVisibility::Visible);
-			this->endingText->SetColorAndOpacity(lin);
+			this->endingImg->SetVisibility(ESlateVisibility::Visible);
+			this->endingImg->SetColorAndOpacity(lin);
 		}
 	}
 	if (time > 8.5f)
@@ -80,14 +80,14 @@ void UMyGameInstance::Ending(float time)
 	}
 	if (time > 11.5f)
 	{
-		FSlateColor col = this->endMenu->ColorAndOpacity;
-		FLinearColor lin = col.GetSpecifiedColor();
-		if (lin.A < 0.92f)
-		{
-			lin.A += 0.03f;
-			col = lin;
-			this->endMenu->SetVisibility(ESlateVisibility::Visible);
-			this->endMenu->SetColorAndOpacity(lin);
+	//	FSlateColor col = this->endMenu->ColorAndOpacity;
+	//	FLinearColor lin = col.GetSpecifiedColor();
+	//	if (lin.A < 0.92f)
+		//{
+	///		lin.A += 0.03f;
+	//		col = lin;
+		//	this->endMenu->SetVisibility(ESlateVisibility::Visible);
+		//	this->endMenu->SetColorAndOpacity(lin);
 			APlayerController* p = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
 			//FInputModeUIOnly* a;
 			//a->SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
@@ -96,7 +96,7 @@ void UMyGameInstance::Ending(float time)
 				p->SetInputMode(FInputModeUIOnly::FInputModeUIOnly());
 				p->bShowMouseCursor = true;
 			}
-		}
+		//}
 	}
 	//this->endingText->SetVisibility(ESlateVisibility::Visible);
 //	this->scriptText->SetVisibility(ESlateVisibility::Visible);
@@ -171,7 +171,7 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 		}
 	}
 }
-void UMyGameInstance::StartIntstructions(float timer)
+void UMyGameInstance::StartIntstructions(float timer, bool next)
 {
 	if (first == nullptr || second == nullptr || third == nullptr)
 		return;
@@ -196,16 +196,16 @@ void UMyGameInstance::StartIntstructions(float timer)
 	}
 	if (timer - introTime < 25 && timer - introTime> 16)
 	{
-		if (!third->IsVisible())
+		//if (!third->IsVisible())
 		{
-			second->SetVisibility(ESlateVisibility::Hidden);
-			third->SetVisibility(ESlateVisibility::Visible);
+		//	second->SetVisibility(ESlateVisibility::Hidden);
+			//third->SetVisibility(ESlateVisibility::Visible);
 		}
 	}
-	if (timer - introTime > 27)
+	if (timer - introTime > 16)
 	{
-		third->SetVisibility(ESlateVisibility::Hidden);
+		second->SetVisibility(ESlateVisibility::Hidden);
 		finishedInstructions = true;
 	}
-
+	pressX = false;
 }

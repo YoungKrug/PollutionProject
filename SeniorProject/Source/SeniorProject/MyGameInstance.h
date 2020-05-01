@@ -33,7 +33,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "GameInstance")
 	void GoToCredits(UImage* fade, UImage* credits, float time);
 	UFUNCTION(BlueprintCallable, Category = "GameInstance")
-	void StartIntstructions(float timer);
+	void StartIntstructions(float timer, bool next);
 	//static UMyGameInstance* newGI;
 	//void ResetString(FString& x);
 	// variables that need to be accessable by blueprint so they can work with UI
@@ -145,9 +145,13 @@ public:
 	bool finishedInstructions;
 	float introTime = 0.f;
 	UPROPERTY(BlueprintReadWrite)
-	UTextBlock* first;
+	UImage* first;
 	UPROPERTY(BlueprintReadWrite)
-	UTextBlock* second;
+	UImage* second;
 	UPROPERTY(BlueprintReadWrite)
-	UTextBlock* third;
+	UImage* third;
+	UPROPERTY(BlueprintReadWrite)
+	bool pressX;
+	UPROPERTY(BlueprintReadWrite)
+	bool isWaitingForEndCinematic;
 };

@@ -21,9 +21,10 @@ class UTextBlock;
 	DECLARE_FUNCTION(execStartIntstructions) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_timer); \
+		P_GET_UBOOL(Z_Param_next); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->StartIntstructions(Z_Param_timer); \
+		P_THIS->StartIntstructions(Z_Param_timer,Z_Param_next); \
 		P_NATIVE_END; \
 	} \
  \
@@ -82,9 +83,10 @@ class UTextBlock;
 	DECLARE_FUNCTION(execStartIntstructions) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_timer); \
+		P_GET_UBOOL(Z_Param_next); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->StartIntstructions(Z_Param_timer); \
+		P_THIS->StartIntstructions(Z_Param_timer,Z_Param_next); \
 		P_NATIVE_END; \
 	} \
  \

@@ -148,6 +148,8 @@ private:
 	USoundBase* cellPhoneSound;
 	UPROPERTY(EditAnywhere, Category = "Intro Values")
 	USoundBase* recorderSound;
+	UPROPERTY(EditAnywhere, Category = "Intro Values")
+	USoundBase* staticSound;
 	UAudioComponent* introAudio;
 	bool isWaitingForPhone;
 	bool isWaitingForRecorder;
