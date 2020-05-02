@@ -1,9 +1,69 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\SeniorProject\PollutionProject).
+﻿  Cleaning SeniorProjectEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : warning : Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\haley\Desktop\PollutionProject).
+  Creating makefile for SeniorProjectEditor (no existing makefile)
+UnrealBuildTool : warning : Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
   Parsing headers for SeniorProjectEditor
-    Running UnrealHeaderTool "E:\SeniorProject\PollutionProject\SeniorProject\SeniorProject.uproject" "E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 9.5516246 seconds
-  Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 8 processes...
-    [1/1] SeniorProjectEditor.target
-  Total time in Parallel executor: 0.38 seconds
-  Total execution time: 11.24 seconds
+    Running UnrealHeaderTool "C:\Users\haley\Desktop\PollutionProject\SeniorProject\SeniorProject.uproject" "C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SeniorProjectEditor in 6.9225278 seconds
+  Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 33 actions with 12 processes...
+    [1/33] Default.rc2
+    [2/33] SharedPCH.Engine.cpp
+    [3/33] InteractableObjects.cpp
+    [4/33] GameObjectInformation.cpp
+    [5/33] DialougeSystemStruct.cpp
+    [6/33] Movement.cpp
+    [7/33] SeniorProjectGameModeBase.cpp
+    [8/33] DialogueSystemStruct.cpp
+    [9/33] UnrealInfo.cpp
+    [10/33] MyLocalPlayer.cpp
+    [11/33] UnrealInformation.cpp
+    [12/33] AudioInformationStruct.cpp
+    [13/33] SeniorProject.init.gen.cpp
+    [14/33] MyLocalPlayer.gen.cpp
+    [15/33] SeniorProjectGameModeBase.gen.cpp
+    [16/33] Movement.gen.cpp
+    [17/33] AudioInformationStruct.gen.cpp
+    [18/33] InteractableObjects.gen.cpp
+    [19/33] DialougeSystemStruct.gen.cpp
+    [20/33] ButtonInfo.gen.cpp
+    [21/33] DialogueSystemStruct.gen.cpp
+    [22/33] GameObjectInformation.gen.cpp
+    [23/33] MyGameInstance.cpp
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(6): warning C4458: declaration of 'exitText' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(113): note: see declaration of 'UMyGameInstance::exitText'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(6): warning C4458: declaration of 'prevText' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(115): note: see declaration of 'UMyGameInstance::prevText'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(7): warning C4458: declaration of 'endMenu' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(123): note: see declaration of 'UMyGameInstance::endMenu'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(7): warning C4458: declaration of 'creditImage' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h(143): note: see declaration of 'UMyGameInstance::creditImage'
+    [24/33] DoYouCopySystem.cpp
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(88): warning C4458: declaration of 'audio' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(194): warning C4458: declaration of 'audio' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(202): warning C4458: declaration of 'audio' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(211): warning C4458: declaration of 'audio' hides class member
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(76): warning C4701: potentially uninitialized local variable 'close' used
+    [25/33] MyGameInstance.gen.cpp
+    [26/33] DoYouCopySystem.gen.cpp
+    [27/33] ButtonInfo.cpp
+    [28/33] FirstPersonCharacter.cpp
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(354): warning C4456: declaration of 'i' hides previous local declaration
+    C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(343): note: see declaration of 'i'
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(419): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(431): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(491): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [29/33] FirstPersonCharacter.gen.cpp
+    [30/33] SeniorProject.cpp
+    [31/33] UE4Editor-SeniorProject.lib
+       Creating library C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.lib and object C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.exp
+    [32/33] UE4Editor-SeniorProject.dll
+       Creating library C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.lib and object C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject.suppressed.exp
+    [33/33] SeniorProjectEditor.target
+  Total time in Parallel executor: 30.37 seconds
+  Total execution time: 39.94 seconds

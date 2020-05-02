@@ -1,2 +1,0 @@
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Shipping\SeniorProject\Definitions.SeniorProject.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\SeniorProject.h

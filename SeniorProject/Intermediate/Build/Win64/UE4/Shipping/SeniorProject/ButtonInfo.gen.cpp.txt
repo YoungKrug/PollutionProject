@@ -1,5 +1,0 @@
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Shipping\SeniorProject\Definitions.SeniorProject.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\TheBestGame\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/ButtonInfo.h
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Inc\SeniorProject\ButtonInfo.generated.h

@@ -1,3 +1,0 @@
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Shipping\SeniorProject\Definitions.SeniorProject.h
-C:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Movement.h
-C:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Inc\SeniorProject\Movement.generated.h

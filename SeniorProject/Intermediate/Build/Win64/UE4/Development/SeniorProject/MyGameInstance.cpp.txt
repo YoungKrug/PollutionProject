@@ -1,3 +1,0 @@
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Development\SeniorProject\Definitions.SeniorProject.h
-E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\MyGameInstance.h
-E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4\Inc\SeniorProject\MyGameInstance.generated.h
