@@ -173,7 +173,7 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 }
 void UMyGameInstance::StartIntstructions(float timer, bool next)
 {
-	if (first == nullptr || second == nullptr || third == nullptr)
+	if (first == nullptr || second == nullptr)
 		return;
 	if (introTime <= 0)
 	{

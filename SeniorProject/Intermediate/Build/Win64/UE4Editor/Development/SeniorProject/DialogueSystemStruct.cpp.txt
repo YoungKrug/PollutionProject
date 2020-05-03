@@ -1,5 +1,5 @@
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\AudioInformationStruct.generated.h
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DialogueSystemStruct.generated.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\AudioInformationStruct.generated.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\DialogueSystemStruct.generated.h

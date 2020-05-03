@@ -1,5 +1,5 @@
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
-C:\Users\haley\Desktop\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Users\haley\Desktop\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject/Public/InteractableObjects.h
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\InteractableObjects.generated.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject/Public/InteractableObjects.h
+E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\InteractableObjects.generated.h
