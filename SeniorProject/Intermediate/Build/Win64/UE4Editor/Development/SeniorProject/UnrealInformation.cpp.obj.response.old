@@ -28,7 +28,7 @@
 /wd4838
 /we4668
 /I .
-/I E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Private
+/I E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -427,22 +427,22 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject
-/I E:\SeniorProject\PollutionProject\SeniorProject\Source
-/I E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\Public
-/I E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject
+/I E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject
+/I E:\SenProj\PollProj\SeniorProject\Source
+/I E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Public
+/I E:\SenProj\PollProj\SeniorProject\Source\SeniorProject
 /I E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\SeniorProject\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInformation.cpp"
-/FI"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h"
-/Fo"E:\SeniorProject\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UnrealInformation.cpp.obj"
+/FI"E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\UnrealInformation.cpp"
+/FI"E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h"
+/Fo"E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UnrealInformation.cpp.obj"
 /TP
 /GR-
 /W4
