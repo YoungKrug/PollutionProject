@@ -80,6 +80,8 @@ public:
 	void JumpUpward();
 	UFUNCTION()
 	void PauseGame();
+	UFUNCTION()
+	void RestartGameButton();
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Trigger Capsule")

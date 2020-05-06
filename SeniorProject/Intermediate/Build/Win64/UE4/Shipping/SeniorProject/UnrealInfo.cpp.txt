@@ -1,0 +1,14 @@
+E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4\Shipping\SeniorProject\Definitions.SeniorProject.h
+E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\UnrealInfo.h
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\vector
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\xmemory
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdint
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\limits
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cfloat
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\climits
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cwchar
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdio
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\xatomic.h
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\xutility
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\cstring
+E:\VisualStudios\VC\Tools\MSVC\14.24.28314\INCLUDE\utility

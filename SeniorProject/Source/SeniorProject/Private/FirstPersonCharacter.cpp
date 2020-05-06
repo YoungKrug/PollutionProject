@@ -38,6 +38,7 @@ AFirstPersonCharacter::AFirstPersonCharacter()
 void AFirstPersonCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	firstPersonCameraComponent->AttachToComponent(GetDefaultAttachComponent(), FAttachmentTransformRules::SnapToTargetIncludingScale);
 	APlayerController* p = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
 	p->bShowMouseCursor = false;
 	FString test;
@@ -122,10 +123,10 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	if (GI->isIntro && timer >= introTimer && isWaitingForPhone && !isWaitingForRecorder)
 	{
 
-		introAudio->Stop();
-		introAudio->Sound = cellPhoneSound;
-		introTimer = timer + phoneTimer;
-		introAudio->Play();
+		//introAudio->Stop();
+	///	introAudio->Sound = cellPhoneSound;
+		introTimer = timer + 0;
+		//introAudio->Play();
 		isWaitingForRecorder = true;
 	}
 	if (isWaitingForRecorder && timer >= introTimer)
@@ -171,7 +172,7 @@ FString AFirstPersonCharacter::StartRayCast()
 	GetWorld()->LineTraceMultiByChannel(hit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParameters);
 	for (int i = 0; i < hit.Num(); i++)
 	{
-		if (hit[i].Actor != nullptr)
+		if (hit[i].Actor != nullptr && !isRespawning)
 		{
 			if (hit[i].GetActor()->ActorHasTag("Floor"))
 			{
@@ -249,8 +250,15 @@ void AFirstPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	PlayerInputComponent->BindAction("Q_Quit", IE_Pressed, this, &AFirstPersonCharacter::ExitNewsPaper);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AFirstPersonCharacter::JumpUpward);
 	PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &AFirstPersonCharacter::PauseGame);
+	PlayerInputComponent->BindAction("Escape", IE_Pressed, this, &AFirstPersonCharacter::RestartGameButton);
 	PlayerInputComponent->SetTickableWhenPaused(true);
 
+}
+void AFirstPersonCharacter::RestartGameButton()
+{
+	GI->isIntro = true;
+	GI->finishedInstructions = false;
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
 }
 void AFirstPersonCharacter::PauseGame()
 {
@@ -426,7 +434,7 @@ void AFirstPersonCharacter::Interact()
 			GI->currentlyCarrying = false;
 			return;
 		}
-		else if (currentlyInteracting[0]->ActorHasTag("FlashLight") && GI->canPutDown) // I am grabbing the flash light
+		else if (currentlyInteracting[0]->ActorHasTag("FlashLight")) // I am grabbing the flash light
 		{
 			currentlyInteracting[0]->DetachRootComponentFromParent();
 			currentlyInteracting[0]->SetActorLocationAndRotation(interactableObjectsOrgPos[0], interactableObjectsOrgRot[0]);
@@ -565,7 +573,7 @@ AFirstPersonCharacter::AFirstPersonCharacter(const FObjectInitializer& ObjectIni
 {
 	// Create a CameraComponent 
 	firstPersonCameraComponent = ObjectInitializer.CreateDefaultSubobject<UCameraComponent>(this, TEXT("FirstPersonCamera"));
-	firstPersonCameraComponent->AttachToComponent(GetDefaultAttachComponent(), FAttachmentTransformRules::SnapToTargetIncludingScale);
+	//firstPersonCameraComponent->AttachToComponent(GetDefaultAttachComponent(), FAttachmentTransformRules::SnapToTargetIncludingScale);
 	// Position the camera a bit above the eyes
 	firstPersonCameraComponent->RelativeLocation = FVector(0, 0, 50.0f + BaseEyeHeight);
 	// Allow the pawn to control rotation.

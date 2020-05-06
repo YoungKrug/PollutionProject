@@ -20,6 +20,14 @@ struct FHitResult;
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execRestartGameButton) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RestartGameButton(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execPauseGame) \
 	{ \
 		P_FINISH; \
@@ -221,6 +229,14 @@ struct FHitResult;
 
 
 #define SeniorProject_Source_SeniorProject_Public_FirstPersonCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRestartGameButton) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RestartGameButton(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execPauseGame) \
 	{ \

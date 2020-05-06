@@ -1,0 +1,5 @@
+E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4\Development\SeniorProject\Definitions.SeniorProject.h
+E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Public\DialogueSystemStruct.h
+E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Public\AudioInformationStruct.h
+E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4\Inc\SeniorProject\AudioInformationStruct.generated.h
+E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4\Inc\SeniorProject\DialogueSystemStruct.generated.h
