@@ -170,6 +170,7 @@ private:
 	float orgTimeDilation;
 	bool isAtEnd;
 	float endTime;
+	float creditsTime = 0;
 	//UMovieSceneSequence scene;
 	
 };

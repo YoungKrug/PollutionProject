@@ -154,4 +154,7 @@ public:
 	bool pressX;
 	UPROPERTY(BlueprintReadWrite)
 	bool isWaitingForEndCinematic;
+	UPROPERTY(BlueprintReadWrite)
+	bool clickedGoToCredits;
+	float alphaAmount = 0;
 };

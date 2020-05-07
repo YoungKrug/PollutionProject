@@ -143,7 +143,27 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	{
 		GI->Ending(timer - endTime);
 	}
+	if (isAtEnd && GI->clickedGoToCredits)
+	{
+		if (creditsTime == 0)
+		{
+			creditsTime = timer;
+			GI->pressX = false;
 
+			FSlateColor col = GI->screenFade->ColorAndOpacity;
+			FLinearColor lin = col.GetSpecifiedColor();
+			lin.A = 0;;
+			GI->screenFade->SetColorAndOpacity(lin);
+		}
+		if (GI->pressX)
+		{
+			timer += 16.f;
+			GI->pressX = false;
+		}
+		GI->GoToCredits(GI->screenFade, GI->creditImage, timer - creditsTime);
+	}
+	if (!GI->clickedGoToCredits)
+		creditsTime = 0;
 }
 FString AFirstPersonCharacter::StartRayCast()
 {
@@ -466,12 +486,23 @@ void AFirstPersonCharacter::NextPage()
 	currentPaperNum++;
 	if (currentPaperNum >= newsPaperNums.Num())
 	{
+		//If cannot continue set it to the same page, else
 		currentPaperNum = newsPaperNums.Num() - 1;
 		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		GI->continueButton->SetVisibility(ESlateVisibility::Hidden);
+		GI->nextText->SetVisibility(ESlateVisibility::Hidden);
 	}
 	else
 	{
-		SetTextForNewPaper(currentPaperNum);
+		//if can continue lets set the prev button to visibe
+		GI->prevText->SetVisibility(ESlateVisibility::Visible);
+		GI->prevButton->SetVisibility(ESlateVisibility::Visible);
+		if (currentPaperNum  >= newsPaperNums.Num() - 1)
+		{
+			GI->continueButton->SetVisibility(ESlateVisibility::Hidden);
+			GI->nextText->SetVisibility(ESlateVisibility::Hidden);
+		}
+		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
 	}
 }
 void AFirstPersonCharacter::PrevPage()
@@ -484,10 +515,22 @@ void AFirstPersonCharacter::PrevPage()
 	if (currentPaperNum <= 0)
 	{
 		currentPaperNum = 0;
-		SetTextForNewPaper(0);
+		//If you cannot go further back and there is more then one page
+		if (newsPaperNums.Num() >= 2)
+		{
+			GI->continueButton->SetVisibility(ESlateVisibility::Visible);
+			GI->nextText->SetVisibility(ESlateVisibility::Visible);
+		}
+		GI->prevText->SetVisibility(ESlateVisibility::Hidden);
+		GI->prevButton->SetVisibility(ESlateVisibility::Hidden);
+		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
 	}
 	else
-		SetTextForNewPaper(currentPaperNum);
+	{
+		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		GI->continueButton->SetVisibility(ESlateVisibility::Visible);
+		GI->nextText->SetVisibility(ESlateVisibility::Visible);
+	}
 }
 void AFirstPersonCharacter::ExitNewsPaper()
 {
@@ -525,11 +568,14 @@ void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
 {
 	if (activation)
 	{
-		GI->continueButton->SetVisibility(ESlateVisibility::Visible);
-		GI->prevButton->SetVisibility(ESlateVisibility::Visible);
+		//GI->prevButton->SetVisibility(ESlateVisibility::Visible);
 		GI->exitButton->SetVisibility(ESlateVisibility::Visible);
-		GI->nextText->SetVisibility(ESlateVisibility::Visible);
-		GI->prevText->SetVisibility(ESlateVisibility::Visible);
+		if (currentlyInteracting.Num() >= 2)
+		{
+			GI->continueButton->SetVisibility(ESlateVisibility::Visible);
+			GI->nextText->SetVisibility(ESlateVisibility::Visible);
+		}
+		//GI->prevText->SetVisibility(ESlateVisibility::Visible);
 		GI->exitText->SetVisibility(ESlateVisibility::Visible);
 	}
 	else
@@ -803,7 +849,7 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 				GI->canPlayerMove = true;
 				GI->canPlayerRotate = true;
 				endTime = timer;
-				GI->isAtEnd = true;
+				//GI->isAtEnd = true; // Gotta wait for subs aswell
 				APlayerController* p = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
 				//FInputModeUIOnly* a;
 				//a->SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);

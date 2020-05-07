@@ -396,6 +396,11 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_clickedGoToCredits_MetaData[];
+#endif
+		static void NewProp_clickedGoToCredits_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_clickedGoToCredits;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isWaitingForEndCinematic_MetaData[];
 #endif
 		static void NewProp_isWaitingForEndCinematic_SetBit(void* Obj);
@@ -679,6 +684,17 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		{ "ModuleRelativePath", "MyGameInstance.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_clickedGoToCredits_MetaData[] = {
+		{ "Category", "MyGameInstance" },
+		{ "ModuleRelativePath", "MyGameInstance.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMyGameInstance_Statics::NewProp_clickedGoToCredits_SetBit(void* Obj)
+	{
+		((UMyGameInstance*)Obj)->clickedGoToCredits = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_clickedGoToCredits = { "clickedGoToCredits", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyGameInstance), &Z_Construct_UClass_UMyGameInstance_Statics::NewProp_clickedGoToCredits_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_clickedGoToCredits_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_clickedGoToCredits_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isWaitingForEndCinematic_MetaData[] = {
 		{ "Category", "MyGameInstance" },
@@ -1231,6 +1247,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro = { "isIntro", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UMyGameInstance), &Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isIntro_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyGameInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_clickedGoToCredits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_isWaitingForEndCinematic,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_pressX,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyGameInstance_Statics::NewProp_third,
@@ -1317,7 +1334,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 3539284292);
+	IMPLEMENT_CLASS(UMyGameInstance, 3622318761);
 	template<> SENIORPROJECT_API UClass* StaticClass<UMyGameInstance>()
 	{
 		return UMyGameInstance::StaticClass();
