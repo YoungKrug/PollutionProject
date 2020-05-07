@@ -100,6 +100,7 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 						if (narrationNum == dial.Num() - 1) // if its the last one
 						{
 							GI->isAtEnd = true;
+							GI->isWaitingForEndCinematic = true;
 						}
 						audioCounter = 0;
 						RemovePoint();
@@ -186,6 +187,8 @@ void ADoYouCopySystem::PlaySequence(float deltaTime)
 			audioDur = 4;
 		FString temp = dial[narrationNum].audio[audioCounter].subtitles.ToString();
 		add = ((audioDur - deltaTime)-2) / temp.Len();
+		if (add > .1f)
+			add = .1f;
 		subTime = deltaTime;
 		SetSubs();
 		SetBools(dial[narrationNum].audio[audioCounter]);

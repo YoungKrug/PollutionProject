@@ -193,26 +193,31 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 }
 void UMyGameInstance::StartIntstructions(float timer, bool next)
 {
+	isClear = false;
 	if (first == nullptr || second == nullptr)
 		return;
 	if (introTime <= 0)
 	{
+		isIntro = true;
 		introTime = timer;
 	}
-	if (timer - introTime < 8)
+	if (timer - introTime < 1000)
 	{
 		if (!first->IsVisible())
 		{
 			first->SetVisibility(ESlateVisibility::Visible);
 		}
 	}
-	if (timer - introTime < 16 && timer - introTime > 8)
+	if (timer - introTime < 2000 && timer - introTime > 1000)
 	{
 		if (!second->IsVisible())
 		{
 			first->SetVisibility(ESlateVisibility::Hidden);
 			second->SetVisibility(ESlateVisibility::Visible);
+			
 		}
+		
+		isIntro = true;
 	}
 	if (timer - introTime < 25 && timer - introTime> 16)
 	{
@@ -222,9 +227,10 @@ void UMyGameInstance::StartIntstructions(float timer, bool next)
 			//third->SetVisibility(ESlateVisibility::Visible);
 		}
 	}
-	if (timer - introTime > 16)
+	if (timer - introTime > 2000)
 	{
 		second->SetVisibility(ESlateVisibility::Hidden);
+		isIntro = true;
 		finishedInstructions = true;
 	}
 	pressX = false;

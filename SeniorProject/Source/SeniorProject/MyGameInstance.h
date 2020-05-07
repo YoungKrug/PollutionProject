@@ -157,4 +157,6 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	bool clickedGoToCredits;
 	float alphaAmount = 0;
+	UPROPERTY(BlueprintReadWrite)
+	AActor* highlightedObj;
 };

@@ -52,7 +52,8 @@ void AFirstPersonCharacter::BeginPlay()
 	// Current set of components to check
 	TArray<UStaticMeshComponent*> staticComps;
 	GetComponents<UStaticMeshComponent>(staticComps);
-	
+	GI->introTime = 0;
+	GI->isIntro = true;
 	for (int i = 0; i < staticComps.Num(); i++)
 	{
 		if (staticComps[i]->GetName() == "NewsPaperLoc")
@@ -96,9 +97,10 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 	{
 		if (GI->pressX)
 		{
-			timer += 8.f;
+			timer += 1000.f;
 			GI->pressX = false;
 		}
+		GI->isIntro = true;
 		GI->StartIntstructions(timer, GI->pressX);
 	}
 	if (soundIsPlaying && timer >= cooldown)
@@ -120,7 +122,7 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 			hasInteracted = false;
 		}
 	}
-	if (GI->isIntro && timer >= introTimer && isWaitingForPhone && !isWaitingForRecorder)
+	if (GI->isIntro && timer >= introTimer && isWaitingForPhone && !isWaitingForRecorder && GI->isClear)
 	{
 
 		//introAudio->Stop();
@@ -129,7 +131,7 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 		//introAudio->Play();
 		isWaitingForRecorder = true;
 	}
-	if (isWaitingForRecorder && timer >= introTimer)
+	if (isWaitingForRecorder && timer >= introTimer && GI->isClear)
 	{
 		GI->isPressedX = true;
 		GI->isIntro = false;
@@ -278,7 +280,12 @@ void AFirstPersonCharacter::RestartGameButton()
 {
 	GI->isIntro = true;
 	GI->finishedInstructions = false;
-	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+	GI->isClear = false;
+	GI->canDisplayTest = false;
+	GI->introTime = 0;
+	GI->first->SetVisibility(ESlateVisibility::Hidden);
+	GI->second->SetVisibility(ESlateVisibility::Hidden);
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), true);
 }
 void AFirstPersonCharacter::PauseGame()
 {
@@ -488,7 +495,7 @@ void AFirstPersonCharacter::NextPage()
 	{
 		//If cannot continue set it to the same page, else
 		currentPaperNum = newsPaperNums.Num() - 1;
-		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		SetTextForNewPaper(currentPaperNum);
 		GI->continueButton->SetVisibility(ESlateVisibility::Hidden);
 		GI->nextText->SetVisibility(ESlateVisibility::Hidden);
 	}
@@ -502,7 +509,7 @@ void AFirstPersonCharacter::NextPage()
 			GI->continueButton->SetVisibility(ESlateVisibility::Hidden);
 			GI->nextText->SetVisibility(ESlateVisibility::Hidden);
 		}
-		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		SetTextForNewPaper(currentPaperNum);
 	}
 }
 void AFirstPersonCharacter::PrevPage()
@@ -523,11 +530,11 @@ void AFirstPersonCharacter::PrevPage()
 		}
 		GI->prevText->SetVisibility(ESlateVisibility::Hidden);
 		GI->prevButton->SetVisibility(ESlateVisibility::Hidden);
-		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		SetTextForNewPaper(currentPaperNum);
 	}
 	else
 	{
-		SetTextForNewPaper(newsPaperNums[currentPaperNum]);
+		SetTextForNewPaper(currentPaperNum);
 		GI->continueButton->SetVisibility(ESlateVisibility::Visible);
 		GI->nextText->SetVisibility(ESlateVisibility::Visible);
 	}
@@ -642,6 +649,10 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 {
 	if (currentlyInteracting.Num() <= 0)
 	{
+		if (act != GI->highlightedObj)
+		{
+			//return;
+		}
 		if (str == "Newspaper")
 		{
 			for (int i = 0; i < info.Num(); i++)
@@ -844,7 +855,9 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			}
 			if (name[i] == "Ending")
 			{
-				GI->isWaitingForEndCinematic = true;
+				//GI->isWaitingForEndCinematic = true;
+				speed = 0.f;
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("End Cine True"));
 				isAtEnd = true;
 				GI->canPlayerMove = true;
 				GI->canPlayerRotate = true;

@@ -2,45 +2,13 @@
   Creating makefile for SeniorProjectEditor (ini files are newer than makefile)
   Parsing headers for SeniorProjectEditor
     Running UnrealHeaderTool "E:\SenProj\PollProj\SeniorProject\SeniorProject.uproject" "E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\SeniorProjectEditor\Development\SeniorProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SeniorProjectEditor in 6.5181706 seconds
+  Reflection code generated for SeniorProjectEditor in 5.7673458 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (E:\VisualStudios\VC\Tools\MSVC\14.24.28314) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 10 actions with 8 processes...
-    [1/10] MyGameInstance.cpp
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(6): warning C4458: declaration of 'exitText' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.h(113): note: see declaration of 'UMyGameInstance::exitText'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(6): warning C4458: declaration of 'prevText' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.h(115): note: see declaration of 'UMyGameInstance::prevText'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(7): warning C4458: declaration of 'endMenu' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.h(123): note: see declaration of 'UMyGameInstance::endMenu'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.cpp(7): warning C4458: declaration of 'creditImage' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\MyGameInstance.h(143): note: see declaration of 'UMyGameInstance::creditImage'
-    [2/10] ButtonInfo.cpp
-    [3/10] DoYouCopySystem.cpp
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(88): warning C4458: declaration of 'audio' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(194): warning C4458: declaration of 'audio' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(202): warning C4458: declaration of 'audio' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(211): warning C4458: declaration of 'audio' hides class member
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.h(62): note: see declaration of 'ADoYouCopySystem::audio'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\DoYouCopySystem.cpp(76): warning C4701: potentially uninitialized local variable 'close' used
-    [4/10] MyGameInstance.gen.cpp
-    [5/10] DoYouCopySystem.gen.cpp
-    [6/10] FirstPersonCharacter.gen.cpp
-    [7/10] FirstPersonCharacter.cpp
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(382): warning C4456: declaration of 'i' hides previous local declaration
-    E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(371): note: see declaration of 'i'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(447): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1209): note: see declaration of 'AActor::DetachRootComponentFromParent'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(459): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1209): note: see declaration of 'AActor::DetachRootComponentFromParent'
-E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\Private\FirstPersonCharacter.cpp(542): warning C4996: 'AActor::DetachRootComponentFromParent': Use DetachFromActor() instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1209): note: see declaration of 'AActor::DetachRootComponentFromParent'
-    [8/10] UE4Editor-SeniorProject-0023.lib
-       Creating library E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0023.lib and object E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0023.exp
-    [9/10] UE4Editor-SeniorProject-0023.dll
-       Creating library E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0023.suppressed.lib and object E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0023.suppressed.exp
-    [10/10] SeniorProjectEditor.target
-  Total time in Parallel executor: 15.38 seconds
-  Total execution time: 24.47 seconds
+  Building 3 actions with 8 processes...
+    [1/3] UE4Editor-SeniorProject-0029.lib
+       Creating library E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0029.lib and object E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0029.exp
+    [2/3] UE4Editor-SeniorProject-0029.dll
+       Creating library E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0029.suppressed.lib and object E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\UE4Editor-SeniorProject-0029.suppressed.exp
+    [3/3] SeniorProjectEditor.target
+  Total time in Parallel executor: 0.96 seconds
+  Total execution time: 9.08 seconds
