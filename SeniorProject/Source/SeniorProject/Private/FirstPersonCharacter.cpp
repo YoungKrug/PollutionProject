@@ -300,10 +300,12 @@ void AFirstPersonCharacter::JumpUpward()
 	if (GI->canJumped)
 	{
 		Jump();
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Jumping"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Jumping"));
 	}
 	else
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Not Jumping"));
+	{
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("Not Jumping"));
+	}
 }
 //Add interact function soon **Newspaper etc.
 void AFirstPersonCharacter::MoveForward(float val)
@@ -568,7 +570,7 @@ void AFirstPersonCharacter::SetTextForNewPaper(int num)
 		if (num >= newsPaperNums.Num())
 			return;
 		GI->currentTextBlock->SetText(newsPaperText[newsPaperNums[num]]);
-		GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, newsPaperText[newsPaperNums[num]].ToString());
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, newsPaperText[newsPaperNums[num]].ToString());
 	}
 }
 void AFirstPersonCharacter::ActivateNewPaperUI(bool activation)
@@ -737,7 +739,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			FVector correctRot = UKismetMathLibrary::InverseTransformLocation(GetActorTransform(), rot.Vector());
 			correctRot *= cos(GetActorRotation().Yaw);
 			//correctRot = correctRot.RotateAngleAxis(correctRot.X, FVector(1, 0, 0));
-			GEngine->AddOnScreenDebugMessage(-1, 21.0F, FColor::Cyan, correctRot.ToString() + FString::FString(":") + FString::SanitizeFloat(cos(GetActorRotation().Yaw)));
+			//GEngine->AddOnScreenDebugMessage(-1, 21.0F, FColor::Cyan, correctRot.ToString() + FString::FString(":") + FString::SanitizeFloat(cos(GetActorRotation().Yaw)));
 			rot = correctRot.Rotation().Quaternion();
 			act->SetActorLocation(newPos);
 			//rot.RotateVector(FVector(0, 0, 90.f));
@@ -829,7 +831,7 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 		TArray<FName> name = OtherActor->Tags;
 		for (int i = 0; i < name.Num(); i++)
 		{
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, name[i].ToString());
 			if (name[i] == "Climb")
 			{
 				canClimb = true;
@@ -857,7 +859,7 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 			{
 				//GI->isWaitingForEndCinematic = true;
 				speed = 0.f;
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("End Cine True"));
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("End Cine True"));
 				isAtEnd = true;
 				GI->canPlayerMove = true;
 				GI->canPlayerRotate = true;
@@ -871,14 +873,14 @@ void AFirstPersonCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, 
 					p->SetInputMode(FInputModeUIOnly::FInputModeUIOnly());
 					p->bShowMouseCursor = true;
 				}
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("End"));
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::FString("End"));
 				//GI->Ending();
 			}
 			if (name[i] == "Water")
 			{
 				isRespawning = true;
 				respawnTimer = timer + 1.0f;
-				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, currentPlayerPos.ToString());
+			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, currentPlayerPos.ToString());
 			}
 		}
 	}

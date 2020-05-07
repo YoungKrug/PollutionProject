@@ -1,2 +1,2 @@
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\UnrealInformation.h
+E:\SenProj\PollProj\SeniorProject\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+E:\SenProj\PollProj\SeniorProject\Source\SeniorProject\UnrealInformation.h
