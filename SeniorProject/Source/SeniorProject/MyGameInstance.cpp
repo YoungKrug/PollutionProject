@@ -118,15 +118,15 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 {
 	if (time < 3.f)
 	{
-		FSlateColor col = screenFade->ColorAndOpacity;
+		FSlateColor col = fade->ColorAndOpacity;
 		FLinearColor lin = col.GetSpecifiedColor();
 		if (alphaAmount < .99f)
 		{
 			alphaAmount += 0.03f;
 			lin.A = alphaAmount;
 			//col = lin;
-			screenFade->SetVisibility(ESlateVisibility::Visible);
-			screenFade->SetColorAndOpacity(lin);
+			fade->SetVisibility(ESlateVisibility::Visible);
+			fade->SetColorAndOpacity(lin);
 		}
 		else
 		{
@@ -137,7 +137,7 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 	if (time > 3.5f && time < 10)
 	{
 
-		FSlateColor col = screenFade->ColorAndOpacity;
+		FSlateColor col = fade->ColorAndOpacity;
 		FLinearColor lin = col.GetSpecifiedColor();
 		if (alphaAmount > 0.02f)
 		{
@@ -145,24 +145,24 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 			lin.A = alphaAmount;
 			fade->SetVisibility(ESlateVisibility::Visible);
 			if (lin.A > 0)
-				this->screenFade->SetColorAndOpacity(lin);
+				fade->SetColorAndOpacity(lin);
 			else
 			{
 				lin.A = 0;
-				this->screenFade->SetColorAndOpacity(lin);
+				fade->SetColorAndOpacity(lin);
 			}
 		}
 	}
 	if (time > 12.f && time < 16)
 	{
-		FSlateColor col = screenFade->ColorAndOpacity;
+		FSlateColor col = fade->ColorAndOpacity;
 		FLinearColor lin = col.GetSpecifiedColor();
 		if (alphaAmount < .99f)
 		{
 			alphaAmount += 0.03f;
 			lin.A = alphaAmount;
-			screenFade->SetVisibility(ESlateVisibility::Visible);
-			screenFade->SetColorAndOpacity(lin);
+			fade->SetVisibility(ESlateVisibility::Visible);
+			fade->SetColorAndOpacity(lin);
 		}
 		else
 		{
@@ -174,19 +174,19 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 	if (time > 15.5f)
 	{
 
-		FSlateColor col = screenFade->ColorAndOpacity;
+		FSlateColor col = fade->ColorAndOpacity;
 		FLinearColor lin = col.GetSpecifiedColor();
 		if (lin.A > 0.02f)
 		{
 			alphaAmount -= 0.04f;
 			lin.A = alphaAmount;
-			screenFade->SetVisibility(ESlateVisibility::Visible);
+			fade->SetVisibility(ESlateVisibility::Visible);
 			if (lin.A > 0)
-				this->screenFade->SetColorAndOpacity(lin);
+				fade->SetColorAndOpacity(lin);
 			else
 			{
 				lin.A = 0;
-				this->screenFade->SetColorAndOpacity(lin);
+				fade->SetColorAndOpacity(lin);
 			}
 		}
 	}

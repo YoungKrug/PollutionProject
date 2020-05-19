@@ -285,7 +285,7 @@ void AFirstPersonCharacter::RestartGameButton()
 	GI->introTime = 0;
 	GI->first->SetVisibility(ESlateVisibility::Hidden);
 	GI->second->SetVisibility(ESlateVisibility::Hidden);
-	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), true);
+	UGameplayStatics::OpenLevel(this, FName("MainMenu"), true);
 }
 void AFirstPersonCharacter::PauseGame()
 {
@@ -684,7 +684,7 @@ void AFirstPersonCharacter::DetermineInteraction(const FString str, AActor* act,
 			GetNumbers();
 			SetBlur(GI->blur, true);
 			isReading = true;
-			GI->isCurrentlyPaused = true;
+			//GI->isCurrentlyPaused = true;
 			return;
 		}
 		else if (str == "Interactable")

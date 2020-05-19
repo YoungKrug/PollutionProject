@@ -1,4 +1,4 @@
-SeniorProject/Binaries/Win64/SeniorProject-Win64-Shipping.exe	2020-05-07T16:58:31.664Z
+SeniorProject/Binaries/Win64/SeniorProject-Win64-Shipping.exe	2020-05-10T15:59:22.839Z
 Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe	2019-05-23T00:11:02.466Z
 Engine/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll	2019-05-23T00:03:32.896Z
 Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll	2019-05-23T00:02:57.870Z
@@ -18,4 +18,4 @@ Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_0_16/Win64/openvr_api.dll	2019-05-23T
 Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll	2019-05-23T00:03:32.933Z
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2019-05-23T00:04:59.878Z
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2019-05-23T00:04:59.886Z
-SeniorProject.exe	2020-05-07T17:03:49.945Z
+SeniorProject.exe	2020-05-10T16:06:34.016Z
