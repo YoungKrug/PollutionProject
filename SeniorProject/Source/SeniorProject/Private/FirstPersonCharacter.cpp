@@ -199,8 +199,8 @@ FString AFirstPersonCharacter::StartRayCast()
 			if (hit[i].GetActor()->ActorHasTag("Floor"))
 			{
 				//SetActorLocation(currentPlayerPos);
-				//FString test = "Floor";
-				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				FString test = "Floor";
+				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation(); // Means they have not hit the water
 				GI->currentPlayerPos = GetActorLocation();
 				return FString::FString("Dock");
@@ -772,21 +772,21 @@ void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 	{
 		audio->Sound = dockStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		//audio->Play();
+		audio->Play();
 		return;
 	}
 	else if (str == "Forest")
 	{
 		audio->Sound = forestStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		//audio->Play();
+		audio->Play();
 		return;
 	}
 	else if (str == "City")
 	{
 		audio->Sound = cityStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		//audio->Play();
+		audio->Play();
 		return;
 	}
 }
