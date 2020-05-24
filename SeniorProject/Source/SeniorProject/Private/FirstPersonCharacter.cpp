@@ -772,21 +772,21 @@ void AFirstPersonCharacter::DetermineSoundToPlay(FString str)
 	{
 		audio->Sound = dockStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		audio->Play();
+		//audio->Play();
 		return;
 	}
 	else if (str == "Forest")
 	{
 		audio->Sound = forestStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		audio->Play();
+		//audio->Play();
 		return;
 	}
 	else if (str == "City")
 	{
 		audio->Sound = cityStepSounds;
 		audio->SetPitchMultiplier(randomNum);
-		audio->Play();
+		//audio->Play();
 		return;
 	}
 }
