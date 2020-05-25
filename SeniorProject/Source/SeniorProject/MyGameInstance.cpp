@@ -180,6 +180,8 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 		{
 			alphaAmount -= 0.04f;
 			lin.A = alphaAmount;
+			if (credits->IsVisible())
+				credits->SetVisibility(ESlateVisibility::Hidden);
 			fade->SetVisibility(ESlateVisibility::Visible);
 			if (lin.A > 0)
 				fade->SetColorAndOpacity(lin);

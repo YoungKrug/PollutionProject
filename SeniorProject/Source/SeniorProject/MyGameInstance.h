@@ -159,4 +159,6 @@ public:
 	float alphaAmount = 0;
 	UPROPERTY(BlueprintReadWrite)
 	AActor* highlightedObj;
+	UPROPERTY(BlueprintReadWrite)
+	float timerTwo = 0;
 };

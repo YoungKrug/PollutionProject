@@ -162,7 +162,7 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 			timer += 16.f;
 			GI->pressX = false;
 		}
-		GI->GoToCredits(GI->screenFade, GI->creditImage, timer - creditsTime);
+		GI->GoToCredits(GI->screenFade, GI->creditImage, timer - creditsTime + GI->timerTwo);
 	}
 	if (!GI->clickedGoToCredits)
 		creditsTime = 0;

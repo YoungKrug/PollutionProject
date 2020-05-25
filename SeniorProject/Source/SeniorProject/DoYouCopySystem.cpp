@@ -92,7 +92,7 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 					{
 						audioCounter++;
 
-						//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
+						GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
 
 					}
 					else

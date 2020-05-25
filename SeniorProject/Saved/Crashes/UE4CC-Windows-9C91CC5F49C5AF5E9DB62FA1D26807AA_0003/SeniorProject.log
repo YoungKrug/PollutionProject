@@ -1,0 +1,1032 @@
+﻿Log file open, 05/24/20 20:20:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SeniorProject
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.309200
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithDataPrepEditor
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.25-00.20.04:929][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.25-00.20.04:929][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.25-00.20.04:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.05.25-00.20.04:929][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.25-00.20.04:929][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.05.25-00.20.04:929][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2020.05.25-00.20.04:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.05.25-00.20.04:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.25-00.20.04:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.05.25-00.20.04:930][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.05.25-00.20.04:956][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:956][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.25-00.20.04:956][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.25-00.20.04:957][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:958][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.25-00.20.04:958][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.25-00.20.04:958][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.25-00.20.04:958][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.25-00.20.04:970][  0]LogHAL: Display: Platform has ~ 32 GB [34296127488 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.05.25-00.20.04:970][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.25-00.20.04:970][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.25-00.20.04:970][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Scalability.ini]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.25-00.20.04:971][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/SenProj/PollProj/SeniorProject/Saved/Config/Windows/Engine.ini]
+[2020.05.25-00.20.04:971][  0]LogInit: Computer: GREGSPC
+[2020.05.25-00.20.04:971][  0]LogInit: User: Gregory
+[2020.05.25-00.20.04:971][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.25-00.20.04:971][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.25-00.20.04:971][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.05.25-00.20.04:971][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.25-00.20.04:971][  0]LogMemory: Process Physical Memory: 102.22 MB used, 102.22 MB peak
+[2020.05.25-00.20.04:971][  0]LogMemory: Process Virtual Memory: 103.41 MB used, 103.41 MB peak
+[2020.05.25-00.20.04:971][  0]LogMemory: Physical Memory: 11132.51 MB used,  21574.83 MB free, 32707.34 MB total
+[2020.05.25-00.20.04:971][  0]LogMemory: Virtual Memory: 4670.19 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2020.05.25-00.20.04:998][  0]LogInit: Using OS detected language (en-US).
+[2020.05.25-00.20.04:998][  0]LogInit: Using OS detected locale (en-US).
+[2020.05.25-00.20.04:998][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.05.25-00.20.05:225][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.25-00.20.05:294][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.25-00.20.05:294][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.25-00.20.05:523][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.05.25-00.20.05:523][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.25-00.20.05:588][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.05.25-00.20.05:588][  0]LogD3D11RHI:       8010/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2020.05.25-00.20.05:590][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.25-00.20.05:590][  0]LogD3D11RHI:       0/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.25-00.20.05:590][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.25-00.20.05:601][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.25-00.20.05:601][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.25-00.20.05:601][  0]LogWindows: EnumDisplayDevices:
+[2020.05.25-00.20.05:601][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.05.25-00.20.05:601][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.05.25-00.20.05:602][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.05.25-00.20.05:602][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.05.25-00.20.05:602][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.05.25-00.20.05:602][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.05.25-00.20.05:602][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.05.25-00.20.05:602][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.05.25-00.20.05:602][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.05.25-00.20.05:649][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.25-00.20.05:658][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.05.25-00.20.05:658][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.05.25-00.20.05:658][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.05.25-00.20.05:671][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.05.25-00.20.05:985][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.05.25-00.20.05:999][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.05.25-00.20.06:014][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.05.25-00.20.06:028][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.05.25-00.20.06:042][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.05.25-00.20.06:056][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.05.25-00.20.06:069][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.25-00.20.06:087][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.05.25-00.20.06:096][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.05.25-00.20.06:171][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.05.25-00.20.06:172][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.05.25-00.20.06:173][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.05.25-00.20.06:223][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.05.25-00.20.06:224][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.05.25-00.20.06:246][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.05.25-00.20.06:246][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.05.25-00.20.06:258][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.05.25-00.20.06:269][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.25-00.20.06:281][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.05.25-00.20.06:293][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.05.25-00.20.06:335][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.05.25-00.20.06:335][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.05.25-00.20.06:335][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.25-00.20.06:346][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.25-00.20.06:441][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (E:/SenProj/PollProj/SeniorProject/Intermediate/Shaders/WorkingDirectory/14748/).
+[2020.05.25-00.20.06:441][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gregory/AppData/Local/Temp/UnrealShaderWorkingDir/5CDF229C41C7B57F4E65A899E576424D/'.
+[2020.05.25-00.20.06:449][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.25-00.20.06:449][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.25-00.20.06:449][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.25-00.20.06:966][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.25-00.20.07:032][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.05.25-00.20.07:032][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.05.25-00.20.07:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/SenProj/PollProj/SeniorProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.25-00.20.07:032][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.25-00.20.07:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/SenProj/PollProj/SeniorProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.25-00.20.07:032][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.25-00.20.07:044][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.25-00.20.07:048][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2020.05.25-00.20.07:060][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gregory/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.25-00.20.07:060][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.25-00.20.07:060][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.25-00.20.07:083][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.25-00.20.07:084][  0]LogSlate: Using FreeType 2.6.0
+[2020.05.25-00.20.07:084][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.25-00.20.07:164][  0]LogAssetRegistry: FAssetRegistry took 0.0321 seconds to start up
+[2020.05.25-00.20.07:520][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.25-00.20.07:673][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.25-00.20.07:673][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.25-00.20.07:673][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.25-00.20.07:673][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.25-00.20.07:673][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.25-00.20.07:691][  0]LogNetVersion: SeniorProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 993350713)
+[2020.05.25-00.20.08:158][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.068764 seconds
+[2020.05.25-00.20.08:165][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.05.25-00.20.08:165][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.05.25-00.20.08:165][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.25-00.20.09:056][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.25-00.20.09:070][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.25-00.20.09:200][  0]SourceControl: Source control is disabled
+[2020.05.25-00.20.09:741][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.25-00.20.10:060][  0]LogOcInput: OculusInput pre-init called
+[2020.05.25-00.20.12:229][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2020.05.25-00.20.12:229][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2020.05.25-00.20.12:230][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2020.05.25-00.20.12:230][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2020.05.25-00.20.12:367][  0]LogEngine: Initializing Engine...
+[2020.05.25-00.20.12:438][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.05.25-00.20.12:440][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.25-00.20.12:722][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.25-00.20.12:755][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.25-00.20.12:912][  0]LogInit: XAudio2 using 'Headset Earphone (2- Corsair HS70 Wireless Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.05.25-00.20.12:940][  0]LogInit: FAudioDevice initialized.
+[2020.05.25-00.20.12:940][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.25-00.20.13:251][  0]LogDerivedDataCache: Saved boot cache 0.31s 73MB C:/Users/Gregory/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.05.25-00.20.13:260][  0]LogInit: Texture streaming: Enabled
+[2020.05.25-00.20.13:292][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.25-00.20.13:336][  0]LogInit: Transaction tracking system initialized
+[2020.05.25-00.20.13:386][  0]BlueprintLog: New page: Editor Load
+[2020.05.25-00.20.13:511][  0]LocalizationService: Localization service is disabled
+[2020.05.25-00.20.13:825][  0]LogFileCache: Scanning file cache for directory 'E:/SenProj/PollProj/SeniorProject/Content/' took 0.02s
+[2020.05.25-00.20.13:825][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.25-00.20.13:825][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.25-00.20.15:229][  0]Cmd: MAP LOAD FILE="E:/SenProj/PollProj/SeniorProject/Content/Levels/GreyBoxLVL4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.25-00.20.15:229][  0]LightingResults: New page: Lighting Build
+[2020.05.25-00.20.15:234][  0]MapCheck: New page: Map Check
+[2020.05.25-00.20.15:234][  0]LightingResults: New page: Lighting Build
+[2020.05.25-00.20.15:262][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.05.25-00.20.16:153][  0]LogLinker: Warning: Asset 'E:/SenProj/PollProj/SeniorProject/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.05.25-00.20.16:154][  0]LogLinker: Warning: Asset 'E:/SenProj/PollProj/SeniorProject/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.05.25-00.20.16:155][  0]LogLinker: Warning: Asset 'E:/SenProj/PollProj/SeniorProject/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.05.25-00.20.18:432][  0]LogAIModule: Creating AISystem for world GreyBoxLVL4
+[2020.05.25-00.20.19:624][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.05.25-00.20.19:771][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.05.25-00.20.19:771][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.25-00.20.19:771][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.524ms to complete.
+[2020.05.25-00.20.19:771][  0]LogFileHelpers: Loading map 'GreyBoxLVL4' took 4.543
+[2020.05.25-00.20.19:967][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.25-00.20.19:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.25-00.20.19:993][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.25-00.20.20:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.25-00.20.20:032][  0]LogCollectionManager: Loaded 0 collections in 0.003518 seconds
+[2020.05.25-00.20.20:065][  0]LogFileCache: Scanning file cache for directory 'E:/SenProj/PollProj/SeniorProject/Saved/Collections/' took 0.01s
+[2020.05.25-00.20.20:065][  0]LogFileCache: Scanning file cache for directory 'E:/SenProj/PollProj/SeniorProject/Content/Developers/Gregory/Collections/' took 0.01s
+[2020.05.25-00.20.20:065][  0]LogFileCache: Scanning file cache for directory 'E:/SenProj/PollProj/SeniorProject/Content/Collections/' took 0.00s
+[2020.05.25-00.20.20:065][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.05.25-00.20.20:075][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2876 classes and 729 folders.
+[2020.05.25-00.20.20:090][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.25-00.20.20:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:105][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:105][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:107][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.05.25-00.20.20:153][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.25-00.20.20:180][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.25-00.20.20:186][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.25-00.20.20:191][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.25-00.20.20:270][  0]LogRenderer: Reallocating scene render targets to support 1228x504 Format 10 NumSamples 1 (Frame:1).
+[2020.05.25-00.20.20:310][  0]LogStaticMesh: Allocated 512x403x64 distance field atlas = 25.2Mb, with 183 objects containing 22.8Mb backing data
+[2020.05.25-00.20.20:595][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.25-00.20.20:595][  0]LogLoad: (Engine Initialization) Total time: 18.30 seconds
+[2020.05.25-00.20.20:595][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.25-00.20.20:664][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.25-00.20.20:732][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.25-00.20.25:765][230]LogFileCache: Retrieving MD5 hashes for directory 'E:/SenProj/PollProj/SeniorProject/Content/' took 5.14s
+[2020.05.25-00.20.46:957][599]LogAssetRegistry: Asset discovery search completed in 39.8165 seconds
+[2020.05.25-00.20.46:963][599]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.05.25-00.20.46:963][599]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000134 seconds (updated 0 objects)
+[2020.05.25-00.26.57:972][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.05.25-00.35.55:035][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.05.25-00.36.05:633][709]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.25-00.36.05:645][709]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Counter.Counter
+[2020.05.25-00.36.06:104][709]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.05.25-00.36.07:172][709]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2020.05.25-00.36.07:768][709]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.25-00.36.07:806][709]LogBlueprintUserMessages: [Counter_C_1] Failed
+[2020.05.25-00.36.07:806][709]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.05.25-00.36.08:738][709]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.932 s
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: Ensure condition failed: 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\SlateCore\Private\Fonts\FontCacheFreeType.cpp] [Line: 175]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: FT_New_Memory_Face failed with error code 2
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: Stack: 
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0be87fae UE4Editor-SlateCore.dll!DispatchCheckVerify<bool,<lambda_aac2e28440519f76e6a0abebaa78c834> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bccf0a1 UE4Editor-SlateCore.dll!FFreeTypeFace::FFreeTypeFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachefreetype.cpp:175]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd55520 UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:356]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd3c625 UE4Editor-SlateCore.dll!FCompositeFontCache::DoesFontDataSupportCharacter() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:490]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd54f77 UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontDataForCharacter() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:306]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd868f8 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformKerningOnlyTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:323]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd87388 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:249]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2314 UE4Editor-SlateCore.dll!FSlateTextShaper::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:122]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda20a1 UE4Editor-SlateCore.dll!FSlateFontCache::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcache.cpp:944]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a4c3dc UE4Editor-Slate.dll!FShapedTextCache::AddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:29]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a78de6 UE4Editor-Slate.dll!FShapedTextCache::FindOrAddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:76]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8cbbc UE4Editor-Slate.dll!ShapedTextCacheUtil::MeasureShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:103]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8ca6d UE4Editor-Slate.dll!FSlateTextRun::Measure() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextrun.cpp:59]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a6cd38 UE4Editor-Slate.dll!FTextLayout::FRunModel::CreateBlock() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:2622]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a710b8 UE4Editor-Slate.dll!FTextLayout::CreateLineViewBlocks() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:325]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a7aa11 UE4Editor-Slate.dll!FTextLayout::FlowLineLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:581]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a79dce UE4Editor-Slate.dll!FTextLayout::FlowLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:529]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac766 UE4Editor-Slate.dll!FTextLayout::UpdateLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:1168]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac4da UE4Editor-Slate.dll!FSlateTextLayout::UpdateIfNeeded() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextlayout.cpp:170]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4c42e UE4Editor-Slate.dll!FSlateTextBlockLayout::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\slatetextblocklayout.cpp:89]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4cd50 UE4Editor-Slate.dll!STextBlock::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\stextblock.cpp:275]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd0d278 UE4Editor-SlateCore.dll!SWidget::CacheDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:621]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2f4d UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:520]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe90807 UE4Editor-UMGEditor.dll!SDesignerView::UpdatePreviewWidget() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2293]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe8bb4a UE4Editor-UMGEditor.dll!SDesignerView::Tick() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2387]
+[2020.05.25-00.36.08:738][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd83e2b UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1002]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:739][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8277a UE4Editor-SlateCore.dll!SWindow::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1945]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd850fe UE4Editor-SlateCore.dll!SWindow::PaintWindow() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1933]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091d714 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1289]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e211 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1388]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd109468d2 UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1563]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e2a2 UE4Editor-Slate.dll!FSlateApplication::DrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1246]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1096a859 UE4Editor-Slate.dll!FSlateApplication::TickApplication() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1848]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10969a4d UE4Editor-Slate.dll!FSlateApplication::Tick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1679]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ff689447a6a UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4071]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ff68945554c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:168]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ff6894555ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: [Callstack] 0x00007ff68946316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.05.25-00.36.08:740][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.08:749][709]LogStats:                SubmitErrorReport -  0.000 s
+[2020.05.25-00.36.09:639][709]LogStats:                    SendNewReport -  0.889 s
+[2020.05.25-00.36.09:639][709]LogStats:             FDebug::EnsureFailed -  1.833 s
+[2020.05.25-00.36.09:639][709]LogSlate: Warning: GetFontFace failed to load or process 'C:\Users\Greg\AppData\Roaming\Adobe\CoreSync\plugins\livetype\e\224.otf' with face index 0
+[2020.05.25-00.36.09:639][709]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.05.25-00.36.09:650][709]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.011 s
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: Ensure condition failed: 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\SlateCore\Private\Fonts\FontCacheFreeType.cpp] [Line: 175]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: FT_New_Memory_Face failed with error code 2
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: Stack: 
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0be87fae UE4Editor-SlateCore.dll!DispatchCheckVerify<bool,<lambda_aac2e28440519f76e6a0abebaa78c834> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bccf0a1 UE4Editor-SlateCore.dll!FFreeTypeFace::FFreeTypeFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachefreetype.cpp:175]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd55520 UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:356]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd3c625 UE4Editor-SlateCore.dll!FCompositeFontCache::DoesFontDataSupportCharacter() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:490]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd55008 UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontDataForCharacter() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:306]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd868f8 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformKerningOnlyTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:323]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd87388 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:249]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2314 UE4Editor-SlateCore.dll!FSlateTextShaper::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:122]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda20a1 UE4Editor-SlateCore.dll!FSlateFontCache::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcache.cpp:944]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a4c3dc UE4Editor-Slate.dll!FShapedTextCache::AddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:29]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a78de6 UE4Editor-Slate.dll!FShapedTextCache::FindOrAddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:76]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8cbbc UE4Editor-Slate.dll!ShapedTextCacheUtil::MeasureShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:103]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8ca6d UE4Editor-Slate.dll!FSlateTextRun::Measure() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextrun.cpp:59]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a6cd38 UE4Editor-Slate.dll!FTextLayout::FRunModel::CreateBlock() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:2622]
+[2020.05.25-00.36.09:650][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a710b8 UE4Editor-Slate.dll!FTextLayout::CreateLineViewBlocks() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:325]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a7aa11 UE4Editor-Slate.dll!FTextLayout::FlowLineLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:581]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a79dce UE4Editor-Slate.dll!FTextLayout::FlowLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:529]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac766 UE4Editor-Slate.dll!FTextLayout::UpdateLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:1168]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac4da UE4Editor-Slate.dll!FSlateTextLayout::UpdateIfNeeded() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextlayout.cpp:170]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4c42e UE4Editor-Slate.dll!FSlateTextBlockLayout::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\slatetextblocklayout.cpp:89]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4cd50 UE4Editor-Slate.dll!STextBlock::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\stextblock.cpp:275]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd0d278 UE4Editor-SlateCore.dll!SWidget::CacheDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:621]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2f4d UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:520]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe90807 UE4Editor-UMGEditor.dll!SDesignerView::UpdatePreviewWidget() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2293]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe8bb4a UE4Editor-UMGEditor.dll!SDesignerView::Tick() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2387]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd83e2b UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1002]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:651][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:652][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:653][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8277a UE4Editor-SlateCore.dll!SWindow::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1945]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd850fe UE4Editor-SlateCore.dll!SWindow::PaintWindow() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1933]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091d714 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1289]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e211 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1388]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd109468d2 UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1563]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e2a2 UE4Editor-Slate.dll!FSlateApplication::DrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1246]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1096a859 UE4Editor-Slate.dll!FSlateApplication::TickApplication() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1848]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10969a4d UE4Editor-Slate.dll!FSlateApplication::Tick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1679]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ff689447a6a UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4071]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ff68945554c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:168]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ff6894555ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.05.25-00.36.09:654][709]LogOutputDevice: Error: [Callstack] 0x00007ff68946316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.05.25-00.36.09:655][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.09:662][709]LogStats:                SubmitErrorReport -  0.000 s
+[2020.05.25-00.36.10:621][709]LogStats:                    SendNewReport -  0.960 s
+[2020.05.25-00.36.10:621][709]LogStats:             FDebug::EnsureFailed -  0.983 s
+[2020.05.25-00.36.10:621][709]LogSlate: Warning: GetFontFace failed to load or process 'C:\Users\Greg\AppData\Roaming\Adobe\CoreSync\plugins\livetype\e\224.otf' with face index 0
+[2020.05.25-00.36.10:621][709]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.05.25-00.36.10:632][709]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.010 s
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: Ensure condition failed: 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\SlateCore\Private\Fonts\FontCacheFreeType.cpp] [Line: 175]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: FT_New_Memory_Face failed with error code 2
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: Stack: 
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0be87fae UE4Editor-SlateCore.dll!DispatchCheckVerify<bool,<lambda_aac2e28440519f76e6a0abebaa78c834> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bccf0a1 UE4Editor-SlateCore.dll!FFreeTypeFace::FFreeTypeFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachefreetype.cpp:175]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd55520 UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:356]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd5471b UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontAttributes() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:412]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd550ce UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontDataForCharacter() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:323]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd868f8 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformKerningOnlyTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:323]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd87388 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:249]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2314 UE4Editor-SlateCore.dll!FSlateTextShaper::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:122]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda20a1 UE4Editor-SlateCore.dll!FSlateFontCache::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcache.cpp:944]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a4c3dc UE4Editor-Slate.dll!FShapedTextCache::AddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:29]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a78de6 UE4Editor-Slate.dll!FShapedTextCache::FindOrAddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:76]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8cbbc UE4Editor-Slate.dll!ShapedTextCacheUtil::MeasureShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:103]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8ca6d UE4Editor-Slate.dll!FSlateTextRun::Measure() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextrun.cpp:59]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a6cd38 UE4Editor-Slate.dll!FTextLayout::FRunModel::CreateBlock() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:2622]
+[2020.05.25-00.36.10:632][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a710b8 UE4Editor-Slate.dll!FTextLayout::CreateLineViewBlocks() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:325]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a7aa11 UE4Editor-Slate.dll!FTextLayout::FlowLineLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:581]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a79dce UE4Editor-Slate.dll!FTextLayout::FlowLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:529]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac766 UE4Editor-Slate.dll!FTextLayout::UpdateLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:1168]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac4da UE4Editor-Slate.dll!FSlateTextLayout::UpdateIfNeeded() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextlayout.cpp:170]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4c42e UE4Editor-Slate.dll!FSlateTextBlockLayout::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\slatetextblocklayout.cpp:89]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4cd50 UE4Editor-Slate.dll!STextBlock::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\stextblock.cpp:275]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd0d278 UE4Editor-SlateCore.dll!SWidget::CacheDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:621]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2f4d UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:520]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe90807 UE4Editor-UMGEditor.dll!SDesignerView::UpdatePreviewWidget() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2293]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe8bb4a UE4Editor-UMGEditor.dll!SDesignerView::Tick() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2387]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd83e2b UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1002]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:633][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.10:634][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8277a UE4Editor-SlateCore.dll!SWindow::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1945]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd850fe UE4Editor-SlateCore.dll!SWindow::PaintWindow() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1933]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091d714 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1289]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e211 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1388]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd109468d2 UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1563]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e2a2 UE4Editor-Slate.dll!FSlateApplication::DrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1246]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1096a859 UE4Editor-Slate.dll!FSlateApplication::TickApplication() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1848]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10969a4d UE4Editor-Slate.dll!FSlateApplication::Tick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1679]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ff689447a6a UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4071]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ff68945554c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:168]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ff6894555ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: [Callstack] 0x00007ff68946316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.05.25-00.36.10:635][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.10:636][709]LogStats:                SubmitErrorReport -  0.000 s
+[2020.05.25-00.36.11:672][709]LogStats:                    SendNewReport -  1.036 s
+[2020.05.25-00.36.11:672][709]LogStats:             FDebug::EnsureFailed -  1.050 s
+[2020.05.25-00.36.11:672][709]LogSlate: Warning: GetFontFace failed to load or process 'C:\Users\Greg\AppData\Roaming\Adobe\CoreSync\plugins\livetype\e\224.otf' with face index 0
+[2020.05.25-00.36.11:672][709]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.05.25-00.36.11:683][709]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.011 s
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: Ensure condition failed: 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\SlateCore\Private\Fonts\FontCacheFreeType.cpp] [Line: 175]
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: FT_New_Memory_Face failed with error code 2
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: Stack: 
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0be87fae UE4Editor-SlateCore.dll!DispatchCheckVerify<bool,<lambda_aac2e28440519f76e6a0abebaa78c834> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bccf0a1 UE4Editor-SlateCore.dll!FFreeTypeFace::FFreeTypeFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachefreetype.cpp:175]
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd55520 UE4Editor-SlateCore.dll!FCompositeFontCache::GetFontFace() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcachecompositefont.cpp:356]
+[2020.05.25-00.36.11:683][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd55feb UE4Editor-SlateCore.dll!FSlateFontRenderer::GetFontFaceForCharacter() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatefontrenderer.cpp:231]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd86919 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformKerningOnlyTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:324]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd87388 UE4Editor-SlateCore.dll!FSlateTextShaper::PerformTextShaping() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:249]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2314 UE4Editor-SlateCore.dll!FSlateTextShaper::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\slatetextshaper.cpp:122]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda20a1 UE4Editor-SlateCore.dll!FSlateFontCache::ShapeBidirectionalText() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\fonts\fontcache.cpp:944]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a4c3dc UE4Editor-Slate.dll!FShapedTextCache::AddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:29]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a78de6 UE4Editor-Slate.dll!FShapedTextCache::FindOrAddShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:76]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8cbbc UE4Editor-Slate.dll!ShapedTextCacheUtil::MeasureShapedText() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\shapedtextcache.cpp:103]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a8ca6d UE4Editor-Slate.dll!FSlateTextRun::Measure() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextrun.cpp:59]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a6cd38 UE4Editor-Slate.dll!FTextLayout::FRunModel::CreateBlock() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:2622]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a710b8 UE4Editor-Slate.dll!FTextLayout::CreateLineViewBlocks() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:325]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a7aa11 UE4Editor-Slate.dll!FTextLayout::FlowLineLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:581]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10a79dce UE4Editor-Slate.dll!FTextLayout::FlowLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:529]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac766 UE4Editor-Slate.dll!FTextLayout::UpdateLayout() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\textlayout.cpp:1168]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10aac4da UE4Editor-Slate.dll!FSlateTextLayout::UpdateIfNeeded() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\text\slatetextlayout.cpp:170]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4c42e UE4Editor-Slate.dll!FSlateTextBlockLayout::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\slatetextblocklayout.cpp:89]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b4cd50 UE4Editor-Slate.dll!STextBlock::ComputeDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\text\stextblock.cpp:275]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd0d278 UE4Editor-SlateCore.dll!SWidget::CacheDesiredSize() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:621]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2f4d UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:520]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bda2efd UE4Editor-SlateCore.dll!SWidget::SlatePrepass() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:512]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe90807 UE4Editor-UMGEditor.dll!SDesignerView::UpdatePreviewWidget() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2293]
+[2020.05.25-00.36.11:684][709]LogOutputDevice: Error: [Callstack] 0x00007ffcebe8bb4a UE4Editor-UMGEditor.dll!SDesignerView::Tick() [d:\build\++ue4\sync\engine\source\editor\umgeditor\private\designer\sdesignerview.cpp:2387]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd83e2b UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1002]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:685][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b2479e UE4Editor-Slate.dll!SBorder::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\sborder.cpp:119]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10b29354 UE4Editor-Slate.dll!SSplitter::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slate\private\widgets\layout\ssplitter.cpp:164]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd84bc5 UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:31]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd826d4 UE4Editor-SlateCore.dll!SPanel::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\spanel.cpp:12]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd82571 UE4Editor-SlateCore.dll!SOverlay::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\soverlay.cpp:95]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd81c41 UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\scompoundwidget.cpp:35]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8277a UE4Editor-SlateCore.dll!SWindow::OnPaint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1945]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd8419f UE4Editor-SlateCore.dll!SWidget::Paint() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swidget.cpp:1041]
+[2020.05.25-00.36.11:686][709]LogOutputDevice: Error: [Callstack] 0x00007ffd0bd850fe UE4Editor-SlateCore.dll!SWindow::PaintWindow() [d:\build\++ue4\sync\engine\source\runtime\slatecore\private\widgets\swindow.cpp:1933]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091d714 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1289]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e211 UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1388]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ffd109468d2 UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1563]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1091e2a2 UE4Editor-Slate.dll!FSlateApplication::DrawWindows() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1246]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ffd1096a859 UE4Editor-Slate.dll!FSlateApplication::TickApplication() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1848]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ffd10969a4d UE4Editor-Slate.dll!FSlateApplication::Tick() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:1679]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ff689447a6a UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:4071]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ff68945554c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:168]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ff6894555ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ff68946316c UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: [Callstack] 0x00007ff689465b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\3\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.05.25-00.36.11:687][709]LogOutputDevice: Error: 
+[2020.05.25-00.36.11:701][709]LogStats:                SubmitErrorReport -  0.000 s
