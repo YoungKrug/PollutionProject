@@ -6,6 +6,7 @@
 #include "Camera/CameraActor.h"
 #include "GameFramework/Character.h"
 #include "Components/AudioComponent.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "UMG/Public/Components/BackgroundBlur.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "FirstPersonCharacter.generated.h" // If you regenerate the vs solution you are able to fix the generated body error
@@ -171,6 +172,7 @@ private:
 	bool isAtEnd;
 	float endTime;
 	float creditsTime = 0;
+	UParticleSystemComponent* particleComp;
 	//UMovieSceneSequence scene;
 	
 };

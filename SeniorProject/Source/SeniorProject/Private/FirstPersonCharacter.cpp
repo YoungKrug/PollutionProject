@@ -21,6 +21,7 @@
 #include "Math/TransformNonVectorized.h"
 #include "Kismet/KismetMathLibrary.h"
 
+
 // Sets default values
 AFirstPersonCharacter::AFirstPersonCharacter()
 {
@@ -51,6 +52,8 @@ void AFirstPersonCharacter::BeginPlay()
 	//GetAttachedActors(childs);
 	// Current set of components to check
 	TArray<UStaticMeshComponent*> staticComps;
+	TArray<UParticleSystemComponent*> partComps;
+	GetComponents<UParticleSystemComponent>(partComps);
 	GetComponents<UStaticMeshComponent>(staticComps);
 	GI->introTime = 0;
 	GI->isIntro = true;
@@ -60,6 +63,15 @@ void AFirstPersonCharacter::BeginPlay()
 			newsPaperLoc = staticComps[i];
 		if (staticComps[i]->GetName() == "Cube")
 			interactiveLoc = staticComps[i];
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, staticComps[i]->GetName());
+	}
+	for (int i = 0; i < partComps.Num(); i++)
+	{
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, partComps[i]->GetName());
+		if (partComps[i]->GetName() == "Rain_P")
+		{
+			particleComp = partComps[i];
+		}
 	}
 	APlayerController* a = UGameplayStatics::GetPlayerController(UObject::GetWorld(), 0);
 	//FInputModeUIOnly* a;
@@ -71,6 +83,7 @@ void AFirstPersonCharacter::BeginPlay()
 	}
 	GI->canPlayerMove = false;
 	GI->canPlayerRotate = false;
+
 	//GI->canDisplayTest = true;
 	//GI->isIntro = true;
 	//test = GetOwner()->Tags[0].ToString();
@@ -162,7 +175,10 @@ void AFirstPersonCharacter::Tick(float DeltaTime)
 			timer += 16.f;
 			GI->pressX = false;
 		}
-		GI->GoToCredits(GI->screenFade, GI->creditImage, timer - creditsTime + GI->timerTwo);
+		if(GI->timerTwo >= 10000)
+			GI->GoToCredits(GI->screenFade, GI->creditImage, GI->timerTwo);
+		else
+			GI->GoToCredits(GI->screenFade, GI->creditImage, timer - creditsTime + GI->timerTwo);
 	}
 	if (!GI->clickedGoToCredits)
 		creditsTime = 0;
@@ -200,6 +216,8 @@ FString AFirstPersonCharacter::StartRayCast()
 			{
 				//SetActorLocation(currentPlayerPos);
 				FString test = "Floor";
+				if(!particleComp->IsVisible())
+					particleComp->SetVisibility(true);
 				GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation(); // Means they have not hit the water
 				GI->currentPlayerPos = GetActorLocation();
@@ -209,6 +227,8 @@ FString AFirstPersonCharacter::StartRayCast()
 			{
 				//	FString test = "Dock";
 				//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
+				if (particleComp->IsVisible())
+					particleComp->SetVisibility(false);
 				currentPlayerPos = GetActorLocation();
 				GI->currentPlayerPos = GetActorLocation();
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
@@ -217,6 +237,8 @@ FString AFirstPersonCharacter::StartRayCast()
 			else if (hit[i].GetActor()->ActorHasTag("Forest"))
 			{
 				//	FString test = "Forest";
+				if (!particleComp->IsVisible())
+					particleComp->SetVisibility(true);
 				currentPlayerPos = GetActorLocation();
 				GI->currentPlayerPos = GetActorLocation();
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, GetActorLocation().ToString());
@@ -225,6 +247,8 @@ FString AFirstPersonCharacter::StartRayCast()
 			else if (hit[i].GetActor()->ActorHasTag("City"))
 			{
 				//FString test = "City";
+				if (!particleComp->IsVisible())
+					particleComp->SetVisibility(true);
 			//	GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test);
 				currentPlayerPos = GetActorLocation();
 				GI->currentPlayerPos = GetActorLocation();

@@ -153,7 +153,7 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 			}
 		}
 	}
-	if (time > 12.f && time < 16)
+	if (time > 10000.f && time < 10003.f)
 	{
 		FSlateColor col = fade->ColorAndOpacity;
 		FLinearColor lin = col.GetSpecifiedColor();
@@ -171,7 +171,7 @@ void UMyGameInstance::GoToCredits(UImage* fade, UImage* credits, float time)
 			clickedGoToCredits = false;
 		}
 	}
-	if (time > 15.5f)
+	if (time > 10003.f)
 	{
 
 		FSlateColor col = fade->ColorAndOpacity;

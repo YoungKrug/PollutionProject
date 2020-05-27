@@ -93,7 +93,6 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 						audioCounter++;
 
 						GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(audioCount).Append(FString::FString(" : ").Append(FString::SanitizeFloat(audioCounter))));
-
 					}
 					else
 					{
@@ -102,8 +101,9 @@ void ADoYouCopySystem::Tick(float DeltaTime)
 							GI->isAtEnd = true;
 							GI->isWaitingForEndCinematic = true;
 						}
-						audioCounter = 0;
+						
 						RemovePoint();
+						audioCounter = 0;
 						isPlaying = false;
 						ResetBools(dial[narrationNum].audio[audioCounter]);
 						ResetSubs();
@@ -147,6 +147,7 @@ bool ADoYouCopySystem::isClose()
 	if (arr[0].distance < dist || GI->currentlyCollidingObj != nullptr && GI->currentlyCollidingObj == arr[0].gameObject) // I am currently colliding with this object and I am close
 	{
 		narrationNum = arr[0].narrationNum;
+		GI->narrationCounter = arr[0].narrationNum;
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, FString::SanitizeFloat(narrationNum));
 		return true;
 	}	
@@ -226,6 +227,8 @@ void ADoYouCopySystem::RemovePoint()
 	currentLocation = currentObject->GetActorLocation();
 	currentLocation.Z += 3000000;
 	currentObject->SetActorLocation(currentLocation);
+	if (narrationNum != dial.Num() - 1)
+		currentObject->Destroy();
 }
 
 void ADoYouCopySystem::SetSubs()
