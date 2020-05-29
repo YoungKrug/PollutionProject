@@ -1,3 +1,3 @@
-E:\SenProj\PollProj\Sproj\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
-E:\SenProj\PollProj\Sproj\Source\SeniorProject\Public\InteractableObjects.h
-E:\SenProj\PollProj\Sproj\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\InteractableObjects.generated.h
+C:\Users\haley\Desktop\Proj\Sproj\Intermediate\Build\Win64\UE4Editor\Development\SeniorProject\Definitions.SeniorProject.h
+C:\Users\haley\Desktop\Proj\Sproj\Source\SeniorProject\Public\InteractableObjects.h
+C:\Users\haley\Desktop\Proj\Sproj\Intermediate\Build\Win64\UE4Editor\Inc\SeniorProject\InteractableObjects.generated.h
