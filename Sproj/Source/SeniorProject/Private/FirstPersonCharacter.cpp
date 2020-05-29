@@ -267,7 +267,9 @@ FString AFirstPersonCharacter::StartRayCast()
 		for (int i = 0; i < hit.Num(); i++)
 		{
 			if (hit[i].Actor != nullptr)
-			{
+			{//
+				FName test = hit[i].GetActor()->GetFName();
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0F, FColor::Cyan, test.ToString());
 				if (hit[i].GetActor()->ActorHasTag("Water") && GetCharacterMovement()->MovementMode != EMovementMode::MOVE_Flying) // the water is underneath us
 				{
 					isRespawning = true;
