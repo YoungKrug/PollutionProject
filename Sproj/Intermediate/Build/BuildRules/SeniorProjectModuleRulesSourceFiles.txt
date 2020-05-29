@@ -1,0 +1,3 @@
+C:\Users\haley\Desktop\Proj\Sproj\Source\SeniorProject\SeniorProject.Build.cs
+C:\Users\haley\Desktop\Proj\Sproj\Source\SeniorProject.Target.cs
+C:\Users\haley\Desktop\Proj\Sproj\Source\SeniorProjectEditor.Target.cs

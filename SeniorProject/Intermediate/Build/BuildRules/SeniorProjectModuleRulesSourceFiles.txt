@@ -1,3 +1,0 @@
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject\SeniorProject.Build.cs
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProject.Target.cs
-C:\Users\haley\Desktop\PollutionProject\SeniorProject\Source\SeniorProjectEditor.Target.cs

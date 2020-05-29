@@ -1,0 +1,2 @@
+C:\Users\haley\Desktop\Proj\Sproj\Intermediate\Build\Win64\UE4\Shipping\SeniorProject\Definitions.SeniorProject.h
+C:\Users\haley\Desktop\Proj\Sproj\Source\SeniorProject\UnrealInformation.h
